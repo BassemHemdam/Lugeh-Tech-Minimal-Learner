@@ -1,0 +1,41 @@
+{
+  "id": "L04U02DLA",
+  "slug": "transportation-directions",
+  "title_ar": "المواصلات والاتجاهات: كيف تسأل عن الطريق وتستخدم وسائل النقل",
+  "title_en": "Transportation & Directions: Asking for the Way & Using Transport",
+  "title_tr": "Ulaşım ve Yönler: Yol Sorma ve Ulaşım Araçlarını Kullanma",
+  "objective_ar": "تعلم كيفية السؤال عن الاتجاهات، فهم الإرشادات، والتعامل مع المواقف المتعلقة باستخدام وسائل النقل العام أو الخاص.",
+  "objective_en": "Learn how to ask for directions, understand instructions, and handle situations related to using public or private transportation.",
+  "objective_tr": "Yön sormayı, talimatları anlamayı ve toplu taşıma veya özel ulaşım araçlarını kullanmayla ilgili durumlarla başa çıkmayı öğrenin.",
+  "icon_fa_class": "fa-solid fa-route", 
+  "scenario": {
+    "title_ar": "حوار: البحث عن متحف في مدينة جديدة",
+    "title_en": "Dialogue: Finding a Museum in a New City",
+    "title_tr": "Diyalog: Yeni Bir Şehirde Müze Bulma",
+    "characters": [
+      {"id": "tourist", "name_ar": "سليم (سائح)", "name_en": "Salim (Tourist)", "name_tr": "Selim (Turist)"},
+      {"id": "local", "name_ar": "مريم (من السكان المحليين)", "name_en": "Mariam (Local Resident)", "name_tr": "Meryem (Yerel Sakin)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "tourist", "line_ar": "عفواً، هل يمكنكِ مساعدتي؟ أنا أحاول الوصول إلى المتحف الوطني.", "line_en": "Excuse me, could you help me? I'm trying to get to the National Museum.", "line_tr": "Affedersiniz, bana yardımcı olabilir misiniz? Ulusal Müze'ye gitmeye çalışıyorum."},
+      {"character_id": "local", "line_ar": "بالتأكيد. إنه ليس بعيدًا جدًا من هنا. هل أنت ذاهب سيرًا على الأقدام أم ستستخدم المواصلات؟", "line_en": "Certainly. It's not too far from here. Are you planning to walk or take transport?", "line_tr": "Elbette. Buradan çok uzak değil. Yürüyerek mi gitmeyi planlıyorsunuz yoksa ulaşım mı kullanacaksınız?"},
+      {"character_id": "tourist", "line_ar": "أفضل السير إذا كان قريبًا. كم يستغرق الأمر تقريبًا؟", "line_en": "I'd prefer to walk if it's close. How long does it take approximately?", "line_tr": "Yakınsa yürümeyi tercih ederim. Yaklaşık ne kadar sürer?"},
+      {"character_id": "local", "line_ar": "حوالي 15-20 دقيقة سيرًا. اذهب مباشرة في هذا الشارع حتى تصل إلى الإشارة الضوئية الثالثة، ثم انعطف يسارًا. ستجده على يمينك بعد مبنيين.", "line_en": "About a 15-20 minute walk. Go straight down this street until you reach the third traffic light, then turn left. You'll find it on your right after two blocks.", "line_tr": "Yaklaşık 15-20 dakikalık yürüme mesafesinde. Bu caddeden üçüncü trafik ışığına kadar düz gidin, sonra sola dönün. İki blok sonra sağınızda bulacaksınız."},
+      {"character_id": "tourist", "line_ar": "إذًا: مباشرة، الإشارة الثالثة يسارًا، ثم على اليمين. هل هذا صحيح؟", "line_en": "So: straight, third light left, then on the right. Is that correct?", "line_tr": "Yani: düz, üçüncü ışıkta sola, sonra sağda. Bu doğru mu?"},
+      {"character_id": "local", "line_ar": "نعم، بالضبط. بدلاً من ذلك، يمكنك ركوب الحافلة رقم 12 من المحطة المقابلة، ستوصلك مباشرة إلى هناك.", "line_en": "Yes, exactly. Alternatively, you can take bus number 12 from the stop反対側 (across the street), it goes right there.", "line_tr": "Evet, aynen öyle. Alternatif olarak, karşıdaki duraktan 12 numaralı otobüse binebilirsiniz, doğrudan oraya gider."},
+      {"character_id": "tourist", "line_ar": "كم سعر تذكرة الحافلة؟ وهل يمكنني الدفع نقدًا للسائق؟", "line_en": "How much is the bus fare? And can I pay the driver in cash?", "line_tr": "Otobüs ücreti ne kadar? Ve şoföre nakit ödeyebilir miyim?"},
+      {"character_id": "local", "line_ar": "أعتقد أنها حوالي [مبلغ] ليرة. نعم، معظم الحافلات تقبل الدفع النقدي، لكن من الأفضل أن يكون لديك المبلغ بالضبط.", "line_en": "I believe it's around [Amount] Lira. Yes, most buses accept cash, but it's better to have the exact change.", "line_tr": "Sanırım yaklaşık [Miktar] Lira. Evet, çoğu otobüs nakit kabul eder, ancak tam para olması daha iyidir."},
+      {"character_id": "tourist", "line_ar": "معلومات مفيدة جدًا. شكرًا جزيلاً على وقتك ومساعدتك!", "line_en": "That's very helpful information. Thank you so much for your time and help!", "line_tr": "Bu çok faydalı bir bilgi. Zamanınız ve yardımınız için çok teşekkür ederim!"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L04U02_P001", "ar_from_dialogue": "أنا أحاول الوصول إلى...", "en_from_dialogue": "I'm trying to get to the...", "tr_from_dialogue": "...gitmeye çalışıyorum.", "focus_ar": "التعبير عن الرغبة في الوصول لمكان", "focus_en": "Expressing intention to reach a place", "focus_tr": "Bir yere ulaşma niyetini ifade etme", "audio_ar_tts_key": "أنا أحاول الوصول إلى", "audio_en_tts_key": "I'm trying to get to the", "audio_tr_tts_key": "gitmeye çalışıyorum"},
+    {"id": "L04U02_P002", "ar_from_dialogue": "كم يستغرق الأمر تقريبًا؟ (سيرًا/بالحافلة)", "en_from_dialogue": "How long does it take approximately? (to walk/by bus)", "tr_from_dialogue": "Yaklaşık ne kadar sürer? (yürüyerek/otobüsle)", "focus_ar": "السؤال عن مدة الرحلة", "focus_en": "Asking about the duration of a journey", "focus_tr": "Bir yolculuğun süresini sorma", "audio_ar_tts_key": "كم يستغرق الأمر تقريبا", "audio_en_tts_key": "How long does it take approximately", "audio_tr_tts_key": "Yaklaşık ne kadar sürer"},
+    {"id": "L04U02_P003", "ar_from_dialogue": "اذهب مباشرة... ثم انعطف يسارًا/يمينًا.", "en_from_dialogue": "Go straight... then turn left/right.", "tr_from_dialogue": "Düz gidin... sonra sola/sağa dönün.", "focus_ar": "إعطاء اتجاهات أساسية", "focus_en": "Giving basic directions", "focus_tr": "Temel yön tarifleri verme", "audio_ar_tts_key": "اذهب مباشرة ثم انعطف يسارا", "audio_en_tts_key": "Go straight then turn left", "audio_tr_tts_key": "Düz gidin sonra sola dönün"},
+    {"id": "L04U02_P004", "ar_from_dialogue": "ستجده على يمينك/يسارك بعد...", "en_from_dialogue": "You'll find it on your right/left after...", "tr_from_dialogue": "Sağınızda/solunuzda ...'den sonra bulacaksınız.", "focus_ar": "تحديد موقع وجهة بالنسبة لنقطة مرجعية", "focus_en": "Locating a destination relative to a landmark", "focus_tr": "Bir referans noktasına göre bir varış yerini belirleme", "audio_ar_tts_key": "ستجده على يمينك بعد", "audio_en_tts_key": "You'll find it on your right after", "audio_tr_tts_key": "Sağınızda den sonra bulacaksınız"},
+    {"id": "L04U02_P005", "ar_from_dialogue": "هل هذا صحيح؟ (لتأكيد الفهم)", "en_from_dialogue": "Is that correct? (to confirm understanding)", "tr_from_dialogue": "Bu doğru mu? (anlamayı teyit etmek için)", "focus_ar": "طلب تأكيد فهم الاتجاهات", "focus_en": "Asking for confirmation of understanding directions", "focus_tr": "Yönleri anladığını teyit isteme", "audio_ar_tts_key": "هل هذا صحيح", "audio_en_tts_key": "Is that correct", "audio_tr_tts_key": "Bu doğru mu"},
+    {"id": "L04U02_P006", "ar_from_dialogue": "يمكنك ركوب الحافلة رقم...", "en_from_dialogue": "You can take bus number...", "tr_from_dialogue": "...numaralı otobüse binebilirsiniz.", "focus_ar": "اقتراح وسيلة نقل عام", "focus_en": "Suggesting a public transport option", "focus_tr": "Toplu taşıma seçeneği önerme", "audio_ar_tts_key": "يمكنك ركوب الحافلة رقم", "audio_en_tts_key": "You can take bus number", "audio_tr_tts_key": "numaralı otobüse binebilirsiniz"},
+    {"id": "L04U02_P007", "ar_from_dialogue": "كم سعر تذكرة الحافلة؟", "en_from_dialogue": "How much is the bus fare?", "tr_from_dialogue": "Otobüs ücreti ne kadar?", "focus_ar": "السؤال عن سعر تذكرة المواصلات", "focus_en": "Asking about transport fare", "focus_tr": "Ulaşım ücretini sorma", "audio_ar_tts_key": "كم سعر تذكرة الحافلة", "audio_en_tts_key": "How much is the bus fare", "audio_tr_tts_key": "Otobüs ücreti ne kadar"},
+    {"id": "L04U02_P008", "ar_from_dialogue": "هل يمكنني الدفع نقدًا للسائق؟", "en_from_dialogue": "Can I pay the driver in cash?", "tr_from_dialogue": "Şoföre nakit ödeyebilir miyim?", "focus_ar": "الاستفسار عن طريقة الدفع في المواصلات", "focus_en": "Inquiring about payment method on transport", "focus_tr": "Ulaşımda ödeme yöntemi hakkında soru sorma", "audio_ar_tts_key": "هل يمكنني الدفع نقدا للسائق", "audio_en_tts_key": "Can I pay the driver in cash", "audio_tr_tts_key": "Şoföre nakit ödeyebilir miyim"}
+  ]
+}

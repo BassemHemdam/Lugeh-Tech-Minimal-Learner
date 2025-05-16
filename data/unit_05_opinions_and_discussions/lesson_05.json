@@ -1,0 +1,37 @@
+{
+  "id": "L05U05OND",
+  "slug": "interrupting-politely-holding-floor",
+  "title_ar": "إدارة تدفق الحوار: المقاطعة بأدب والاحتفاظ بدورك",
+  "title_en": "Managing Conversation Flow: Interrupting Politely & Holding the Floor",
+  "title_tr": "Konuşma Akışını Yönetme: Kibarca Söz Kesme ve Söz Hakkını Koruma",
+  "objective_ar": "تعلم كيفية التدخل في محادثة بأدب عند الحاجة، وطلب فرصة للكلام، والإشارة إلى أنك لم تنتهِ من حديثك بعد.",
+  "objective_en": "Learn how to politely interject in a conversation when needed, ask for a chance to speak, and signal that you haven't finished speaking yet.",
+  "objective_tr": "Gerektiğinde bir sohbete kibarca nasıl müdahale edeceğinizi, konuşma fırsatı nasıl isteyeceğinizi ve henüz konuşmanızı bitirmediğinizi nasıl işaret edeceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-microphone-lines", 
+  "scenario": {
+    "title_ar": "حوار: اجتماع فريق يناقش أفكارًا جديدة",
+    "title_en": "Dialogue: Team Meeting Discussing New Ideas",
+    "title_tr": "Diyalog: Yeni Fikirleri Tartışan Takım Toplantısı",
+    "characters": [
+      {"id": "manag", "name_ar": "مدير", "name_en": "Manager", "name_tr": "Müdür"},
+      {"id": "emplA", "name_ar": "موظف أ", "name_en": "Employee A", "name_tr": "Çalışan A"},
+      {"id": "emplB", "name_ar": "موظف ب", "name_en": "Employee B", "name_tr": "Çalışan B"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "manag", "line_ar": "...ولهذا السبب، أعتقد أن تركيزنا يجب أن يكون على تحسين تجربة المستخدم أولاً.", "line_en": "...and for that reason, I believe our focus should be on improving the user experience first.", "line_tr": "...ve bu nedenle, öncelikle kullanıcı deneyimini iyileştirmeye odaklanmamız gerektiğine inanıyorum."},
+      {"character_id": "emplA", "line_ar": "أتفق مع ذلك، ولكن هل يمكنني أن أضيف نقطة سريعة؟ أعتقد أن...", "line_en": "I agree with that, but may I just add a quick point? I think...", "line_tr": "Buna katılıyorum, ama hızlı bir nokta ekleyebilir miyim? Bence..."},
+      {"character_id": "manag", "line_ar": "تفضل، أكمل.", "line_en": "Go ahead.", "line_tr": "Devam et."},
+      {"character_id": "emplA", "line_ar": "...أعتقد أننا يجب ألا نغفل أيضًا أهمية سرعة الأداء.", "line_en": "...I think we also shouldn't overlook the importance of performance speed.", "line_tr": "...performans hızının önemini de göz ardı etmememiz gerektiğini düşünüyorum."},
+      {"character_id": "emplB", "line_ar": "إذا سمحت لي بالتدخل، لدي فكرة بخصوص سرعة الأداء. ربما يمكننا...", "line_en": "If I could just jump in, I have an idea regarding performance speed. Perhaps we could...", "line_tr": "Araya girebilirsem, performans hızıyla ilgili bir fikrim var. Belki de..."},
+      {"character_id": "emplA", "line_ar": "لحظة واحدة من فضلك، لم أنتهِ من توضيح نقطتي بعد. كنت أود أن أقول إن تحسين الأداء قد يساهم مباشرة في تجربة المستخدم.", "line_en": "One moment please, I haven't quite finished my point. I was about to say that improving performance could directly contribute to the user experience.", "line_tr": "Bir saniye lütfen, henüz sözümü bitirmedim. Performansı iyileştirmenin doğrudan kullanıcı deneyimine katkıda bulunabileceğini söylemek üzereydim."},
+      {"character_id": "manag", "line_ar": "نقطة وجيهة. تفضل يا موظف ب، ما هي فكرتك؟", "line_en": "Valid point. Go on, Employee B, what's your idea?", "line_tr": "Geçerli bir nokta. Devam et Çalışan B, fikrin nedir?"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L05U05_PA001", "ar_from_dialogue": "عفواً عن المقاطعة، ولكن... / هل يمكنني أن أضيف نقطة سريعة؟", "en_from_dialogue": "Excuse me for interrupting, but... / May I just add a quick point?", "tr_from_dialogue": "Sözünüzü kestiğim için affedersiniz, ama... / Hızlı bir nokta ekleyebilir miyim?", "focus_ar": "المقاطعة بأدب مع سبب أو طلب", "focus_en": "Politely interrupting with a reason or request", "focus_tr": "Bir sebep veya taleple kibarca söz kesme"},
+    {"id": "L05U05_PA002", "ar_from_dialogue": "إذا سمحت لي بالتدخل...", "en_from_dialogue": "If I could just jump in...", "tr_from_dialogue": "Araya girebilirsem...", "focus_ar": "طلب الإذن بالتدخل في الحديث", "focus_en": "Asking for permission to interject", "focus_tr": "Söze girmek için izin isteme"},
+    {"id": "L05U05_PA003", "ar_from_dialogue": "لحظة واحدة من فضلك، لم أنتهِ من توضيح نقطتي بعد.", "en_from_dialogue": "One moment please, I haven't quite finished my point.", "tr_from_dialogue": "Bir saniye lütfen, henüz sözümü/noktamı bitirmedim.", "focus_ar": "الإشارة إلى أنك لم تنهِ كلامك (الاحتفاظ بالدور)", "focus_en": "Signaling you haven't finished speaking (holding the floor)", "focus_tr": "Henüz konuşmanızı bitirmediğinizi belirtme (söz hakkını koruma)"},
+    {"id": "L05U05_PA004", "ar_from_dialogue": "كما كنت أقول... (لاستئناف الحديث)", "en_from_dialogue": "As I was saying... (to resume speaking)", "tr_from_dialogue": "Söylediğim gibi... (konuşmaya devam etmek için)", "focus_ar": "استئناف الحديث بعد مقاطعة", "focus_en": "Resuming speaking after an interruption", "focus_tr": "Bir kesintiden sonra konuşmaya devam etme"},
+    {"id": "L05U05_PA005", "ar_from_dialogue": "هل يمكنني إضافة شيء هنا؟", "en_from_dialogue": "Could I add something here?", "tr_from_dialogue": "Buraya bir şey ekleyebilir miyim?", "focus_ar": "طلب إضافة معلومة أو رأي", "focus_en": "Requesting to add information or an opinion", "focus_tr": "Bilgi veya görüş ekleme talebinde bulunma"}
+  ]
+}

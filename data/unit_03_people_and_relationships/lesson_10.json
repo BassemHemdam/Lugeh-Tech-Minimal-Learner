@@ -1,0 +1,23 @@
+{
+  "id": "L10U03PAR",
+  "slug": "review-relationship-vocabulary-phrases",
+  "title_ar": "مراجعة الوحدة: مفردات وعبارات أساسية عن الأشخاص والعلاقات",
+  "title_en": "Unit Review: Key Vocabulary & Phrases for People & Relationships",
+  "title_tr": "Ünite Tekrarı: İnsanlar ve İlişkiler İçin Anahtar Kelimeler ve İfadeler",
+  "objective_ar": "مراجعة وتثبيت أهم المفردات والعبارات التي تم تعلمها في هذه الوحدة والمتعلقة بوصف الأشخاص، العلاقات الأسرية والاجتماعية، والتعبير عن المشاعر والمجاملات.",
+  "objective_en": "Review and consolidate the most important vocabulary and phrases learned in this unit related to describing people, family and social relationships, expressing emotions, and compliments.",
+  "objective_tr": "Bu ünitede insanları tanımlama, aile ve sosyal ilişkiler, duyguları ifade etme ve iltifatlarla ilgili öğrenilen en önemli kelime dağarcığını ve ifadeleri gözden geçirin ve pekiştirin.",
+  "icon_fa_class": "fa-solid fa-recycle",
+  "scenario": null,
+  "phrases": [
+    {"id": "L10U03_R001", "category_ar": "وصف المظهر", "ar": "طويل القامة، قصير القامة، متوسط الطول، شعر بني/أشقر/أسود، شعر مجعد/أملس، يرتدي نظارات.", "en": "Tall, short, medium height, brown/blonde/black hair, curly/straight hair, wears glasses.", "tr": "Uzun boylu, kısa boylu, orta boylu, kahverengi/sarı/siyah saç, kıvırcık/düz saç, gözlük takıyor.", "audio_en_tts_key": "Tall, short, medium height, brown hair, blonde hair, black hair, curly hair, straight hair, wears glasses.", "audio_tr_tts_key": "Uzun boylu, kısa boylu, orta boylu, kahverengi saç, sarı saç, siyah saç, kıvırcık saç, düz saç, gözlük takıyor."},
+    {"id": "L10U03_R002", "category_ar": "وصف الشخصية (إيجابي)", "ar": "مرح، ذكي، ودود، طيب القلب، لديه حس دعابة.", "en": "Cheerful, smart, friendly, kind-hearted, has a good sense of humor.", "tr": "Neşeli, zeki, arkadaş canlısı, iyi kalpli, iyi bir espri anlayışı var.", "audio_en_tts_key": "Cheerful, smart, friendly, kind-hearted, has a good sense of humor.", "audio_tr_tts_key": "Neşeli, zeki, arkadaş canlısı, iyi kalpli, iyi bir espri anlayışı var."},
+    {"id": "L10U03_R003", "category_ar": "أفراد العائلة", "ar": "أب، أم، أخ، أخت، ابن، ابنة، جد، جدة، عم/خال، عمة/خالة، أبناء العمومة.", "en": "Father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousins.", "tr": "Baba, anne, erkek kardeş, kız kardeş, oğul, kız, dede, nine/anneanne/babaanne, amca/dayı, teyze/hala, kuzenler.", "audio_en_tts_key": "Father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousins.", "audio_tr_tts_key": "Baba, anne, erkek kardeş, kız kardeş, oğul, kız, dede, nine, amca, dayı, teyze, hala, kuzenler."},
+    {"id": "L10U03_R004", "category_ar": "التعبير عن الإعجاب", "ar": "أحب، أعشق، أستمتع بـ، مغرم بـ.", "en": "I love, I adore, I enjoy, I'm fond of.", "tr": "Çok seviyorum, bayılıyorum, hoşlanıyorum/keyif alıyorum, düşkünüm.", "audio_en_tts_key": "I love, I adore, I enjoy, I'm fond of.", "audio_tr_tts_key": "Çok seviyorum, bayılıyorum, hoşlanıyorum, keyif alıyorum, düşkünüm."},
+    {"id": "L10U03_R005", "category_ar": "تقديم المجاملات", "ar": "تبدو رائعًا! / عمل ممتاز! / لديك ذوق جيد!", "en": "You look great! / Excellent work! / You have good taste!", "tr": "Harika görünüyorsun! / Mükemmel iş! / İyi bir zevkin var!", "audio_en_tts_key": "You look great! Excellent work! You have good taste!", "audio_tr_tts_key": "Harika görünüyorsun! Mükemmel iş! İyi bir zevkin var!"},
+    {"id": "L10U03_R006", "category_ar": "توجيه الدعوات وقبولها/رفضها", "ar": "هل ترغب في...؟ / أحب أن آتي. / للأسف، لا أستطيع.", "en": "Would you like to...? / I'd love to come. / Unfortunately, I can't make it.", "tr": "...ister misin? / Gelmeyi çok isterim. / Maalesef, gelemem.", "audio_en_tts_key": "Would you like to? I'd love to come. Unfortunately, I can't make it.", "audio_tr_tts_key": "ister misin? Gelmeyi çok isterim. Maalesef, gelemem."},
+    {"id": "L10U03_R007", "category_ar": "التعبير عن المشاعر", "ar": "سعيد، حزين، غاضب، متفاجئ، قلق.", "en": "Happy, sad, angry, surprised, worried.", "tr": "Mutlu, üzgün, kızgın, şaşırmış, endişeli.", "audio_en_tts_key": "Happy, sad, angry, surprised, worried.", "audio_tr_tts_key": "Mutlu, üzgün, kızgın, şaşırmış, endişeli."},
+    {"id": "L10U03_R008", "category_ar": "التحدث عن العمل/الدراسة", "ar": "أعمل كـ... / أدرس... / تخصصي هو...", "en": "I work as a... / I study... / My major is...", "tr": "...olarak çalışıyorum. / ...okuyorum. / Bölümüm...", "audio_en_tts_key": "I work as a. I study. My major is.", "audio_tr_tts_key": "olarak çalışıyorum. okuyorum. Bölümüm."}
+ 
+  ]
+}

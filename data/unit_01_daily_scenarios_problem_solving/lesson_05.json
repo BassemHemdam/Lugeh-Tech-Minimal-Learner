@@ -1,0 +1,206 @@
+{
+  "id": "L05U01SPS",
+  "slug": "making-and-changing-appointments",
+  "title_ar": "تحديد المواعيد وتغييرها: تنظيم جدولك بفعالية",
+  "title_en": "Making & Changing Appointments: Organizing Your Schedule Effectively",
+  "title_tr": "Randevu Alma ve Değiştirme: Programınızı Etkili Bir Şekilde Düzenleme",
+  "objective_ar": "تعلم العبارات الأساسية لتحديد المواعيد، تأكيدها، وإعادة جدولتها أو إلغائها عند الحاجة بطريقة مهنية وواضحة.",
+  "objective_en": "Learn essential phrases for making appointments, confirming them, and rescheduling or canceling them when necessary in a professional and clear manner.",
+  "objective_tr": "Randevu almak, onaylamak ve gerektiğinde profesyonel ve net bir şekilde yeniden planlamak veya iptal etmek için temel ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-calendar-check",
+  "scenario": {
+    "title_ar": "حوار: موعد مع طبيب الأسنان",
+    "title_en": "Dialogue: Dentist Appointment",
+    "title_tr": "Diyalog: Diş Hekimi Randevusu",
+    "characters": [
+      {"id": "pat", "name_ar": "سارة (مريضة)", "name_en": "Sarah (Patient)", "name_tr": "Sara (Hasta)"},
+      {"id": "recep", "name_ar": "عامر (موظف استقبال العيادة)", "name_en": "Amir (Clinic Receptionist)", "name_tr": "Amir (Klinik Resepsiyonisti)"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "pat",
+        "line_ar": "صباح الخير، أود تحديد موعد مع الدكتور أحمد، من فضلك.",
+        "line_en": "Good morning, I'd like to make an appointment with Dr. Ahmed, please.",
+        "line_tr": "Günaydın, Doktor Ahmet'ten randevu almak istiyorum, lütfen."
+      },
+      {
+        "character_id": "recep",
+        "line_ar": "صباح النور. بالتأكيد. هل هذه أول زيارة لكِ للعيادة؟",
+        "line_en": "Good morning. Certainly. Is this your first visit to the clinic?",
+        "line_tr": "Günaydın. Elbette. Bu kliniğe ilk gelişiniz mi?"
+      },
+      {
+        "character_id": "pat",
+        "line_ar": "لا، لقد زرته من قبل. أحتاج إلى فحص دوري وتنظيف.",
+        "line_en": "No, I've been here before. I need a regular check-up and cleaning.",
+        "line_tr": "Hayır, daha önce gelmiştim. Rutin bir kontrol ve temizliğe ihtiyacım var."
+      },
+      {
+        "character_id": "recep",
+        "line_ar": "حسنًا. الدكتور أحمد لديه مواعيد متاحة يوم الثلاثاء القادم الساعة 10 صباحًا أو الخميس الساعة 2 بعد الظهر. هل يناسبكِ أحد هذين الوقتين؟",
+        "line_en": "Alright. Dr. Ahmed has openings next Tuesday at 10 AM or Thursday at 2 PM. Would either of those times work for you?",
+        "line_tr": "Pekala. Doktor Ahmet'in önümüzdeki Salı saat 10'da veya Perşembe saat 14'te boş randevuları var. Bu zamanlardan herhangi biri sizin için uygun mu?"
+      },
+      {
+        "character_id": "pat",
+        "line_ar": "الثلاثاء الساعة 10 صباحًا سيكون ممتازًا. شكرًا لك.",
+        "line_en": "Tuesday at 10 AM would be perfect. Thank you.",
+        "line_tr": "Salı saat 10 mükemmel olur. Teşekkür ederim."
+      },
+      {
+        "character_id": "recep",
+        "line_ar": "عظيم. تم تأكيد موعدكِ يوم الثلاثاء [التاريخ] الساعة 10 صباحًا مع الدكتور أحمد. هل يمكنني الحصول على رقم هاتفكِ للتذكير؟",
+        "line_en": "Great. Your appointment is confirmed for Tuesday, [Date], at 10 AM with Dr. Ahmed. May I have your phone number for a reminder?",
+        "line_tr": "Harika. Randevunuz [Tarih] Salı günü saat 10'da Doktor Ahmet ile onaylandı. Hatırlatma için telefon numaranızı alabilir miyim?"
+      },
+      {
+        "character_id": "pat",
+        "line_ar": "(بعد بضعة أيام، سارة تتصل مرة أخرى) مرحباً، أتصل بخصوص موعدي مع الدكتور أحمد يوم الثلاثاء. للأسف، حدث طارئ وأحتاج إلى تغييره.",
+        "line_en": "(A few days later, Sarah calls back) Hello, I'm calling about my appointment with Dr. Ahmed on Tuesday. Unfortunately, something urgent has come up and I need to reschedule.",
+        "line_tr": "(Birkaç gün sonra Sara tekrar arar) Merhaba, Salı günü Doktor Ahmet ile olan randevum hakkında arıyorum. Maalesef acil bir durum çıktı ve yeniden planlamam gerekiyor."
+      },
+      {
+        "character_id": "recep",
+        "line_ar": "أتفهم ذلك، سيدة سارة. متى تفضلين أن يكون الموعد الجديد؟ لدينا فتحة يوم الجمعة الساعة 11 صباحًا.",
+        "line_en": "I understand, Ms. Sarah. When would you like to reschedule for? We have an opening on Friday at 11 AM.",
+        "line_tr": "Anlıyorum, Sara Hanım. Yeni randevuyu ne zamana almak istersiniz? Cuma günü saat 11'de bir boşluğumuz var."
+      },
+      {
+        "character_id": "pat",
+        "line_ar": "الجمعة مناسب جدًا. شكرًا جزيلاً على تفهمك ومرونتك.",
+        "line_en": "Friday works very well. Thank you so much for your understanding and flexibility.",
+        "line_tr": "Cuma çok uygun. Anlayışınız ve esnekliğiniz için çok teşekkür ederim."
+      },
+      {
+        "character_id": "recep",
+        "line_ar": "على الرحب والسعة. تم تغيير موعدك إلى يوم الجمعة [التاريخ] الساعة 11 صباحًا.",
+        "line_en": "You're welcome. Your appointment has been changed to Friday, [Date], at 11 AM.",
+        "line_tr": "Rica ederim. Randevunuz [Tarih] Cuma günü saat 11'e değiştirildi."
+      }
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L05SPS_P001",
+      "ar_from_dialogue": "أود تحديد موعد مع...، من فضلك.",
+      "en_from_dialogue": "I'd like to make an appointment with..., please.",
+      "tr_from_dialogue": "...'den randevu almak istiyorum, lütfen.",
+      "focus_ar": "طلب تحديد موعد (بأدب)",
+      "focus_en": "Requesting to make an appointment (politely)",
+      "focus_tr": "Randevu talep etme (kibarca)",
+      "explanation_en": "'I'd like to...' is a polite way to express a desire or request.",
+      "explanation_tr": "'...mak istiyorum' bir istek veya ricayı ifade etmenin kibar bir yoludur.",
+      "alternatives_en": ["I need to schedule an appointment...", "Could I book an appointment with...?"],
+      "alternatives_tr": ["...ile bir randevu planlamam gerekiyor.", "...ile bir randevu ayarlayabilir miyim?"],
+      "audio_ar_tts_key": "أود تحديد موعد مع من فضلك",
+      "audio_en_tts_key": "I'd like to make an appointment with, please",
+      "audio_tr_tts_key": "den randevu almak istiyorum, lütfen"
+    },
+    {
+      "id": "L05SPS_P002",
+      "ar_from_dialogue": "هل هذه أول زيارة لكِ للعيادة؟",
+      "en_from_dialogue": "Is this your first visit to the clinic?",
+      "tr_from_dialogue": "Bu kliniğe ilk gelişiniz mi?",
+      "focus_ar": "الاستفسار عن تاريخ الزيارة",
+      "focus_en": "Inquiring about visit history",
+      "focus_tr": "Ziyaret geçmişi hakkında soru sorma",
+      "explanation_en": "A common question for new patients/clients.",
+      "explanation_tr": "Yeni hastalar/müşteriler için yaygın bir sorudur.",
+      "audio_ar_tts_key": "هل هذه أول زيارة لك للعيادة",
+      "audio_en_tts_key": "Is this your first visit to the clinic",
+      "audio_tr_tts_key": "Bu kliniğe ilk gelişiniz mi"
+    },
+    {
+      "id": "L05SPS_P003",
+      "ar_from_dialogue": "...لديها مواعيد متاحة يوم... الساعة... أو يوم... الساعة...",
+      "en_from_dialogue": "...has openings next... at... or... at...",
+      "tr_from_dialogue": "...'nin önümüzdeki ... saat ...'da veya ... saat ...'de boş randevuları var.",
+      "focus_ar": "عرض المواعيد المتاحة",
+      "focus_en": "Offering available appointment slots",
+      "focus_tr": "Müsait randevu saatlerini sunma",
+      "explanation_en": "Providing specific options for the client to choose from.",
+      "explanation_tr": "Müşterinin seçebileceği belirli seçenekler sunar.",
+      "audio_ar_tts_key": "لديها مواعيد متاحة يوم الساعة أو يوم الساعة",
+      "audio_en_tts_key": "has openings next day at time or day at time",
+      "audio_tr_tts_key": "nin önümüzdeki gün saat da veya gün saat de boş randevuları var"
+    },
+    {
+      "id": "L05SPS_P004",
+      "ar_from_dialogue": "هل يناسبكِ أحد هذين الوقتين؟",
+      "en_from_dialogue": "Would either of those times work for you?",
+      "tr_from_dialogue": "Bu zamanlardan herhangi biri sizin için uygun mu?",
+      "focus_ar": "السؤال عن مدى ملاءمة الوقت المقترح",
+      "focus_en": "Asking if a suggested time is suitable",
+      "focus_tr": "Önerilen bir zamanın uygun olup olmadığını sorma",
+      "explanation_en": "'Work for you' is a common way to ask about suitability.",
+      "explanation_tr": "'Sizin için uygun mu?' uygunluk hakkında sormanın yaygın bir yoludur.",
+      "audio_ar_tts_key": "هل يناسبك أحد هذين الوقتين",
+      "audio_en_tts_key": "Would either of those times work for you",
+      "audio_tr_tts_key": "Bu zamanlardan herhangi biri sizin için uygun mu"
+    },
+    {
+      "id": "L05SPS_P005",
+      "ar_from_dialogue": "...سيكون ممتازًا.",
+      "en_from_dialogue": "...would be perfect.",
+      "tr_from_dialogue": "...mükemmel olur.",
+      "focus_ar": "تأكيد اختيار وقت مناسب",
+      "focus_en": "Confirming a suitable time slot",
+      "focus_tr": "Uygun bir zaman dilimini onaylama",
+      "explanation_en": "Expresses strong satisfaction with the offered time.",
+      "explanation_tr": "Teklif edilen zamandan güçlü bir memnuniyet ifade eder.",
+      "audio_ar_tts_key": "سيكون ممتازا",
+      "audio_en_tts_key": "would be perfect",
+      "audio_tr_tts_key": "mükemmel olur"
+    },
+    {
+      "id": "L05SPS_P006",
+      "ar_from_dialogue": "تم تأكيد موعدكِ يوم... الساعة...",
+      "en_from_dialogue": "Your appointment is confirmed for... at...",
+      "tr_from_dialogue": "Randevunuz ... günü saat ...'da ... ile onaylandı.",
+      "focus_ar": "تأكيد الموعد رسميًا",
+      "focus_en": "Officially confirming the appointment",
+      "focus_tr": "Randevuyu resmi olarak onaylama",
+      "audio_ar_tts_key": "تم تأكيد موعدك يوم الساعة",
+      "audio_en_tts_key": "Your appointment is confirmed for day at time",
+      "audio_tr_tts_key": "Randevunuz gün saat da ile onaylandı"
+    },
+    {
+      "id": "L05SPS_P007",
+      "ar_from_dialogue": "للأسف، حدث طارئ وأحتاج إلى تغييره/إعادة جدولته.",
+      "en_from_dialogue": "Unfortunately, something urgent has come up and I need to reschedule/change it.",
+      "tr_from_dialogue": "Maalesef acil bir durum çıktı ve yeniden planlamam/değiştirmem gerekiyor.",
+      "focus_ar": "طلب تغيير موعد بسبب ظرف طارئ",
+      "focus_en": "Requesting to change an appointment due to urgency",
+      "focus_tr": "Acil bir durum nedeniyle randevu değişikliği talep etme",
+      "explanation_en": "'Something urgent has come up' is a common and polite reason.",
+      "explanation_tr": "'Acil bir durum çıktı' yaygın ve kibar bir gerekçedir.",
+      "audio_ar_tts_key": "للأسف حدث طارئ وأحتاج إلى تغييره",
+      "audio_en_tts_key": "Unfortunately, something urgent has come up and I need to reschedule it",
+      "audio_tr_tts_key": "Maalesef acil bir durum çıktı ve yeniden planlamam gerekiyor"
+    },
+    {
+      "id": "L05SPS_P008",
+      "ar_from_dialogue": "متى تفضلين أن يكون الموعد الجديد؟",
+      "en_from_dialogue": "When would you like to reschedule for?",
+      "tr_from_dialogue": "Yeni randevuyu ne zamana almak istersiniz?",
+      "focus_ar": "السؤال عن الوقت المفضل للموعد الجديد",
+      "focus_en": "Asking for preferred time for new appointment",
+      "focus_tr": "Yeni randevu için tercih edilen zamanı sorma",
+      "audio_ar_tts_key": "متى تفضلين أن يكون الموعد الجديد",
+      "audio_en_tts_key": "When would you like to reschedule for",
+      "audio_tr_tts_key": "Yeni randevuyu ne zamana almak istersiniz"
+    },
+    {
+      "id": "L05SPS_P009",
+      "ar_from_dialogue": "شكرًا جزيلاً على تفهمك ومرونتك.",
+      "en_from_dialogue": "Thank you so much for your understanding and flexibility.",
+      "tr_from_dialogue": "Anlayışınız ve esnekliğiniz için çok teşekkür ederim.",
+      "focus_ar": "التعبير عن الشكر للتفهم والمرونة",
+      "focus_en": "Expressing thanks for understanding and flexibility",
+      "focus_tr": "Anlayış ve esneklik için teşekkür etme",
+      "audio_ar_tts_key": "شكرا جزيلا على تفهمك ومرونتك",
+      "audio_en_tts_key": "Thank you so much for your understanding and flexibility",
+      "audio_tr_tts_key": "Anlayışınız ve esnekliğiniz için çok teşekkür ederim"
+    }
+  ]
+}

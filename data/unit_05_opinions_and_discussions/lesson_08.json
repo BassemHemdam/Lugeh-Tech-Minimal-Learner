@@ -1,0 +1,30 @@
+{
+  "id": "L08U05OND",
+  "slug": "handling-misunderstandings-in-discussions",
+  "title_ar": "التعامل مع سوء الفهم في النقاشات: كيف توضح وتُفهم؟",
+  "title_en": "Handling Misunderstandings in Discussions: Clarifying and Being Understood",
+  "title_tr": "Tartışmalarda Yanlış Anlamalarla Başa Çıkma: Açıklama ve Anlaşılma",
+  "objective_ar": "تعلم كيفية التعرف على سوء الفهم، طلب التوضيح بأدب، وإعادة صياغة أفكارك لضمان الفهم المتبادل.",
+  "objective_en": "Learn how to recognize misunderstandings, politely ask for clarification, and rephrase your ideas to ensure mutual understanding.",
+  "objective_tr": "Yanlış anlamaları nasıl tanıyacağınızı, kibarca nasıl açıklama isteyeceğinizi ve karşılıklı anlayışı sağlamak için fikirlerinizi nasıl yeniden ifade edeceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-sync-alt",
+  "scenario": {
+    "title_ar": "حوار: توضيح نقطة غامضة", "title_en": "Dialogue: Clarifying a Vague Point", "title_tr": "Diyalog: Belirsiz Bir Noktayı Açıklığa Kavuşturma",
+    "characters": [{"id": "spkr1", "name_ar": "أمجد", "name_en": "Amjad", "name_tr": "Amjad"}, {"id": "spkr2", "name_ar": "نادية", "name_en": "Nadia", "name_tr": "Nadya"}],
+    "dialogue_lines": [
+      {"character_id": "spkr1", "line_ar": "...ولهذا السبب، أعتقد أن الخطة البديلة هي الأفضل على المدى الطويل.", "line_en": "...and that's why I believe the alternative plan is better in the long run.", "line_tr": "...ve bu yüzden alternatif planın uzun vadede daha iyi olduğuna inanıyorum."},
+      {"character_id": "spkr2", "line_ar": "عفوًا أمجد، لم أفهم تمامًا النقطة الأخيرة. هل تقصد أن الخطة الحالية غير قابلة للتطبيق تمامًا؟", "line_en": "Sorry Amjad, I didn't quite catch that last point. Do you mean the current plan is completely unworkable?", "line_tr": "Affedersin Amjad, son noktayı tam olarak anlayamadım. Mevcut planın tamamen uygulanamaz olduğunu mu kastediyorsun?"},
+      {"character_id": "spkr1", "line_ar": "لا، ليس تمامًا. ما قصدت قوله هو أن الخطة البديلة تقدم مرونة أكبر لمواجهة التحديات المستقبلية المحتملة.", "line_en": "No, not entirely. What I meant to say is that the alternative plan offers more flexibility to face potential future challenges.", "line_tr": "Hayır, tam olarak değil. Demek istediğim, alternatif planın gelecekteki olası zorluklarla yüzleşmek için daha fazla esneklik sunduğuydu."},
+      {"character_id": "spkr2", "line_ar": "آه، فهمت الآن. إذًا، أنت تقترح أننا يجب أن نأخذ في الاعتبار قابلية التوسع على المدى الطويل بشكل أكبر؟", "line_en": "Ah, I see now. So, you're suggesting we should consider long-term scalability more significantly?", "line_tr": "Ah, şimdi anladım. Yani, uzun vadeli ölçeklenebilirliği daha fazla dikkate almamız gerektiğini mi öneriyorsun?"},
+      {"character_id": "spkr1", "line_ar": "بالضبط! هذا هو ما أرمي إليه. شكرًا على طلب التوضيح.", "line_en": "Exactly! That's precisely my point. Thanks for asking for clarification.", "line_tr": "Kesinlikle! Tam olarak kastettiğim buydu. Açıklama istediğin için teşekkürler."},
+      {"character_id": "spkr2", "line_ar": "لا مشكلة، من المهم أن نكون على نفس الصفحة.", "line_en": "No problem, it's important we're on the same page.", "line_tr": "Sorun değil, aynı fikirde olmamız önemli."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L08U05_P001", "ar_from_dialogue": "عفوًا، لم أفهم تمامًا... / هل تقصد أن...؟", "en_from_dialogue": "Sorry, I didn't quite catch... / Do you mean that...?", "tr_from_dialogue": "Affedersin, tam olarak anlayamadım... / ...demek mi istiyorsun?", "focus_ar": "الإشارة إلى عدم الفهم وطلب التوضيح", "focus_en": "Signaling misunderstanding and asking for clarification", "focus_tr": "Anlamadığını belirtme ve açıklama isteme"},
+    {"id": "L08U05_P002", "ar_from_dialogue": "ما قصدت قوله هو أن... / بعبارة أخرى...", "en_from_dialogue": "What I meant to say is that... / In other words...", "tr_from_dialogue": "Demek istediğim şu ki... / Başka bir deyişle...", "focus_ar": "إعادة صياغة الفكرة للتوضيح", "focus_en": "Rephrasing an idea for clarification", "focus_tr": "Açıklama için bir fikri yeniden ifade etme"},
+    {"id": "L08U05_P003", "ar_from_dialogue": "إذًا، أنت تقترح أن...؟ / هل أفهم من كلامك أن...؟", "en_from_dialogue": "So, you're suggesting that...? / Am I right in thinking that...?", "tr_from_dialogue": "Yani, ...mı öneriyorsun? / ...diye düşündüğüm doğru mu?", "focus_ar": "التأكد من الفهم عن طريق إعادة الصياغة كسؤال", "focus_en": "Confirming understanding by rephrasing as a question", "focus_tr": "Soru olarak yeniden ifade ederek anlayışı teyit etme"},
+    {"id": "L08U05_P004", "ar_from_dialogue": "بالضبط! / هذا هو ما أرمي إليه.", "en_from_dialogue": "Exactly! / That's precisely my point.", "tr_from_dialogue": "Kesinlikle! / Tam olarak kastettiğim bu.", "focus_ar": "تأكيد أن الطرف الآخر فهم بشكل صحيح", "focus_en": "Confirming the other person understood correctly", "focus_tr": "Diğer kişinin doğru anladığını teyit etme"},
+    {"id": "L08U05_P005", "ar_from_dialogue": "شكرًا على طلب التوضيح.", "en_from_dialogue": "Thanks for asking for clarification.", "tr_from_dialogue": "Açıklama istediğin için teşekkürler.", "focus_ar": "تقدير طلب التوضيح", "focus_en": "Appreciating the request for clarification", "focus_tr": "Açıklama talebini takdir etme"}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "L09U04NAE",
+  "slug": "currencies-making-payments",
+  "title_ar": "العملات والمدفوعات: التعامل المالي أثناء السفر",
+  "title_en": "Currencies & Making Payments: Financial Transactions While Traveling",
+  "title_tr": "Para Birimleri ve Ödemeler: Seyahat Sırasında Finansal İşlemler",
+  "objective_ar": "تعلم كيفية السؤال عن أسعار الصرف، التعامل مع العملات المختلفة، وطرق الدفع الشائعة في الخارج.",
+  "objective_en": "Learn how to ask about exchange rates, deal with different currencies, and common payment methods abroad.",
+  "objective_tr": "Döviz kurları hakkında nasıl soru soracağınızı, farklı para birimleriyle nasıl başa çıkacağınızı ve yurtdışındaki yaygın ödeme yöntemlerini öğrenin.",
+  "icon_fa_class": "fa-solid fa-money-bill-wave",
+  "scenario": {
+    "title_ar": "حوار: في مكتب صرافة وفي متجر",
+    "title_en": "Dialogue: At a Currency Exchange and in a Shop",
+    "title_tr": "Diyalog: Döviz Bürosunda ve Bir Mağazada",
+    "characters": [
+      {"id": "custmr", "name_ar": "عميل", "name_en": "Customer", "name_tr": "Müşteri"},
+      {"id": "teller", "name_ar": "موظف صرافة", "name_en": "Exchange Teller", "name_tr": "Döviz Gişe Görevlisi"},
+      {"id": "cashr", "name_ar": "أمين صندوق (كاشير)", "name_en": "Cashier", "name_tr": "Kasiyer"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "custmr", "line_ar": "(في مكتب الصرافة) مرحباً، أود تحويل بعض الدولارات إلى [اسم العملة المحلية].", "line_en": "(At currency exchange) Hello, I'd like to exchange some US dollars for [Local Currency Name].", "line_tr": "(Döviz bürosunda) Merhaba, biraz Amerikan Doları'nı [Yerel Para Birimi Adı]'na çevirmek istiyorum."},
+      {"character_id": "teller", "line_ar": "بالتأكيد. ما هو سعر الصرف اليوم للدولار مقابل [العملة المحلية]؟", "line_en": "Certainly. What's today's exchange rate for dollars to [Local Currency Name]?", "line_tr": "Elbette. Bugün doların [Yerel Para Birimi Adı]'na karşı döviz kuru nedir?"},
+      {"character_id": "custmr", "line_ar": "(بعد معرفة السعر) حسنًا، أريد تحويل 200 دولار.", "line_en": "(After knowing the rate) Okay, I'd like to change 200 dollars.", "line_tr": "(Kuru öğrendikten sonra) Tamam, 200 dolar bozdurmak istiyorum."},
+      {"character_id": "teller", "line_ar": "هل هناك أي عمولة على التحويل؟", "line_en": "Is there any commission fee for the exchange?", "line_tr": "Bozdurma için herhangi bir komisyon ücreti var mı?"},
+      {"character_id": "custmr", "line_ar": "(في متجر) مرحباً، كم سعر هذا من فضلك؟ (يشير إلى سلعة)", "line_en": "(In a shop) Hello, how much is this, please? (points to an item)", "line_tr": "(Bir mağazada) Merhaba, bunun fiyatı ne kadar, lütfen? (bir ürüne işaret eder)"},
+      {"character_id": "cashr", "line_ar": "إنه بـ [السعر] [العملة المحلية]. هل تقبلون الدفع ببطاقات الائتمان؟", "line_en": "It's [Price] [Local Currency]. Do you accept credit cards?", "line_tr": "Fiyatı [Fiyat] [Yerel Para Birimi]. Kredi kartı kabul ediyor musunuz?"},
+      {"character_id": "custmr", "line_ar": "نعم، نقبل فيزا وماستركارد. هل تفضل الدفع نقدًا أم بالبطاقة؟", "line_en": "Yes, we accept Visa and Mastercard. Would you prefer to pay in cash or by card?", "line_tr": "Evet, Visa ve Mastercard kabul ediyoruz. Nakit mi yoksa kartla mı ödemeyi tercih edersiniz?"},
+      {"character_id": "cashr", "line_ar": "سأدفع بالبطاقة. هل يمكنني الحصول على إيصال؟", "line_en": "I'll pay by card. May I have a receipt, please?", "line_tr": "Kartla ödeyeceğim. Fiş alabilir miyim, lütfen?"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L09U04_P001", "ar_from_dialogue": "أود تحويل... إلى...", "en_from_dialogue": "I'd like to exchange... for...", "tr_from_dialogue": "...'yı ...'a çevirmek istiyorum.", "focus_ar": "طلب تحويل عملة", "focus_en": "Requesting to exchange currency", "focus_tr": "Döviz bozdurma talebinde bulunma"},
+    {"id": "L09U04_P002", "ar_from_dialogue": "ما هو سعر الصرف اليوم لـ... مقابل...؟", "en_from_dialogue": "What's today's exchange rate for... to...?", "tr_from_dialogue": "Bugün ...'nın ...'a karşı döviz kuru nedir?", "focus_ar": "السؤال عن سعر الصرف", "focus_en": "Asking about the exchange rate", "focus_tr": "Döviz kurunu sorma"},
+    {"id": "L09U04_P003", "ar_from_dialogue": "هل هناك أي عمولة على التحويل؟", "en_from_dialogue": "Is there any commission fee for the exchange?", "tr_from_dialogue": "Bozdurma için herhangi bir komisyon ücreti var mı?", "focus_ar": "السؤال عن عمولة التحويل", "focus_en": "Asking about commission fees", "focus_tr": "Komisyon ücretlerini sorma"},
+    {"id": "L09U04_P004", "ar_from_dialogue": "هل تقبلون الدفع ببطاقات الائتمان/نقدًا؟", "en_from_dialogue": "Do you accept credit cards/cash?", "tr_from_dialogue": "Kredi kartı/nakit kabul ediyor musunuz?", "focus_ar": "السؤال عن طرق الدفع المقبولة", "focus_en": "Asking about accepted payment methods", "focus_tr": "Kabul edilen ödeme yöntemlerini sorma"},
+    {"id": "L09U04_P005", "ar_from_dialogue": "سأدفع بالبطاقة/نقدًا.", "en_from_dialogue": "I'll pay by card/in cash.", "tr_from_dialogue": "Kartla/nakit ödeyeceğim.", "focus_ar": "تحديد طريقة الدفع", "focus_en": "Stating payment method", "focus_tr": "Ödeme yöntemini belirtme"},
+    {"id": "L09U04_P006", "ar_from_dialogue": "هل يمكنني الحصول على إيصال؟", "en_from_dialogue": "May I have a receipt, please?", "tr_from_dialogue": "Fiş alabilir miyim, lütfen?", "focus_ar": "طلب إيصال الدفع", "focus_en": "Requesting a receipt", "focus_tr": "Fiş isteme"}
+  ]
+}

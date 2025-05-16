@@ -1,0 +1,38 @@
+{
+  "id": "L05U04NAE",
+  "slug": "renting-a-car-or-bike",
+  "title_ar": "استئجار وسيلة نقل: تأجير سيارة أو دراجة",
+  "title_en": "Renting Transport: Hiring a Car or Bicycle",
+  "title_tr": "Ulaşım Kiralama: Araba veya Bisiklet Kiralama",
+  "objective_ar": "تعلم العبارات الأساسية اللازمة لاستئجار سيارة أو دراجة، بما في ذلك السؤال عن الأسعار، الشروط، والتأمين.",
+  "objective_en": "Learn essential phrases needed to rent a car or bicycle, including asking about prices, conditions, and insurance.",
+  "objective_tr": "Araba veya bisiklet kiralamak için gereken temel ifadeleri, fiyatlar, koşullar ve sigorta hakkında soru sormayı öğrenin.",
+  "icon_fa_class": "fa-solid fa-car-side",
+  "scenario": {
+    "title_ar": "حوار: في مكتب تأجير السيارات",
+    "title_en": "Dialogue: At the Car Rental Office",
+    "title_tr": "Diyalog: Araba Kiralama Ofisinde",
+    "characters": [
+      {"id": "client", "name_ar": "عميل", "name_en": "Client", "name_tr": "Müşteri"},
+      {"id": "agent_rent", "name_ar": "موظف التأجير", "name_en": "Rental Agent", "name_tr": "Kiralama Görevlisi"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "client", "line_ar": "مرحباً، أود أن أستأجر سيارة لمدة ثلاثة أيام.", "line_en": "Hello, I'd like to rent a car for three days.", "line_tr": "Merhaba, üç günlüğüne bir araba kiralamak istiyorum."},
+      {"character_id": "agent_rent", "line_ar": "أهلاً بك. هل لديك حجز مسبق أم هذا طلب فوري؟", "line_en": "Welcome. Do you have a reservation, or is this a walk-in request?", "line_tr": "Hoş geldiniz. Rezervasyonunuz var mı, yoksa bu anlık bir talep mi?"},
+      {"character_id": "client", "line_ar": "ليس لدي حجز. ما هي أنواع السيارات المتوفرة لديكم؟ أبحث عن سيارة صغيرة واقتصادية.", "line_en": "I don't have a reservation. What types of cars do you have available? I'm looking for a small, economical car.", "line_tr": "Rezervasyonum yok. Ne tür arabalarınız var? Küçük ve ekonomik bir araba arıyorum."},
+      {"character_id": "agent_rent", "line_ar": "لدينا فئة السيارات الصغيرة مثل [اسم موديل سيارة]. سعرها اليومي هو [السعر] شامل الأميال غير المحدودة.", "line_en": "We have compact cars like the [Car Model Name]. The daily rate is [Price] including unlimited mileage.", "line_tr": "[Araba Model Adı] gibi kompakt arabalarımız var. Günlük ücreti sınırsız kilometre dahil [Fiyat]."},
+      {"character_id": "client", "line_ar": "هذا يبدو مناسبًا. هل يشمل السعر التأمين الشامل؟", "line_en": "That sounds suitable. Does the price include full insurance coverage?", "line_tr": "Kulağa uygun geliyor. Fiyata tam kasko dahil mi?"},
+      {"character_id": "agent_rent", "line_ar": "يشمل التأمين الأساسي ضد الغير. التأمين الشامل متاح بتكلفة إضافية قدرها [مبلغ] في اليوم.", "line_en": "It includes basic third-party liability. Comprehensive insurance is available for an additional [Amount] per day.", "line_tr": "Temel üçüncü şahıs sorumluluk sigortasını içerir. Kapsamlı sigorta günlük ek [Miktar] karşılığında mevcuttur."},
+      {"character_id": "client", "line_ar": "سآخذ التأمين الشامل أيضًا، للأمان. هل أحتاج إلى رخصة قيادة دولية؟", "line_en": "I'll take the comprehensive insurance as well, just to be safe. Do I need an international driving permit?", "line_tr": "Güvende olmak için kapsamlı sigortayı da alacağım. Uluslararası sürüş iznine ihtiyacım var mı?"},
+      {"character_id": "agent_rent", "line_ar": "إذا كانت رخصتك صادرة باللغة الإنجليزية أو تحتوي على ترجمة إنجليزية، فهي كافية. هل يمكنني رؤية رخصتك وبطاقة الائتمان؟", "line_en": "If your license is in English or has an English translation, it's sufficient. May I see your license and credit card, please?", "line_tr": "Ehliyetiniz İngilizce ise veya İngilizce çevirisi varsa yeterlidir. Ehliyetinizi ve kredi kartınızı görebilir miyim, lütfen?"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L05U04_P001", "ar_from_dialogue": "أود أن أستأجر سيارة/دراجة لمدة...", "en_from_dialogue": "I'd like to rent a car/bicycle for...", "tr_from_dialogue": "...günlüğüne bir araba/bisiklet kiralamak istiyorum.", "focus_ar": "طلب استئجار وسيلة نقل", "focus_en": "Requesting to rent a vehicle", "focus_tr": "Bir araç kiralama talebinde bulunma"},
+    {"id": "L05U04_P002", "ar_from_dialogue": "ما هي أنواع السيارات/الدراجات المتوفرة؟", "en_from_dialogue": "What types of cars/bicycles do you have available?", "tr_from_dialogue": "Ne tür arabalarınız/bisikletleriniz var?", "focus_ar": "السؤال عن الأنواع المتاحة", "focus_en": "Asking about available types", "focus_tr": "Mevcut türler hakkında soru sorma"},
+    {"id": "L05U04_P003", "ar_from_dialogue": "أبحث عن سيارة صغيرة واقتصادية.", "en_from_dialogue": "I'm looking for a small, economical car.", "tr_from_dialogue": "Küçük ve ekonomik bir araba arıyorum.", "focus_ar": "تحديد نوع السيارة المطلوبة", "focus_en": "Specifying desired car type", "focus_tr": "İstenen araba türünü belirtme"},
+    {"id": "L05U04_P004", "ar_from_dialogue": "سعرها اليومي هو... / هل يشمل السعر...؟", "en_from_dialogue": "The daily rate is... / Does the price include...?", "tr_from_dialogue": "Günlük ücreti ... / Fiyata ...dahil mi?", "focus_ar": "السؤال عن السعر وما يشمله", "focus_en": "Asking about the rate and what it includes", "focus_tr": "Ücret ve nelerin dahil olduğu hakkında soru sorma"},
+    {"id": "L05U04_P005", "ar_from_dialogue": "هل أحتاج إلى رخصة قيادة دولية؟", "en_from_dialogue": "Do I need an international driving permit?", "tr_from_dialogue": "Uluslararası sürüş iznine ihtiyacım var mı?", "focus_ar": "السؤال عن متطلبات الترخيص", "focus_en": "Asking about licensing requirements", "focus_tr": "Lisans gereksinimleri hakkında soru sorma"},
+    {"id": "L05U04_P006", "ar_from_dialogue": "هل يمكنني رؤية رخصتك وبطاقة الائتمان؟", "en_from_dialogue": "May I see your license and credit card?", "tr_from_dialogue": "Ehliyetinizi ve kredi kartınızı görebilir miyim?", "focus_ar": "طلب وثائق لإتمام الاستئجار", "focus_en": "Requesting documents to complete rental", "focus_tr": "Kiralamayı tamamlamak için belge talep etme"}
+  ]
+}

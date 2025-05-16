@@ -1,0 +1,37 @@
+{
+  "id": "L08U03PAR",
+  "slug": "talking-about-work-studies",
+  "title_ar": "العمل والدراسة: كيف تتحدث عن مهنتك أو مجالك الدراسي",
+  "title_en": "Work & Studies: Talking About Your Profession or Field of Study",
+  "title_tr": "İş ve Eğitim: Mesleğiniz veya Eğitim Alanınız Hakkında Konuşma",
+  "objective_ar": "تعلم العبارات الأساسية لوصف عملك أو دراستك، التحدث عن المسؤوليات والمهام، والتعبير عن اهتماماتك المهنية أو الأكاديمية.",
+  "objective_en": "Learn essential phrases to describe your work or studies, talk about responsibilities and tasks, and express your professional or academic interests.",
+  "objective_tr": "İşinizi veya eğitiminizi tanımlamak, sorumluluklar ve görevler hakkında konuşmak ve profesyonel veya akademik ilgi alanlarınızı ifade etmek için temel ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-briefcase",
+  "scenario": {
+    "title_ar": "حوار: تعارف في مؤتمر مهني",
+    "title_en": "Dialogue: Networking at a Professional Conference",
+    "title_tr": "Diyalog: Profesyonel Bir Konferansta Ağ Kurma",
+    "characters": [
+      {"id": "prof1", "name_ar": "داليا", "name_en": "Dalia", "name_tr": "Dalya"},
+      {"id": "prof2", "name_ar": "فارس", "name_en": "Faris", "name_tr": "Faris"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "prof1", "line_ar": "مرحباً، اسمي داليا. أعمل كمهندسة برمجيات في شركة تكنولوجيا ناشئة.", "line_en": "Hi, I'm Dalia. I work as a software engineer at a tech startup.", "line_tr": "Merhaba, ben Dalya. Bir teknoloji girişiminde yazılım mühendisi olarak çalışıyorum."},
+      {"character_id": "prof2", "line_ar": "أهلاً داليا، أنا فارس. أنا مدير مشاريع في قطاع الاتصالات. ما هو مجال تخصص شركتكِ؟", "line_en": "Hi Dalia, I'm Faris. I'm a project manager in the telecom sector. What does your company specialize in?", "line_tr": "Merhaba Dalya, ben Faris. Telekom sektöründe proje yöneticisiyim. Şirketiniz ne üzerine uzmanlaşmış?"},
+      {"character_id": "prof1", "line_ar": "نحن نطور حلولاً قائمة على الذكاء الاصطناعي لتحليل البيانات. إنه مجال مثير للغاية. ماذا عنك، ما هي طبيعة مشاريعك؟", "line_en": "We develop AI-based solutions for data analytics. It's a very exciting field. What about you, what kind of projects do you handle?", "line_tr": "Veri analizi için yapay zeka tabanlı çözümler geliştiriyoruz. Çok heyecan verici bir alan. Peki ya siz, ne tür projelerle ilgileniyorsunuz?"},
+      {"character_id": "prof2", "line_ar": "أشرف حاليًا على إطلاق شبكة 5G جديدة في عدة مناطق. يتطلب الأمر الكثير من التنسيق مع فرق مختلفة.", "line_en": "I'm currently overseeing the rollout of a new 5G network in several regions. It involves a lot of coordination with different teams.", "line_tr": "Şu anda birkaç bölgede yeni bir 5G ağının yaygınlaştırılmasını denetliyorum. Farklı ekiplerle çok fazla koordinasyon gerektiriyor."},
+      {"character_id": "prof1", "line_ar": "هذا يبدو تحديًا! ما هو أكثر جزء تستمتع به في عملك؟", "line_en": "That sounds challenging! What part of your job do you enjoy the most?", "line_tr": "Kulağa zorlu geliyor! İşinizin en çok hangi kısmından keyif alıyorsunuz?"},
+      {"character_id": "prof2", "line_ar": "أحب رؤية المشروع يكتمل بنجاح وحل المشكلات المعقدة التي تظهر على طول الطريق. بالنسبة لكِ، ما الذي جذبكِ إلى مجال الذكاء الاصطناعي؟", "line_en": "I enjoy seeing a project through to successful completion and solving the complex problems that arise along the way. For you, what drew you to the field of AI?", "line_tr": "Bir projenin başarıyla tamamlandığını görmek ve yol boyunca ortaya çıkan karmaşık sorunları çözmekten keyif alıyorum. Sizin için, sizi yapay zeka alanına çeken neydi?"},
+      {"character_id": "prof1", "line_ar": "دائمًا ما كنت مفتونة بقدرة الآلات على التعلم واتخاذ القرارات. آمل أن أساهم في تطوير تطبيقات تفيد المجتمع.", "line_en": "I've always been fascinated by the potential of machines to learn and make decisions. I hope to contribute to developing applications that benefit society.", "line_tr": "Makinelerin öğrenme ve karar verme potansiyelinden her zaman etkilenmişimdir. Topluma fayda sağlayan uygulamalar geliştirmeye katkıda bulunmayı umuyorum."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L08U03_P001", "ar_from_dialogue": "أعمل كـ... في شركة...", "en_from_dialogue": "I work as a... at a company...", "tr_from_dialogue": "Bir şirkette ...olarak çalışıyorum.", "focus_ar": "وصف المهنة ومكان العمل", "focus_en": "Describing profession and workplace", "focus_tr": "Mesleği ve işyerini tanımlama", "audio_ar_tts_key": "أعمل كـ في شركة", "audio_en_tts_key": "I work as a [profession] at a company", "audio_tr_tts_key": "Bir şirkette [meslek] olarak çalışıyorum"},
+    {"id": "L08U03_P002", "ar_from_dialogue": "ما هو مجال تخصص شركتكِ؟ / ماذا تفعل شركتك؟", "en_from_dialogue": "What does your company specialize in? / What does your company do?", "tr_from_dialogue": "Şirketiniz ne üzerine uzmanlaşmış? / Şirketiniz ne iş yapar?", "focus_ar": "السؤال عن مجال عمل شركة", "focus_en": "Asking about a company's specialization", "focus_tr": "Bir şirketin uzmanlık alanını sorma", "audio_ar_tts_key": "ما هو مجال تخصص شركتك", "audio_en_tts_key": "What does your company specialize in", "audio_tr_tts_key": "Şirketiniz ne üzerine uzmanlaşmış"},
+    {"id": "L08U03_P003", "ar_from_dialogue": "نحن نطور حلولاً لـ...", "en_from_dialogue": "We develop solutions for...", "tr_from_dialogue": "...için çözümler geliştiriyoruz.", "focus_ar": "وصف نشاط الشركة الأساسي", "focus_en": "Describing a company's core activity", "focus_tr": "Bir şirketin ana faaliyetini tanımlama", "audio_ar_tts_key": "نحن نطور حلولا ل", "audio_en_tts_key": "We develop solutions for", "audio_tr_tts_key": "için çözümler geliştiriyoruz"},
+    {"id": "L08U03_P004", "ar_from_dialogue": "أشرف حاليًا على... / يتطلب الأمر الكثير من...", "en_from_dialogue": "I'm currently overseeing... / It involves a lot of...", "tr_from_dialogue": "Şu anda ...denetliyorum. / Bu çok fazla ...gerektiriyor.", "focus_ar": "وصف المسؤوليات والمهام الحالية", "focus_en": "Describing current responsibilities and tasks", "focus_tr": "Mevcut sorumlulukları ve görevleri tanımlama", "audio_ar_tts_key": "أشرف حاليا على يتطلب الأمر الكثير من", "audio_en_tts_key": "I'm currently overseeing. It involves a lot of", "audio_tr_tts_key": "Şu anda denetliyorum. Bu çok fazla gerektiriyor"},
+    {"id": "L08U03_P005", "ar_from_dialogue": "ما هو أكثر جزء تستمتع به في عملك؟", "en_from_dialogue": "What part of your job do you enjoy the most?", "tr_from_dialogue": "İşinizin en çok hangi kısmından keyif alıyorsunuz?", "focus_ar": "السؤال عن الجوانب الممتعة في العمل", "focus_en": "Asking about enjoyable aspects of work", "focus_tr": "İşin keyifli yönlerini sorma", "audio_ar_tts_key": "ما هو أكثر جزء تستمتع به في عملك", "audio_en_tts_key": "What part of your job do you enjoy the most", "audio_tr_tts_key": "İşinizin en çok hangi kısmından keyif alıyorsunuz"},
+    {"id": "L08U03_P006", "ar_from_dialogue": "ما الذي جذبكِ إلى مجال...؟", "en_from_dialogue": "What drew you to the field of...?", "tr_from_dialogue": "Sizi ...alanına çeken neydi?", "focus_ar": "السؤال عن الدافع للاهتمام بمجال ما", "focus_en": "Asking about motivation for interest in a field", "focus_tr": "Bir alana olan ilgi motivasyonunu sorma", "audio_ar_tts_key": "ما الذي جذبك إلى مجال", "audio_en_tts_key": "What drew you to the field of", "audio_tr_tts_key": "Sizi alanına çeken neydi"}
+  ]
+}

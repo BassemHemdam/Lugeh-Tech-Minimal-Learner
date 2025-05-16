@@ -1,0 +1,37 @@
+{
+  "id": "L10U05OND",
+  "slug": "summarizing-and-concluding-in-practice",
+  "title_ar": "تلخيص النقاشات والختام في حوار عملي",
+  "title_en": "Summarizing & Concluding Discussions in Practice",
+  "title_tr": "Tartışmaları Özetleme ve Sonuçlandırma Uygulamada",
+  "objective_ar": "مشاهدة وتحليل حوار يتم فيه تلخيص النقاط الرئيسية واختتام النقاش بطريقة منظمة وفعالة.",
+  "objective_en": "Observe and analyze a dialogue where main points are summarized and the discussion is concluded in an organized and effective manner.",
+  "objective_tr": "Ana noktaların özetlendiği ve tartışmanın düzenli ve etkili bir şekilde sonuçlandırıldığı bir diyaloğu gözlemleyip analiz edin.",
+  "icon_fa_class": "fa-solid fa-clipboard-check",
+  "scenario": {
+    "title_ar": "حوار: نهاية اجتماع التخطيط الأسبوعي",
+    "title_en": "Dialogue: End of a Weekly Planning Meeting",
+    "title_tr": "Diyalog: Haftalık Planlama Toplantısının Sonu",
+    "characters": [
+      {"id": "lead2", "name_ar": "سارة (قائدة الاجتماع)", "name_en": "Sarah (Meeting Lead)", "name_tr": "Sara (Toplantı Lideri)"},
+      {"id": "teamA", "name_ar": "فريق أ", "name_en": "Team A Rep", "name_tr": "A Takımı Temsilcisi"},
+      {"id": "teamB", "name_ar": "فريق ب", "name_en": "Team B Rep", "name_tr": "B Takımı Temsilcisi"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "lead2", "line_ar": "حسنًا، أعتقد أننا ناقشنا جميع النقاط الرئيسية لليوم. قبل أن ننهي، دعونا نلخص بسرعة ما اتفقنا عليه.", "line_en": "Alright, I think we've discussed all the main points for today. Before we wrap up, let's quickly summarize what we've agreed upon.", "line_tr": "Pekala, sanırım bugün için tüm ana noktaları tartıştık. Bitirmeden önce, üzerinde anlaştığımız konuları hızlıca özetleyelim."},
+      {"character_id": "teamA", "line_ar": "اتفقنا على أن فريق التسويق سيبدأ حملة ترويجية جديدة الأسبوع المقبل، مع التركيز على وسائل التواصل الاجتماعي.", "line_en": "We agreed that the marketing team will start a new promotional campaign next week, focusing on social media.", "line_tr": "Pazarlama ekibinin gelecek hafta sosyal medyaya odaklanan yeni bir tanıtım kampanyası başlatacağı konusunda anlaştık."},
+      {"character_id": "lead2", "line_ar": "صحيح. وفريق المبيعات سيقوم بتدريب إضافي على المنتج الجديد. هل هناك أي نقاط أخرى رئيسية؟", "line_en": "Correct. And the sales team will conduct additional training on the new product. Any other key takeaways?", "line_tr": "Doğru. Ve satış ekibi yeni ürün hakkında ek eğitim düzenleyecek. Başka önemli çıkarımlar var mı?"},
+      {"character_id": "teamB", "line_ar": "نعم، اتفقنا أيضًا على مراجعة الميزانية المخصصة للبحث والتطوير في اجتماعنا التالي.", "line_en": "Yes, we also agreed to review the R&D budget allocation in our next meeting.", "line_tr": "Evet, bir sonraki toplantımızda Ar-Ge bütçe tahsisini gözden geçirme konusunda da anlaştık."},
+      {"character_id": "lead2", "line_ar": "ممتاز. إذًا، النقاط الرئيسية هي: حملة تسويقية جديدة، تدريب للمبيعات، ومراجعة ميزانية البحث والتطوير. هل هناك أي شيء آخر قبل أن نختتم؟", "line_en": "Excellent. So, the key action items are: new marketing campaign, sales training, and R&D budget review. Anything else before we conclude?", "line_tr": "Harika. Yani, ana eylem maddeleri şunlar: yeni pazarlama kampanyası, satış eğitimi ve Ar-Ge bütçe incelemesi. Sonuçlandırmadan önce başka bir şey var mı?"},
+      {"character_id": "teamA", "line_ar": "لا شيء من جانبي.", "line_en": "Nothing from my side.", "line_tr": "Benim tarafımdan bir şey yok."},
+      {"character_id": "lead2", "line_ar": "عظيم. شكرًا لكم جميعًا على مشاركتكم ووقتكم. اجتماع مثمر!", "line_en": "Great. Thank you all for your participation and time. Productive meeting!", "line_tr": "Harika. Katılımınız ve zamanınız için hepinize teşekkür ederim. Verimli bir toplantıydı!"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L10U05_PA001", "ar_from_dialogue": "قبل أن ننهي، دعونا نلخص بسرعة ما اتفقنا عليه.", "en_from_dialogue": "Before we wrap up, let's quickly summarize what we've agreed upon.", "tr_from_dialogue": "Bitirmeden önce, üzerinde anlaştığımız konuları hızlıca özetleyelim.", "focus_ar": "اقتراح تلخيص النقاط المتفق عليها", "focus_en": "Proposing to summarize agreed-upon points", "focus_tr": "Üzerinde anlaşılan noktaları özetlemeyi önerme"},
+    {"id": "L10U05_PA002", "ar_from_dialogue": "اتفقنا على أن...", "en_from_dialogue": "We agreed that...", "tr_from_dialogue": "...konusunda anlaştık.", "focus_ar": "ذكر نقطة تم الاتفاق عليها", "focus_en": "Stating a point of agreement", "focus_tr": "Bir anlaşma noktasını belirtme"},
+    {"id": "L10U05_PA003", "ar_from_dialogue": "هل هناك أي نقاط أخرى رئيسية؟ / هل هناك أي شيء آخر؟", "en_from_dialogue": "Any other key takeaways? / Anything else?", "tr_from_dialogue": "Başka önemli çıkarımlar var mı? / Başka bir şey var mı?", "focus_ar": "السؤال عما إذا كان هناك نقاط إضافية لم يتم ذكرها", "focus_en": "Asking if there are any other unmentioned points", "focus_tr": "Bahsedilmeyen başka noktalar olup olmadığını sorma"},
+    {"id": "L10U05_PA004", "ar_from_dialogue": "إذًا، النقاط الرئيسية هي: ...", "en_from_dialogue": "So, the key action items are: ...", "tr_from_dialogue": "Yani, ana eylem maddeleri şunlar: ...", "focus_ar": "إعادة ذكر النقاط الرئيسية للتلخيص النهائي", "focus_en": "Restating main points for final summary", "focus_tr": "Nihai özet için ana noktaları yeniden belirtme"},
+    {"id": "L10U05_PA005", "ar_from_dialogue": "شكرًا لكم جميعًا على مشاركتكم ووقتكم. اجتماع مثمر!", "en_from_dialogue": "Thank you all for your participation and time. Productive meeting!", "tr_from_dialogue": "Katılımınız ve zamanınız için hepinize teşekkür ederim. Verimli bir toplantıydı!", "focus_ar": "إنهاء الاجتماع/النقاش بشكل إيجابي وشكر المشاركين", "focus_en": "Ending the meeting/discussion positively and thanking participants", "focus_tr": "Toplantıyı/tartışmayı olumlu bir şekilde bitirme ve katılımcılara teşekkür etme"}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "L02U04NAE",
+  "slug": "at-the-hotel-check-in-out-services",
+  "title_ar": "في الفندق: تسجيل الوصول والمغادرة، وطلب الخدمات",
+  "title_en": "At the Hotel: Check-in, Check-out, and Requesting Services",
+  "title_tr": "Otelde: Giriş, Çıkış ve Hizmet Talep Etme",
+  "objective_ar": "تعلم العبارات الأساسية للتعامل مع إجراءات الفندق مثل تسجيل الوصول والمغادرة، وطلب خدمات الغرف أو الاستفسار عن مرافق الفندق.",
+  "objective_en": "Learn essential phrases for handling hotel procedures like check-in and check-out, requesting room services, or inquiring about hotel amenities.",
+  "objective_tr": "Giriş ve çıkış gibi otel prosedürlerini yönetmek, oda servisi talep etmek veya otel olanakları hakkında bilgi almak için temel ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-concierge-bell",
+  "scenario": {
+    "title_ar": "حوار: الوصول إلى الفندق",
+    "title_en": "Dialogue: Arriving at the Hotel",
+    "title_tr": "Diyalog: Otele Varış",
+    "characters": [
+      {"id": "gst", "name_ar": "زائر", "name_en": "Guest", "name_tr": "Misafir"},
+      {"id": "recep", "name_ar": "موظف الاستقبال", "name_en": "Receptionist", "name_tr": "Resepsiyonist"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "gst", "line_ar": "مساء الخير، لدي حجز باسم [اسم الزائر].", "line_en": "Good evening, I have a reservation under the name [Guest's Name].", "line_tr": "İyi akşamlar, [Misafir Adı] adına bir rezervasyonum var."},
+      {"character_id": "recep", "line_ar": "أهلاً بك في فندقنا سيد [اسم الزائر]. هل يمكنني الحصول على بطاقة هويتك أو جواز سفرك؟", "line_en": "Welcome to our hotel, Mr./Ms. [Guest's Name]. May I have your ID or passport, please?", "line_tr": "Otelimize hoş geldiniz, [Misafir Adı] Bey/Hanım. Kimliğinizi veya pasaportunuzu alabilir miyim?"},
+      {"character_id": "gst", "line_ar": "بالتأكيد. لقد حجزت غرفة مفردة مطلة على البحر لمدة ثلاث ليالٍ.", "line_en": "Certainly. I booked a single room with a sea view for three nights.", "line_tr": "Elbette. Deniz manzaralı tek kişilik bir odayı üç geceliğine ayırttım."},
+      {"character_id": "recep", "line_ar": "نعم، أرى حجزك هنا. الإفطار مشمول ويُقدم من الساعة 7 حتى 10 صباحًا في المطعم الرئيسي. هذه مفاتيح غرفتك، رقم [رقم الغرفة] في الطابق الخامس.", "line_en": "Yes, I see your reservation here. Breakfast is included and served from 7 to 10 AM in the main restaurant. Here are your room keys, number [Room Number] on the fifth floor.", "line_tr": "Evet, rezervasyonunuzu burada görüyorum. Kahvaltı dahildir ve ana restoranda sabah 7'den 10'a kadar servis edilir. İşte oda anahtarlarınız, beşinci katta [Oda Numarası] numara."},
+      {"character_id": "gst", "line_ar": "شكرًا لك. هل يوجد اتصال إنترنت لاسلكي (واي فاي) مجاني في الغرف؟ وما هي كلمة المرور؟", "line_en": "Thank you. Is there free Wi-Fi in the rooms? And what's the password?", "line_tr": "Teşekkür ederim. Odalarda ücretsiz Wi-Fi var mı? Ve şifresi nedir?"},
+      {"character_id": "recep", "line_ar": "نعم، الواي فاي مجاني في جميع أنحاء الفندق. كلمة المرور هي [كلمة المرور]. متى تخطط للمغادرة؟ وقت المغادرة القياسي هو الساعة 12 ظهرًا.", "line_en": "Yes, Wi-Fi is complimentary throughout the hotel. The password is [Password]. What time are you planning to check out? Our standard check-out time is 12 PM.", "line_tr": "Evet, otel genelinde Wi-Fi ücretsizdir. Şifre [Şifre]. Ne zaman çıkış yapmayı planlıyorsunuz? Standart çıkış saatimiz öğlen 12'dir."},
+      {"character_id": "gst", "line_ar": "رحلتي في المساء. هل من الممكن طلب مغادرة متأخرة، ربما حتى الساعة الثانية بعد الظهر؟", "line_en": "My flight is in the evening. Would it be possible to request a late check-out, perhaps until 2 PM?", "line_tr": "Uçağım akşam. Geç çıkış talep etmem mümkün mü, belki öğleden sonra 2'ye kadar?"},
+      {"character_id": "recep", "line_ar": "سأتحقق من الإمكانية لك. نعم، يمكننا ترتيب ذلك مقابل رسوم إضافية بسيطة قدرها [مبلغ].", "line_en": "I'll check the availability for you. Yes, we can arrange that for a small additional fee of [Amount].", "line_tr": "Sizin için müsaitliği kontrol edeceğim. Evet, bunu [Miktar] tutarında küçük bir ek ücret karşılığında ayarlayabiliriz."},
+      {"character_id": "gst", "line_ar": "هذا مقبول. شكرًا جزيلاً لك على المساعدة.", "line_en": "That's acceptable. Thank you very much for your help.", "line_tr": "Bu kabul edilebilir. Yardımınız için çok teşekkür ederim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L02U04_P001", "ar_from_dialogue": "لدي حجز باسم...", "en_from_dialogue": "I have a reservation under the name...", "tr_from_dialogue": "...adına bir rezervasyonum var.", "focus_ar": "الإبلاغ عن حجز في فندق", "focus_en": "Stating a hotel reservation", "focus_tr": "Otel rezervasyonunu bildirme"},
+    {"id": "L02U04_P002", "ar_from_dialogue": "هل يمكنني الحصول على بطاقة هويتك/جواز سفرك؟", "en_from_dialogue": "May I have your ID/passport, please?", "tr_from_dialogue": "Kimliğinizi/pasaportunuzu alabilir miyim, lütfen?", "focus_ar": "طلب وثيقة إثبات شخصية (رسمي)", "focus_en": "Requesting identification (formal)", "focus_tr": "Kimlik talep etme (resmi)"},
+    {"id": "L02U04_P003", "ar_from_dialogue": "لقد حجزت غرفة مفردة/مزدوجة مطلة على...", "en_from_dialogue": "I booked a single/double room with a... view.", "tr_from_dialogue": "...manzaralı tek/çift kişilik bir oda ayırttım.", "focus_ar": "تأكيد تفاصيل الحجز (نوع الغرفة، الإطلالة)", "focus_en": "Confirming booking details (room type, view)", "focus_tr": "Rezervasyon ayrıntılarını onaylama (oda tipi, manzara)"},
+    {"id": "L02U04_P004", "ar_from_dialogue": "الإفطار مشمول ويُقدم من الساعة... حتى...", "en_from_dialogue": "Breakfast is included and served from... to...", "tr_from_dialogue": "Kahvaltı dahildir ve saat ...'den ...'e kadar servis edilir.", "focus_ar": "معلومات عن وجبة الإفطار", "focus_en": "Information about breakfast service", "focus_tr": "Kahvaltı servisi hakkında bilgi"},
+    {"id": "L02U04_P005", "ar_from_dialogue": "هل يوجد اتصال إنترنت لاسلكي (واي فاي) مجاني؟ وما هي كلمة المرور؟", "en_from_dialogue": "Is there free Wi-Fi? And what's the password?", "tr_from_dialogue": "Ücretsiz Wi-Fi var mı? Ve şifresi nedir?", "focus_ar": "السؤال عن الواي فاي وكلمة المرور", "focus_en": "Asking about Wi-Fi and password", "focus_tr": "Wi-Fi ve şifre hakkında soru sorma"},
+    {"id": "L02U04_P006", "ar_from_dialogue": "متى تخطط للمغادرة؟ وقت المغادرة القياسي هو...", "en_from_dialogue": "What time are you planning to check out? Our standard check-out time is...", "tr_from_dialogue": "Ne zaman çıkış yapmayı planlıyorsunuz? Standart çıkış saatimiz...", "focus_ar": "السؤال عن وقت المغادرة وتوضيح الوقت القياسي", "focus_en": "Asking about check-out time and stating standard time", "focus_tr": "Çıkış saatini sorma ve standart saati belirtme"},
+    {"id": "L02U04_P007", "ar_from_dialogue": "هل من الممكن طلب مغادرة متأخرة؟", "en_from_dialogue": "Would it be possible to request a late check-out?", "tr_from_dialogue": "Geç çıkış talep etmem mümkün mü?", "focus_ar": "طلب مغادرة متأخرة بأدب", "focus_en": "Politely requesting a late check-out", "focus_tr": "Kibarca geç çıkış talep etme"}
+  ]
+}

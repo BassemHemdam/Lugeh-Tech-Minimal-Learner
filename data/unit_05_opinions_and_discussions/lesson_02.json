@@ -1,0 +1,35 @@
+{
+  "id": "L02U05OND",
+  "slug": "agreeing-and-giving-reasons",
+  "title_ar": "الموافقة مع التبرير: كيف تدعم اتفاقك في الرأي؟",
+  "title_en": "Agreeing with Justification: How to Support Your Agreement",
+  "title_tr": "Gerekçeyle Aynı Fikirde Olma: Fikir Birliğinizi Nasıl Desteklersiniz?",
+  "objective_ar": "تعلم ليس فقط كيفية الموافقة، بل أيضًا كيفية تقديم أسباب أو أدلة قصيرة لدعم موافقتك، مما يجعل الحوار أكثر ثراءً.",
+  "objective_en": "Learn not only how to agree, but also how to provide brief reasons or evidence to support your agreement, making dialogue richer.",
+  "objective_tr": "Sadece aynı fikirde olmayı değil, aynı zamanda anlaşmanızı desteklemek için kısa nedenler veya kanıtlar sunmayı da öğrenerek diyaloğu daha zengin hale getirin.",
+  "icon_fa_class": "fa-solid fa-check-double",
+  "scenario": {
+    "title_ar": "حوار: نقاش حول أفضل طريقة لتعلم لغة جديدة",
+    "title_en": "Dialogue: Discussing the Best Way to Learn a New Language",
+    "title_tr": "Diyalog: Yeni Bir Dil Öğrenmenin En İyi Yolunu Tartışma",
+    "characters": [
+      {"id": "learner1", "name_ar": "أميرة", "name_en": "Amira", "name_tr": "Amira"},
+      {"id": "learner2", "name_ar": "بدر", "name_en": "Badr", "name_tr": "Bedir"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "learner1", "line_ar": "بدر، أعتقد أن أفضل طريقة لتعلم لغة جديدة هي الانغماس الكامل، مثل السفر إلى بلد يتحدث بها.", "line_en": "Badr, I believe the best way to learn a new language is through full immersion, like traveling to a country where it's spoken.", "line_tr": "Bedir, bence yeni bir dil öğrenmenin en iyi yolu, konuşulduğu bir ülkeye seyahat etmek gibi tam anlamıyla içine girmektir."},
+      {"character_id": "learner2", "line_ar": "أتفق معك تمامًا يا أميرة. لأنك عندما تكون محاطًا باللغة طوال الوقت، تضطر إلى استخدامها وفهمها.", "line_en": "I completely agree with you, Amira. Because when you're surrounded by the language all the time, you're forced to use and understand it.", "line_tr": "Sana tamamen katılıyorum Amira. Çünkü her zaman dille çevrili olduğunda, onu kullanmak ve anlamak zorunda kalırsın."},
+      {"character_id": "learner1", "line_ar": "بالضبط! وأيضًا، من خلال التفاعل اليومي مع الناطقين الأصليين، تتعلم الفروق الثقافية الدقيقة التي لا تجدها في الكتب.", "line_en": "Exactly! And also, through daily interaction with native speakers, you learn the cultural nuances that you don't find in books.", "line_tr": "Kesinlikle! Ayrıca, ana dili konuşanlarla günlük etkileşim yoluyla, kitaplarda bulamayacağınız kültürel incelikleri öğrenirsiniz."},
+      {"character_id": "learner2", "line_ar": "هذه نقطة جيدة جدًا. التعرض للثقافة جزء لا يتجأ من تعلم اللغة. هذا هو السبب في أنني أؤيد فكرتك بشدة.", "line_en": "That's a very good point. Cultural exposure is an integral part of language learning. That's why I strongly support your idea.", "line_tr": "Bu çok iyi bir nokta. Kültürel maruziyet, dil öğreniminin ayrılmaz bir parçasıdır. Bu yüzden fikrini şiddetle destekliyorum."},
+      {"character_id": "learner1", "line_ar": "نعم، أنا مقتنعة بأن هذه الطريقة هي الأكثر فعالية، على الرغم من أنها قد تكون مكلفة.", "line_en": "Yes, I'm convinced this method is the most effective, although it can be expensive.", "line_tr": "Evet, pahalı olabilmesine rağmen bu yöntemin en etkili olduğuna ikna oldum."},
+      {"character_id": "learner2", "line_ar": "هذا صحيح، ولكن أعتقد أن الاستثمار يستحق ذلك على المدى الطويل لتحقيق الطلاقة الحقيقية.", "line_en": "True, but I believe the investment is worth it in the long run for true fluency.", "line_tr": "Doğru, ama gerçek akıcılık için uzun vadede yatırımın buna değeceğine inanıyorum."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L02U05_PA001", "ar_from_dialogue": "أتفق معك تمامًا، لأن...", "en_from_dialogue": "I completely agree with you, because...", "tr_from_dialogue": "Sana tamamen katılıyorum, çünkü...", "focus_ar": "الموافقة القوية مع تقديم سبب مباشر", "focus_en": "Strong agreement with direct reasoning", "focus_tr": "Doğrudan gerekçe ile güçlü anlaşma"},
+    {"id": "L02U05_PA002", "ar_from_dialogue": "بالضبط! وأيضًا،...", "en_from_dialogue": "Exactly! And also,...", "tr_from_dialogue": "Kesinlikle! Ve ayrıca,...", "focus_ar": "تأكيد الموافقة وإضافة نقطة داعمة", "focus_en": "Confirming agreement and adding a supporting point", "focus_tr": "Anlaşmayı teyit etme ve destekleyici bir nokta ekleme"},
+    {"id": "L02U05_PA003", "ar_from_dialogue": "هذه نقطة جيدة جدًا. هذا هو السبب في أنني...", "en_from_dialogue": "That's a very good point. That's why I...", "tr_from_dialogue": "Bu çok iyi bir nokta. Bu yüzden ben...", "focus_ar": "الاعتراف بصحة كلام الآخر واستخدامه كدعم لرأيك", "focus_en": "Acknowledging the other's point and using it as support for yours", "focus_tr": "Diğerinin görüşünü kabul etme ve kendinizinkini desteklemek için kullanma"},
+    {"id": "L02U05_PA004", "ar_from_dialogue": "نعم، أنا مقتنعة بأن...، على الرغم من أن...", "en_from_dialogue": "Yes, I'm convinced that..., although...", "tr_from_dialogue": "Evet, ...olduğuna ikna oldum, ...olsa da.", "focus_ar": "التعبير عن الاقتناع مع الاعتراف بجانب سلبي محتمل", "focus_en": "Expressing conviction while acknowledging a potential downside", "focus_tr": "Olası bir olumsuz yanı kabul ederken ikna olduğunu ifade etme"},
+    {"id": "L02U05_PA005", "ar_from_dialogue": "هذا صحيح، ولكن أعتقد أن...", "en_from_dialogue": "True, but I believe that...", "tr_from_dialogue": "Doğru, ama ...olduğuna inanıyorum.", "focus_ar": "الموافقة على جزء من كلام الآخر ثم إضافة رأيك الخاص", "focus_en": "Agreeing with part of someone's statement then adding your own opinion", "focus_tr": "Birinin ifadesinin bir kısmına katılıp ardından kendi görüşünü ekleme"}
+  ]
+}

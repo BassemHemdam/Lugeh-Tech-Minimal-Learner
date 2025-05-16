@@ -1,0 +1,18 @@
+{
+  "id": "U04NAE",
+  "slug": "navigating-and-exploring",
+  "folderName": "unit_04_navigating_and_exploring",
+  "title_ar": "التنقل والاستكشاف: لغة السفر والمغامرة",
+  "title_en": "Navigating & Exploring: The Language of Travel and Adventure",
+  "title_tr": "Yön Bulma ve Keşfetme: Seyahat ve Macera Dili",
+  "description_ar": "تعلم العبارات الأساسية للتنقل في المطارات والفنادق، السؤال عن الاتجاهات، واستكشاف أماكن جديدة كسائح واثق.",
+  "description_en": "Learn essential phrases for navigating airports and hotels, asking for directions, and exploring new places as a confident tourist.",
+  "description_tr": "Havaalanları ve otellerde yol bulmak, yön sormak ve kendinden emin bir turist olarak yeni yerler keşfetmek için temel ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-compass-drafting",
+  "theme_color_class": "theme-cyan-accent",
+  "lessons_count": 10,
+  "lessonFiles": [
+    "lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05",
+    "lesson_06", "lesson_07", "lesson_08", "lesson_09", "lesson_10"
+  ]
+}

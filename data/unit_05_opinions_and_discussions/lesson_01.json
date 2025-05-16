@@ -1,0 +1,36 @@
+{
+  "id": "L01U05OND",
+  "slug": "expressing-opinions-politely-effectively",
+  "title_ar": "التعبير عن رأيك بأدب وفعالية: أساسيات قوية",
+  "title_en": "Expressing Your Opinion Politely & Effectively: Strong Foundations",
+  "title_tr": "Görüşünü Kibarca ve Etkili Bir Şekilde İfade Etme: Güçlü Temeller",
+  "objective_ar": "تعلم كيفية التعبير عن رأيك الشخصي بوضوح وثقة في مواقف مختلفة، مع استخدام عبارات تمهيدية مناسبة وأمثلة لدعم وجهة نظرك.",
+  "objective_en": "Learn to express your personal opinion clearly and confidently in various situations, using appropriate introductory phrases and examples to support your viewpoint.",
+  "objective_tr": "Kişisel görüşünüzü çeşitli durumlarda net ve güvenli bir şekilde ifade etmeyi, bakış açınızı desteklemek için uygun giriş ifadeleri ve örnekler kullanmayı öğrenin.",
+  "icon_fa_class": "fa-regular fa-comment-alt",
+  "scenario": {
+    "title_ar": "حوار: اختيار وجهة لقضاء عطلة نهاية الأسبوع",
+    "title_en": "Dialogue: Choosing a Weekend Getaway Destination",
+    "title_tr": "Diyalog: Hafta Sonu Kaçamağı İçin Yer Seçimi",
+    "characters": [
+      {"id": "friend1", "name_ar": "طارق", "name_en": "Tariq", "name_tr": "Tarık"},
+      {"id": "friend2", "name_ar": "سلمى", "name_en": "Salma", "name_tr": " Selma"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "friend1", "line_ar": "سلمى، الجو رائع نهاية هذا الأسبوع. أعتقد أننا يجب أن نذهب في رحلة قصيرة. ما رأيك؟", "line_en": "Salma, the weather is great this weekend. I think we should go on a short trip. What do you think?", "line_tr": "Selma, bu hafta sonu hava harika. Bence kısa bir geziye çıkmalıyız. Ne dersin?"},
+      {"character_id": "friend2", "line_ar": "فكرة جيدة يا طارق! في رأيي، الذهاب إلى الجبل سيكون ممتعًا جدًا. يمكننا التنزه والاستمتاع بالطبيعة.", "line_en": "Good idea, Tariq! In my opinion, going to the mountains would be very enjoyable. We could hike and enjoy nature.", "line_tr": "İyi fikir Tarık! Bence dağlara gitmek çok keyifli olur. Yürüyüş yapabilir ve doğanın tadını çıkarabiliriz."},
+      {"character_id": "friend1", "line_ar": "همم، لست متأكدًا تمامًا بشأن الجبال. أرى أن الشاطئ قد يكون أكثر استرخاءً. أفضل أن أستلقي تحت الشمس.", "line_en": "Hmm, I'm not entirely sure about the mountains. I see the beach as potentially more relaxing. I'd prefer to lie in the sun.", "line_tr": "Hmm, dağlar konusunda pek emin değilim. Bence sahil daha dinlendirici olabilir. Güneşte yatmayı tercih ederim."},
+      {"character_id": "friend2", "line_ar": "أتفهم ذلك، ولكن ألا تعتقد أن الجو سيكون حارًا جدًا على الشاطئ الآن؟ من وجهة نظري، الجبال تقدم هواءً أكثر انتعاشًا.", "line_en": "I understand that, but don't you think it will be too hot at the beach right now? From my point of view, the mountains offer fresher air.", "line_tr": "Anlıyorum, ama sence de şu an sahilde hava çok sıcak olmaz mı? Benim bakış açımdan, dağlar daha taze hava sunuyor."},
+      {"character_id": "friend1", "line_ar": "ربما أنتِ على حق. شخصيًا، أجد أن صوت الأمواج مريح للغاية. لكن، يمكننا دائمًا إيجاد مكان مظلل على الشاطئ.", "line_en": "Perhaps you're right. Personally, I find the sound of the waves very soothing. But, we can always find a shaded spot on the beach.", "line_tr": "Belki de haklısın. Şahsen, dalgaların sesini çok dinlendirici buluyorum. Ama sahilde her zaman gölgeli bir yer bulabiliriz."},
+      {"character_id": "friend2", "line_ar": "ماذا لو فكرنا في بحيرة قريبة؟ قد تجمع بين جمال الطبيعة وفرصة السباحة دون حرارة الشاطئ الشديدة. أعتقد أن هذا قد يكون حلاً وسطًا جيدًا.", "line_en": "What if we considered a nearby lake? It might combine the beauty of nature with a chance to swim without the intense beach heat. I believe that could be a good compromise.", "line_tr": "Peki ya yakındaki bir gölü düşünsek? Doğanın güzelliğini, aşırı sahil sıcağı olmadan yüzme şansıyla birleştirebilir. Bence bu iyi bir uzlaşma olabilir."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L01U05_PA001", "ar_from_dialogue": "أعتقد أننا يجب أن...", "en_from_dialogue": "I think we should...", "tr_from_dialogue": "Bence ...yapmalıyız.", "focus_ar": "التعبير عن رأي مع اقتراح", "focus_en": "Expressing an opinion with a suggestion", "focus_tr": "Öneriyle birlikte görüş bildirme"},
+    {"id": "L01U05_PA002", "ar_from_dialogue": "في رأيي، ...", "en_from_dialogue": "In my opinion, ...", "tr_from_dialogue": "Bence...", "focus_ar": "بدء جملة للتعبير عن الرأي", "focus_en": "Starting a sentence to express an opinion", "focus_tr": "Görüş bildirmek için cümleye başlama"},
+    {"id": "L01U05_PA003", "ar_from_dialogue": "أرى أن... / يبدو لي أن...", "en_from_dialogue": "I see... as... / It seems to me that...", "tr_from_dialogue": "...olarak görüyorum. / Bana öyle geliyor ki...", "focus_ar": "تقديم وجهة نظر شخصية", "focus_en": "Presenting a personal viewpoint", "focus_tr": "Kişisel bir bakış açısı sunma"},
+    {"id": "L01U05_PA004", "ar_from_dialogue": "من وجهة نظري، ...", "en_from_dialogue": "From my point of view, ...", "tr_from_dialogue": "Benim bakış açımdan, ...", "focus_ar": "تأكيد أن هذا رأيك الخاص", "focus_en": "Emphasizing it's your own viewpoint", "focus_tr": "Kendi bakış açınız olduğunu vurgulama"},
+    {"id": "L01U05_PA005", "ar_from_dialogue": "شخصيًا، أجد أن...", "en_from_dialogue": "Personally, I find that...", "tr_from_dialogue": "Şahsen, ...olduğunu düşünüyorum/buluyorum.", "focus_ar": "إعطاء رأي مبني على تجربة شخصية", "focus_en": "Giving an opinion based on personal experience", "focus_tr": "Kişisel deneyime dayalı bir görüş bildirme"},
+    {"id": "L01U05_PA006", "ar_from_dialogue": "أفضل أن...", "en_from_dialogue": "I'd prefer to...", "tr_from_dialogue": "...tercih ederim.", "focus_ar": "التعبير عن التفضيل الشخصي", "focus_en": "Expressing personal preference", "focus_tr": "Kişisel tercihi ifade etme"}
+  ]
+}

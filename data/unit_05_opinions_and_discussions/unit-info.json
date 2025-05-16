@@ -1,0 +1,18 @@
+{
+  "id": "U05OND",
+  "slug": "opinions-and-discussions",
+  "folderName": "unit_05_opinions_and_discussions",
+  "title_ar": "الآراء والنقاشات: فن الحوار البنّاء",
+  "title_en": "Opinions & Discussions: The Art of Constructive Dialogue",
+  "title_tr": "Görüşler ve Tartışmalar: Yapıcı Diyalog Sanatı",
+  "description_ar": "طور مهاراتك في التعبير عن آرائك الشخصية، الموافقة والاختلاف بأدب، طرح الأسئلة الاستيضاحية، وتقديم اقتراحات بناءة.",
+  "description_en": "Develop your skills in expressing personal opinions, agreeing and disagreeing politely, asking clarifying questions, and making constructive suggestions.",
+  "description_tr": "Kişisel görüşlerinizi ifade etme, kibarca aynı fikirde olma ve olmama, açıklayıcı sorular sorma ve yapıcı önerilerde bulunma becerilerinizi geliştirin.",
+  "icon_fa_class": "fa-solid fa-comments",
+  "theme_color_class": "theme-slate-accent",
+  "lessons_count": 10,
+  "lessonFiles": [
+    "lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05",
+    "lesson_06", "lesson_07", "lesson_08", "lesson_09", "lesson_10"
+  ]
+}

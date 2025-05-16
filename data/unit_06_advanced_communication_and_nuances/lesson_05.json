@@ -1,0 +1,39 @@
+{
+  "id": "L05U06ACN",
+  "slug": "storytelling-narrating-past-events",
+  "title_ar": "فن سرد القصص: رواية الأحداث الماضية بأسلوب جذاب",
+  "title_en": "The Art of Storytelling: Narrating Past Events Effectively",
+  "title_tr": "Hikaye Anlatma Sanatı: Geçmiş Olayları Etkili Bir Şekilde Anlatma",
+  "objective_ar": "تعلم تقنيات وعبارات أساسية لسرد قصة أو رواية حدث ماضي بشكل منظم، مشوق، وواضح للمستمعين.",
+  "objective_en": "Learn essential techniques and phrases to tell a story or narrate a past event in an organized, engaging, and clear manner for listeners.",
+  "objective_tr": "Dinleyiciler için düzenli, ilgi çekici ve net bir şekilde bir hikaye anlatmak veya geçmiş bir olayı aktarmak için temel teknikleri ve ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-book-open", 
+  "scenario": {
+    "title_ar": "حوار: مشاركة تجربة سفر مثيرة",
+    "title_en": "Dialogue: Sharing an Exciting Travel Experience",
+    "title_tr": "Diyalog: Heyecan Verici Bir Seyahat Deneyimini Paylaşma",
+    "characters": [
+      {"id": "narrator", "name_ar": "عادل (يروي القصة)", "name_en": "Adel (Narrator)", "name_tr": "Adil (Anlatıcı)"},
+      {"id": "listener", "name_ar": "سارة (مستمعة)", "name_en": "Sara (Listener)", "name_tr": "Sara (Dinleyici)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "listener", "line_ar": "عادل، سمعت أن رحلتك الأخيرة إلى [اسم مكان] كانت مليئة بالمغامرات. أخبرني عنها!", "line_en": "Adel, I heard your recent trip to [Place Name] was full of adventures. Tell me about it!", "line_tr": "Adil, [Yer Adı]'na yaptığın son seyahatin maceralarla dolu olduğunu duydum. Anlat bakalım!"},
+      {"character_id": "narrator", "line_ar": "أوه، بالتأكيد! كانت تجربة لا تُنسى حقًا. كل شيء بدأ عندما قررنا الذهاب في رحلة تسلق جبل [اسم الجبل]...", "line_en": "Oh, absolutely! It was truly an unforgettable experience. It all started when we decided to go hiking up Mount [Mountain Name]...", "line_tr": "Ah, kesinlikle! Gerçekten unutulmaz bir deneyimdi. Her şey [Dağ Adı] dağına tırmanışa gitmeye karar verdiğimizde başladı..."},
+      {"character_id": "listener", "line_ar": "هذا يبدو مثيرًا! ماذا حدث بعد ذلك؟", "line_en": "That sounds exciting! What happened next?", "line_tr": "Kulağa heyecan verici geliyor! Sonra ne oldu?"},
+      {"character_id": "narrator", "line_ar": "حسنًا، في البداية كان كل شيء يسير بسلاسة. الطقس كان رائعًا والمناظر الطبيعية خلابة. ولكن بعد حوالي ثلاث ساعات من التسلق، فجأة، تغير الجو وبدأت سحب كثيفة تتجمع.", "line_en": "Well, initially, everything was going smoothly. The weather was perfect, and the scenery was breathtaking. But after about three hours of climbing, suddenly, the weather changed, and thick clouds started gathering.", "line_tr": "Peki, başlangıçta her şey sorunsuz gidiyordu. Hava mükemmeldi ve manzara nefes kesiciydi. Ama yaklaşık üç saatlik tırmanıştan sonra, aniden hava değişti ve yoğun bulutlar toplanmaya başladı."},
+      {"character_id": "listener", "line_ar": "يا إلهي! هذا يبدو مخيفًا بعض الشيء.", "line_en": "Oh my goodness! That sounds a bit scary.", "line_tr": "Aman Tanrım! Bu biraz korkutucu geliyor."},
+      {"character_id": "narrator", "line_ar": "كان كذلك! في تلك اللحظة، لم نكن متأكدين مما يجب فعله. ثم، تذكرت أن دليلنا السياحي قد ذكر طريقًا مختصرًا آمنًا للعودة في حال تغير الطقس. والنتيجة هي أننا اتبعنا تعليماته وعدنا بأمان قبل هطول المطر الغزير.", "line_en": "It was! At that moment, we weren't sure what to do. Then, I remembered our guide had mentioned a safe shortcut back in case the weather turned. The upshot was, we followed his instructions and made it back safely just before a heavy downpour.", "line_tr": "Öyleydi! O anda ne yapacağımızdan emin değildik. Sonra, rehberimizin havanın değişmesi durumunda güvenli bir kestirme yoldan bahsettiğini hatırladım. Sonuç olarak, talimatlarını izledik ve şiddetli bir sağanaktan hemen önce güvenli bir şekilde geri döndük."},
+      {"character_id": "listener", "line_ar": "يا للراحة! قصة مثيرة حقًا. طريقة سردك للأحداث جعلتني أشعر وكأنني كنت هناك.", "line_en": "What a relief! That's quite a story. The way you narrated the events made me feel like I was there.", "line_tr": "Ne büyük bir rahatlama! Gerçekten heyecan verici bir hikaye. Olayları anlatış şekliniz sanki oradaymışım gibi hissettirdi."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L05U06_P001", "ar_from_dialogue": "كل شيء بدأ عندما... / في البداية...", "en_from_dialogue": "It all started when... / Initially...", "tr_from_dialogue": "Her şey ...başladığında başladı. / Başlangıçta...", "focus_ar": "بدء القصة أو تحديد نقطة البداية", "focus_en": "Starting the story or setting the scene", "focus_tr": "Hikayeye başlama veya sahneyi ayarlama"},
+    {"id": "L05U06_P002", "ar_from_dialogue": "ماذا حدث بعد ذلك؟ / ثم ماذا؟", "en_from_dialogue": "What happened next? / Then what?", "tr_from_dialogue": "Sonra ne oldu? / Peki sonra?", "focus_ar": "طلب مواصلة القصة من المستمع", "focus_en": "Listener prompting to continue the story", "focus_tr": "Dinleyicinin hikayeye devam etmesini istemesi"},
+    {"id": "L05U06_P003", "ar_from_dialogue": "ولكن بعد حوالي...، فجأة، ...", "en_from_dialogue": "But after about..., suddenly,...", "tr_from_dialogue": "Ama yaklaşık ...sonra, aniden,...", "focus_ar": "إدخال نقطة تحول أو حدث مفاجئ في القصة", "focus_en": "Introducing a turning point or sudden event in the story", "focus_tr": "Hikayede bir dönüm noktası veya ani bir olay sunma"},
+    {"id": "L05U06_P004", "ar_from_dialogue": "في تلك اللحظة، لم نكن متأكدين مما يجب فعله.", "en_from_dialogue": "At that moment, we weren't sure what to do.", "tr_from_dialogue": "O anda ne yapacağımızdan emin değildik.", "focus_ar": "وصف الشعور بالحيرة أو عدم اليقين", "focus_en": "Describing a feeling of confusion or uncertainty", "focus_tr": "Kafa karışıklığı veya belirsizlik duygusunu tanımlama"},
+    {"id": "L05U06_P005", "ar_from_dialogue": "ثم، تذكرت أن... / لحسن الحظ، ...", "en_from_dialogue": "Then, I remembered that... / Fortunately,...", "tr_from_dialogue": "Sonra, ...hatırladım. / Neyse ki,...", "focus_ar": "تقديم حل أو تطور إيجابي", "focus_en": "Introducing a solution or positive development", "focus_tr": "Bir çözüm veya olumlu bir gelişme sunma"},
+    {"id": "L05U06_P006", "ar_from_dialogue": "والنتيجة هي أننا... / في النهاية، ...", "en_from_dialogue": "The upshot was, we... / In the end,...", "tr_from_dialogue": "Sonuç olarak, biz... / Sonunda,...", "focus_ar": "ذكر نتيجة الأحداث أو خاتمة القصة", "focus_en": "Stating the outcome of events or story conclusion", "focus_tr": "Olayların sonucunu veya hikaye sonucunu belirtme"},
+    {"id": "L05U06_P007", "ar_from_dialogue": "يا للراحة! / قصة مثيرة حقًا.", "en_from_dialogue": "What a relief! / That's quite a story.", "tr_from_dialogue": "Ne büyük bir rahatlama! / Gerçekten heyecan verici bir hikaye.", "focus_ar": "رد فعل المستمع (إيجابي)", "focus_en": "Listener's reaction (positive)", "focus_tr": "Dinleyicinin tepkisi (olumlu)"},
+    {"id": "L05U06_P008", "ar_from_dialogue": "طريقة سردك للأحداث جعلتني أشعر وكأنني كنت هناك.", "en_from_dialogue": "The way you narrated the events made me feel like I was there.", "tr_from_dialogue": "Olayları anlatış şekliniz sanki oradaymışım gibi hissettirdi.", "focus_ar": "الإطراء على مهارة الراوي في السرد", "focus_en": "Complimenting the narrator's storytelling skill", "focus_tr": "Anlatıcının hikaye anlatma becerisini övme"}
+  ]
+}

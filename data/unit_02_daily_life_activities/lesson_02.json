@@ -1,0 +1,47 @@
+{
+  "id": "L02U02DLA",
+  "slug": "food-meals-ordering-expanded",
+  "title_ar": "الطعام والوجبات: فن طلب الطعام وما بعده في المطعم",
+  "title_en": "Food & Meals: The Art of Ordering and Beyond in a Restaurant",
+  "title_tr": "Yemek ve Öğünler: Restoranda Sipariş Verme Sanatı ve Ötesi",
+  "objective_ar": "إتقان لغة طلب مختلف أنواع الوجبات والمشروبات، التعامل مع قائمة الطعام، الاستفسار عن الأطباق، وعبارات متعلقة بالدفع وحجز الطاولة.",
+  "objective_en": "Master the language for ordering various types of meals and drinks, handling menus, inquiring about dishes, and phrases related to payment and table reservations.",
+  "objective_tr": "Çeşitli yemek ve içecek türlerini sipariş etme, menülerle başa çıkma, yemekler hakkında soru sorma ve ödeme ile masa rezervasyonuyla ilgili ifadelerde ustalaşın.",
+  "icon_fa_class": "fa-solid fa-utensils", 
+  "scenario": {
+    "title_ar": "حوار: عشاء في الخارج مع الأصدقاء",
+    "title_en": "Dialogue: Dinner Out with Friends",
+    "title_tr": "Diyalog: Arkadaşlarla Dışarıda Akşam Yemeği",
+    "characters": [
+      {"id": "diner1", "name_ar": "أمين", "name_en": "Amin", "name_tr": "Emin"},
+      {"id": "diner2", "name_ar": "هالة", "name_en": "Hala", "name_tr": "Hale"},
+      {"id": "waiter", "name_ar": "باسم (نادل)", "name_en": "Basim (Waiter)", "name_tr": "Basri (Garson)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "diner1", "line_ar": "مرحباً، لدينا حجز باسم أمين الساعة السابعة والنصف لثلاثة أشخاص.", "line_en": "Hello, we have a reservation under Amin for 7:30 PM for three people.", "line_tr": "Merhaba, Emin adına saat 19:30 için üç kişilik bir rezervasyonumuz var."},
+      {"character_id": "waiter", "line_ar": "أهلاً بك سيد أمين، طاولتكم جاهزة. من هنا من فضلكم.", "line_en": "Welcome, Mr. Amin. Your table is ready. This way, please.", "line_tr": "Hoş geldiniz Emin Bey, masanız hazır. Bu taraftan lütfen."},
+      {"character_id": "diner2", "line_ar": "شكرًا لك. هل يمكننا إلقاء نظرة على قائمة الطعام؟", "line_en": "Thank you. Could we see the menu, please?", "line_tr": "Teşekkürler. Menüye bakabilir miyiz, lütfen?"},
+      {"character_id": "waiter", "line_ar": "بالتأكيد. (يقدم القوائم) هل ترغبون بطلب أي مشروبات للبدء؟", "line_en": "Certainly. (Presents menus) Would you like to order any drinks to start?", "line_tr": "Elbette. (Menüleri sunar) Başlangıç için herhangi bir içecek sipariş etmek ister misiniz?"},
+      {"character_id": "diner1", "line_ar": "نعم، سأبدأ بعصير برتقال طازج. هالة، ماذا عنكِ؟", "line_en": "Yes, I'll start with a fresh orange juice. Hala, what about you?", "line_tr": "Evet, taze portakal suyuyla başlayacağım. Hale, sen ne istersin?"},
+      {"character_id": "diner2", "line_ar": "أنا سآخذ ماءً معدنيًا لو سمحت. بالنسبة للطعام، ما هو طبق اليوم الخاص؟", "line_en": "I'll have a mineral water, please. For food, what's today's special?", "line_tr": "Ben bir maden suyu alayım lütfen. Yemek olarak, bugünün spesiyali nedir?"},
+      {"character_id": "waiter", "line_ar": "طبق اليوم الخاص هو سمك السلمون المشوي مع الخضار الموسمية. إنه شهي جدًا.", "line_en": "Today's special is grilled salmon with seasonal vegetables. It's very popular.", "line_tr": "Bugünün spesiyali mevsim sebzeleriyle ızgara somon. Çok popülerdir."},
+      {"character_id": "diner1", "line_ar": "يبدو جيدًا. سأطلب طبق السلمون. هل يأتي معه طبق جانبي؟", "line_en": "Sounds good. I'll go with the salmon. Does it come with a side dish?", "line_tr": "Kulağa hoş geliyor. Somonu tercih edeceğim. Yanında bir garnitür geliyor mu?"},
+      {"character_id": "waiter", "line_ar": "نعم، يمكنك الاختيار بين البطاطس المهروسة أو الأرز بالزعفران.", "line_en": "Yes, you can choose between mashed potatoes or saffron rice.", "line_tr": "Evet, patates püresi veya safranlı pilav arasında seçim yapabilirsiniz."},
+      {"character_id": "diner2", "line_ar": "أنا في حيرة من أمري بين الباستا بالدجاج أو ريزوتو الفطر. أي منهما توصي به؟", "line_en": "I'm torn between the chicken pasta or the mushroom risotto. Which one do you recommend?", "line_tr": "Tavuklu makarna ile mantarlı risotto arasında kararsız kaldım. Hangisini tavsiye edersiniz?"},
+      {"character_id": "waiter", "line_ar": "كلاهما ممتاز، ولكن ريزوتو الفطر لدينا حائز على جوائز.", "line_en": "Both are excellent, but our mushroom risotto is award-winning.", "line_tr": "İkisi de mükemmel, ancak mantarlı risottomuz ödüllüdür."},
+      {"character_id": "diner2", "line_ar": "حسنًا، سأجرب الريزوتو إذن! هل يمكننا الحصول على الفاتورة بشكل منفصل لاحقًا؟", "line_en": "Okay, I'll try the risotto then! Can we get separate bills later?", "line_tr": "Tamam, o zaman risotoyu deneyeceğim! Sonra ayrı ayrı hesap alabilir miyiz?"},
+      {"character_id": "waiter", "line_ar": "بالتأكيد، لا مشكلة. سآخذ طلباتكم الآن.", "line_en": "Of course, no problem. I'll take your orders now.", "line_tr": "Elbette, sorun değil. Siparişlerinizi şimdi alacağım."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L02U02_P001", "ar_from_dialogue": "لدينا حجز باسم... لـ... أشخاص.", "en_from_dialogue": "We have a reservation under [Name] for [Number] people.", "tr_from_dialogue": "[İsim] adına [Sayı] kişilik bir rezervasyonumuz var.", "focus_ar": "الإبلاغ عن حجز مسبق", "focus_en": "Reporting a prior reservation", "focus_tr": "Önceden yapılmış bir rezervasyonu bildirme", "audio_ar_tts_key": "لدينا حجز باسم لعدد أشخاص", "audio_en_tts_key": "We have a reservation under Name for Number people", "audio_tr_tts_key": "İsim adına Sayı kişilik bir rezervasyonumuz var"},
+    {"id": "L02U02_P002", "ar_from_dialogue": "هل يمكننا إلقاء نظرة على قائمة الطعام؟", "en_from_dialogue": "Could we see the menu, please?", "tr_from_dialogue": "Menüye bakabilir miyiz, lütfen?", "focus_ar": "طلب قائمة الطعام بأدب", "focus_en": "Politely requesting the menu", "focus_tr": "Menüyü kibarca isteme", "audio_ar_tts_key": "هل يمكننا إلقاء نظرة على قائمة الطعام", "audio_en_tts_key": "Could we see the menu, please", "audio_tr_tts_key": "Menüye bakabilir miyiz, lütfen"},
+    {"id": "L02U02_P003", "ar_from_dialogue": "هل ترغبون بطلب أي مشروبات للبدء؟", "en_from_dialogue": "Would you like to order any drinks to start?", "tr_from_dialogue": "Başlangıç için herhangi bir içecek sipariş etmek ister misiniz?", "focus_ar": "سؤال النادل عن المشروبات أولاً", "focus_en": "Waiter asking about drinks first", "focus_tr": "Garsonun önce içecekleri sorması", "audio_ar_tts_key": "هل ترغبون بطلب أي مشروبات للبدء", "audio_en_tts_key": "Would you like to order any drinks to start", "audio_tr_tts_key": "Başlangıç için herhangi bir içecek sipariş etmek ister misiniz"},
+    {"id": "L02U02_P004", "ar_from_dialogue": "سأبدأ بـ... / سآخذ...", "en_from_dialogue": "I'll start with... / I'll have...", "tr_from_dialogue": "...ile başlayacağım. / ...alacağım.", "focus_ar": "التعبير عن اختيار طلب (مشروب أو طعام)", "focus_en": "Expressing an order choice (drink or food)", "focus_tr": "Bir sipariş seçimi ifade etme (içecek veya yiyecek)", "audio_ar_tts_key": "سأبدأ ب سآخذ", "audio_en_tts_key": "I'll start with I'll have", "audio_tr_tts_key": "ile başlayacağım alacağım"},
+    {"id": "L02U02_P005", "ar_from_dialogue": "ما هو طبق اليوم الخاص؟", "en_from_dialogue": "What's today's special?", "tr_from_dialogue": "Bugünün spesiyali nedir?", "focus_ar": "السؤال عن طبق اليوم المميز", "focus_en": "Asking about the day's special dish", "focus_tr": "Günün özel yemeğini sorma", "audio_ar_tts_key": "ما هو طبق اليوم الخاص", "audio_en_tts_key": "What's today's special", "audio_tr_tts_key": "Bugünün spesiyali nedir"},
+    {"id": "L02U02_P006", "ar_from_dialogue": "هل يأتي معه طبق جانبي؟", "en_from_dialogue": "Does it come with a side dish?", "tr_from_dialogue": "Yanında bir garnitür geliyor mu?", "focus_ar": "الاستفسار عن الأطباق الجانبية", "focus_en": "Inquiring about side dishes", "focus_tr": "Yan yemekler hakkında soru sorma", "audio_ar_tts_key": "هل يأتي معه طبق جانبي", "audio_en_tts_key": "Does it come with a side dish", "audio_tr_tts_key": "Yanında bir garnitür geliyor mu"},
+    {"id": "L02U02_P007", "ar_from_dialogue": "أنا في حيرة من أمري بين... أو...", "en_from_dialogue": "I'm torn between the... or the...", "tr_from_dialogue": "...ile ...arasında kararsız kaldım.", "focus_ar": "التعبير عن الحيرة بين خيارين", "focus_en": "Expressing indecision between two options", "focus_tr": "İki seçenek arasında kararsızlığı ifade etme", "audio_ar_tts_key": "أنا في حيرة من أمري بين أو", "audio_en_tts_key": "I'm torn between the first option or the second option", "audio_tr_tts_key": "birinci seçenek ile ikinci seçenek arasında kararsız kaldım"},
+    {"id": "L02U02_P008", "ar_from_dialogue": "أي منهما توصي به؟", "en_from_dialogue": "Which one do you recommend?", "tr_from_dialogue": "Hangisini tavsiye edersiniz?", "focus_ar": "طلب توصية/نصيحة من النادل", "focus_en": "Asking the waiter for a recommendation", "focus_tr": "Garsondan tavsiye isteme", "audio_ar_tts_key": "أي منهما توصي به", "audio_en_tts_key": "Which one do you recommend", "audio_tr_tts_key": "Hangisini tavsiye edersiniz"},
+    {"id": "L02U02_P009", "ar_from_dialogue": "هل يمكننا الحصول على الفاتورة بشكل منفصل؟", "en_from_dialogue": "Can we get separate bills?", "tr_from_dialogue": "Ayrı ayrı hesap alabilir miyiz?", "focus_ar": "طلب فواتير منفصلة", "focus_en": "Requesting separate bills", "focus_tr": "Ayrı hesap isteme", "audio_ar_tts_key": "هل يمكننا الحصول على الفاتورة بشكل منفصل", "audio_en_tts_key": "Can we get separate bills", "audio_tr_tts_key": "Ayrı ayrı hesap alabilir miyiz"}
+  ]
+}

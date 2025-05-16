@@ -1,0 +1,93 @@
+{
+  "id": "L04U06ACN",
+  "slug": "body-language-in-conversation",
+  "title_ar": "قراءة ما بين السطور: لغة الجسد في حوار عمل",
+  "title_en": "Reading Between the Lines: Body Language in a Business Dialogue",
+  "title_tr": "Satır Aralarını Okumak: Bir İş Diyaloğunda Beden Dili",
+  "objective_ar": "تحليل كيف يمكن للغة الجسد أن تؤكد أو تناقض الرسائل الشفهية في سياق مهني، والتعرف على أهمية الانتباه لهذه الإشارات غير اللفظية.",
+  "objective_en": "Analyze how body language can confirm or contradict verbal messages in a professional context, and recognize the importance of paying attention to these nonverbal cues.",
+  "objective_tr": "Profesyonel bir bağlamda beden dilinin sözlü mesajları nasıl onaylayabileceğini veya çelişebileceğini analiz edin ve bu sözsüz ipuçlarına dikkat etmenin önemini fark edin.",
+  "icon_fa_class": "fa-solid fa-eye",
+  "scenario": {
+    "title_ar": "حوار: اجتماع لمناقشة اقتراح مشروع",
+    "title_en": "Dialogue: Meeting to Discuss a Project Proposal",
+    "title_tr": "Diyalog: Bir Proje Teklifini Görüşmek Üzere Toplantı",
+    "characters": [
+      {"id": "mgr_sara", "name_ar": "سارة (مديرة)", "name_en": "Sara (Manager)", "name_tr": "Sara (Müdür)"},
+      {"id": "emp_ali", "name_ar": "علي (موظف يقدم الاقتراح)", "name_en": "Ali (Employee presenting)", "name_tr": "Ali (Sunum Yapan Çalışan)"},
+      {"id": "emp_rana", "name_ar": "رنا (موظفة أخرى)", "name_en": "Rana (Another Employee)", "name_tr": "Rana (Diğer Çalışan)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "emp_ali", "line_ar": "(يقف بثقة، يتواصل بصريًا مع الجميع) صباح الخير. أود اليوم أن أقدم لكم اقتراحًا لمشروع جديد أعتقد أنه سيحقق نتائج ممتازة لفريقنا.", "line_en": "(Standing confidently, making eye contact with everyone) Good morning. Today I'd like to present a proposal for a new project that I believe will achieve excellent results for our team.", "line_tr": "(Kendinden emin bir şekilde ayakta durarak, herkesle göz teması kurarak) Günaydın. Bugün ekibimiz için mükemmel sonuçlar elde edeceğine inandığım yeni bir proje teklifi sunmak istiyorum."},
+      {"character_id": "mgr_sara", "line_ar": "(تومئ برأسها وتنظر باهتمام) تفضل يا علي، نحن نستمع.", "line_en": "(Nods and looks attentive) Please proceed, Ali. We're listening.", "line_tr": "(Başıyla onaylar ve dikkatle bakar) Lütfen devam et Ali. Dinliyoruz."},
+      {"character_id": "emp_ali", "line_ar": "(يستخدم إيماءات يد معتدلة أثناء الشرح) الفكرة الرئيسية هي تطوير تطبيق داخلي لتبسيط عملية تتبع المهام بين الأقسام المختلفة.", "line_en": "(Uses moderate hand gestures while explaining) The main idea is to develop an internal application to streamline task tracking between different departments.", "line_tr": "(Açıklarken ölçülü el hareketleri kullanır) Ana fikir, farklı departmanlar arasındaki görev takibini kolaylaştırmak için bir iç uygulama geliştirmektir."},
+      {"character_id": "emp_rana", "line_ar": "(تنظر إلى الأسفل قليلاً، تعقد ذراعيها) هذا يبدو مشابهًا لنظام حاولنا تطبيقه سابقًا ولم ينجح بشكل جيد.", "line_en": "(Looks down slightly, arms crossed) That sounds similar to a system we tried to implement before that didn't work out so well.", "line_tr": "(Hafifçe aşağı bakar, kolları kavuşturulmuş) Bu, daha önce uygulamaya çalıştığımız ve pek de iyi sonuç vermeyen bir sisteme benziyor."},
+      {"character_id": "mgr_sara", "line_ar": "(تنظر إلى رنا، ثم إلى علي بحيادية) نقطة جيدة يا رنا. علي، هل يمكنك توضيح كيف يختلف اقتراحك عن المحاولة السابقة؟", "line_en": "(Looks at Rana, then neutrally at Ali) That's a fair point, Rana. Ali, could you clarify how your proposal differs from the previous attempt?", "line_tr": "(Rana'ya bakar, sonra tarafsız bir şekilde Ali'ye) Bu geçerli bir nokta Rana. Ali, teklifinin önceki denemeden nasıl farklı olduğunu açıklayabilir misin?"},
+      {"character_id": "emp_ali", "line_ar": "(يحافظ على التواصل البصري، يميل قليلاً إلى الأمام) بالتأكيد. الاختلاف الرئيسي يكمن في الواجهة المبسطة وميزات التكامل المباشر مع أدواتنا الحالية. (يبتسم بثقة) أنا واثق من أنه سيعالج نقاط الضعف التي واجهناها سابقًا.", "line_en": "(Maintains eye contact, leans forward slightly) Absolutely. The main difference lies in the simplified interface and direct integration features with our current tools. (Smiles confidently) I'm confident it will address the pain points we previously faced.", "line_tr": "(Göz temasını sürdürür, hafifçe öne eğilir) Kesinlikle. Ana fark, basitleştirilmiş arayüzde ve mevcut araçlarımızla doğrudan entegrasyon özelliklerinde yatıyor. (Kendinden emin bir şekilde gülümser) Daha önce karşılaştığımız sıkıntı noktalarını gidereceğinden eminim."},
+      {"character_id": "emp_rana", "line_ar": "(تفك ذراعيها، تبدأ في الإيماء برأسها قليلاً) همم، هذا يبدو واعدًا أكثر.", "line_en": "(Uncrosses arms, starts nodding slightly) Hmm, that does sound more promising.", "line_tr": "(Kollarını çözer, hafifçe başını sallamaya başlar) Hmm, bu daha umut verici görünüyor."},
+      {"character_id": "mgr_sara", "line_ar": "حسنًا، شكرًا على هذا التوضيح يا علي. دعنا نناقش التفاصيل الفنية أكثر.", "line_en": "Okay, thank you for that clarification, Ali. Let's discuss the technical details further.", "line_tr": "Tamam, bu açıklama için teşekkürler Ali. Teknik detayları daha fazla tartışalım."}
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L04U06_PA001",
+      "ar_from_dialogue": "علي: (يقف بثقة، يتواصل بصريًا مع الجميع)",
+      "en_from_dialogue": "Ali: (Standing confidently, making eye contact with everyone)",
+      "tr_from_dialogue": "Ali: (Kendinden emin bir şekilde ayakta durarak, herkesle göz teması kurarak)",
+      "focus_ar": "لغة الجسد: الثقة والانفتاح",
+      "focus_en": "Body Language: Confidence and Openness",
+      "focus_tr": "Beden Dili: Özgüven ve Açıklık",
+      "explanation_ar": "وقفة علي وتواصله البصري يظهران ثقة واستعدادًا للتواصل بفعالية.",
+      "explanation_en": "Ali's posture and eye contact demonstrate confidence and readiness to communicate effectively.",
+      "explanation_tr": "Ali'nin duruşu ve göz teması, özgüveni ve etkili iletişim kurmaya hazır olduğunu gösterir."
+    },
+    {
+      "id": "L04U06_PA002",
+      "ar_from_dialogue": "سارة: (تومئ برأسها وتنظر باهتمام)",
+      "en_from_dialogue": "Sara: (Nods and looks attentive)",
+      "tr_from_dialogue": "Sara: (Başıyla onaylar ve dikkatle bakar)",
+      "focus_ar": "لغة الجسد: الاستماع النشط والتشجيع",
+      "focus_en": "Body Language: Active Listening and Encouragement",
+      "focus_tr": "Beden Dili: Aktif Dinleme ve Teşvik",
+      "explanation_ar": "إيماءة سارة ونظرتها المركزة تشجع علي على الاستمرار وتظهر أنها تستمع باهتمام.",
+      "explanation_en": "Sara's nodding and focused gaze encourage Ali to continue and show she is listening attentively.",
+      "explanation_tr": "Sara'nın başıyla onaylaması ve odaklanmış bakışları Ali'yi devam etmeye teşvik eder ve dikkatle dinlediğini gösterir."
+    },
+    {
+      "id": "L04U06_PA003",
+      "ar_from_dialogue": "رنا: (تنظر إلى الأسفل قليلاً، تعقد ذراعيها)",
+      "en_from_dialogue": "Rana: (Looks down slightly, arms crossed)",
+      "tr_from_dialogue": "Rana: (Hafifçe aşağı bakar, kolları kavuşturulmuş)",
+      "focus_ar": "لغة الجسد: التحفظ أو الدفاعية أو الشك",
+      "focus_en": "Body Language: Reservation, Defensiveness, or Skepticism",
+      "focus_tr": "Beden Dili: Çekingenlik, Savunmacılık veya Şüphecilik",
+      "explanation_ar": "نظرة رنا لأسفل وعقد ذراعيها قد يشير إلى عدم موافقة كاملة، أو شعور بالدفاعية أو التحفظ تجاه الفكرة المطروحة.",
+      "explanation_en": "Rana's downward gaze and crossed arms might indicate disagreement, defensiveness, or reservation about the idea being presented.",
+      "explanation_tr": "Rana'nın aşağı doğru bakışı ve kavuşturulmuş kolları, sunulan fikir hakkında anlaşmazlık, savunmacılık veya çekingenlik anlamına gelebilir."
+    },
+    {
+      "id": "L04U06_PA004",
+      "ar_from_dialogue": "علي: (يحافظ على التواصل البصري، يميل قليلاً إلى الأمام، يبتسم بثقة)",
+      "en_from_dialogue": "Ali: (Maintains eye contact, leans forward slightly, smiles confidently)",
+      "tr_from_dialogue": "Ali: (Göz temasını sürdürür, hafifçe öne eğilir, kendinden emin bir şekilde gülümser)",
+      "focus_ar": "لغة الجسد: الرد على التحفظ بثقة وإيجابية",
+      "focus_en": "Body Language: Responding to reservation with confidence and positivity",
+      "focus_tr": "Beden Dili: Çekingenliğe özgüven ve pozitiflikle yanıt verme",
+      "explanation_ar": "رد فعل علي بلغة جسده يظهر أنه واثق من اقتراحه ومستعد لمناقشة المخاوف بشكل إيجابي.",
+      "explanation_en": "Ali's body language response shows he is confident in his proposal and ready to address concerns positively.",
+      "explanation_tr": "Ali'nin beden dili tepkisi, teklifinden emin olduğunu ve endişeleri olumlu bir şekilde ele almaya hazır olduğunu gösterir."
+    },
+    {
+      "id": "L04U06_PA005",
+      "ar_from_dialogue": "رنا: (تفك ذراعيها، تبدأ في الإيماء برأسها قليلاً)",
+      "en_from_dialogue": "Rana: (Uncrosses arms, starts nodding slightly)",
+      "tr_from_dialogue": "Rana: (Kollarını çözer, hafifçe başını sallamaya başlar)",
+      "focus_ar": "لغة الجسد: تغيير من التحفظ إلى الانفتاح/القبول",
+      "focus_en": "Body Language: Shift from reservation to openness/acceptance",
+      "focus_tr": "Beden Dili: Çekingenlikten Açıklığa/Kabul Etmeye Geçiş",
+      "explanation_ar": "تغيير وضعية رنا يشير إلى أنها بدأت تقتنع أو على الأقل أصبحت أكثر انفتاحًا على الاستماع بعد توضيحات علي.",
+      "explanation_en": "Rana's change in posture indicates she's starting to be convinced or at least more open to listening after Ali's clarifications.",
+      "explanation_tr": "Rana'nın duruşundaki değişiklik, Ali'nin açıklamalarından sonra ikna olmaya başladığını veya en azından dinlemeye daha açık hale geldiğini gösterir."
+    }
+  ]
+}

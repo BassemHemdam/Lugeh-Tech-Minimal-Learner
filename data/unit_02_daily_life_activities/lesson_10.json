@@ -1,0 +1,115 @@
+{
+  "id": "L10U02DLA",
+  "slug": "common-phrasal-verbs-daily",
+  "title_ar": "الأفعال المركبة الشائعة: إثراء لغتك اليومية (الإنجليزية)",
+  "title_en": "Common Phrasal Verbs: Enriching Your Daily English",
+  "title_tr": "Yaygın Phrasal Fiiller: Günlük İngilizcenizi Zenginleştirme (Not: Bu ders ağırlıklı olarak İngilizce phrasal fiillere odaklanmaktadır)",
+  "objective_ar": "التعرف على مجموعة من الأفعال المركبة شائعة الاستخدام في اللغة الإنجليزية اليومية وفهم معانيها المختلفة وكيفية استخدامها في سياقات متنوعة. (ملاحظة: هذا الدرس يركز بشكل أساسي على الأفعال المركبة الإنجليزية).",
+  "objective_en": "Identify and understand a set of commonly used phrasal verbs in everyday English, their different meanings, and how to use them in various contexts.",
+  "objective_tr": "Günlük İngilizce'de yaygın olarak kullanılan bir dizi phrasal fiili, farklı anlamlarını ve çeşitli bağlamlarda nasıl kullanılacağını belirleyin ve anlayın.",
+  "icon_fa_class": "fa-solid fa-puzzle-piece",
+  "scenario": null, 
+  "phrases": [ 
+    {
+      "id": "P001L10U02",
+      "ar": "يستيقظ (من النوم)",
+      "en": "Wake up",
+      "tr": "Uyanmak",
+      "audio_en_tts_key": "Wake up",
+      "audio_tr_tts_key": "Uyanmak",
+      "en_note": "Meaning: To stop sleeping. Example: I usually wake up at 7 AM.",
+      "tr_note": "Anlamı: Uyumayı bırakmak. Örnek: Genellikle saat 7'de uyanırım."
+    },
+    {
+      "id": "P002L10U02",
+      "ar": "ينهض، يقوم من السرير",
+      "en": "Get up",
+      "tr": "Kalkmak (yataktan)",
+      "audio_en_tts_key": "Get up",
+      "audio_tr_tts_key": "Kalkmak",
+      "en_note": "Meaning: To get out of bed. Example: I wake up at 7, but I don't get up until 7:15.",
+      "tr_note": "Anlamı: Yataktan çıkmak. Örnek: Saat 7'de uyanırım ama 7:15'e kadar kalkmam."
+    },
+    {
+      "id": "P003L10U02",
+      "ar": "يشغل (جهاز، ضوء)",
+      "en": "Turn on",
+      "tr": "Açmak (cihaz, ışık)",
+      "audio_en_tts_key": "Turn on",
+      "audio_tr_tts_key": "Açmak",
+      "en_note": "Meaning: To start a machine or light. Example: Can you turn on the TV?",
+      "tr_note": "Anlamı: Bir makineyi veya ışığı başlatmak. Örnek: Televizyonu açar mısın?"
+    },
+    {
+      "id": "P004L10U02",
+      "ar": "يُطفئ (جهاز، ضوء)",
+      "en": "Turn off / Switch off",
+      "tr": "Kapatmak (cihaz, ışık)",
+      "audio_en_tts_key": "Turn off. Switch off.",
+      "audio_tr_tts_key": "Kapatmak",
+      "en_note": "Meaning: To stop a machine or light. Example: Please turn off the lights when you leave.",
+      "tr_note": "Anlamı: Bir makineyi veya ışığı durdurmak. Örnek: Lütfen çıkarken ışıkları kapatın."
+    },
+    {
+      "id": "P005L10U02",
+      "ar": "يبحث عن (شيء مفقود، معلومة)",
+      "en": "Look for",
+      "tr": "Aramak (kayıp bir şeyi, bilgi)",
+      "audio_en_tts_key": "Look for",
+      "audio_tr_tts_key": "Aramak",
+      "en_note": "Meaning: To try to find something. Example: I'm looking for my keys.",
+      "tr_note": "Anlamı: Bir şeyi bulmaya çalışmak. Örnek: Anahtarlarımı arıyorum."
+    },
+    {
+      "id": "P006L10U02",
+      "ar": "يجد (بالصدفة أو بعد بحث)",
+      "en": "Find out",
+      "tr": "Öğrenmek, Keşfetmek (tesadüfen veya araştırma sonrası)",
+      "audio_en_tts_key": "Find out",
+      "audio_tr_tts_key": "Öğrenmek, Keşfetmek",
+      "en_note": "Meaning: To discover a piece of information. Example: I need to find out what time the train leaves.",
+      "tr_note": "Anlamı: Bir bilgi parçasını keşfetmek. Örnek: Trenin ne zaman kalktığını öğrenmem gerekiyor."
+    },
+    {
+      "id": "P007L10U02",
+      "ar": "يؤجل (موعد، مهمة)",
+      "en": "Put off",
+      "tr": "Ertelemek (randevu, görev)",
+      "audio_en_tts_key": "Put off",
+      "audio_tr_tts_key": "Ertelemek",
+      "en_note": "Meaning: To postpone. Example: We had to put off the meeting until next week.",
+      "tr_note": "Anlamı: Ertelemek. Örnek: Toplantıyı gelecek haftaya ertelemek zorunda kaldık."
+    },
+    {
+      "id": "P008L10U02",
+      "ar": "يتماشى مع / ينسجم مع (شخص)",
+      "en": "Get along with (someone)",
+      "tr": "Biriyle iyi geçinmek / anlaşmak",
+      "audio_en_tts_key": "Get along with someone",
+      "audio_tr_tts_key": "Biriyle iyi geçinmek",
+      "en_note": "Meaning: To have a good relationship with someone. Example: I get along well with my colleagues.",
+      "tr_note": "Anlamı: Biriyle iyi bir ilişkiye sahip olmak. Örnek: İş arkadaşlarımla iyi geçinirim."
+    },
+    {
+      "id": "P009L10U02",
+      "ar": "يعتني بـ (شخص، حيوان، شيء)",
+      "en": "Look after",
+      "tr": "Bakmak, ilgilenmek (birine, hayvana, bir şeye)",
+      "audio_en_tts_key": "Look after",
+      "audio_tr_tts_key": "Bakmak, ilgilenmek",
+      "en_note": "Meaning: To take care of. Example: Can you look after my cat while I'm away?",
+      "tr_note": "Anlamı: İlgilenmek. Örnek: Ben yokken kedime bakar mısın?"
+    },
+    {
+      "id": "P010L10U02",
+      "ar": "يستسلم / يتوقف عن المحاولة",
+      "en": "Give up",
+      "tr": "Vazgeçmek, Pes etmek",
+      "audio_en_tts_key": "Give up",
+      "audio_tr_tts_key": "Vazgeçmek, Pes etmek",
+      "en_note": "Meaning: To stop trying to do something. Example: Don't give up on your dreams!",
+      "tr_note": "Anlamı: Bir şeyi yapmaya çalışmayı bırakmak. Örnek: Hayallerinden vazgeçme!"
+    }
+
+  ]
+}

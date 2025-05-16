@@ -1,0 +1,36 @@
+{
+  "id": "L04U05OND",
+  "slug": "asking-clarifying-questions",
+  "title_ar": "طرح الأسئلة الاستيضاحية: كيف تتأكد من فهمك؟",
+  "title_en": "Asking Clarifying Questions: How to Ensure Understanding",
+  "title_tr": "Açıklayıcı Sorular Sorma: Anladığınızdan Nasıl Emin Olursunuz?",
+  "objective_ar": "تعلم كيفية طرح أسئلة تهدف إلى توضيح المعلومات أو التأكد من الفهم الصحيح لوجهة نظر الآخر.",
+  "objective_en": "Learn how to ask questions aimed at clarifying information or ensuring correct understanding of another's viewpoint.",
+  "objective_tr": "Bilgiyi netleştirmeyi veya başkasının bakış açısının doğru anlaşıldığından emin olmayı amaçlayan sorular sormayı öğrenin.",
+  "icon_fa_class": "fa-solid fa-question-circle",
+  "scenario": {
+    "title_ar": "حوار: مناقشة تفاصيل مهمة عمل",
+    "title_en": "Dialogue: Discussing Work Task Details",
+    "title_tr": "Diyalog: İş Görevi Detaylarını Tartışma",
+    "characters": [
+      {"id": "teamL", "name_ar": "نادية (قائدة فريق)", "name_en": "Nadia (Team Lead)", "name_tr": "Nadya (Takım Lideri)"},
+      {"id": "memberN", "name_ar": "باسم (عضو فريق)", "name_en": "Basem (Team Member)", "name_tr": "Basım (Takım Üyesi)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "teamL", "line_ar": "باسم، أود منك أن تبدأ في تحليل بيانات العملاء للمنطقة الشمالية هذا الأسبوع.", "line_en": "Basem, I'd like you to start analyzing the customer data for the northern region this week.", "line_tr": "Basım, bu hafta kuzey bölgesi için müşteri verilerini analiz etmeye başlamanı istiyorum."},
+      {"character_id": "memberN", "line_ar": "حسنًا نادية. هل تقصدين البيانات من الربع الأخير فقط، أم كل البيانات التاريخية؟", "line_en": "Okay Nadia. Do you mean just the data from the last quarter, or all historical data?", "line_tr": "Tamam Nadya. Sadece son çeyreğe ait verileri mi kastediyorsun, yoksa tüm geçmiş verileri mi?"},
+      {"character_id": "teamL", "line_ar": "سؤال جيد. ركز على بيانات الربع الأخير في البداية، ولكن إذا كان لديك وقت، ألق نظرة سريعة على الاتجاهات من العام الماضي أيضًا.", "line_en": "Good question. Focus on the last quarter's data initially, but if you have time, take a quick look at trends from the past year as well.", "line_tr": "İyi soru. Başlangıçta son çeyreğin verilerine odaklan, ama vaktin olursa geçen yılki trendlere de hızlıca bir göz at."},
+      {"character_id": "memberN", "line_ar": "فهمت. وعندما تقولين 'تحليل'، هل هناك مقاييس محددة يجب أن أبحث عنها، أم تحليل عام للأنماط؟", "line_en": "Understood. And when you say 'analysis,' are there specific metrics I should be looking for, or a general pattern analysis?", "line_tr": "Anladım. Peki 'analiz' derken, bakmam gereken belirli metrikler var mı, yoksa genel bir örüntü analizi mi?"},
+      {"character_id": "teamL", "line_ar": "أريد بشكل أساسي أن نحدد أهم ثلاث شرائح عملاء من حيث الإيرادات ومعدلات الاحتفاظ بهم. هذا هو التركيز الرئيسي.", "line_en": "Primarily, I want us to identify the top three customer segments by revenue and their retention rates. That's the main focus.", "line_tr": "Öncelikle, gelir ve elde tutma oranlarına göre ilk üç müşteri segmentini belirlememizi istiyorum. Ana odak bu."},
+      {"character_id": "memberN", "line_ar": "إذًا، لتأكيد فهمي: أركز على بيانات الربع الأخير لتحديد أعلى ثلاث شرائح عملاء من حيث الإيرادات ومعدلات الاحتفاظ. صحيح؟", "line_en": "So, to confirm my understanding: I focus on the last quarter's data to identify the top three customer segments by revenue and retention. Correct?", "line_tr": "Yani, anladığımı teyit etmek için: Gelir ve elde tutma oranlarına göre ilk üç müşteri segmentini belirlemek için son çeyreğin verilerine odaklanıyorum. Doğru mu?"},
+      {"character_id": "teamL", "line_ar": "نعم، هذا دقيق تمامًا. شكرًا على طرح هذه الأسئلة للتوضيح.", "line_en": "Yes, that's perfectly accurate. Thanks for asking those clarifying questions.", "line_tr": "Evet, bu tamamen doğru. Bu açıklayıcı soruları sorduğun için teşekkürler."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L04U05_PA001", "ar_from_dialogue": "هل تقصدين... أم...؟", "en_from_dialogue": "Do you mean... or...?", "tr_from_dialogue": "...mu demek istiyorsun, yoksa ...mı?", "focus_ar": "طلب التوضيح بين خيارين أو أكثر", "focus_en": "Asking for clarification between two or more options", "focus_tr": "İki veya daha fazla seçenek arasında açıklama isteme"},
+    {"id": "L04U05_PA002", "ar_from_dialogue": "وعندما تقولين '...'، هل هناك...؟", "en_from_dialogue": "And when you say '...', are there...?", "tr_from_dialogue": "Peki '...' derken, ...var mı?", "focus_ar": "الاستفسار عن معنى مصطلح أو تفاصيل مهمة", "focus_en": "Inquiring about the meaning of a term or task details", "focus_tr": "Bir terimin anlamı veya görev ayrıntıları hakkında soru sorma"},
+    {"id": "L04U05_PA003", "ar_from_dialogue": "هل يمكنك توضيح هذه النقطة أكثر؟", "en_from_dialogue": "Could you elaborate on that point?", "tr_from_dialogue": "Bu noktayı biraz daha açabilir misiniz?", "focus_ar": "طلب المزيد من التفاصيل أو الشرح", "focus_en": "Asking for more details or explanation", "focus_tr": "Daha fazla ayrıntı veya açıklama isteme"},
+    {"id": "L04U05_PA004", "ar_from_dialogue": "إذًا، لتأكيد فهمي: ... صحيح؟", "en_from_dialogue": "So, to confirm my understanding: ... Correct?", "tr_from_dialogue": "Yani, anladığımı teyit etmek için: ... Doğru mu?", "focus_ar": "إعادة صياغة الفهم للتأكد من الدقة", "focus_en": "Rephrasing understanding to ensure accuracy", "focus_tr": "Doğruluğu sağlamak için anlayışı yeniden ifade etme"},
+    {"id": "L04U05_PA005", "ar_from_dialogue": "هل أفهم من ذلك أن المطلوب هو...؟", "en_from_dialogue": "Am I to understand that what's required is...?", "tr_from_dialogue": "Yani anlamam gereken şey ...mı?", "focus_ar": "الاستفسار لتأكيد المطلوب بدقة", "focus_en": "Inquiring to precisely confirm what is required", "focus_tr": "Tam olarak neyin istendiğini teyit etmek için soru sorma"}
+  ]
+}

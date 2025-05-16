@@ -1,0 +1,37 @@
+{
+  "id": "L05U02DLA",
+  "slug": "hobbies-leisure-activities",
+  "title_ar": "الهوايات وأنشطة وقت الفراغ: كيف تتحدث عما تستمتع بفعله",
+  "title_en": "Hobbies & Leisure Activities: Talking About What You Enjoy Doing",
+  "title_tr": "Hobiler ve Boş Zaman Aktiviteleri: Yapmaktan Hoşlandıklarınız Hakkında Konuşma",
+  "objective_ar": "تعلم كيفية التحدث عن هواياتك واهتماماتك، السؤال عن هوايات الآخرين، واقتراح أنشطة مشتركة لوقت الفراغ.",
+  "objective_en": "Learn how to talk about your hobbies and interests, ask about others' hobbies, and suggest joint leisure activities.",
+  "objective_tr": "Hobileriniz ve ilgi alanlarınız hakkında nasıl konuşacağınızı, başkalarının hobilerini nasıl soracağınızı ve ortak boş zaman aktiviteleri nasıl önereceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-palette",
+  "scenario": {
+    "title_ar": "حوار: اكتشاف الاهتمامات المشتركة",
+    "title_en": "Dialogue: Discovering Shared Interests",
+    "title_tr": "Diyalog: Ortak İlgileri Keşfetme",
+    "characters": [
+      {"id": "personA", "name_ar": "نور", "name_en": "Nour", "name_tr": "Nur"},
+      {"id": "personB", "name_ar": "سامر", "name_en": "Samer", "name_tr": "Somer"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "personA", "line_ar": "مرحباً سامر، كيف كان أسبوعك؟ هل فعلت شيئًا ممتعًا في عطلة نهاية الأسبوع؟", "line_en": "Hi Samer, how has your week been? Did you do anything fun over the weekend?", "line_tr": "Merhaba Somer, haftan nasıl geçti? Hafta sonu eğlenceli bir şeyler yaptın mı?"},
+      {"character_id": "personB", "line_ar": "أهلاً نور، كان جيدًا شكرًا. نعم، ذهبت للتنزه في الجبال يوم السبت. أنا حقًا أستمتع بالطبيعة.", "line_en": "Hi Nour, it was good, thanks. Yes, I went hiking in the mountains on Saturday. I really enjoy nature.", "line_tr": "Merhaba Nur, iyiydi teşekkürler. Evet, Cumartesi günü dağlarda yürüyüşe gittim. Doğadan gerçekten keyif alıyorum."},
+      {"character_id": "personA", "line_ar": "هذا رائع! أنا أيضًا أحب التنزه، لكني لم أذهب منذ فترة. ما هي هواياتك الأخرى؟", "line_en": "That's great! I love hiking too, though I haven't been in a while. What are your other hobbies?", "line_tr": "Bu harika! Ben de yürüyüş yapmayı severim, ama bir süredir gitmedim. Diğer hobilerin neler?"},
+      {"character_id": "personB", "line_ar": "حسنًا، أحب قراءة روايات الخيال العلمي وأحيانًا أعزف على الجيتار. ماذا عنكِ؟ ماذا تفعلين في وقت فراغكِ؟", "line_en": "Well, I enjoy reading science fiction novels and I sometimes play the guitar. What about you? What do you do in your free time?", "line_tr": "Peki, bilim kurgu romanları okumaktan hoşlanırım ve bazen gitar çalarım. Ya sen? Boş zamanlarında ne yaparsın?"},
+      {"character_id": "personA", "line_ar": "أنا أستمتع كثيرًا بالطهي وتجربة وصفات جديدة. وأيضًا، أحب زيارة المتاحف والمعارض الفنية.", "line_en": "I really enjoy cooking and trying out new recipes. Also, I love visiting museums and art galleries.", "line_tr": "Yemek yapmaktan ve yeni tarifler denemekten gerçekten keyif alıyorum. Ayrıca müzeleri ve sanat galerilerini ziyaret etmeyi severim."},
+      {"character_id": "personB", "line_ar": "هذا مثير للاهتمام! ربما يمكننا زيارة المعرض الجديد في وسط المدينة معًا في وقت ما؟ سمعت أنه جيد جدًا.", "line_en": "That's interesting! Perhaps we could visit the new gallery downtown together sometime? I heard it's very good.", "line_tr": "Bu ilginç! Belki bir ara şehir merkezindeki yeni galeriyi birlikte ziyaret edebiliriz? Çok iyi olduğunu duydum."},
+      {"character_id": "personA", "line_ar": "فكرة رائعة! أنا موافقة. دعنا نرى متى نكون متاحين الأسبوع القادم.", "line_en": "That's a great idea! I'd be up for that. Let's see when we're both free next week.", "line_tr": "Bu harika bir fikir! Ben varım. Gelecek hafta ne zaman ikimiz de boş olduğumuza bakalım."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L05U02_P001", "ar_from_dialogue": "هل فعلت شيئًا ممتعًا في عطلة نهاية الأسبوع؟", "en_from_dialogue": "Did you do anything fun over the weekend?", "tr_from_dialogue": "Hafta sonu eğlenceli bir şeyler yaptın mı?", "focus_ar": "السؤال عن أنشطة عطلة نهاية الأسبوع", "focus_en": "Asking about weekend activities", "focus_tr": "Hafta sonu aktivitelerini sorma", "audio_ar_tts_key": "هل فعلت شيئا ممتعا في عطلة نهاية الأسبوع", "audio_en_tts_key": "Did you do anything fun over the weekend", "audio_tr_tts_key": "Hafta sonu eğlenceli bir şeyler yaptın mı"},
+    {"id": "L05U02_P002", "ar_from_dialogue": "أنا حقًا أستمتع بـ...", "en_from_dialogue": "I really enjoy...", "tr_from_dialogue": "...'den gerçekten keyif alıyorum / ...yapmaktan gerçekten hoşlanırım.", "focus_ar": "التعبير عن الاستمتاع بهواية", "focus_en": "Expressing enjoyment of a hobby", "focus_tr": "Bir hobiden keyif aldığını ifade etme", "audio_ar_tts_key": "أنا حقا أستمتع ب", "audio_en_tts_key": "I really enjoy", "audio_tr_tts_key": "den gerçekten keyif alıyorum"},
+    {"id": "L05U02_P003", "ar_from_dialogue": "ما هي هواياتك الأخرى؟", "en_from_dialogue": "What are your other hobbies?", "tr_from_dialogue": "Diğer hobilerin neler?", "focus_ar": "السؤال عن هوايات إضافية", "focus_en": "Asking about additional hobbies", "focus_tr": "Ek hobileri sorma", "audio_ar_tts_key": "ما هي هواياتك الأخرى", "audio_en_tts_key": "What are your other hobbies", "audio_tr_tts_key": "Diğer hobilerin neler"},
+    {"id": "L05U02_P004", "ar_from_dialogue": "ماذا تفعلين في وقت فراغكِ؟", "en_from_dialogue": "What do you do in your free time?", "tr_from_dialogue": "Boş zamanlarında ne yaparsın?", "focus_ar": "السؤال عن كيفية قضاء وقت الفراغ", "focus_en": "Asking how someone spends their free time", "focus_tr": "Birinin boş zamanını nasıl geçirdiğini sorma", "audio_ar_tts_key": "ماذا تفعلين في وقت فراغك", "audio_en_tts_key": "What do you do in your free time", "audio_tr_tts_key": "Boş zamanlarında ne yaparsın"},
+    {"id": "L05U02_P005", "ar_from_dialogue": "ربما يمكننا... معًا في وقت ما؟", "en_from_dialogue": "Perhaps we could... together sometime?", "tr_from_dialogue": "Belki bir ara birlikte ... yapabiliriz?", "focus_ar": "اقتراح القيام بنشاط مشترك", "focus_en": "Suggesting a joint activity", "focus_tr": "Ortak bir aktivite önerme", "audio_ar_tts_key": "ربما يمكننا معا في وقت ما", "audio_en_tts_key": "Perhaps we could do something together sometime", "audio_tr_tts_key": "Belki bir ara birlikte bir şeyler yapabiliriz"},
+    {"id": "L05U02_P006", "ar_from_dialogue": "فكرة رائعة! أنا موافقة.", "en_from_dialogue": "That's a great idea! I'd be up for that.", "tr_from_dialogue": "Bu harika bir fikir! Ben varım / Kabul ederim.", "focus_ar": "الموافقة بحماس على اقتراح", "focus_en": "Enthusiastically agreeing to a suggestion", "focus_tr": "Bir öneriyi coşkuyla kabul etme", "explanation_en": "'I'd be up for that' is a common, enthusiastic way to agree.", "explanation_tr": "'Ben varım' kabul etmenin yaygın ve coşkulu bir yoludur.", "audio_ar_tts_key": "فكرة رائعة أنا موافقة", "audio_en_tts_key": "That's a great idea! I'd be up for that", "audio_tr_tts_key": "Bu harika bir fikir! Ben varım"}
+  ]
+}

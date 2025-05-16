@@ -1,0 +1,37 @@
+{
+  "id": "L06U04NAE",
+  "slug": "asking-for-help-when-lost",
+  "title_ar": "عندما تضل الطريق: طلب المساعدة والعثور على وجهتك",
+  "title_en": "When You're Lost: Asking for Help and Finding Your Way",
+  "title_tr": "Kaybolduğunuzda: Yardım İsteme ve Yolunuzu Bulma",
+  "objective_ar": "تعلم العبارات الأساسية لطلب المساعدة بأدب عندما تكون تائهًا، وشرح موقعك الحالي، وفهم الإرشادات للعودة إلى المسار الصحيح.",
+  "objective_en": "Learn essential phrases to politely ask for help when lost, explain your current situation, and understand directions to get back on track.",
+  "objective_tr": "Kaybolduğunuzda kibarca yardım istemek, mevcut durumunuzu açıklamak ve doğru yola geri dönmek için talimatları anlamak için temel ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-map-pin",
+  "scenario": {
+    "title_ar": "حوار: سائح تائه في المدينة القديمة",
+    "title_en": "Dialogue: A Lost Tourist in the Old City",
+    "title_tr": "Diyalog: Eski Şehirde Kaybolmuş Bir Turist",
+    "characters": [
+      {"id": "tourL", "name_ar": "سائح", "name_en": "Lost Tourist", "name_tr": "Kayıp Turist"},
+      {"id": "localP", "name_ar": "شخص محلي", "name_en": "Local Person", "name_tr": "Yerli Biri"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "tourL", "line_ar": "عفواً، هل تتحدث الإنجليزية/التركية؟ أنا تائه بعض الشيء.", "line_en": "Excuse me, do you speak English/Turkish? I'm a bit lost.", "line_tr": "Affedersiniz, İngilizce/Türkçe konuşuyor musunuz? Biraz kayboldum."},
+      {"character_id": "localP", "line_ar": "نعم، قليلاً. كيف يمكنني مساعدتك؟", "line_en": "Yes, a little. How can I help you?", "line_tr": "Evet, biraz. Size nasıl yardımcı olabilirim?"},
+      {"character_id": "tourL", "line_ar": "أحاول العثور على [اسم فندق/معلم قريب]. هل تعرف أين هو؟ هذه هي الخريطة، ولكن يبدو أنني أخذت منعطفًا خاطئًا.", "line_en": "I'm trying to find the [Hotel/Nearby Landmark Name]. Do you know where it is? I have this map, but I think I took a wrong turn.", "line_tr": "[Otel/Yakın Yer Adı]'nı bulmaya çalışıyorum. Nerede olduğunu biliyor musunuz? Bu haritam var ama sanırım yanlış bir sapağa girdim."},
+      {"character_id": "localP", "line_ar": "آه، نعم. أنت لست بعيدًا جدًا. أنت حاليًا في [اسم الشارع/المنطقة]. يجب عليك العودة إلى الشارع الرئيسي ثم...", "line_en": "Ah, yes. You're not too far. You are currently on [Street/Area Name]. You need to go back to the main street and then...", "line_tr": "Ah, evet. Çok uzakta değilsiniz. Şu anda [Sokak/Bölge Adı]'ndasınız. Ana caddeye geri dönmeniz ve sonra..."},
+      {"character_id": "tourL", "line_ar": "هل يمكنك أن تريني على الخريطة من فضلك؟ أنا سيء جدًا في الاتجاهات.", "line_en": "Could you show me on the map, please? I'm quite bad with directions.", "line_tr": "Haritada gösterebilir misiniz, lütfen? Yönler konusunda oldukça kötüyüm."},
+      {"character_id": "localP", "line_ar": "(يشير على الخريطة) بالطبع. انظر، أنت هنا. اذهب مباشرة هكذا، ثم عند النافورة، انعطف يمينًا. سيكون الفندق على يسارك بعد حوالي 100 متر.", "line_en": "(Points on the map) Of course. Look, you are here. Go straight this way, then at the fountain, turn right. The hotel will be on your left after about 100 meters.", "line_tr": "(Haritada işaret eder) Elbette. Bakın, buradasınız. Bu şekilde düz gidin, sonra çeşmenin orada sağa dönün. Otel yaklaşık 100 metre sonra solunuzda olacak."},
+      {"character_id": "tourL", "line_ar": "فهمت الآن! شكرًا جزيلاً لك على لطفك ومساعدتك الكبيرة!", "line_en": "I understand now! Thank you so much for your kindness and great help!", "line_tr": "Şimdi anladım! Nezaketiniz ve büyük yardımınız için çok teşekkür ederim!"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L06U04_P001", "ar_from_dialogue": "أنا تائه بعض الشيء. / لقد ضللت طريقي.", "en_from_dialogue": "I'm a bit lost. / I've lost my way.", "tr_from_dialogue": "Biraz kayboldum. / Yolumu kaybettim.", "focus_ar": "التعبير عن كونك تائهًا", "focus_en": "Expressing that you are lost", "focus_tr": "Kaybolduğunu ifade etme"},
+    {"id": "L06U04_P002", "ar_from_dialogue": "أحاول العثور على... / أبحث عن...", "en_from_dialogue": "I'm trying to find... / I'm looking for...", "tr_from_dialogue": "...bulmaya çalışıyorum. / ...arıyorum.", "focus_ar": "ذكر المكان الذي تبحث عنه", "focus_en": "Stating the place you are looking for", "focus_tr": "Aradığınız yeri belirtme"},
+    {"id": "L06U04_P003", "ar_from_dialogue": "هل تعرف أين هو؟", "en_from_dialogue": "Do you know where it is?", "tr_from_dialogue": "Nerede olduğunu biliyor musunuz?", "focus_ar": "السؤال عن موقع مكان ما", "focus_en": "Asking for the location of a place", "focus_tr": "Bir yerin konumunu sorma"},
+    {"id": "L06U04_P004", "ar_from_dialogue": "أعتقد أنني أخذت منعطفًا خاطئًا.", "en_from_dialogue": "I think I took a wrong turn.", "tr_from_dialogue": "Sanırım yanlış bir sapağa girdim.", "focus_ar": "التعبير عن سبب الضياع المحتمل", "focus_en": "Expressing a possible reason for being lost", "focus_tr": "Kaybolmanın olası bir nedenini ifade etme"},
+    {"id": "L06U04_P005", "ar_from_dialogue": "أنت حاليًا في [اسم الشارع/المنطقة].", "en_from_dialogue": "You are currently on [Street/Area Name].", "tr_from_dialogue": "Şu anda [Sokak/Bölge Adı]'ndasınız.", "focus_ar": "وصف الموقع الحالي لشخص ما", "focus_en": "Describing someone's current location", "focus_tr": "Birinin mevcut konumunu tanımlama"},
+    {"id": "L06U04_P006", "ar_from_dialogue": "هل يمكنك أن تريني على الخريطة من فضلك؟", "en_from_dialogue": "Could you show me on the map, please?", "tr_from_dialogue": "Haritada gösterebilir misiniz, lütfen?", "focus_ar": "طلب إظهار الموقع على الخريطة", "focus_en": "Asking for the location to be shown on a map", "focus_tr": "Konumun haritada gösterilmesini isteme"}
+  ]
+}

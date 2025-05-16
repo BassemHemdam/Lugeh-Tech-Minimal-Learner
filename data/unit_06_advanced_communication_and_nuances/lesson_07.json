@@ -1,0 +1,41 @@
+{
+  "id": "L08U06ACN",
+  "slug": "participating-in-meetings-group-discussions",
+  "title_ar": "المشاركة الفعالة في الاجتماعات والنقاشات الجماعية",
+  "title_en": "Effective Participation in Meetings & Group Discussions",
+  "title_tr": "Toplantılara ve Grup Tartışmalarına Etkili Katılım",
+  "objective_ar": "تعلم كيفية المساهمة بفعالية في الاجتماعات والنقاشات الجماعية، بما في ذلك تقديم الأفكار، طرح الأسئلة، وبناء على آراء الآخرين بشكل بنّاء.",
+  "objective_en": "Learn how to contribute effectively in meetings and group discussions, including presenting ideas, asking questions, and constructively building on others' opinions.",
+  "objective_tr": "Toplantılarda ve grup tartışmalarında fikir sunma, soru sorma ve başkalarının görüşleri üzerine yapıcı bir şekilde inşa etme dahil olmak üzere nasıl etkili bir şekilde katkıda bulunacağınızı öğrenin.",
+  "icon_fa_class": "fa-solid fa-users-gear",
+  "scenario": {
+    "title_ar": "حوار: اجتماع فريق لمناقشة تقدم مشروع",
+    "title_en": "Dialogue: Team Meeting to Discuss Project Progress",
+    "title_tr": "Diyalog: Proje İlerlemesini Tartışmak İçin Takım Toplantısı",
+    "characters": [
+      {"id": "lead", "name_ar": "سمير (قائد الفريق)", "name_en": "Samir (Team Lead)", "name_tr": "Samir (Takım Lideri)"},
+      {"id": "mbrA", "name_ar": "علياء (عضو فريق)", "name_en": "Alia (Team Member)", "name_tr": "Alya (Takım Üyesi)"},
+      {"id": "mbrB", "name_ar": "حسن (عضو فريق)", "name_en": "Hassan (Team Member)", "name_tr": "Hasan (Takım Üyesi)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "lead", "line_ar": "صباح الخير جميعًا. دعونا نبدأ بمراجعة تقدمنا في مشروع [ألفا]. علياء، هل يمكنكِ اطلاعنا على آخر المستجدات من جانبك؟", "line_en": "Good morning, everyone. Let's start by reviewing our progress on Project [Alpha]. Alia, could you update us on your end?", "line_tr": "Herkese günaydın. Proje [Alfa]'daki ilerlememizi gözden geçirerek başlayalım. Alya, kendi tarafındaki son gelişmeler hakkında bizi bilgilendirebilir misin?"},
+      {"character_id": "mbrA", "line_ar": "بالتأكيد سمير. لقد انتهينا من مرحلة التصميم الأولي، والآن نعمل على تطوير النموذج الأولي. نسير وفقًا للجدول الزمني المحدد.", "line_en": "Certainly, Samir. We've completed the initial design phase, and we're now working on developing the prototype. We are on schedule.", "line_tr": "Elbette Samir. İlk tasarım aşamasını tamamladık ve şimdi prototipi geliştiriyoruz. Programa göre ilerliyoruz."},
+      {"character_id": "lead", "line_ar": "هذا خبر جيد. حسن، ماذا عن اختبار الوحدات؟ هل واجهت أي عقبات؟", "line_en": "That's good news. Hassan, what about the unit testing? Have you encountered any roadblocks?", "line_tr": "Bu iyi haber. Hasan, birim testleri ne durumda? Herhangi bir engelle karşılaştın mı?"},
+      {"character_id": "mbrB", "line_ar": "الأمور تسير بشكل جيد بشكل عام، ولكن هناك مشكلة توافق بسيطة مع الوحدة النمطية [Y]. أعتقد أننا سنحتاج إلى تخصيص بعض الوقت الإضافي لحلها.", "line_en": "Things are generally going well, but there's a minor compatibility issue with module [Y]. I think we'll need to allocate some extra time to resolve it.", "line_tr": "Genel olarak işler iyi gidiyor, ancak [Y] modülüyle küçük bir uyumluluk sorunu var. Sanırım bunu çözmek için biraz ek süre ayırmamız gerekecek."},
+      {"character_id": "mbrA", "line_ar": "بناءً على ما يقوله حسن، أقترح أن نخصص اجتماعًا تقنيًا قصيرًا بعد ظهر اليوم لمناقشة مشكلة الوحدة النمطية [Y] بالتفصيل وإيجاد حل سريع.", "line_en": "Building on what Hassan said, I'd like to suggest we schedule a short technical meeting this afternoon to discuss the module [Y] issue in detail and find a quick solution.", "line_tr": "Hasan'ın söylediklerine dayanarak, bu öğleden sonra [Y] modülü sorununu ayrıntılı olarak görüşmek ve hızlı bir çözüm bulmak için kısa bir teknik toplantı planlamamızı öneriyorum."},
+      {"character_id": "lead", "line_ar": "فكرة ممتازة يا علياء. هل يتفق الجميع على ذلك؟ هل يمكن لأحدكم حجز غرفة اجتماعات وإرسال دعوة؟", "line_en": "Excellent idea, Alia. Does everyone agree with that? Can one of you book a meeting room and send out an invite?", "line_tr": "Mükemmel fikir Alya. Herkes buna katılıyor mu? Biriniz bir toplantı odası ayırtıp davetiye gönderebilir mi?"},
+      {"character_id": "mbrB", "line_ar": "سأقوم بذلك فورًا. هل هناك أي نقاط أخرى نود مناقشتها قبل أن نختتم هذا الاجتماع؟", "line_en": "I'll do that right away. Are there any other points we'd like to discuss before we conclude this meeting?", "line_tr": "Hemen yapacağım. Bu toplantıyı sonlandırmadan önce görüşmek istediğimiz başka noktalar var mı?"},
+      {"character_id": "lead", "line_ar": "أعتقد أن هذا يغطي كل شيء لهذا الصباح. شكرًا لكم جميعًا.", "line_en": "I think that covers everything for this morning. Thank you all.", "line_tr": "Sanırım bu sabah için her şeyi kapsıyor. Hepinize teşekkür ederim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L08U06_PA001", "ar_from_dialogue": "دعونا نبدأ بـ... / هل يمكنكِ اطلاعنا على...؟", "line_en": "Let's start by... / Could you update us on...?", "tr_from_dialogue": "...ile başlayalım. / Bizi ...hakkında bilgilendirebilir misin?", "focus_ar": "بدء الاجتماع وطلب تحديثات", "focus_en": "Starting a meeting and asking for updates", "focus_tr": "Toplantıya başlama ve güncelleme isteme"},
+    {"id": "L08U06_PA002", "ar_from_dialogue": "نسير وفقًا للجدول الزمني المحدد.", "line_en": "We are on schedule.", "tr_from_dialogue": "Programa göre ilerliyoruz.", "focus_ar": "التعبير عن الالتزام بالجدول الزمني", "focus_en": "Expressing being on schedule", "focus_tr": "Programa uygun olduğunu ifade etme"},
+    {"id": "L08U06_PA003", "ar_from_dialogue": "هل واجهت أي عقبات؟", "en_from_dialogue": "Have you encountered any roadblocks?", "tr_from_dialogue": "Herhangi bir engelle karşılaştın mı?", "focus_ar": "السؤال عن وجود مشاكل أو عقبات", "focus_en": "Asking about problems or roadblocks", "focus_tr": "Sorun veya engel olup olmadığını sorma"},
+    {"id": "L08U06_PA004", "ar_from_dialogue": "هناك مشكلة توافق بسيطة مع...", "en_from_dialogue": "There's a minor compatibility issue with...", "tr_from_dialogue": "...ile küçük bir uyumluluk sorunu var.", "focus_ar": "تحديد مشكلة فنية بشكل مختصر", "focus_en": "Briefly identifying a technical issue", "focus_tr": "Teknik bir sorunu kısaca tanımlama"},
+    {"id": "L08U06_PA005", "ar_from_dialogue": "بناءً على ما يقوله...، أقترح أن...", "en_from_dialogue": "Building on what [someone] said, I'd like to suggest we...", "tr_from_dialogue": "[Birinin] söylediklerine dayanarak, ...önermek istiyorum.", "focus_ar": "البناء على فكرة زميل وتقديم اقتراح", "focus_en": "Building on a colleague's idea and making a suggestion", "focus_tr": "Bir meslektaşın fikri üzerine inşa etme ve öneride bulunma"},
+    {"id": "L08U06_PA006", "ar_from_dialogue": "فكرة ممتازة. هل يتفق الجميع على ذلك؟", "en_from_dialogue": "Excellent idea. Does everyone agree with that?", "tr_from_dialogue": "Mükemmel fikir. Herkes buna katılıyor mu?", "focus_ar": "الإشادة باقتراح وطلب إجماع الفريق", "focus_en": "Praising a suggestion and asking for team consensus", "focus_tr": "Bir öneriyi övme ve takım fikir birliği isteme"},
+    {"id": "L08U06_PA007", "ar_from_dialogue": "هل هناك أي نقاط أخرى نود مناقشتها قبل أن نختتم؟", "en_from_dialogue": "Are there any other points we'd like to discuss before we conclude?", "tr_from_dialogue": "Sonuçlandırmadan önce görüşmek istediğimiz başka noktalar var mı?", "focus_ar": "السؤال عن نقاط إضافية قبل إنهاء الاجتماع", "focus_en": "Asking for additional points before concluding a meeting", "focus_tr": "Bir toplantıyı sonlandırmadan önce ek noktalar sorma"},
+    {"id": "L08U06_PA008", "ar_from_dialogue": "أعتقد أن هذا يغطي كل شيء.", "en_from_dialogue": "I think that covers everything.", "tr_from_dialogue": "Sanırım bu her şeyi kapsıyor.", "focus_ar": "الإشارة إلى اكتمال جدول الأعمال", "focus_en": "Signaling the agenda is complete", "focus_tr": "Gündemin tamamlandığını belirtme"}
+  ]
+}

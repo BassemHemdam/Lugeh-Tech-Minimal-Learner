@@ -1,0 +1,35 @@
+{
+  "id": "L01U03PAR",
+  "slug": "describing-people-appearance-personality",
+  "title_ar": "وصف الأشخاص: المظهر الخارجي والسمات الشخصية",
+  "title_en": "Describing People: Physical Appearance & Personality Traits",
+  "title_tr": "İnsanları Tanımlama: Fiziksel Görünüm ve Kişilik Özellikleri",
+  "objective_ar": "تعلم المفردات والعبارات الأساسية لوصف المظهر الجسدي لشخص ما وسماته الشخصية البارزة.",
+  "objective_en": "Learn essential vocabulary and phrases to describe someone's physical appearance and prominent personality traits.",
+  "objective_tr": "Birinin fiziksel görünümünü ve belirgin kişilik özelliklerini tanımlamak için temel kelime dağarcığını ve ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-user-astronaut",
+  "scenario": {
+    "title_ar": "حوار: التعرف على شخص جديد في حفلة",
+    "title_en": "Dialogue: Meeting Someone New at a Party",
+    "title_tr": "Diyalog: Bir Partide Yeni Biriyle Tanışma",
+    "characters": [
+      {"id": "guest1", "name_ar": "سامي", "name_en": "Sami", "name_tr": "Sami"},
+      {"id": "guest2", "name_ar": "ريم", "name_en": "Reem", "name_tr": "Rim"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "guest1", "line_ar": "مرحباً، لم أركِ هنا من قبل. أنا سامي.", "line_en": "Hi, I don't think we've met. I'm Sami.", "line_tr": "Merhaba, sanırım daha önce tanışmadık. Ben Sami."},
+      {"character_id": "guest2", "line_ar": "أهلاً سامي، أنا ريم. نعم، هذه أول حفلة لي في هذا المنزل.", "line_en": "Hi Sami, I'm Reem. Yes, this is my first party at this house.", "line_tr": "Merhaba Sami, ben Rim. Evet, bu evdeki ilk partim."},
+      {"character_id": "guest1", "line_ar": "أهلاً بكِ! من هي صديقتكِ التي تتحدث معها [صاحبة المنزل]؟ تبدو لطيفة.", "line_en": "Welcome! Who's your friend talking to [the host]? She seems nice.", "line_tr": "Hoş geldin! [Ev sahibi] ile konuşan arkadaşın kim? Hoş birine benziyor."},
+      {"character_id": "guest2", "line_ar": "تقصدين الفتاة الطويلة ذات الشعر البني المجعد؟ هذه ليلى. إنها مرحة جداً وذكية.", "line_en": "You mean the tall girl with curly brown hair? That's Layla. She's very cheerful and smart.", "line_tr": "Kıvırcık kahverengi saçlı uzun kızı mı kastediyorsun? O Leyla. Çok neşeli ve zekidir."},
+      {"character_id": "guest1", "line_ar": "نعم، هي بالضبط. وماذا عن الشاب الذي يرتدي نظارات ويقف بجانبها؟ يبدو جادًا بعض الشيء.", "line_en": "Yes, her exactly. And what about the young man with glasses standing next to her? He looks a bit serious.", "line_tr": "Evet, tam da o. Peki ya yanında duran gözlüklü genç adam? Biraz ciddi görünüyor."},
+      {"character_id": "guest2", "line_ar": "هذا أحمد. قد يبدو جادًا في البداية، لكنه في الواقع ودود للغاية ولديه حس دعابة رائع بمجرد أن تتعرف عليه.", "line_en": "That's Ahmed. He might seem serious at first, but he's actually very friendly and has a great sense of humor once you get to know him.", "line_tr": "O Ahmet. İlk başta ciddi görünebilir ama onu tanıdıkça aslında çok arkadaş canlısıdır ve harika bir espri anlayışı vardır."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L01U03_P001", "ar_from_dialogue": "الفتاة الطويلة ذات الشعر البني المجعد", "en_from_dialogue": "the tall girl with curly brown hair", "tr_from_dialogue": "kıvırcık kahverengi saçlı uzun kız", "focus_ar": "وصف المظهر (الطول، الشعر)", "focus_en": "Describing appearance (height, hair)", "focus_tr": "Görünüşü tanımlama (boy, saç)", "audio_ar_tts_key": "الفتاة الطويلة ذات الشعر البني المجعد", "audio_en_tts_key": "the tall girl with curly brown hair", "audio_tr_tts_key": "kıvırcık kahverengi saçlı uzun kız"},
+    {"id": "L01U03_P002", "ar_from_dialogue": "إنها مرحة جداً وذكية.", "en_from_dialogue": "She's very cheerful and smart.", "tr_from_dialogue": "Çok neşeli ve zekidir.", "focus_ar": "وصف سمات الشخصية (إيجابية)", "focus_en": "Describing personality traits (positive)", "focus_tr": "Kişilik özelliklerini tanımlama (olumlu)", "audio_ar_tts_key": "إنها مرحة جدا وذكية", "audio_en_tts_key": "She's very cheerful and smart", "audio_tr_tts_key": "Çok neşeli ve zekidir"},
+    {"id": "L01U03_P003", "ar_from_dialogue": "الشاب الذي يرتدي نظارات", "en_from_dialogue": "the young man with glasses", "tr_from_dialogue": "gözlüklü genç adam", "focus_ar": "وصف المظهر (يرتدي شيئًا)", "focus_en": "Describing appearance (wearing something)", "focus_tr": "Görünüşü tanımlama (bir şey giyiyor)", "audio_ar_tts_key": "الشاب الذي يرتدي نظارات", "audio_en_tts_key": "the young man with glasses", "audio_tr_tts_key": "gözlüklü genç adam"},
+    {"id": "L01U03_P004", "ar_from_dialogue": "يبدو جادًا بعض الشيء.", "en_from_dialogue": "He looks a bit serious.", "tr_from_dialogue": "Biraz ciddi görünüyor.", "focus_ar": "التعبير عن انطباع أولي عن الشخصية", "focus_en": "Expressing a first impression of personality", "focus_tr": "Kişilik hakkında ilk izlenimi ifade etme", "audio_ar_tts_key": "يبدو جادا بعض الشيء", "audio_en_tts_key": "He looks a bit serious", "audio_tr_tts_key": "Biraz ciddi görünüyor"},
+    {"id": "L01U03_P005", "ar_from_dialogue": "إنه في الواقع ودود للغاية ولديه حس دعابة رائع.", "en_from_dialogue": "He's actually very friendly and has a great sense of humor.", "tr_from_dialogue": "Aslında çok arkadaş canlısıdır ve harika bir espri anlayışı vardır.", "focus_ar": "تصحيح انطباع أولي/وصف شخصية أعمق", "focus_en": "Correcting a first impression / Describing deeper personality", "focus_tr": "İlk izlenimi düzeltme / Daha derin kişiliği tanımlama", "audio_ar_tts_key": "إنه في الواقع ودود للغاية ولديه حس دعابة رائع", "audio_en_tts_key": "He's actually very friendly and has a great sense of humor", "audio_tr_tts_key": "Aslında çok arkadaş canlısıdır ve harika bir espri anlayışı vardır"}
+  ]
+}

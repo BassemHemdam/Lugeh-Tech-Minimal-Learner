@@ -1,0 +1,211 @@
+{
+  "id": "L03U01SPS",
+  "slug": "reporting-a-lost-item",
+  "title_ar": "الإبلاغ عن المفقودات: ماذا تفعل عندما تفقد شيئًا؟",
+  "title_en": "Reporting Lost Property: What to Do When You Lose Something",
+  "title_tr": "Kayıp Eşya Bildirimi: Bir Şey Kaybettiğinizde Ne Yapmalı?",
+  "objective_ar": "التدرب على كيفية الإبلاغ عن غرض مفقود بطريقة فعالة، وصفه بدقة، ومتابعة عملية البحث عنه مع الجهات المختصة.",
+  "objective_en": "Practice how to effectively report a lost item, describe it accurately, and follow up on the search process with the relevant authorities.",
+  "objective_tr": "Kayıp bir eşyayı etkili bir şekilde nasıl bildireceğinizi, doğru bir şekilde nasıl tarif edeceğinizi ve ilgili makamlarla arama sürecini nasıl takip edeceğinizi pratik yapın.",
+  "icon_fa_class": "fa-solid fa-person-circle-question",
+  "scenario": {
+    "title_ar": "حوار: فقدان حقيبة في محطة القطار",
+    "title_en": "Dialogue: Lost Bag at the Train Station",
+    "title_tr": "Diyalog: Tren İstasyonunda Kayıp Çanta",
+    "characters": [
+      {"id": "psg", "name_ar": "فاطمة (مسافرة)", "name_en": "Fatima (Passenger)", "name_tr": "Fatma (Yolcu)"},
+      {"id": "stf", "name_ar": "خالد (موظف المفقودات)", "name_en": "Khalid (Lost Property Officer)", "name_tr": "Halit (Kayıp Eşya Görevlisi)"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "psg",
+        "line_ar": "مساء الخير، أعتقد أنني فقدت حقيبتي هنا في المحطة قبل حوالي نصف ساعة.",
+        "line_en": "Good evening, I think I might have lost my bag here at the station about half an hour ago.",
+        "line_tr": "İyi akşamlar, sanırım yaklaşık yarım saat önce çantamı burada istasyonda kaybettim."
+      },
+      {
+        "character_id": "stf",
+        "line_ar": "مساء الخير. هل يمكنكِ وصف الحقيبة من فضلك؟ وماذا كان بداخلها تقريبًا؟",
+        "line_en": "Good evening. Could you describe the bag, please? And roughly what was inside it?",
+        "line_tr": "İyi akşamlar. Çantayı tarif edebilir misiniz, lütfen? Ve yaklaşık olarak içinde ne vardı?"
+      },
+      {
+        "character_id": "psg",
+        "line_ar": "إنها حقيبة ظهر سوداء متوسطة الحجم، من ماركة [اسم ماركة مشهورة]. تحتوي على جهاز كمبيوتر محمول، بعض الكتب، وشاحن هاتف.",
+        "line_en": "It's a medium-sized black backpack, [Brand Name] brand. It contains a laptop, some books, and a phone charger.",
+        "line_tr": "Orta boy siyah bir sırt çantası, [Ünlü Marka Adı] marka. İçinde bir dizüstü bilgisayar, birkaç kitap ve bir telefon şarj cihazı var."
+      },
+      {
+        "character_id": "stf",
+        "line_ar": "حسناً. وأين تعتقدين أنكِ رأيتها لآخر مرة؟ هل تتذكرين رقم الرصيف أو القطار؟",
+        "line_en": "Okay. And where do you think you last saw it? Do you remember the platform or train number?",
+        "line_tr": "Tamam. Peki en son nerede gördüğünüzü düşünüyorsunuz? Peron veya tren numarasını hatırlıyor musunuz?"
+      },
+      {
+        "character_id": "psg",
+        "line_ar": "كنت أنتظر على الرصيف رقم 3 لقطار الساعة الخامسة المتجه إلى [اسم مدينة]. ربما تركتها بجانب المقعد عندما ذهبت لشراء قهوة.",
+        "line_en": "I was waiting on Platform 3 for the 5 o'clock train to [City Name]. I might have left it next to the seat when I went to get a coffee.",
+        "line_tr": "[Şehir Adı]'na giden saat beşteki tren için Peron 3'te bekliyordum. Kahve almaya gittiğimde koltuğun yanında bırakmış olabilirim."
+      },
+      {
+        "character_id": "stf",
+        "line_ar": "سأقوم بالتحقق من سجلات المفقودات لدينا. هل لديكِ أي علامات مميزة أخرى على الحقيبة أو أي شيء بداخله باسمك؟",
+        "line_en": "I'll check our lost property records. Do you have any other distinguishing marks on the bag or anything inside with your name on it?",
+        "line_tr": "Kayıp eşya kayıtlarımızı kontrol edeceğim. Çantanın üzerinde başka ayırt edici bir işaret veya içinde adınızın yazılı olduğu bir şey var mı?"
+      },
+      {
+        "character_id": "psg",
+        "line_ar": "نعم، يوجد ملصق صغير عليه الأحرف الأولى من اسمي 'ف.ع' على السحاب الأمامي. وبطاقة عملي داخل الجيب الأمامي.",
+        "line_en": "Yes, there's a small sticker with my initials 'F.A.' on the front zipper. And my business card is in the front pocket.",
+        "line_tr": "Evet, ön fermuarında baş harflerim 'F.A.' olan küçük bir etiket var. Ve ön cebinde kartvizitim var."
+      },
+      {
+        "character_id": "stf",
+        "line_ar": "ممتاز، هذه معلومات مفيدة. (بعد لحظات من البحث) نعم! لدينا حقيبة تطابق هذا الوصف تم تسليمها قبل قليل. هل يمكنكِ تأكيد أن هذه هي حقيبتكِ؟ (يعرض الحقيبة)",
+        "line_en": "Excellent, that's helpful. (After a few moments of searching) Yes! We have a bag matching that description handed in a little while ago. Can you confirm if this is yours? (Shows the bag)",
+        "line_tr": "Harika, bu faydalı bir bilgi. (Birkaç dakikalık aramadan sonra) Evet! Bu tanıma uyan bir çanta biraz önce teslim edildi. Bunun sizinki olup olmadığını teyit edebilir misiniz? (Çantayı gösterir)"
+      },
+      {
+        "character_id": "psg",
+        "line_ar": "نعم، هذه هي! يا للراحة! شكرًا جزيلاً، لقد أنقذت يومي!",
+        "line_en": "Yes, that's it! What a relief! Thank you so much, you've saved my day!",
+        "line_tr": "Evet, bu o! Ne büyük bir rahatlama! Çok teşekkür ederim, günümü kurtardınız!"
+      },
+      {
+        "character_id": "stf",
+        "line_ar": "يسعدني أننا تمكنا من إيجادها لكِ. يُرجى التوقيع هنا لاستلامها. وحاولي أن تكوني أكثر انتباهًا في المرة القادمة.",
+        "line_en": "I'm glad we could find it for you. Please sign here to collect it. And try to be more careful next time.",
+        "line_tr": "Sizin için bulabildiğimize sevindim. Lütfen almak için burayı imzalayın. Ve bir dahaki sefere daha dikkatli olmaya çalışın."
+      }
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L03SPS_P001",
+      "original_dialogue_id": "psg",
+      "ar_from_dialogue": "أعتقد أنني فقدت حقيبتي...",
+      "en_from_dialogue": "I think I might have lost my bag...",
+      "tr_from_dialogue": "...sanırım çantamı kaybettim...",
+      "focus_ar": "الإبلاغ عن فقدان شيء (باحتمالية)",
+      "focus_en": "Reporting a lost item (with possibility)",
+      "focus_tr": "Bir şeyi kaybettiğini bildirme (olasılıkla)",
+      "explanation_en": "'I think I might have lost...' is softer than 'I lost...'. Good for initial reporting.",
+      "explanation_tr": "'Sanırım kaybetmiş olabilirim...' ifadesi 'kaybettim'den daha yumuşaktır. İlk bildirim için iyidir.",
+      "audio_ar_tts_key": "أعتقد أنني فقدت حقيبتي",
+      "audio_en_tts_key": "I think I might have lost my bag",
+      "audio_tr_tts_key": "sanırım çantamı kaybettim"
+    },
+    {
+      "id": "L03SPS_P002",
+      "original_dialogue_id": "stf",
+      "ar_from_dialogue": "هل يمكنكِ وصف الحقيبة من فضلك؟",
+      "en_from_dialogue": "Could you describe the bag, please?",
+      "tr_from_dialogue": "Çantayı tarif edebilir misiniz, lütfen?",
+      "focus_ar": "طلب وصف لشيء مفقود",
+      "focus_en": "Asking for a description of a lost item",
+      "focus_tr": "Kayıp bir eşyanın tarifini isteme",
+      "explanation_en": "Polite request for details. 'Could you...' is more polite than 'Can you...'.",
+      "explanation_tr": "Detaylar için kibar bir istek. 'Could you...' 'Can you...' dan daha kibardır.",
+      "audio_ar_tts_key": "هل يمكنك وصف الحقيبة من فضلك",
+      "audio_en_tts_key": "Could you describe the bag, please",
+      "audio_tr_tts_key": "Çantayı tarif edebilir misiniz, lütfen"
+    },
+    {
+      "id": "L03SPS_P003",
+      "original_dialogue_id": "psg",
+      "ar_from_dialogue": "إنها حقيبة ظهر سوداء متوسطة الحجم، من ماركة...",
+      "en_from_dialogue": "It's a medium-sized black backpack, [Brand Name] brand.",
+      "tr_from_dialogue": "Orta boy siyah bir sırt çantası, [Marka Adı] marka.",
+      "focus_ar": "وصف غرض (الحجم، اللون، النوع، الماركة)",
+      "focus_en": "Describing an item (size, color, type, brand)",
+      "focus_tr": "Bir eşyayı tarif etme (boyut, renk, tür, marka)",
+      "explanation_en": "Provide key descriptors to help identification.",
+      "explanation_tr": "Tanımlamaya yardımcı olmak için anahtar tanımlayıcılar sağlayın.",
+      "audio_ar_tts_key": "إنها حقيبة ظهر سوداء متوسطة الحجم من ماركة",
+      "audio_en_tts_key": "It's a medium-sized black backpack, brand brand",
+      "audio_tr_tts_key": "Orta boy siyah bir sırt çantası, marka marka"
+    },
+    {
+      "id": "L03SPS_P004",
+      "original_dialogue_id": "psg",
+      "ar_from_dialogue": "تحتوي على جهاز كمبيوتر محمول، بعض الكتب...",
+      "en_from_dialogue": "It contains a laptop, some books...",
+      "tr_from_dialogue": "İçinde bir dizüstü bilgisayar, birkaç kitap var...",
+      "focus_ar": "وصف محتويات مهمة",
+      "focus_en": "Describing important contents",
+      "focus_tr": "Önemli içerikleri tarif etme",
+      "audio_ar_tts_key": "تحتوي على جهاز كمبيوتر محمول بعض الكتب",
+      "audio_en_tts_key": "It contains a laptop, some books",
+      "audio_tr_tts_key": "İçinde bir dizüstü bilgisayar, birkaç kitap var"
+    },
+    {
+      "id": "L03SPS_P005",
+      "original_dialogue_id": "stf",
+      "ar_from_dialogue": "وأين تعتقدين أنكِ رأيتها لآخر مرة؟",
+      "en_from_dialogue": "And where do you think you last saw it?",
+      "tr_from_dialogue": "Peki en son nerede gördüğünüzü düşünüyorsunuz?",
+      "focus_ar": "السؤال عن آخر مكان شوهد فيه الغرض",
+      "focus_en": "Asking about the last known location",
+      "focus_tr": "En son bilinen konumu sorma",
+      "audio_ar_tts_key": "وأين تعتقدين أنك رأيتها لآخر مرة",
+      "audio_en_tts_key": "And where do you think you last saw it",
+      "audio_tr_tts_key": "Peki en son nerede gördüğünüzü düşünüyorsunuz"
+    },
+    {
+      "id": "L03SPS_P006",
+      "original_dialogue_id": "psg",
+      "ar_from_dialogue": "ربما تركتها بجانب المقعد...",
+      "en_from_dialogue": "I might have left it next to the seat...",
+      "tr_from_dialogue": "...koltuğun yanında bırakmış olabilirim.",
+      "focus_ar": "التعبير عن احتمال مكان الفقدان",
+      "focus_en": "Expressing possible place of loss",
+      "focus_tr": "Olası kayıp yerini ifade etme",
+      "explanation_en": "'Might have left' indicates uncertainty but provides a lead.",
+      "explanation_tr": "'Bırakmış olabilirim' belirsizlik gösterir ancak bir ipucu sağlar.",
+      "audio_ar_tts_key": "ربما تركتها بجانب المقعد",
+      "audio_en_tts_key": "I might have left it next to the seat",
+      "audio_tr_tts_key": "koltuğun yanında bırakmış olabilirim"
+    },
+    {
+      "id": "L03SPS_P007",
+      "original_dialogue_id": "stf",
+      "ar_from_dialogue": "هل لديكِ أي علامات مميزة أخرى على الحقيبة؟",
+      "en_from_dialogue": "Do you have any other distinguishing marks on the bag?",
+      "tr_from_dialogue": "Çantanın üzerinde başka ayırt edici bir işaret var mı?",
+      "focus_ar": "السؤال عن علامات مميزة",
+      "focus_en": "Asking for distinguishing marks",
+      "focus_tr": "Ayırt edici işaretleri sorma",
+      "audio_ar_tts_key": "هل لديك أي علامات مميزة أخرى على الحقيبة",
+      "audio_en_tts_key": "Do you have any other distinguishing marks on the bag",
+      "audio_tr_tts_key": "Çantanın üzerinde başka ayırt edici bir işaret var mı"
+    },
+    {
+      "id": "L03SPS_P008",
+      "original_dialogue_id": "psg",
+      "ar_from_dialogue": "يا للراحة!",
+      "en_from_dialogue": "What a relief!",
+      "tr_from_dialogue": "Ne büyük bir rahatlama!",
+      "focus_ar": "التعبير عن الارتياح",
+      "focus_en": "Expressing relief",
+      "focus_tr": "Rahatlama ifade etme",
+      "explanation_en": "Common exclamation when something worrisome is resolved.",
+      "explanation_tr": "Endişe verici bir durum çözüldüğünde yaygın bir ünlem.",
+      "audio_ar_tts_key": "يا للراحة",
+      "audio_en_tts_key": "What a relief",
+      "audio_tr_tts_key": "Ne büyük bir rahatlama"
+    },
+    {
+      "id": "L03SPS_P009",
+      "original_dialogue_id": "stf",
+      "ar_from_dialogue": "يُرجى التوقيع هنا لاستلامها.",
+      "en_from_dialogue": "Please sign here to collect it.",
+      "tr_from_dialogue": "Lütfen almak için burayı imzalayın.",
+      "focus_ar": "طلب إجراء رسمي للاستلام",
+      "focus_en": "Requesting a formal action for collection",
+      "focus_tr": "Teslim almak için resmi bir eylem talep etme",
+      "audio_ar_tts_key": "يرجى التوقيع هنا لاستلامها",
+      "audio_en_tts_key": "Please sign here to collect it",
+      "audio_tr_tts_key": "Lütfen almak için burayı imzalayın"
+    }
+  ]
+}

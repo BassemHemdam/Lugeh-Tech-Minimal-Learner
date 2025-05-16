@@ -1,0 +1,37 @@
+{
+  "id": "L03U04NAE",
+  "slug": "sightseeing-tourist-attractions",
+  "title_ar": "زيارة المعالم السياحية: الاستفسار عن الأماكن وطلب التوصيات",
+  "title_en": "Sightseeing & Tourist Attractions: Inquiring About Places & Asking for Recommendations",
+  "title_tr": "Turistik Yerleri Gezme: Yerler Hakkında Bilgi Alma ve Tavsiye İsteme",
+  "objective_ar": "تعلم كيفية السؤال عن المعالم السياحية الشهيرة، طلب توصيات لأماكن للزيارة، والاستفسار عن ساعات العمل وأسعار التذاكر.",
+  "objective_en": "Learn how to ask about famous tourist attractions, request recommendations for places to visit, and inquire about opening hours and ticket prices.",
+  "objective_tr": "Ünlü turistik yerler hakkında nasıl soru soracağınızı, ziyaret edilecek yerler için nasıl tavsiye isteyeceğinizi ve açılış saatleri ile bilet fiyatları hakkında nasıl bilgi alacağınızı öğrenin.",
+  "icon_fa_class": "fa-solid fa-monument",
+  "scenario": {
+    "title_ar": "حوار: في مكتب المعلومات السياحية",
+    "title_en": "Dialogue: At the Tourist Information Office",
+    "title_tr": "Diyalog: Turist Danışma Ofisinde",
+    "characters": [
+      {"id": "tour", "name_ar": "سائح", "name_en": "Tourist", "name_tr": "Turist"},
+      {"id": "info", "name_ar": "موظف المعلومات", "name_en": "Information Officer", "name_tr": "Danışma Görevlisi"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "tour", "line_ar": "مرحباً، هل يمكنكم مساعدتي في التخطيط ليومي؟ ما هي أهم المعالم السياحية التي يجب أن أراها في المدينة؟", "line_en": "Hello, could you help me plan my day? What are the main tourist attractions I should see in the city?", "line_tr": "Merhaba, günümü planlamama yardımcı olabilir misiniz? Şehirde görmem gereken başlıca turistik yerler nelerdir?"},
+      {"character_id": "info", "line_ar": "بالتأكيد. لدينا [المتحف الشهير]، [القلعة التاريخية]، و[الحديقة الجميلة]. هل لديك اهتمامات معينة؟", "line_en": "Certainly. We have the [Famous Museum], the [Historic Castle], and the [Beautiful Park]. Do you have any particular interests?", "line_tr": "Elbette. [Ünlü Müze], [Tarihi Kale] ve [Güzel Park] var. Belirli bir ilgi alanınız var mı?"},
+      {"character_id": "tour", "line_ar": "أنا مهتم بالتاريخ والفن. كم يبعد [المتحف الشهير] من هنا؟", "line_en": "I'm interested in history and art. How far is the [Famous Museum] from here?", "line_tr": "Tarih ve sanatla ilgileniyorum. [Ünlü Müze] buradan ne kadar uzakta?"},
+      {"character_id": "info", "line_ar": "إنه على بعد حوالي 20 دقيقة بالحافلة. هل لديكم خريطة للمدينة توضح هذه الأماكن؟", "line_en": "It's about a 20-minute bus ride. Do you have a city map showing these locations?", "line_tr": "Otobüsle yaklaşık 20 dakika mesafede. Bu yerleri gösteren bir şehir haritanız var mı?"},
+      {"character_id": "tour", "line_ar": "نعم، تفضل. (يسلم خريطة) المتحف يفتح من الساعة 9 صباحًا حتى 5 مساءً، وسعر التذكرة [السعر].", "line_en": "Yes, here you go. (Hands over a map) The museum is open from 9 AM to 5 PM, and the ticket price is [Price].", "line_tr": "Evet, buyurun. (Bir harita uzatır) Müze sabah 9'dan akşam 5'e kadar açık ve bilet fiyatı [Fiyat]."},
+      {"character_id": "info", "line_ar": "هل هناك أي مطاعم جيدة موصى بها بالقرب من [القلعة التاريخية]؟", "line_en": "Are there any good recommended restaurants near the [Historic Castle]?", "line_tr": "[Tarihi Kale] yakınlarında tavsiye edilen iyi restoranlar var mı?"},
+      {"character_id": "tour", "line_ar": "نعم، يوجد مطعم تقليدي ممتاز اسمه [اسم المطعم] على بعد شارعين فقط. يقدمون أطباقًا محلية رائعة.", "line_en": "Yes, there's an excellent traditional restaurant called [Restaurant Name] just two streets away. They serve great local dishes.", "line_tr": "Evet, sadece iki sokak ötede [Restoran Adı] adında mükemmel bir geleneksel restoran var. Harika yerel yemekler servis ediyorlar."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L03U04_P001", "ar_from_dialogue": "ما هي أهم المعالم السياحية التي يجب أن أراها؟", "en_from_dialogue": "What are the main tourist attractions I should see?", "tr_from_dialogue": "Görmem gereken başlıca turistik yerler nelerdir?", "focus_ar": "السؤال عن المعالم السياحية الرئيسية", "focus_en": "Asking about main tourist attractions", "focus_tr": "Başlıca turistik yerleri sorma"},
+    {"id": "L03U04_P002", "ar_from_dialogue": "هل لديك اهتمامات معينة؟ (فن، تاريخ، طبيعة)", "en_from_dialogue": "Do you have any particular interests? (art, history, nature)", "tr_from_dialogue": "Belirli bir ilgi alanınız var mı? (sanat, tarih, doğa)", "focus_ar": "السؤال عن نوع الاهتمامات لتوجيه الاقتراحات", "focus_en": "Asking about interests to tailor suggestions", "focus_tr": "Önerileri uyarlamak için ilgi alanlarını sorma"},
+    {"id": "L03U04_P003", "ar_from_dialogue": "كم يبعد... من هنا؟", "en_from_dialogue": "How far is... from here?", "tr_from_dialogue": "... buradan ne kadar uzakta?", "focus_ar": "السؤال عن المسافة لمكان ما", "focus_en": "Asking about the distance to a place", "focus_tr": "Bir yere olan mesafeyi sorma"},
+    {"id": "L03U04_P004", "ar_from_dialogue": "هل لديكم خريطة للمدينة؟", "en_from_dialogue": "Do you have a city map?", "tr_from_dialogue": "Şehir haritanız var mı?", "focus_ar": "طلب خريطة للمدينة", "focus_en": "Requesting a city map", "focus_tr": "Şehir haritası isteme"},
+    {"id": "L03U04_P005", "ar_from_dialogue": "المتحف يفتح من الساعة... حتى... / سعر التذكرة هو...", "en_from_dialogue": "The museum is open from... to... / The ticket price is...", "tr_from_dialogue": "Müze saat ...'den ...'e kadar açık. / Bilet fiyatı ...", "focus_ar": "معلومات عن ساعات العمل وأسعار التذاكر", "focus_en": "Information on opening hours and ticket prices", "focus_tr": "Açılış saatleri ve bilet fiyatları hakkında bilgi"},
+    {"id": "L03U04_P006", "ar_from_dialogue": "هل هناك أي... جيد/ة موصى به/بها بالقرب من...؟", "en_from_dialogue": "Are there any good recommended... near...?", "tr_from_dialogue": "...yakınlarında tavsiye edilen iyi bir ... var mı?", "focus_ar": "طلب توصية لمكان قريب (مطعم، مقهى)", "focus_en": "Asking for a recommendation for a nearby place (restaurant, cafe)", "focus_tr": "Yakındaki bir yer için tavsiye isteme (restoran, kafe)"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "L09U05OND",
+  "slug": "persuasive-language-techniques-in-action",
+  "title_ar": "اللغة المقنعة في حوار: كيف تؤثر في آراء الآخرين؟",
+  "title_en": "Persuasive Language in Action: Influencing Others' Views",
+  "title_tr": "İkna Edici Dil Eylemde: Başkalarının Görüşlerini Etkileme",
+  "objective_ar": "مشاهدة وتحليل حوار يتم فيه استخدام تقنيات لغوية بسيطة للإقناع، وفهم كيفية تطبيقها لتعزيز وجهة نظرك.",
+  "objective_en": "Observe and analyze a dialogue where simple persuasive language techniques are used, and understand how to apply them to strengthen your viewpoint.",
+  "objective_tr": "Basit ikna edici dil tekniklerinin kullanıldığı bir diyaloğu gözlemleyip analiz edin ve bakış açınızı güçlendirmek için bunları nasıl uygulayacağınızı anlayın.",
+  "icon_fa_class": "fa-solid fa-bullhorn",
+  "scenario": {
+    "title_ar": "حوار: محاولة إقناع زميل بتجربة أداة جديدة",
+    "title_en": "Dialogue: Persuading a Colleague to Try a New Tool",
+    "title_tr": "Diyalog: Bir Meslektaşı Yeni Bir Araç Denemeye İkna Etme",
+    "characters": [
+      {"id": "advoc", "name_ar": "نور (مؤيدة للأداة)", "name_en": "Nour (Tool Advocate)", "name_tr": "Nur (Araç Savunucusu)"},
+      {"id": "skept", "name_ar": "كريم (متشكك)", "name_en": "Karim (Skeptic)", "name_tr": "Kerim (Şüpheci)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "advoc", "line_ar": "كريم، هل لديك لحظة؟ أود أن أريك هذه الأداة الجديدة لإدارة المشاريع. أعتقد اعتقادًا راسخًا أنها ستساعدنا كثيرًا.", "line_en": "Karim, do you have a moment? I'd like to show you this new project management tool. I firmly believe it would help us a lot.", "line_tr": "Kerim, bir dakikan var mı? Sana bu yeni proje yönetim aracını göstermek istiyorum. Bize çok yardımcı olacağına kesinlikle inanıyorum."},
+      {"character_id": "skept", "line_ar": "أنا مشغول قليلاً الآن يا نور، ولدينا بالفعل نظام نستخدمه. ما الذي يجعل هذه الأداة مختلفة؟", "line_en": "I'm a bit busy right now, Nour, and we already have a system we use. What makes this tool different?", "line_tr": "Şu anda biraz meşgulüm Nur ve zaten kullandığımız bir sistemimiz var. Bu aracı farklı kılan ne?"},
+      {"character_id": "advoc", "line_ar": "أتفهم انشغالك، لكن إذا خصصنا لها خمس دقائق فقط، سترى كيف أن واجهتها أبسط بكثير. بناءً على تجربتي مع أدوات مشابهة، هذه الأداة توفر ميزات تتبع الوقت بشكل أفضل، وهو ما كنا نعاني منه.", "line_en": "I understand you're busy, but if we just allocate five minutes, you'll see how much simpler its interface is. Based on my experience with similar tools, this one offers much better time-tracking features, which we've been struggling with.", "line_tr": "Meşgul olduğunu anlıyorum, ama sadece beş dakika ayırırsak arayüzünün ne kadar daha basit olduğunu göreceksin. Benzer araçlarla olan deneyimime dayanarak, bu araç çok daha iyi zaman takip özellikleri sunuyor ki bu konuda zorlanıyorduk."},
+      {"character_id": "skept", "line_ar": "همم، تتبع الوقت... هذا مهم. لكن أليس تعلم أداة جديدة سيستغرق وقتًا أطول على المدى القصير؟", "line_en": "Hmm, time tracking... that is important. But wouldn't learning a new tool take more time in the short term?", "line_tr": "Hmm, zaman takibi... bu önemli. Ama yeni bir araç öğrenmek kısa vadede daha fazla zaman almaz mı?"},
+      {"character_id": "advoc", "line_ar": "هذه نقطة جيدة. ولكن فكر في الفائدة على المدى الطويل! إذا استثمرنا قليلاً من الوقت الآن، فإن توفير الوقت الذي سنحققه لاحقًا سيكون كبيرًا. أليس من الأفضل أن نحاول تحسين كفاءتنا بشكل استباقي؟", "line_en": "That's a fair point. But think about the long-term benefits! If we invest a little time now, the time savings later will be significant. Wouldn't it be better to proactively try to improve our efficiency?", "line_tr": "Bu geçerli bir nokta. Ama uzun vadeli faydalarını düşün! Şimdi biraz zaman yatırımı yaparsak, daha sonraki zaman tasarrufu önemli olacaktır. Verimliliğimizi proaktif olarak iyileştirmeye çalışmak daha iyi olmaz mıydı?"},
+      {"character_id": "skept", "line_ar": "ربما لديكِ حق. حسنًا، أريني ما لديكِ.", "line_en": "You might have a point. Okay, show me what you've got.", "line_tr": "Belki de haklısın. Tamam, göster bakalım neyin var."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L09U05_PA001", "ar_from_dialogue": "أعتقد اعتقادًا راسخًا أنها ستساعدنا كثيرًا.", "en_from_dialogue": "I firmly believe it would help us a lot.", "tr_from_dialogue": "Bize çok yardımcı olacağına kesinlikle inanıyorum.", "focus_ar": "استخدام لغة الثقة والتأكيد", "focus_en": "Using confident and assertive language", "focus_tr": "Kendine güvenen ve iddialı dil kullanma"},
+    {"id": "L09U05_PA002", "ar_from_dialogue": "بناءً على تجربتي مع أدوات مشابهة، هذه الأداة توفر...", "en_from_dialogue": "Based on my experience with similar tools, this one offers...", "tr_from_dialogue": "Benzer araçlarla olan deneyimime dayanarak, bu araç ...sunuyor.", "focus_ar": "بناء المصداقية بالإشارة للخبرة", "focus_en": "Building credibility by referencing experience", "focus_tr": "Deneyime atıfta bulunarak güvenilirlik oluşturma"},
+    {"id": "L09U05_PA003", "ar_from_dialogue": "فكر في الفائدة على المدى الطويل!", "en_from_dialogue": "But think about the long-term benefits!", "tr_from_dialogue": "Ama uzun vadeli faydalarını düşün!", "focus_ar": "التركيز على الفوائد المستقبلية", "focus_en": "Focusing on future benefits", "focus_tr": "Gelecekteki faydalara odaklanma"},
+    {"id": "L09U05_PA004", "ar_from_dialogue": "أليس من الأفضل أن نحاول تحسين كفاءتنا بشكل استباقي؟", "en_from_dialogue": "Wouldn't it be better to proactively try to improve our efficiency?", "tr_from_dialogue": "Verimliliğimizi proaktif olarak iyileştirmeye çalışmak daha iyi olmaz mıydı?", "focus_ar": "استخدام سؤال بلاغي لاقتراح الإيجابيات", "focus_en": "Using a rhetorical question to suggest positives", "focus_tr": "Olumlu yönleri önermek için retorik bir soru kullanma"},
+    {"id": "L09U05_PA005", "ar_from_dialogue": "إذا خصصنا لها خمس دقائق فقط، سترى...", "en_from_dialogue": "If we just allocate five minutes, you'll see...", "tr_from_dialogue": "Sadece beş dakika ayırırsak, ...göreceksin.", "focus_ar": "تقديم طلب صغير لتقليل المقاومة", "focus_en": "Making a small request to lower resistance", "focus_tr": "Direnci azaltmak için küçük bir talepte bulunma"}
+  ]
+}

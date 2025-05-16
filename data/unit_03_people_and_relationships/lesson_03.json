@@ -1,0 +1,35 @@
+{
+  "id": "L03U03PAR",
+  "slug": "friends-and-socializing",
+  "title_ar": "الأصدقاء والتواصل الاجتماعي: بناء علاقات قوية",
+  "title_en": "Friends and Socializing: Building Strong Connections",
+  "title_tr": "Arkadaşlar ve Sosyalleşme: Güçlü Bağlantılar Kurma",
+  "objective_ar": "تعلم عبارات لوصف الأصدقاء، التحدث عن الصداقة، واقتراح أنشطة اجتماعية لتعزيز العلاقات.",
+  "objective_en": "Learn phrases to describe friends, talk about friendship, and suggest social activities to strengthen relationships.",
+  "objective_tr": "Arkadaşları tanımlamak, arkadaşlık hakkında konuşmak ve ilişkileri güçlendirmek için sosyal aktiviteler önermek için ifadeler öğrenin.",
+  "icon_fa_class": "fa-solid fa-user-group",
+  "scenario": {
+    "title_ar": "حوار: التخطيط لنزهة مع الأصدقاء",
+    "title_en": "Dialogue: Planning an outing with friends",
+    "title_tr": "Diyalog: Arkadaşlarla bir gezi planlama",
+    "characters": [
+      {"id": "friendX", "name_ar": "أحمد", "name_en": "Ahmed", "name_tr": "Ahmet"},
+      {"id": "friendY", "name_ar": "خديجة", "name_en": "Khadija", "name_tr": "Hatice"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "friendX", "line_ar": "خديجة، لم نخرج معًا منذ فترة! ما رأيك أن نفعل شيئًا نهاية هذا الأسبوع؟", "line_en": "Khadija, we haven't hung out in ages! How about we do something this weekend?", "line_tr": "Hatice, uzun zamandır takılmadık! Bu hafta sonu bir şeyler yapmaya ne dersin?"},
+      {"character_id": "friendY", "line_ar": "فكرة جيدة يا أحمد! أنا أيضًا اشتقت للخروج. هل لديك أي شيء في بالك؟", "line_en": "Good idea, Ahmed! I've missed hanging out too. Do you have anything in mind?", "line_tr": "İyi fikir Ahmet! Ben de takılmayı özledim. Aklında bir şey var mı?"},
+      {"character_id": "friendX", "line_ar": "كنت أفكر في الذهاب إلى البولينج أو ربما تجربة ذلك المقهى الجديد الذي فتح مؤخرًا.", "line_en": "I was thinking about going bowling or maybe checking out that new café that opened recently.", "line_tr": "Bowling oynamaya gitmeyi ya da yakın zamanda açılan o yeni kafeyi denemeyi düşünüyordum."},
+      {"character_id": "friendY", "line_ar": "البولينج يبدو ممتعًا! أو المقهى... كلاهما جيد. أيهما تفضل؟", "line_en": "Bowling sounds fun! Or the café... both are good. Which do you prefer?", "line_tr": "Bowling kulağa eğlenceli geliyor! Ya da kafe... ikisi de iyi. Hangisini tercih edersin?"},
+      {"character_id": "friendX", "line_ar": "لنذهب للبولينج هذه المرة، ويمكننا تجربة المقهى الأسبوع القادم. هل ندعو بقية الأصدقاء؟", "line_en": "Let's go bowling this time, and we can try the café next week. Should we invite the rest of the gang?", "line_tr": "Bu sefer bowlinge gidelim, kafeyi de gelecek hafta deneyebiliriz. Diğer arkadaşları da çağıralım mı?"},
+      {"character_id": "friendY", "line_ar": "بالتأكيد! سأتصل بـ[اسم صديق/صديقة] وأنت اتصل بـ[اسم صديق/صديقة آخر]. السبت مساءً يناسب الجميع عادةً.", "line_en": "Definitely! I'll call [Friend's Name] and you call [Another Friend's Name]. Saturday evening usually works for everyone.", "line_tr": "Kesinlikle! Ben [Arkadaş Adı]'nı ararım, sen de [Başka Bir Arkadaş Adı]'nı ara. Cumartesi akşamı genellikle herkese uyar."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L03U03_P001", "ar_from_dialogue": "لم نخرج معًا منذ فترة!", "en_from_dialogue": "We haven't hung out in ages! / It's been a while!", "tr_from_dialogue": "Uzun zamandır takılmadık! / Uzun zaman oldu!", "focus_ar": "الإشارة إلى مرور وقت طويل دون لقاء", "focus_en": "Pointing out it's been a while since meeting", "focus_tr": "Buluşmayalı uzun zaman olduğunu belirtme", "audio_ar_tts_key": "لم نخرج معا منذ فترة", "audio_en_tts_key": "We haven't hung out in ages", "audio_tr_tts_key": "Uzun zamandır takılmadık"},
+    {"id": "L03U03_P002", "ar_from_dialogue": "ما رأيك أن نفعل شيئًا...؟", "en_from_dialogue": "How about we do something...?", "tr_from_dialogue": "...bir şeyler yapmaya ne dersin?", "focus_ar": "اقتراح القيام بنشاط (عام)", "focus_en": "Suggesting doing something (general)", "focus_tr": "Bir şeyler yapmayı önerme (genel)", "audio_ar_tts_key": "ما رأيك أن نفعل شيئا", "audio_en_tts_key": "How about we do something", "audio_tr_tts_key": "bir şeyler yapmaya ne dersin"},
+    {"id": "L03U03_P003", "ar_from_dialogue": "هل لديك أي شيء في بالك؟", "en_from_dialogue": "Do you have anything in mind?", "tr_from_dialogue": "Aklında bir şey var mı?", "focus_ar": "السؤال عن وجود أفكار/اقتراحات", "focus_en": "Asking if someone has ideas/suggestions", "focus_tr": "Birinin fikir/öneri olup olmadığını sorma", "audio_ar_tts_key": "هل لديك أي شيء في بالك", "audio_en_tts_key": "Do you have anything in mind", "audio_tr_tts_key": "Aklında bir şey var mı"},
+    {"id": "L03U03_P004", "ar_from_dialogue": "البولينج يبدو ممتعًا!", "en_from_dialogue": "Bowling sounds fun!", "tr_from_dialogue": "Bowling kulağa eğlenceli geliyor!", "focus_ar": "التعبير عن الإعجاب باقتراح", "focus_en": "Expressing liking for a suggestion", "focus_tr": "Bir öneriyi beğendiğini ifade etme", "audio_ar_tts_key": "البولينج يبدو ممتعا", "audio_en_tts_key": "Bowling sounds fun", "audio_tr_tts_key": "Bowling kulağa eğlenceli geliyor"},
+    {"id": "L03U03_P005", "ar_from_dialogue": "هل ندعو بقية الأصدقاء؟ / هل ندعو الآخرين؟", "en_from_dialogue": "Should we invite the rest of the gang? / Should we invite others?", "tr_from_dialogue": "Diğer arkadaşları da çağıralım mı? / Başkalarını da davet edelim mi?", "focus_ar": "اقتراح دعوة المزيد من الأشخاص", "focus_en": "Suggesting inviting more people", "focus_tr": "Daha fazla kişi davet etmeyi önerme", "audio_ar_tts_key": "هل ندعو بقية الأصدقاء", "audio_en_tts_key": "Should we invite the rest of the gang", "audio_tr_tts_key": "Diğer arkadaşları da çağıralım mı"}
+  ]
+}

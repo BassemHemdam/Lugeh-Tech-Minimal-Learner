@@ -1,0 +1,22 @@
+{
+  "id": "L07U03PAR",
+  "slug": "expressing-emotions",
+  "title_ar": "التعبير عن المشاعر: الفرح، الحزن، والغضب",
+  "title_en": "Expressing Emotions: Happiness, Sadness, and Anger",
+  "title_tr": "Duyguları İfade Etme: Mutluluk, Üzüntü ve Öfke",
+  "objective_ar": "تعلم المفردات والعبارات الشائعة للتعبير عن المشاعر الأساسية مثل السعادة، الحزن، الغضب، والدهشة.",
+  "objective_en": "Learn common vocabulary and phrases to express basic emotions like happiness, sadness, anger, and surprise.",
+  "objective_tr": "Mutluluk, üzüntü, öfke ve şaşkınlık gibi temel duyguları ifade etmek için yaygın kelime dağarcığını ve ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-face-grin-beam",
+  "scenario": null, 
+  "phrases": [
+    {"id": "L07U03_P001", "category_ar": "التعبير عن السعادة", "ar": "أنا سعيد جدًا / مسرور / مبتهج.", "en": "I'm very happy / delighted / thrilled.", "tr": "Çok mutluyum / sevinçliyim / heyecanlıyım.", "audio_ar_tts_key": "أنا سعيد جدا مسرور مبتهج", "audio_en_tts_key": "I'm very happy. I'm delighted. I'm thrilled.", "audio_tr_tts_key": "Çok mutluyum. Sevinçliyim. Heyecanlıyım."},
+    {"id": "L07U03_P002", "category_ar": "التعبير عن السعادة", "ar": "هذا خبر رائع! / يا له من يوم رائع!", "en": "That's wonderful news! / What a fantastic day!", "tr": "Bu harika bir haber! / Ne harika bir gün!", "audio_ar_tts_key": "هذا خبر رائع يا له من يوم رائع", "audio_en_tts_key": "That's wonderful news! What a fantastic day!", "audio_tr_tts_key": "Bu harika bir haber! Ne harika bir gün!"},
+    {"id": "L07U03_P003", "category_ar": "التعبير عن الحزن", "ar": "أشعر بالحزن / بالأسى / بالضيق.", "en": "I feel sad / upset / down.", "tr": "Üzgünüm / keyifsizim / moralim bozuk.", "audio_ar_tts_key": "أشعر بالحزن بالأسى بالضيق", "audio_en_tts_key": "I feel sad. I feel upset. I feel down.", "audio_tr_tts_key": "Üzgünüm. Keyifsizim. Moralim bozuk."},
+    {"id": "L07U03_P004", "category_ar": "التعبير عن الحزن", "ar": "أنا آسف لسماع ذلك. / يا للأسف.", "en": "I'm sorry to hear that. / What a pity.", "tr": "Bunu duyduğuma üzüldüm. / Ne yazık.", "audio_ar_tts_key": "أنا آسف لسماع ذلك يا للأسف", "audio_en_tts_key": "I'm sorry to hear that. What a pity.", "audio_tr_tts_key": "Bunu duyduğuma üzüldüm. Ne yazık."},
+    {"id": "L07U03_P005", "category_ar": "التعبير عن الغضب/الانزعاج", "ar": "أنا غاضب / منزعج (قليلاً).", "en": "I'm angry / (a bit) annoyed / upset.", "tr": "Kızgınım / (biraz) sinirliyim / canım sıkkın.", "audio_ar_tts_key": "أنا غاضب منزعج قليلا", "audio_en_tts_key": "I'm angry. I'm a bit annoyed. I'm upset.", "audio_tr_tts_key": "Kızgınım. Biraz sinirliyim. Canım sıkkın."},
+    {"id": "L07U03_P006", "category_ar": "التعبير عن الغضب/الانزعاج", "ar": "هذا غير مقبول! / لا أصدق ذلك!", "en": "That's unacceptable! / I can't believe it!", "tr": "Bu kabul edilemez! / İnanamıyorum!", "audio_ar_tts_key": "هذا غير مقبول لا أصدق ذلك", "audio_en_tts_key": "That's unacceptable! I can't believe it!", "audio_tr_tts_key": "Bu kabul edilemez! İnanamıyorum!"},
+    {"id": "L07U03_P007", "category_ar": "التعبير عن الدهشة", "ar": "حقًا؟ / يا إلهي! / أنا متفاجئ.", "en": "Really? / Oh my gosh! / I'm surprised.", "tr": "Gerçekten mi? / Aman Tanrım! / Şaşırdım.", "audio_ar_tts_key": "حقا يا إلهي أنا متفاجئ", "audio_en_tts_key": "Really? Oh my gosh! I'm surprised.", "audio_tr_tts_key": "Gerçekten mi? Aman Tanrım! Şaşırdım."},
+    {"id": "L07U03_P008", "category_ar": "التعبير عن القلق", "ar": "أنا قلق بعض الشيء بشأن...", "en": "I'm a bit worried about...", "tr": "...hakkında biraz endişeliyim.", "audio_ar_tts_key": "أنا قلق بعض الشيء بشأن", "audio_en_tts_key": "I'm a bit worried about", "audio_tr_tts_key": "hakkında biraz endişeliyim."}
+  ]
+}

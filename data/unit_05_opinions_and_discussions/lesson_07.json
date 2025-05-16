@@ -1,0 +1,31 @@
+{
+  "id": "L07U05OND",
+  "slug": "discussing-current-events-news",
+  "title_ar": "مناقشة الأحداث الجارية والأخبار: كيف تعبر عن رأيك فيما يحدث؟",
+  "title_en": "Discussing Current Events & News: Expressing Your Take on What's Happening",
+  "title_tr": "Güncel Olayları ve Haberleri Tartışma: Olan Bitene Dair Görüşünü İfade Etme",
+  "objective_ar": "تعلم عبارات لمناقشة الأخبار والأحداث الجارية، التعبير عن المشاعر تجاهها، واقتراح وجهات نظر مختلفة.",
+  "objective_en": "Learn phrases to discuss news and current events, express feelings about them, and offer different perspectives.",
+  "objective_tr": "Haberleri ve güncel olayları tartışmak, onlar hakkında duyguları ifade etmek ve farklı bakış açıları sunmak için ifadeler öğrenin.",
+  "icon_fa_class": "fa-solid fa-newspaper",
+  "scenario": {
+    "title_ar": "حوار: تعليق على خبر اليوم", "title_en": "Dialogue: Commenting on Today's News", "title_tr": "Diyalog: Günün Haberine Yorum Yapma",
+    "characters": [{"id": "reader1", "name_ar": "علياء", "name_en": "Alia", "name_tr": "Alya"}, {"id": "reader2", "name_ar": "باسم", "name_en": "Basem", "name_tr": "Basım"}],
+    "dialogue_lines": [
+      {"character_id": "reader1", "line_ar": "باسم، هل قرأت الخبر الرئيسي هذا الصباح عن [موضوع الخبر]؟", "line_en": "Basem, did you read the headline news this morning about [News Topic]?", "line_tr": "Basım, bu sabah [Haber Konusu] hakkındaki manşet haberini okudun mu?"},
+      {"character_id": "reader2", "line_ar": "نعم، قرأته للتو. إنه أمر مقلق/مثير للاهتمام حقًا. ما رأيك فيه؟", "line_en": "Yes, I just read it. It's quite concerning/interesting, really. What are your thoughts on it?", "line_tr": "Evet, şimdi okudum. Gerçekten oldukça endişe verici/ilginç. Sen ne düşünüyorsun?"},
+      {"character_id": "reader1", "line_ar": "أعتقد أن له تداعيات كبيرة على [مجال التأثير]. من ناحية، قد يؤدي إلى... ولكن من ناحية أخرى...", "line_en": "I believe it has significant implications for [Area of Impact]. On one hand, it could lead to... but on the other hand...", "line_tr": "[Etki Alanı] için önemli etkileri olduğuna inanıyorum. Bir yandan ...'a yol açabilir, ama diğer yandan..."},
+      {"character_id": "reader2", "line_ar": "أتفق معك. يبدو أن الوضع معقد. آمل أن يتخذ المسؤولون الإجراءات الصحيحة.", "line_en": "I agree. The situation seems complex. I hope the authorities take the right course of action.", "line_tr": "Katılıyorum. Durum karmaşık görünüyor. Umarım yetkililer doğru adımları atar."},
+      {"character_id": "reader1", "line_ar": "من المهم أن نبقى على اطلاع دائم بمثل هذه التطورات. هل تعتقد أن وسائل الإعلام تغطي الموضوع بشكل كافٍ؟", "line_en": "It's important to stay informed about such developments. Do you think the media is covering it adequately?", "line_tr": "Bu tür gelişmelerden haberdar olmak önemli. Medyanın konuyu yeterince ele aldığını düşünüyor musun?"},
+      {"character_id": "reader2", "line_ar": "إلى حد ما، لكنني أفضل دائمًا قراءة وجهات نظر متعددة من مصادر مختلفة لتكوين صورة كاملة.", "line_en": "To some extent, but I always prefer to read multiple perspectives from different sources to get a full picture.", "line_tr": "Bir dereceye kadar, ama tam bir resim elde etmek için her zaman farklı kaynaklardan birden fazla bakış açısını okumayı tercih ederim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L07U05_P001", "ar_from_dialogue": "هل قرأت الخبر عن...؟ / هل سمعت بخصوص...؟", "en_from_dialogue": "Did you read the news about...? / Have you heard about...?", "tr_from_dialogue": "...hakkındaki haberi okudun mu? / ...hakkında duydun mu?", "focus_ar": "بدء محادثة حول الأخبار", "focus_en": "Starting a conversation about news", "focus_tr": "Haberler hakkında bir konuşma başlatma"},
+    {"id": "L07U05_P002", "ar_from_dialogue": "إنه أمر مقلق/مثير للاهتمام/مفاجئ حقًا.", "en_from_dialogue": "It's quite concerning/interesting/surprising, really.", "tr_from_dialogue": "Gerçekten oldukça endişe verici/ilginç/şaşırtıcı.", "focus_ar": "التعبير عن رد فعل أولي للخبر", "focus_en": "Expressing an initial reaction to news", "focus_tr": "Bir habere ilk tepkiyi ifade etme"},
+    {"id": "L07U05_P003", "ar_from_dialogue": "أعتقد أن له تداعيات كبيرة على...", "en_from_dialogue": "I believe it has significant implications for...", "tr_from_dialogue": "...için önemli etkileri olduğuna inanıyorum.", "focus_ar": "مناقشة الآثار المحتملة لحدث", "focus_en": "Discussing potential implications of an event", "focus_tr": "Bir olayın olası etkilerini tartışma"},
+    {"id": "L07U05_P004", "ar_from_dialogue": "من ناحية،... ولكن من ناحية أخرى...", "en_from_dialogue": "On one hand,... but on the other hand...", "tr_from_dialogue": "Bir yandan..., ama diğer yandan...", "focus_ar": "تقديم وجهتي نظر متقابلتين", "focus_en": "Presenting two opposing viewpoints", "focus_tr": "İki karşıt bakış açısı sunma"},
+    {"id": "L07U05_P005", "ar_from_dialogue": "آمل أن يتخذ المسؤولون الإجراءات الصحيحة.", "en_from_dialogue": "I hope the authorities take the right course of action.", "tr_from_dialogue": "Umarım yetkililer doğru adımları atar.", "focus_ar": "التعبير عن الأمل أو التوقع بشأن إجراء ما", "focus_en": "Expressing hope or expectation regarding action", "focus_tr": "Eylemle ilgili umut veya beklenti ifade etme"},
+    {"id": "L07U05_P006", "ar_from_dialogue": "من المهم أن نبقى على اطلاع دائم.", "en_from_dialogue": "It's important to stay informed.", "tr_from_dialogue": "Haberdar olmak önemli.", "focus_ar": "التأكيد على أهمية متابعة الأخبار", "focus_en": "Emphasizing the importance of staying informed", "focus_tr": "Haberdar olmanın önemini vurgulama"}
+  ]
+}

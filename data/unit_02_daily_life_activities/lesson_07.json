@@ -1,0 +1,41 @@
+{
+  "id": "L07U02DLA",
+  "slug": "making-arrangements-social-plans",
+  "title_ar": "الترتيبات والخطط الاجتماعية: تحديد المواعيد واقتراح الأنشطة",
+  "title_en": "Arrangements & Social Plans: Setting Dates and Suggesting Activities",
+  "title_tr": "Düzenlemeler ve Sosyal Planlar: Tarih Belirleme ve Aktiviteler Önerme",
+  "objective_ar": "تعلم كيفية تحديد مواعيد للقاءات اجتماعية، اقتراح أنشطة، تأكيد الخطط، أو تغييرها عند الضرورة بأدب.",
+  "objective_en": "Learn how to arrange social meetups, suggest activities, confirm plans, or politely change them when necessary.",
+  "objective_tr": "Sosyal buluşmalar ayarlamayı, aktiviteler önermeyi, planları onaylamayı veya gerektiğinde kibarca değiştirmeyi öğrenin.",
+  "icon_fa_class": "fa-solid fa-calendar-plus",
+  "scenario": {
+    "title_ar": "حوار: التخطيط للخروج في عطلة نهاية الأسبوع",
+    "title_en": "Dialogue: Planning a Weekend Outing",
+    "title_tr": "Diyalog: Hafta Sonu Gezisi Planlama",
+    "characters": [
+      {"id": "friendA", "name_ar": "علي", "name_en": "Ali", "name_tr": "Ali"},
+      {"id": "friendB", "name_ar": "زينب", "name_en": "Zainab", "name_tr": "Zeynep"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "friendA", "line_ar": "مرحباً زينب، هل لديك أي خطط لعطلة نهاية الأسبوع هذه؟", "line_en": "Hi Zainab, do you have any plans for this weekend?", "line_tr": "Merhaba Zeynep, bu hafta sonu için bir planın var mı?"},
+      {"character_id": "friendB", "line_ar": "أهلاً علي. ليس بعد، جدولي فارغ إلى حد ما. لماذا تسأل؟", "line_en": "Hey Ali. Not yet, my schedule is pretty open. Why do you ask?", "line_tr": "Merhaba Ali. Henüz değil, programım oldukça boş. Neden sordun?"},
+      {"character_id": "friendA", "line_ar": "كنت أفكر، ما رأيك لو ذهبنا لمشاهدة الفيلم الجديد الذي يتحدث عنه الجميع يوم السبت؟", "line_en": "I was thinking, how about we go see that new movie everyone's talking about on Saturday?", "line_tr": "Düşünüyordum da, Cumartesi günü herkesin konuştuğu o yeni filmi izlemeye ne dersin?"},
+      {"character_id": "friendB", "line_ar": "أوه، هذا يبدو رائعًا! كنت أرغب في مشاهدته. أي وقت يناسبك؟", "line_en": "Oh, that sounds great! I've been wanting to see it. What time works for you?", "line_tr": "Oo, kulağa harika geliyor! Onu izlemek istiyordum. Senin için hangi saat uygun?"},
+      {"character_id": "friendA", "line_ar": "ماذا عن عرض الساعة السابعة مساءً؟ أو هل تفضلين وقتًا أبكر؟", "line_en": "How about the 7 PM show? Or would you prefer an earlier time?", "line_tr": "Akşam 7 seansına ne dersin? Yoksa daha erken bir saati mi tercih edersin?"},
+      {"character_id": "friendB", "line_ar": "السابعة مساءً مثالية. هل يجب أن نحجز التذاكر مسبقًا؟", "line_en": "7 PM is perfect. Should we book the tickets in advance?", "line_tr": "Akşam 7 mükemmel. Biletleri önceden ayırtmalı mıyız?"},
+      {"character_id": "friendA", "line_ar": "نعم، أعتقد أنها فكرة جيدة، خاصة وأنه فيلم جديد. يمكنني حجزها عبر الإنترنت.", "line_en": "Yes, I think that's a good idea, especially since it's a new movie. I can book them online.", "line_tr": "Evet, bence iyi bir fikir, özellikle de yeni bir film olduğu için. İnternetten ayırtabilirim."},
+      {"character_id": "friendB", "line_ar": "ممتاز! إذًا، نلتقي أمام السينما حوالي الساعة 6:45 مساء السبت؟", "line_en": "Excellent! So, shall we meet in front of the cinema around 6:45 PM on Saturday?", "line_tr": "Harika! O zaman Cumartesi günü saat 18:45 civarında sinemanın önünde buluşalım mı?"},
+      {"character_id": "friendA", "line_ar": "يبدو هذا مخططًا! أتطلع لذلك.", "line_en": "Sounds like a plan! I'm looking forward to it.", "line_tr": "Kulağa plan gibi geliyor! Dört gözle bekliyorum."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L07U02_P001", "ar_from_dialogue": "هل لديك أي خطط لـ...؟", "en_from_dialogue": "Do you have any plans for...?", "tr_from_dialogue": "...için bir planın var mı?", "focus_ar": "السؤال عن خطط شخص ما", "focus_en": "Asking about someone's plans", "focus_tr": "Birinin planlarını sorma", "audio_ar_tts_key": "هل لديك أي خطط ل", "audio_en_tts_key": "Do you have any plans for", "audio_tr_tts_key": "için bir planın var mı"},
+    {"id": "L07U02_P002", "ar_from_dialogue": "جدولي فارغ إلى حد ما. / أنا متاح.", "en_from_dialogue": "My schedule is pretty open. / I'm available.", "tr_from_dialogue": "Programım oldukça boş. / Müsaitim.", "focus_ar": "التعبير عن التفرغ/الإتاحة", "focus_en": "Expressing availability", "focus_tr": "Müsait olduğunu ifade etme", "audio_ar_tts_key": "جدولي فارغ إلى حد ما", "audio_en_tts_key": "My schedule is pretty open", "audio_tr_tts_key": "Programım oldukça boş"},
+    {"id": "L07U02_P003", "ar_from_dialogue": "ما رأيك لو ذهبنا لـ...؟ / كيف لو...؟", "en_from_dialogue": "How about we go...? / What if we...?", "tr_from_dialogue": "...gitmeye ne dersin? / Ya ...yapsak?", "focus_ar": "تقديم اقتراح لنشاط", "focus_en": "Making a suggestion for an activity", "focus_tr": "Bir aktivite için öneride bulunma", "audio_ar_tts_key": "ما رأيك لو ذهبنا ل", "audio_en_tts_key": "How about we go to", "audio_tr_tts_key": "gitmeye ne dersin"},
+    {"id": "L07U02_P004", "ar_from_dialogue": "هذا يبدو رائعًا! / فكرة جيدة!", "en_from_dialogue": "That sounds great! / Good idea!", "tr_from_dialogue": "Kulağa harika geliyor! / İyi fikir!", "focus_ar": "الرد الإيجابي على اقتراح", "focus_en": "Responding positively to a suggestion", "focus_tr": "Bir öneriye olumlu yanıt verme", "audio_ar_tts_key": "هذا يبدو رائعا", "audio_en_tts_key": "That sounds great", "audio_tr_tts_key": "Kulağa harika geliyor"},
+    {"id": "L07U02_P005", "ar_from_dialogue": "أي وقت يناسبك؟", "en_from_dialogue": "What time works for you?", "tr_from_dialogue": "Senin için hangi saat uygun?", "focus_ar": "السؤال عن الوقت المناسب للآخر", "focus_en": "Asking about a suitable time for the other person", "focus_tr": "Diğer kişi için uygun saati sorma", "audio_ar_tts_key": "أي وقت يناسبك", "audio_en_tts_key": "What time works for you", "audio_tr_tts_key": "Senin için hangi saat uygun"},
+    {"id": "L07U02_P006", "ar_from_dialogue": "هل يجب أن نحجز التذاكر مسبقًا؟", "en_from_dialogue": "Should we book the tickets in advance?", "tr_from_dialogue": "Biletleri önceden ayırtmalı mıyız?", "focus_ar": "الاستفسار عن ضرورة الحجز المسبق", "focus_en": "Inquiring about the need for advance booking", "focus_tr": "Önceden rezervasyon yapma gerekliliği hakkında soru sorma", "audio_ar_tts_key": "هل يجب أن نحجز التذاكر مسبقا", "audio_en_tts_key": "Should we book the tickets in advance", "audio_tr_tts_key": "Biletleri önceden ayırtmalı mıyız"},
+    {"id": "L07U02_P007", "ar_from_dialogue": "إذًا، نلتقي في/أمام... حوالي الساعة...؟", "en_from_dialogue": "So, shall we meet at/in front of... around...?", "tr_from_dialogue": "O zaman, ...'de/önünde saat ...civarı buluşalım mı?", "focus_ar": "تأكيد تفاصيل اللقاء (المكان والزمان)", "focus_en": "Confirming meeting details (place and time)", "focus_tr": "Buluşma ayrıntılarını onaylama (yer ve zaman)", "audio_ar_tts_key": "إذا نلتقي في حوالي الساعة", "audio_en_tts_key": "So, shall we meet at location around time", "audio_tr_tts_key": "O zaman, yerde saat civarı buluşalım mı"},
+    {"id": "L07U02_P008", "ar_from_dialogue": "يبدو هذا مخططًا! / اتفقنا!", "en_from_dialogue": "Sounds like a plan! / It's a date!", "tr_from_dialogue": "Kulağa plan gibi geliyor! / Anlaştık!", "focus_ar": "التأكيد النهائي على الخطة", "focus_en": "Final confirmation of the plan", "focus_tr": "Planın nihai onayı", "audio_ar_tts_key": "يبدو هذا مخططا اتفقنا", "audio_en_tts_key": "Sounds like a plan! It's a date!", "audio_tr_tts_key": "Kulağa plan gibi geliyor! Anlaştık!"}
+  ]
+}

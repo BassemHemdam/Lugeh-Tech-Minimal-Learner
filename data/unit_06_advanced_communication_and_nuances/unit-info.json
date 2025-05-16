@@ -1,0 +1,16 @@
+{
+  "id": "U06ACN",
+  "slug": "advanced-communication-nuances",
+  "folderName": "unit_06_advanced_communication_and_nuances",
+  "title_ar": "تواصل متقدم وفروق دقيقة: إتقان فن اللغة",
+  "title_en": "Advanced Communication & Nuances: Mastering the Art of Language",
+  "title_tr": "İleri Düzey İletişim ve Nüanslar: Dil Sanatında Ustalaşma",
+  "description_ar": "استكشف جوانب أكثر تعقيدًا في التواصل، بما في ذلك إدارة الحوارات الصعبة، فهم الفروق الثقافية الدقيقة، واستخدام لغة مقنعة ومؤثرة.",
+  "icon_fa_class": "fa-solid fa-brain",
+  "theme_color_class": "theme-indigo-bg",
+  "lessons_count": 10,
+  "lessonFiles": [
+    "lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05",
+    "lesson_06", "lesson_07", "lesson_08", "lesson_09", "lesson_10"
+  ]
+}

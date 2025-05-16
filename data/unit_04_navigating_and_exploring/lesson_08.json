@@ -1,0 +1,38 @@
+{
+  "id": "L08U04NAE",
+  "slug": "discussing-travel-experiences-plans",
+  "title_ar": "تجارب وخطط السفر: مشاركة القصص والتطلعات المستقبلية",
+  "title_en": "Travel Experiences & Plans: Sharing Stories and Future Aspirations",
+  "title_tr": "Seyahat Deneyimleri ve Planları: Hikayeleri ve Gelecekten Beklentileri Paylaşma",
+  "objective_ar": "تعلم كيفية التحدث عن تجارب السفر السابقة، وصف الأماكن التي زرتها، ومناقشة خطط السفر المستقبلية مع الآخرين.",
+  "objective_en": "Learn how to talk about past travel experiences, describe places you've visited, and discuss future travel plans with others.",
+  "objective_tr": "Geçmiş seyahat deneyimleriniz hakkında nasıl konuşacağınızı, ziyaret ettiğiniz yerleri nasıl tarif edeceğinizi ve gelecekteki seyahat planlarınızı başkalarıyla nasıl tartışacağınızı öğrenin.",
+  "icon_fa_class": "fa-solid fa-suitcase-rolling", 
+  "scenario": {
+    "title_ar": "حوار: تبادل ذكريات السفر",
+    "title_en": "Dialogue: Exchanging Travel Memories",
+    "title_tr": "Diyalog: Seyahat Anılarını Paylaşma",
+    "characters": [
+      {"id": "trvlrA", "name_ar": "نادر", "name_en": "Nader", "name_tr": "Nadir"},
+      {"id": "trvlrB", "name_ar": "لينا", "name_en": "Lina", "name_tr": "Lina"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "trvlrA", "line_ar": "لينا، هل سافرتِ إلى أي مكان ممتع مؤخرًا؟", "line_en": "Lina, have you traveled anywhere interesting lately?", "line_tr": "Lina, son zamanlarda ilginç bir yere seyahat ettin mi?"},
+      {"character_id": "trvlrB", "line_ar": "نعم! عدت للتو من رحلة رائعة إلى [اسم بلد/مدينة]. كانت تجربة لا تُنسى.", "line_en": "Yes! I just got back from an amazing trip to [Country/City Name]. It was an unforgettable experience.", "line_tr": "Evet! [Ülke/Şehir Adı]'na yaptığım harika bir geziden yeni döndüm. Unutulmaz bir deneyimdi."},
+      {"character_id": "trvlrA", "line_ar": "هذا رائع! ما هو أكثر شيء أعجبكِ هناك؟", "line_en": "That's wonderful! What did you like most about it?", "line_tr": "Bu harika! Orada en çok neyi beğendin?"},
+      {"character_id": "trvlrB", "line_ar": "أحببت [الثقافة/الطعام/المناظر الطبيعية]. الناس كانوا ودودين للغاية والطعام كان لذيذًا. هل سبق لك زيارة [نفس المكان]؟", "line_en": "I loved the [culture/food/scenery]. The people were so friendly and the food was delicious. Have you ever visited [Same Place]?", "line_tr": "[Kültürü/yemekleri/manzaraları] çok sevdim. İnsanlar çok arkadaş canlısıydı ve yemekler çok lezzetliydi. Hiç [Aynı Yer]'i ziyaret ettin mi?"},
+      {"character_id": "trvlrA", "line_ar": "ليس بعد، ولكنه بالتأكيد على قائمتي. وجهتي التالية المخطط لها هي [وجهة أخرى]. أنا متحمس جدًا لذلك.", "line_en": "Not yet, but it's definitely on my list. My next planned destination is [Another Destination]. I'm very excited about it.", "line_tr": "Henüz değil ama kesinlikle listemde. Bir sonraki planladığım yer [Başka Bir Varış Noktası]. Bunun için çok heyecanlıyım."},
+      {"character_id": "trvlrB", "line_ar": "سمعت أشياء رائعة عن [وجهة أخرى]! متى تخطط للذهاب؟ وما هي الأنشطة التي تنوي القيام بها هناك؟", "line_en": "I've heard great things about [Another Destination]! When are you planning to go? And what activities are you planning to do there?", "line_tr": "[Başka Bir Varış Noktası] hakkında harika şeyler duydum! Ne zaman gitmeyi planlıyorsun? Ve orada ne gibi aktiviteler yapmayı planlıyorsun?"},
+      {"character_id": "trvlrA", "line_ar": "آمل أن أذهب في [شهر/فصل]. أود زيارة [معلم معين] وتجربة [نشاط محلي]. هل لديك أي توصيات؟", "line_en": "I'm hoping to go in [Month/Season]. I'd like to visit [Specific Landmark] and try [Local Activity]. Do you have any recommendations?", "line_tr": "[Ay/Mevsim]'da gitmeyi umuyorum. [Belirli Bir Anıt]'ı ziyaret etmek ve [Yerel Aktivite]'yi denemek istiyorum. Herhangi bir tavsiyen var mı?"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L08U04_P001", "ar_from_dialogue": "هل سافرتِ إلى أي مكان ممتع مؤخرًا؟", "en_from_dialogue": "Have you traveled anywhere interesting lately?", "tr_from_dialogue": "Son zamanlarda ilginç bir yere seyahat ettin mi?", "focus_ar": "السؤال عن تجارب سفر حديثة", "focus_en": "Asking about recent travel experiences", "focus_tr": "Son seyahat deneyimlerini sorma"},
+    {"id": "L08U04_P002", "ar_from_dialogue": "عدت للتو من رحلة رائعة إلى...", "en_from_dialogue": "I just got back from an amazing trip to...", "tr_from_dialogue": "...'a yaptığım harika bir geziden yeni döndüm.", "focus_ar": "ذكر رحلة سابقة", "focus_en": "Mentioning a past trip", "focus_tr": "Geçmiş bir geziyi belirtme"},
+    {"id": "L08U04_P003", "ar_from_dialogue": "ما هو أكثر شيء أعجبكِ هناك؟", "en_from_dialogue": "What did you like most about it?", "tr_from_dialogue": "Orada en çok neyi beğendin?", "focus_ar": "السؤال عن أفضل ما في الرحلة", "focus_en": "Asking about the best part of a trip", "focus_tr": "Bir gezinin en iyi kısmını sorma"},
+    {"id": "L08U04_P004", "ar_from_dialogue": "أحببت الثقافة/الطعام/المناظر الطبيعية.", "en_from_dialogue": "I loved the culture/food/scenery.", "tr_from_dialogue": "Kültürü/yemekleri/manzaraları çok sevdim.", "focus_ar": "وصف الجوانب الإيجابية في مكان ما", "focus_en": "Describing positive aspects of a place", "focus_tr": "Bir yerin olumlu yönlerini tanımlama"},
+    {"id": "L08U04_P005", "ar_from_dialogue": "هل سبق لك زيارة...؟", "en_from_dialogue": "Have you ever visited...?", "tr_from_dialogue": "Hiç ...'i ziyaret ettin mi?", "focus_ar": "السؤال عما إذا كان الشخص قد زار مكانًا ما", "focus_en": "Asking if someone has ever visited a place", "focus_tr": "Birinin bir yeri hiç ziyaret edip etmediğini sorma"},
+    {"id": "L08U04_P006", "ar_from_dialogue": "إنه بالتأكيد على قائمتي. / وجهتي التالية المخطط لها هي...", "en_from_dialogue": "It's definitely on my list. / My next planned destination is...", "tr_from_dialogue": "Kesinlikle listemde. / Bir sonraki planladığım yer...", "focus_ar": "التحدث عن خطط السفر المستقبلية", "focus_en": "Talking about future travel plans", "focus_tr": "Gelecekteki seyahat planları hakkında konuşma"},
+    {"id": "L08U04_P007", "ar_from_dialogue": "ما هي الأنشطة التي تنوي القيام بها هناك؟", "en_from_dialogue": "What activities are you planning to do there?", "tr_from_dialogue": "Orada ne gibi aktiviteler yapmayı planlıyorsun?", "focus_ar": "السؤال عن الأنشطة المخطط لها في رحلة", "focus_en": "Asking about planned activities on a trip", "focus_tr": "Bir gezide planlanan aktiviteler hakkında soru sorma"}
+  ]
+}

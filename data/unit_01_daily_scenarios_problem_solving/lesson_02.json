@@ -1,0 +1,162 @@
+{
+  "id": "L02U01SPS",
+  "slug": "ordering-food-with-dietary-restrictions",
+  "title_ar": "طلب الطعام: التعامل مع القيود الغذائية في المطاعم",
+  "title_en": "Ordering Food: Handling Dietary Restrictions in Restaurants",
+  "title_tr": "Yemek Siparişi: Restoranlarda Beslenme Kısıtlamalarıyla Başa Çıkma",
+  "objective_ar": "التدرب على كيفية طلب الطعام بثقة، مع توضيح أي قيود غذائية للنادل وطرح الأسئلة اللازمة لضمان وجبة آمنة ومناسبة.",
+  "objective_en": "Practice how to confidently order food, clearly state any dietary restrictions to the waiter, and ask necessary questions to ensure a safe and suitable meal.",
+  "objective_tr": "Garsona herhangi bir beslenme kısıtlamasını açıkça belirterek ve güvenli ve uygun bir yemek sağlamak için gerekli soruları sorarak güvenle nasıl yemek sipariş edileceğini pratik yapın.",
+  "icon_fa_class": "fa-solid fa-utensils",
+  "scenario": {
+    "title_ar": "حوار: غداء مع احتياطات",
+    "title_en": "Dialogue: Lunch with Precautions",
+    "title_tr": "Diyalog: Önlemli Öğle Yemeği",
+    "characters": [
+      {"id": "cst", "name_ar": "نور (زبونة)", "name_en": "Noor (Customer)", "name_tr": "Nur (Müşteri)"},
+      {"id": "wtr", "name_ar": "كريم (نادل)", "name_en": "Karim (Waiter)", "name_tr": "Kerim (Garson)"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "wtr",
+        "line_ar": "أهلاً بكِ في مطعمنا، هل أنتِ مستعدة للطلب؟",
+        "line_en": "Welcome to our restaurant, are you ready to order?",
+        "line_tr": "Restoranımıza hoş geldiniz, sipariş vermeye hazır mısınız?"
+      },
+      {
+        "character_id": "cst",
+        "line_ar": "أهلاً بك. نعم، ولكن لدي بعض الأسئلة. أنا نباتية ولدي حساسية من المكسرات.",
+        "line_en": "Hello. Yes, but I have a few questions. I'm a vegetarian and I have a nut allergy.",
+        "line_tr": "Merhaba. Evet, ama birkaç sorum var. Ben vejetaryenim ve kuruyemiş alerjim var."
+      },
+      {
+        "character_id": "wtr",
+        "line_ar": "بالتأكيد، سأكون سعيدًا بمساعدتك. معظم أطباقنا يمكن تعديلها.",
+        "line_en": "Certainly, I'd be happy to help. Most of our dishes can be modified.",
+        "line_tr": "Elbette, size yardımcı olmaktan mutluluk duyarım. Yemeklerimizin çoğu değiştirilebilir."
+      },
+      {
+        "character_id": "cst",
+        "line_ar": "هذا رائع. بخصوص طبق 'سلطة الكينوا'، هل يحتوي على أي منتجات حيوانية أو مكسرات؟",
+        "line_en": "That's great. Regarding the 'Quinoa Salad', does it contain any animal products or nuts?",
+        "line_tr": "Bu harika. 'Kinoa Salatası' ile ilgili olarak, herhangi bir hayvansal ürün veya kuruyemiş içeriyor mu?"
+      },
+      {
+        "character_id": "wtr",
+        "line_ar": "سلطة الكينوا نباتية تمامًا. بالنسبة للمكسرات، عادةً ما نضيف بعض اللوز المحمص للتزيين، ولكن يمكننا تحضيرها بدون لوز لكِ.",
+        "line_en": "The Quinoa Salad is completely vegetarian. As for nuts, we usually add some toasted almonds for garnish, but we can prepare it without almonds for you.",
+        "line_tr": "Kinoa Salatası tamamen vejetaryendir. Kuruyemişlere gelince, genellikle garnitür için biraz kavrulmuş badem ekleriz, ancak sizin için bademsiz hazırlayabiliriz."
+      },
+      {
+        "character_id": "cst",
+        "line_ar": "ممتاز، سأطلب سلطة الكينوا بدون لوز من فضلك. وأيضًا، هل يمكنني الحصول على طبق 'شوربة العدس'؟ هل هي خالية من منتجات الألبان؟",
+        "line_en": "Perfect, I'll take the Quinoa Salad without almonds, please. Also, could I have the 'Lentil Soup'? Is it dairy-free?",
+        "line_tr": "Harika, bademsiz Kinoa Salatasını alacağım, lütfen. Ayrıca, 'Mercimek Çorbası' alabilir miyim? Süt ürünü içermiyor mu?"
+      },
+      {
+        "character_id": "wtr",
+        "line_ar": "نعم، شوربة العدس لدينا نباتية وخالية من منتجات الألبان. اختيار جيد!",
+        "line_en": "Yes, our Lentil Soup is vegan and dairy-free. Good choice!",
+        "line_tr": "Evet, Mercimek Çorbamız vegan ve süt ürünü içermez. İyi bir seçim!"
+      },
+      {
+        "character_id": "cst",
+        "line_ar": "رائع. إذًا، سلطة كينوا بدون لوز وشوربة عدس. هل يمكن التأكد من أن المطبخ حذر جدًا بشأن تلوث المكسرات؟ حساسيتي شديدة.",
+        "line_en": "Wonderful. So, one Quinoa Salad without almonds and one Lentil Soup. Could you please ensure the kitchen is very careful about nut contamination? My allergy is severe.",
+        "line_tr": "Harika. O zaman, bir bademsiz Kinoa Salatası ve bir Mercimek Çorbası. Mutfağın kuruyemiş kontaminasyonu konusunda çok dikkatli olmasını sağlayabilir misiniz, lütfen? Alerjim şiddetli."
+      },
+      {
+        "character_id": "wtr",
+        "line_ar": "بالتأكيد، لا تقلقي. سأبلغ المطبخ فورًا للتأكد من أخذ كل الاحتياطات اللازمة. هل هناك أي شيء آخر يمكنني تقديمه لكِ؟",
+        "line_en": "Absolutely, don't worry. I will inform the kitchen immediately to ensure all necessary precautions are taken. Is there anything else I can get for you?",
+        "line_tr": "Kesinlikle, endişelenmeyin. Gerekli tüm önlemlerin alınmasını sağlamak için mutfağı derhal bilgilendireceğim. Sizin için yapabileceğim başka bir şey var mı?"
+      },
+      {
+        "character_id": "cst",
+        "line_ar": "لا، هذا كل شيء حاليًا. شكرًا جزيلاً على تفهمك ومساعدتك.",
+        "line_en": "No, that's all for now. Thank you so much for your understanding and help.",
+        "line_tr": "Hayır, şimdilik bu kadar. Anlayışınız ve yardımınız için çok teşekkür ederim."
+      }
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L02SPS_P001",
+      "original_dialogue_id": "cst",
+      "ar_from_dialogue": "أنا نباتية ولدي حساسية من المكسرات.",
+      "en_from_dialogue": "I'm a vegetarian and I have a nut allergy.",
+      "tr_from_dialogue": "Ben vejetaryenim ve kuruyemiş alerjim var.",
+      "focus_ar": "التصريح بالقيود الغذائية",
+      "focus_en": "Stating dietary restrictions",
+      "focus_tr": "Beslenme kısıtlamalarını belirtme",
+      "explanation_en": "Clear and direct statement of dietary needs. Essential for safety.",
+      "explanation_tr": "Beslenme ihtiyaçlarının açık ve doğrudan ifadesi. Güvenlik için gereklidir.",
+      "alternatives_en": ["I'm allergic to nuts.", "I don't eat meat.", "Is this gluten-free?"],
+      "alternatives_tr": ["Kuruyemişe alerjim var.", "Et yemiyorum.", "Bu glütensiz mi?"],
+      "audio_ar_tts_key": "أنا نباتية ولدي حساسية من المكسرات",
+      "audio_en_tts_key": "I'm a vegetarian and I have a nut allergy",
+      "audio_tr_tts_key": "Ben vejetaryenim ve kuruyemiş alerjim var"
+    },
+    {
+      "id": "L02SPS_P002",
+      "original_dialogue_id": "cst",
+      "ar_from_dialogue": "بخصوص طبق 'سلطة الكينوا'، هل يحتوي على أي منتجات حيوانية أو مكسرات؟",
+      "en_from_dialogue": "Regarding the 'Quinoa Salad', does it contain any animal products or nuts?",
+      "tr_from_dialogue": "'Kinoa Salatası' ile ilgili olarak, herhangi bir hayvansal ürün veya kuruyemiş içeriyor mu?",
+      "focus_ar": "الاستفسار عن مكونات طبق محدد",
+      "focus_en": "Inquiring about ingredients of a specific dish",
+      "focus_tr": "Belirli bir yemeğin içeriği hakkında soru sorma",
+      "explanation_en": "'Regarding...' is a good way to focus on a specific item. 'Does it contain...?' is a direct question about ingredients.",
+      "explanation_tr": "'...ile ilgili olarak' belirli bir maddeye odaklanmak için iyi bir yoldur. '...içeriyor mu?' içerik hakkında doğrudan bir sorudur.",
+      "audio_ar_tts_key": "هل يحتوي على أي منتجات حيوانية أو مكسرات؟",
+      "audio_en_tts_key": "Does it contain any animal products or nuts?",
+      "audio_tr_tts_key": "Herhangi bir hayvansal ürün veya kuruyemiş içeriyor mu?"
+    },
+    {
+      "id": "L02SPS_P003",
+      "original_dialogue_id": "wtr",
+      "ar_from_dialogue": "...ولكن يمكننا تحضيرها بدون لوز لكِ.",
+      "en_from_dialogue": "...but we can prepare it without almonds for you.",
+      "tr_from_dialogue": "...ama sizin için bademsiz hazırlayabiliriz.",
+      "focus_ar": "عرض تعديل طبق",
+      "focus_en": "Offering to modify a dish",
+      "focus_tr": "Bir yemeği değiştirmeyi teklif etme",
+      "explanation_en": "Shows flexibility and willingness to accommodate.",
+      "explanation_tr": "Esneklik ve uyum sağlama isteği gösterir.",
+      "audio_ar_tts_key": "يمكننا تحضيرها بدون لوز لك",
+      "audio_en_tts_key": "we can prepare it without almonds for you",
+      "audio_tr_tts_key": "ama sizin için bademsiz hazırlayabiliriz"
+    },
+    {
+      "id": "L02SPS_P004",
+      "original_dialogue_id": "cst",
+      "ar_from_dialogue": "هل يمكن التأكد من أن المطبخ حذر جدًا بشأن تلوث المكسرات؟ حساسيتي شديدة.",
+      "en_from_dialogue": "Could you please ensure the kitchen is very careful about nut contamination? My allergy is severe.",
+      "tr_from_dialogue": "Mutfağın kuruyemiş kontaminasyonu konusunda çok dikkatli olmasını sağlayabilir misiniz, lütfen? Alerjim şiddetli.",
+      "focus_ar": "التأكيد على خطورة الحساسية وطلب الحذر",
+      "focus_en": "Emphasizing allergy severity and requesting caution",
+      "focus_tr": "Alerji ciddiyetini vurgulama ve dikkat talep etme",
+      "explanation_en": "Crucial for severe allergies. 'Ensure' and 'very careful' emphasize the importance.",
+      "explanation_tr": "Şiddetli alerjiler için çok önemlidir. 'Sağlayabilir misiniz' ve 'çok dikkatli' önemi vurgular.",
+      "audio_ar_tts_key": "هل يمكن التأكد من أن المطبخ حذر جدًا بشأن تلوث المكسرات؟ حساسيتي شديدة.",
+      "audio_en_tts_key": "Could you please ensure the kitchen is very careful about nut contamination? My allergy is severe.",
+      "audio_tr_tts_key": "Mutfağın kuruyemiş kontaminasyonu konusunda çok dikkatli olmasını sağlayabilir misiniz, lütfen? Alerjim şiddetli."
+    },
+    {
+      "id": "L02SPS_P005",
+      "original_dialogue_id": "wtr",
+      "ar_from_dialogue": "بالتأكيد، لا تقلقي. سأبلغ المطبخ فورًا للتأكد من أخذ كل الاحتياطات اللازمة.",
+      "en_from_dialogue": "Absolutely, don't worry. I will inform the kitchen immediately to ensure all necessary precautions are taken.",
+      "tr_from_dialogue": "Kesinlikle, endişelenmeyin. Gerekli tüm önlemlerin alınmasını sağlamak için mutfağı derhal bilgilendireceğim.",
+      "focus_ar": "تقديم تطمينات وأخذ الإجراءات",
+      "focus_en": "Providing reassurance and taking action",
+      "focus_tr": "Güvence verme ve harekete geçme",
+      "explanation_en": "A good service response, showing understanding and action.",
+      "explanation_tr": "İyi bir servis yanıtı, anlayış ve eylem gösterir.",
+      "audio_ar_tts_key": "بالتأكيد لا تقلقي. سأبلغ المطبخ فورا للتأكد من أخذ كل الاحتياطات اللازمة.",
+      "audio_en_tts_key": "Absolutely, don't worry. I will inform the kitchen immediately to ensure all necessary precautions are taken.",
+      "audio_tr_tts_key": "Kesinlikle, endişelenmeyin. Gerekli tüm önlemlerin alınmasını sağlamak için mutfağı derhal bilgilendireceğim."
+    }
+    
+  ]
+}

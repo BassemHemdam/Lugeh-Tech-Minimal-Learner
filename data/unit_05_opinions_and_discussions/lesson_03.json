@@ -1,0 +1,36 @@
+{
+  "id": "L03U05OND",
+  "slug": "disagreeing-constructively",
+  "title_ar": "الاختلاف البنّاء: كيف تعارض بأدب مع تقديم بدائل؟",
+  "title_en": "Disagreeing Constructively: How to Oppose Politely with Alternatives",
+  "title_tr": "Yapıcı Bir Şekilde Katılmama: Alternatifler Sunarak Kibarca Nasıl Karşı Çıkılır?",
+  "objective_ar": "تعلم ليس فقط كيفية التعبير عن عدم الموافقة بأدب، بل أيضًا كيفية تقديم أسباب أو اقتراح حلول بديلة بطريقة بناءة.",
+  "objective_en": "Learn not only how to disagree politely, but also how to constructively offer reasons or suggest alternative solutions.",
+  "objective_tr": "Sadece kibarca katılmamayı değil, aynı zamanda yapıcı bir şekilde nedenler sunmayı veya alternatif çözümler önermeyi de öğrenin.",
+  "icon_fa_class": "fa-solid fa-people-arrows-left-right",
+  "scenario": {
+    "title_ar": "حوار: مناقشة خطة عمل جديدة للفريق",
+    "title_en": "Dialogue: Discussing a New Team Work Plan",
+    "title_tr": "Diyalog: Yeni Bir Takım Çalışma Planını Tartışma",
+    "characters": [
+      {"id": "lead", "name_ar": "جمال (قائد الفريق)", "name_en": "Jamal (Team Lead)", "name_tr": "Cemal (Takım Lideri)"},
+      {"id": "member", "name_ar": "هند (عضو الفريق)", "name_en": "Hind (Team Member)", "name_tr": "Hind (Takım Üyesi)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "lead", "line_ar": "هند، لقد أعددتُ خطة عمل جديدة للمشروع القادم. أعتقد أنها ستزيد من كفاءتنا بشكل كبير.", "line_en": "Hind, I've prepared a new work plan for the upcoming project. I believe it will significantly increase our efficiency.", "line_tr": "Hind, yaklaşan proje için yeni bir çalışma planı hazırladım. Verimliliğimizi önemli ölçüde artıracağına inanıyorum."},
+      {"character_id": "member", "line_ar": "شكرًا جمال على مشاركة الخطة. لقد ألقيت نظرة عليها. بينما أرى بعض النقاط الجيدة، لدي بعض التحفظات بشأن الجدول الزمني.", "line_en": "Thanks for sharing the plan, Jamal. I've taken a look at it. While I see some good points, I have some reservations about the timeline.", "line_tr": "Planı paylaştığın için teşekkürler Cemal. Bir göz attım. Bazı iyi noktalar görsem de, zaman çizelgesi hakkında bazı çekincelerim var."},
+      {"character_id": "lead", "line_ar": "أتفهم. ما هي مخاوفك تحديدًا؟", "line_en": "I understand. What are your specific concerns?", "line_tr": "Anlıyorum. Belirli endişelerin nelerdir?"},
+      {"character_id": "member", "line_ar": "أخشى أن المهلة المحددة للمرحلة [X] ضيقة جدًا، خاصة مع الموارد المتاحة لدينا حاليًا. قد يؤثر ذلك على جودة العمل.", "line_en": "I'm afraid the deadline for phase [X] is very tight, especially with our current resources. It might impact the quality of work.", "line_tr": "Korkarım [X] aşaması için belirlenen son tarih, özellikle mevcut kaynaklarımızla çok sıkı. Bu, işin kalitesini etkileyebilir."},
+      {"character_id": "lead", "line_ar": "أتفهم وجهة نظرك. هل لديك أي اقتراحات بديلة؟", "line_en": "I see your point. Do you have any alternative suggestions?", "line_tr": "Görüşünü anlıyorum. Herhangi bir alternatif önerin var mı?"},
+      {"character_id": "member", "line_ar": "ربما يمكننا تمديد المهلة لهذه المرحلة لمدة أسبوع إضافي؟ أو، كحل آخر، هل يمكننا إعادة توزيع بعض المهام أو الحصول على مساعدة من فريق آخر مؤقتًا؟", "line_en": "Perhaps we could extend the deadline for this phase by an extra week? Or, as another solution, could we reallocate some tasks or get temporary help from another team?", "line_tr": "Belki bu aşama için son tarihi bir hafta daha uzatabiliriz? Veya başka bir çözüm olarak, bazı görevleri yeniden dağıtabilir veya geçici olarak başka bir takımdan yardım alabilir miyiz?"},
+      {"character_id": "lead", "line_ar": "اقتراح تمديد المهلة قد يكون صعبًا، ولكن فكرة إعادة توزيع المهام أو طلب مساعدة إضافية تبدو معقولة. دعنا ندرس هذا الخيار.", "line_en": "Extending the deadline might be difficult, but the idea of reallocating tasks or requesting additional help sounds reasonable. Let's explore that option.", "line_tr": "Son tarihi uzatmak zor olabilir, ancak görevleri yeniden dağıtma veya ek yardım talep etme fikri makul görünüyor. Bu seçeneği inceleyelim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L03U05_PA001", "ar_from_dialogue": "بينما أرى بعض النقاط الجيدة، لدي بعض التحفظات بشأن...", "en_from_dialogue": "While I see some good points, I have some reservations about...", "tr_from_dialogue": "Bazı iyi noktalar görsem de, ...hakkında bazı çekincelerim var.", "focus_ar": "تقديم اختلاف في الرأي بشكل بنّاء (إيجابيات ثم تحفظات)", "focus_en": "Constructively presenting disagreement (positives then reservations)", "focus_tr": "Yapıcı bir şekilde fikir ayrılığını sunma (pozitifler sonra çekinceler)"},
+    {"id": "L03U05_PA002", "ar_from_dialogue": "أخشى أن المهلة ضيقة جدًا. قد يؤثر ذلك على...", "en_from_dialogue": "I'm afraid the deadline is very tight. It might impact...", "tr_from_dialogue": "Korkarım son tarih çok sıkı. Bu ...etkileyebilir.", "focus_ar": "التعبير عن القلق بشأن نتيجة سلبية محتملة", "focus_en": "Expressing concern about a potential negative outcome", "focus_tr": "Olası olumsuz bir sonuçla ilgili endişeyi ifade etme"},
+    {"id": "L03U05_PA003", "ar_from_dialogue": "هل لديك أي اقتراحات بديلة؟", "en_from_dialogue": "Do you have any alternative suggestions?", "tr_from_dialogue": "Herhangi bir alternatif önerin var mı?", "focus_ar": "طلب اقتراحات بديلة بعد سماع اعتراض", "focus_en": "Asking for alternative suggestions after hearing an objection", "focus_tr": "Bir itiraz duyduktan sonra alternatif öneriler isteme"},
+    {"id": "L03U05_PA004", "ar_from_dialogue": "ربما يمكننا...؟ / كحل آخر، هل يمكننا...؟", "en_from_dialogue": "Perhaps we could...? / As another solution, could we...?", "tr_from_dialogue": "Belki ...yapabiliriz? / Başka bir çözüm olarak, ...yapabilir miyiz?", "focus_ar": "تقديم حلول أو بدائل مقترحة", "focus_en": "Offering proposed solutions or alternatives", "focus_tr": "Önerilen çözümler veya alternatifler sunma"},
+    {"id": "L03U05_PA005", "ar_from_dialogue": "فكرة... تبدو معقولة. دعنا ندرس هذا الخيار.", "en_from_dialogue": "The idea of... sounds reasonable. Let's explore that option.", "tr_from_dialogue": "...fikri makul görünüyor. Bu seçeneği inceleyelim.", "focus_ar": "قبول اقتراح بديل للنقاش أو الدراسة", "focus_en": "Accepting an alternative suggestion for discussion or consideration", "focus_tr": "Tartışma veya değerlendirme için alternatif bir öneriyi kabul etme"}
+  ]
+}

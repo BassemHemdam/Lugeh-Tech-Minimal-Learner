@@ -1,0 +1,36 @@
+{
+  "id": "L07U01SPS",
+  "slug": "dealing-with-service-delay",
+  "title_ar": "التعامل مع تأخير الخدمة: كيف تستفسر بأدب وتحصل على تحديثات",
+  "title_en": "Dealing with a Service Delay: Politely Inquiring and Getting Updates",
+  "title_tr": "Hizmet Gecikmesiyle Başa Çıkma: Kibarca Sorma ve Güncelleme Alma",
+  "objective_ar": "تعلم كيفية الاستفسار عن سبب تأخير خدمة ما، طلب معلومات محدثة، والتعبير عن الحاجة للخدمة بشكل مهذب ولكن واضح.",
+  "objective_en": "Learn how to inquire about the reason for a service delay, request updated information, and express the need for the service politely yet clearly.",
+  "objective_tr": "Bir hizmet gecikmesinin nedenini nasıl sorgulayacağınızı, güncel bilgi nasıl talep edeceğinizi ve hizmete olan ihtiyacınızı kibarca ama net bir şekilde nasıl ifade edeceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-clock-rotate-left",
+  "scenario": {
+    "title_ar": "حوار: تأخر طلب طعام في مطعم",
+    "title_en": "Dialogue: Delayed Food Order at a Restaurant",
+    "title_tr": "Diyalog: Restoranda Geciken Yemek Siparişi",
+    "characters": [
+      {"id": "diner", "name_ar": "يوسف (متعشٍ)", "name_en": "Yusuf (Diner)", "name_tr": "Yusuf (Müşteri)"},
+      {"id": "waitr", "name_ar": "نورة (نادلة)", "name_en": "Noura (Waitress)", "name_tr": "Nuran (Garson)"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "diner", "line_ar": "عفواً، لقد طلبنا طعامنا منذ حوالي 45 دقيقة، ولم يصل بعد.", "line_en": "Excuse me, we ordered our food about 45 minutes ago, and it hasn't arrived yet.", "line_tr": "Affedersiniz, yemeğimizi yaklaşık 45 dakika önce sipariş verdik ve henüz gelmedi."},
+      {"character_id": "waitr", "line_ar": "أنا آسفة جدًا لهذا التأخير سيدي. دعني أتحقق من المطبخ فورًا وأعود إليك بتحديث.", "line_en": "I'm so sorry for the delay, sir. Let me check with the kitchen right away and get back to you with an update.", "line_tr": "Gecikme için çok üzgünüm efendim. Hemen mutfakla kontrol edip size bir güncellemeyle döneceğim."},
+      {"character_id": "diner", "line_ar": "شكرًا لكِ. نحن جائعون جدًا ولدينا موعد آخر بعد قليل.", "line_en": "Thank you. We're quite hungry and have another engagement shortly.", "line_tr": "Teşekkür ederim. Oldukça açız ve birazdan başka bir randevumuz var."},
+      {"character_id": "waitr", "line_ar": "(بعد العودة) يبدو أن هناك ضغطًا كبيرًا على المطبخ هذا المساء. طلبكم سيكون جاهزًا خلال 10 دقائق تقريبًا. هل يمكنني أن أقدم لكم بعض المقبلات أو المشروبات على حساب المطعم كاعتذار؟", "line_en": "(Returning) It seems there's a significant rush in the kitchen tonight. Your order should be ready in about 10 minutes. May I offer you some appetizers or drinks on the house as an apology?", "line_tr": "(Geri döner) Bu akşam mutfakta büyük bir yoğunluk var gibi görünüyor. Siparişiniz yaklaşık 10 dakika içinde hazır olacak. Özür olarak size bizden bazı mezeler veya içecekler ikram edebilir miyim?"},
+      {"character_id": "diner", "line_ar": "هذا لطف منكِ، سنأخذ بعض المشروبات إذاً. نقدر اهتمامك.", "line_en": "That's very kind of you, we'll take some drinks then. We appreciate your attention to this.", "line_tr": "Bu çok naziksiniz, o zaman biraz içecek alalım. İlginiz için teşekkür ederiz."},
+      {"character_id": "waitr", "line_ar": "بالتأكيد. سأحضرها لكم حالاً. وأعتذر مرة أخرى عن الانتظار.", "line_en": "Certainly. I'll bring them right over. And again, my apologies for the wait.", "line_tr": "Elbette. Hemen getiriyorum. Ve beklettiğim için tekrar özür dilerim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L07SPS_P001", "ar_from_dialogue": "لقد طلبنا... منذ حوالي... ولم يصل بعد.", "en_from_dialogue": "We ordered... about... ago, and it hasn't arrived yet.", "tr_from_dialogue": "...yaklaşık ...önce sipariş verdik ve henüz gelmedi.", "focus_ar": "الإشارة إلى تأخر طلب", "focus_en": "Pointing out a delayed order", "focus_tr": "Geciken bir siparişe işaret etme", "audio_ar_tts_key": "طلبنا منذ حوالي ولم يصل بعد", "audio_en_tts_key": "We ordered about time ago, and it hasn't arrived yet", "audio_tr_tts_key": "yaklaşık süre önce sipariş verdik ve henüz gelmedi"},
+    {"id": "L07SPS_P002", "ar_from_dialogue": "دعني أتحقق من... فورًا وأعود إليك بتحديث.", "en_from_dialogue": "Let me check with... right away and get back to you with an update.", "tr_from_dialogue": "Hemen ...ile kontrol edip size bir güncellemeyle döneceğim.", "focus_ar": "عرض التحقق وتقديم تحديث", "focus_en": "Offering to check and provide an update", "focus_tr": "Kontrol etmeyi ve güncelleme sağlamayı teklif etme", "audio_ar_tts_key": "دعني أتحقق من فورا وأعود إليك بتحديث", "audio_en_tts_key": "Let me check with the place right away and get back to you with an update", "audio_tr_tts_key": "Hemen yer ile kontrol edip size bir güncellemeyle döneceğim"},
+    {"id": "L07SPS_P003", "ar_from_dialogue": "نحن جائعون جدًا ولدينا موعد آخر بعد قليل.", "en_from_dialogue": "We're quite hungry and have another engagement shortly.", "tr_from_dialogue": "Oldukça açız ve birazdan başka bir randevumuz var.", "focus_ar": "التعبير عن الحاجة/الإلحاح بسبب ظروف أخرى", "focus_en": "Expressing need/urgency due to other circumstances", "focus_tr": "Diğer koşullar nedeniyle ihtiyaç/aciliyet ifade etme", "audio_ar_tts_key": "نحن جائعون جدا ولدينا موعد آخر بعد قليل", "audio_en_tts_key": "We're quite hungry and have another engagement shortly", "audio_tr_tts_key": "Oldukça açız ve birazdan başka bir randevumuz var"},
+    {"id": "L07SPS_P004", "ar_from_dialogue": "طلبكم سيكون جاهزًا خلال... دقائق تقريبًا.", "en_from_dialogue": "Your order should be ready in about... minutes.", "tr_from_dialogue": "Siparişiniz yaklaşık ... dakika içinde hazır olacak.", "focus_ar": "إعطاء وقت تقديري للانتظار", "focus_en": "Giving an estimated waiting time", "focus_tr": "Tahmini bekleme süresi verme", "audio_ar_tts_key": "طلبكم سيكون جاهزا خلال دقائق تقريبا", "audio_en_tts_key": "Your order should be ready in about number minutes", "audio_tr_tts_key": "Siparişiniz yaklaşık dakika içinde hazır olacak"},
+    {"id": "L07SPS_P005", "ar_from_dialogue": "هل يمكنني أن أقدم لكم... على حساب المطعم كاعتذار؟", "en_from_dialogue": "May I offer you some... on the house as an apology?", "tr_from_dialogue": "Özür olarak size bizden bazı ... ikram edebilir miyim?", "focus_ar": "عرض تعويض/بادرة حسن نية", "focus_en": "Offering compensation/goodwill gesture", "focus_tr": "Tazminat/iyi niyet jesti sunma", "audio_ar_tts_key": "هل يمكنني أن أقدم لكم على حساب المطعم كاعتذar", "audio_en_tts_key": "May I offer you some items on the house as an apology", "audio_tr_tts_key": "Özür olarak size bizden bazı şeyler ikram edebilir miyim"},
+    {"id": "L07SPS_P006", "ar_from_dialogue": "هذا لطف منكِ. نقدر اهتمامك.", "en_from_dialogue": "That's very kind of you. We appreciate your attention to this.", "tr_from_dialogue": "Bu çok naziksiniz. İlginiz için teşekkür ederiz.", "focus_ar": "قبول العرض والتعبير عن التقدير", "focus_en": "Accepting an offer and expressing appreciation", "focus_tr": "Bir teklifi kabul etme ve takdir ifade etme", "audio_ar_tts_key": "هذا لطف منك نقدر اهتمامك", "audio_en_tts_key": "That's very kind of you. We appreciate your attention to this", "audio_tr_tts_key": "Bu çok naziksiniz. İlginiz için teşekkür ederiz"}
+  ]
+}

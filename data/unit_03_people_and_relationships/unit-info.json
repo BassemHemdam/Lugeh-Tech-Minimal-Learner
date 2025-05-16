@@ -1,0 +1,18 @@
+{
+  "id": "U03PAR",
+  "slug": "people-and-relationships",
+  "folderName": "unit_03_people_and_relationships",
+  "title_ar": "الأشخاص والعلاقات: بناء جسور التواصل",
+  "title_en": "People & Relationships: Building Bridges of Communication",
+  "title_tr": "İnsanlar ve İlişkiler: İletişim Köprüleri Kurma",
+  "description_ar": "تعلم كيف تصف الأشخاص، تتحدث عن العائلة والأصدقاء، تعبر عن مشاعرك تجاههم، وتدير التفاعلات الاجتماعية المختلفة.",
+  "description_en": "Learn how to describe people, talk about family and friends, express your feelings towards them, and manage various social interactions.",
+  "description_tr": "İnsanları nasıl tarif edeceğinizi, aile ve arkadaşlardan nasıl bahsedeceğinizi, onlara karşı duygularınızı nasıl ifade edeceğinizi ve çeşitli sosyal etkileşimleri nasıl yöneteceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-users-line",
+  "theme_color_class": "theme-amber-accent",
+  "lessons_count": 10,
+  "lessonFiles": [
+    "lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05",
+    "lesson_06", "lesson_07", "lesson_08", "lesson_09", "lesson_10"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "L09U06ACN",
+  "slug": "cultural-references-humor-in-dialogue",
+  "title_ar": "حوار عن المراجع الثقافية والفكاهة العابرة للحدود",
+  "title_en": "Dialogue on Cultural References and Cross-Border Humor",
+  "title_tr": "Kültürel Referanslar ve Sınır Ötesi Mizah Üzerine Diyalog",
+  "objective_ar": "من خلال حوار، استكشاف كيف يمكن للمراجع الثقافية أن تؤثر على الفكاهة وفهمها، وأهمية الحساسية الثقافية.",
+  "objective_en": "Through a dialogue, explore how cultural references can impact humor and its understanding, and the importance of cultural sensitivity.",
+  "objective_tr": "Bir diyalog aracılığıyla, kültürel referansların mizahı ve anlaşılmasını nasıl etkileyebileceğini ve kültürel duyarlılığın önemini keşfedin.",
+  "icon_fa_class": "fa-solid fa-earth-americas",
+  "scenario": {
+    "title_ar": "نقاش حول مسلسل كوميدي عالمي",
+    "title_en": "Discussion about an International Comedy Series",
+    "title_tr": "Uluslararası Bir Komedi Dizisi Hakkında Tartışma",
+    "characters": [
+      {"id": "personIntl1", "name_ar": "سليم", "name_en": "Salim", "name_tr": "Selim"},
+      {"id": "personIntl2", "name_ar": "إليزا", "name_en": "Eliza", "name_tr": "Eliza"},
+      {"id": "personIntl3", "name_ar": "يوكي", "name_en": "Yuki", "name_tr": "Yuki"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "personIntl1", "line_ar": "يا جماعة، هل شاهد أحدكم الحلقة الأخيرة من مسلسل [اسم مسلسل كوميدي خيالي مشهور عالميًا]؟ كانت مضحكة جدًا!", "line_en": "Hey everyone, did anyone watch the latest episode of [Fictional Globally Popular Comedy Series]? It was hilarious!", "line_tr": "Herkese merhaba, [Kurgusal Küresel Popüler Komedi Dizisi]'nin son bölümünü izleyen oldu mu? Çok komikti!"},
+      {"character_id": "personIntl2", "line_ar": "نعم! أحببت الجزء الذي سخروا فيه من [موقف سياسي/اجتماعي عالمي]. أعتقد أن فكاهتهم ذكية جدًا.", "line_en": "Yes! I loved the part where they made fun of [a global political/social situation]. I think their humor is very witty.", "line_tr": "Evet! [Küresel bir siyasi/sosyal durum] ile dalga geçtikleri kısmı çok sevdim. Bence mizahları çok zekice."},
+      {"character_id": "personIntl3", "line_ar": "أنا أستمتع بالمسلسل بشكل عام، لكن بصراحة، بعض النكات التي تعتمد على مراجع ثقافية غربية تفوتني أحيانًا.", "line_en": "I enjoy the show overall, but honestly, some of the jokes based on Western cultural references sometimes go over my head.", "line_tr": "Genel olarak diziden keyif alıyorum ama dürüst olmak gerekirse, Batı kültürel referanslarına dayanan bazı şakalar bazen beni aşıyor."},
+      {"character_id": "personIntl1", "line_ar": "أتفهم ذلك تمامًا يا يوكي. الفكاهة التي تعتمد على سياق معين يمكن أن تكون صعبة. هل هناك مثال معين لم تفهمه؟", "line_en": "I totally get that, Yuki. Context-specific humor can be tricky. Was there a particular example you didn't understand?", "line_tr": "Seni tamamen anlıyorum Yuki. Bağlama özgü mizah zor olabilir. Anlamadığın belirli bir örnek var mıydı?"},
+      {"character_id": "personIntl3", "line_ar": "نعم، عندما ذكروا [شخصية مشهورة/حدث تاريخي من الثقافة الغربية]. لم أكن أعرف الخلفية، لذا لم أجدها مضحكة مثلكم.", "line_en": "Yes, when they mentioned [a famous Western celebrity/historical event]. I didn't know the background, so I didn't find it as funny as you guys did.", "line_tr": "Evet, [Batı kültüründen ünlü birini/tarihi bir olayı] bahsettiklerinde. Arka planı bilmiyordum, bu yüzden sizin kadar komik bulmadım."},
+      {"character_id": "personIntl2", "line_ar": "هذا صحيح، بدون السياق، قد تبدو النكتة غريبة. من الجيد دائمًا أن نضع في اعتبارنا أن الفكاهة ليست عالمية دائمًا.", "line_en": "That's true, without the context, the joke might seem odd. It's always good to keep in mind that humor isn't always universal.", "line_tr": "Bu doğru, bağlam olmadan şaka tuhaf gelebilir. Mizahın her zaman evrensel olmadığını akılda tutmak her zaman iyidir."},
+      {"character_id": "personIntl1", "line_ar": "بالتأكيد. وهذا يذكرني، عندما كنت في [بلد بثقافة مختلفة]، قلتُ نكتة اعتقدت أنها بريئة تمامًا، لكنها أسيء فهمها بشكل كبير!", "line_en": "Definitely. And that reminds me, when I was in [Country with different culture], I told a joke I thought was completely innocuous, but it was majorly misunderstood!", "line_tr": "Kesinlikle. Ve bu bana şunu hatırlattı, [Farklı kültürdeki bir ülke]'deyken, tamamen zararsız olduğunu düşündüğüm bir fıkra anlattım ama büyük ölçüde yanlış anlaşıldı!"}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L09U06_PA001", "ar_from_dialogue": "بعض النكات التي تعتمد على مراجع ثقافية ... تفوتني أحيانًا.", "en_from_dialogue": "Some of the jokes based on cultural references ... sometimes go over my head.", "tr_from_dialogue": "Kültürel referanslara dayanan bazı şakalar ... bazen beni aşıyor.", "focus_ar": "التعبير عن عدم فهم مرجعية ثقافية", "focus_en": "Expressing not understanding a cultural reference", "focus_tr": "Kültürel bir referansı anlamadığını ifade etme"},
+    {"id": "L09U06_PA002", "ar_from_dialogue": "هل يمكنك شرحها؟ / لم أفهم المغزى.", "en_from_dialogue": "Could you explain it? / I missed the point.", "tr_from_dialogue": "Açıklayabilir misin? / Espriyi kaçırdım.", "focus_ar": "طلب توضيح لمفهوم أو نكتة", "focus_en": "Asking for clarification of a concept or joke", "focus_tr": "Bir kavramın veya şakanın açıklanmasını isteme"},
+    {"id": "L09U06_PA003", "ar_from_dialogue": "في ثقافتنا، عندما نقول ذلك، فإنه يعني...", "en_from_dialogue": "In our culture, when we say that, it means...", "tr_from_dialogue": "Bizim kültürümüzde bunu söylediğimizde, şu anlama gelir...", "focus_ar": "تقديم شرح لسياق ثقافي", "focus_en": "Providing an explanation of a cultural context", "focus_tr": "Kültürel bir bağlamın açıklamasını sunma"},
+    {"id": "L09U06_PA004", "ar_from_dialogue": "من الجيد دائمًا أن نضع في اعتبارنا أن الفكاهة ليست عالمية دائمًا.", "en_from_dialogue": "It's always good to keep in mind that humor isn't always universal.", "tr_from_dialogue": "Mizahın her zaman evrensel olmadığını akılda tutmak her zaman iyidir.", "focus_ar": "ملاحظة حول عالمية الفكاهة (أو عدمها)", "focus_en": "Observation on the (non-)universality of humor", "focus_tr": "Mizahın evrenselliği (veya olmaması) üzerine gözlem"},
+    {"id": "L09U06_PA005", "ar_from_dialogue": "لقد تعلمت بالطريقة الصعبة ألا أفترض...", "en_from_dialogue": "I've learned the hard way not to assume...", "tr_from_dialogue": "...varsaymamayı zor yoldan öğrendim.", "focus_ar": "التعبير عن درس مكتسب من تجربة سابقة", "focus_en": "Expressing a lesson learned from past experience", "focus_tr": "Geçmiş bir deneyimden öğrenilen dersi ifade etme"},
+    {"id": "L09U06_PA006", "ar_from_dialogue": "قلتُ نكتة اعتقدت أنها بريئة تمامًا، لكنها أسيء فهمها بشكل كبير!", "en_from_dialogue": "I told a joke I thought was completely innocuous, but it was majorly misunderstood!", "tr_from_dialogue": "Tamamen zararsız olduğunu düşündüğüm bir fıkra anlattım ama büyük ölçüde yanlış anlaşıldı!", "focus_ar": "مشاركة تجربة سوء فهم ثقافي", "focus_en": "Sharing an experience of cultural misunderstanding", "focus_tr": "Kültürel bir yanlış anlaşılma deneyimini paylaşma"}
+  ]
+}

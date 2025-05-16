@@ -1,0 +1,21 @@
+{
+  "id": "L07U04NAE",
+  "slug": "safety-emergency-phrases-traveling",
+  "title_ar": "السلامة والطوارئ أثناء السفر: عبارات لا غنى عنها",
+  "title_en": "Safety & Emergency Phrases While Traveling: Indispensable Expressions",
+  "title_tr": "Seyahat Sırasında Güvenlik ve Acil Durum İfadeleri: Vazgeçilmez Deyimler",
+  "objective_ar": "تعلم عبارات الطوارئ الأساسية وطلب المساعدة في مواقف صعبة أو خطرة قد تحدث أثناء السفر.",
+  "objective_en": "Learn essential emergency phrases and how to ask for help in difficult or dangerous situations that may occur while traveling.",
+  "objective_tr": "Seyahat sırasında oluşabilecek zor veya tehlikeli durumlarda temel acil durum ifadelerini ve nasıl yardım isteyeceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-shield-halved",
+  "scenario": null,
+  "phrases": [
+    {"id": "L07U04_P001", "category_ar": "طلب المساعدة العاجلة", "ar": "مساعدة! / أحتاج إلى مساعدة! / النجدة!", "en": "Help! / I need help! / Emergency!", "tr": "İmdat! / Yardıma ihtiyacım var! / Acil durum!", "audio_ar_tts_key": "مساعدة أحتاج إلى مساعدة النجدة", "audio_en_tts_key": "Help! I need help! Emergency!", "audio_tr_tts_key": "İmdat! Yardıma ihtiyacım var! Acil durum!"},
+    {"id": "L07U04_P002", "category_ar": "الإبلاغ عن مشكلة خطيرة", "ar": "هناك حريق! / شخص ما مصاب! / لقد سُرقت!", "en": "There's a fire! / Someone is injured! / I've been robbed!", "tr": "Yangın var! / Biri yaralandı! / Soyuldum!", "audio_ar_tts_key": "هناك حريق شخص ما مصاب لقد سرقت", "audio_en_tts_key": "There's a fire! Someone is injured! I've been robbed!", "audio_tr_tts_key": "Yangın var! Biri yaralandı! Soyuldum!"},
+    {"id": "L07U04_P003", "category_ar": "طلب خدمات الطوارئ", "ar": "اتصل بالشرطة! / اتصل بالإسعاف! / اتصل بالمطافئ!", "en": "Call the police! / Call an ambulance! / Call the fire department!", "tr": "Polisi arayın! / Ambulans çağırın! / İtfaiyeyi arayın!", "audio_ar_tts_key": "اتصل بالشرطة اتصل بالإسعاف اتصل بالمطافئ", "audio_en_tts_key": "Call the police! Call an ambulance! Call the fire department!", "audio_tr_tts_key": "Polisi arayın! Ambulans çağırın! İtfaiyeyi arayın!"},
+    {"id": "L07U04_P004", "category_ar": "الاستفسارات الصحية الأساسية", "ar": "أين أقرب مستشفى/صيدلية؟ / أحتاج إلى طبيب.", "en": "Where is the nearest hospital/pharmacy? / I need a doctor.", "tr": "En yakın hastane/eczane nerede? / Bir doktora ihtiyacım var.", "audio_ar_tts_key": "أين أقرب مستشفى أو صيدلية أحتاج إلى طبيب", "audio_en_tts_key": "Where is the nearest hospital or pharmacy? I need a doctor.", "audio_tr_tts_key": "En yakın hastane veya eczane nerede? Bir doktora ihtiyacım var."},
+    {"id": "L07U04_P005", "category_ar": "التعبير عن الشعور بالمرض", "ar": "أنا لا أشعر أنني بحالة جيدة. / أشعر بالدوار. / لدي ألم شديد هنا (يشير).", "en": "I don't feel well. / I feel dizzy. / I have a sharp pain here (points).", "tr": "Kendimi iyi hissetmiyorum. / Başım dönüyor. / Burada (işaret eder) keskin bir ağrım var.", "audio_ar_tts_key": "أنا لا أشعر أنني بحالة جيدة أشعر بالدوار لدي ألم شديد هنا", "audio_en_tts_key": "I don't feel well. I feel dizzy. I have a sharp pain here.", "audio_tr_tts_key": "Kendimi iyi hissetmiyorum. Başım dönüyor. Burada keskin bir ağrım var."},
+    {"id": "L07U04_P006", "category_ar": "فقدان الأغراض الهامة", "ar": "لقد فقدت جواز سفري/هاتفي/محفظتي.", "en": "I've lost my passport/phone/wallet.", "tr": "Pasaportumu/telefonumu/cüzdanımı kaybettim.", "audio_ar_tts_key": "لقد فقدت جواز سفري أو هاتفي أو محفظتي", "audio_en_tts_key": "I've lost my passport or phone or wallet.", "audio_tr_tts_key": "Pasaportumu veya telefonumu veya cüzdanımı kaybettim."},
+    {"id": "L07U04_P007", "category_ar": "التأكيد على خطورة الموقف", "ar": "إنه أمر عاجل جدًا! / هل يمكنك مساعدتي فورًا؟", "en": "It's very urgent! / Can you help me immediately?", "tr": "Çok acil! / Bana hemen yardımcı olabilir misiniz?", "audio_ar_tts_key": "إنه أمر عاجل جدا هل يمكنك مساعدتي فورا", "audio_en_tts_key": "It's very urgent! Can you help me immediately?", "audio_tr_tts_key": "Çok acil! Bana hemen yardımcı olabilir misiniz?"}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "L06U02DLA",
+  "slug": "talking-about-the-weather",
+  "title_ar": "الطقس والمناخ: كيف تبدأ محادثة صغيرة حول أحوال الجو",
+  "title_en": "Weather & Climate: Starting Small Talk About Weather Conditions",
+  "title_tr": "Hava Durumu ve İklim: Hava Koşulları Hakkında Kısa Sohbet Başlatma",
+  "objective_ar": "تعلم العبارات الشائعة لوصف الطقس الحالي، التنبؤات الجوية، والتعبير عن المشاعر تجاه أحوال الطقس المختلفة.",
+  "objective_en": "Learn common phrases to describe current weather, weather forecasts, and express feelings about different weather conditions.",
+  "objective_tr": "Mevcut hava durumunu, hava tahminlerini tanımlamak ve farklı hava koşulları hakkındaki duyguları ifade etmek için yaygın ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-cloud-sun-rain", 
+  "scenario": {
+    "title_ar": "حوار: دردشة صباحية عن الطقس",
+    "title_en": "Dialogue: Morning Weather Chat",
+    "title_tr": "Diyalog: Sabah Hava Durumu Sohbeti",
+    "characters": [
+      {"id": "pers1", "name_ar": "عمر", "name_en": "Omar", "name_tr": "Ömer"},
+      {"id": "pers2", "name_ar": "فاطمة", "name_en": "Fatima", "name_tr": "Fatma"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "pers1", "line_ar": "صباح الخير فاطمة، يا له من يوم جميل! الشمس مشرقة والسماء صافية.", "line_en": "Good morning Fatima, what a beautiful day! The sun is shining and the sky is clear.", "line_tr": "Günaydın Fatma, ne güzel bir gün! Güneş parlıyor ve gökyüzü açık."},
+      {"character_id": "pers2", "line_ar": "صباح النور عمر! نعم، إنه كذلك. كنت آمل أن يكون الطقس هكذا طوال الأسبوع.", "line_en": "Morning Omar! Yes, it is. I was hoping the weather would be like this all week.", "line_tr": "Günaydın Ömer! Evet, öyle. Umarım hava bütün hafta böyle olur."},
+      {"character_id": "pers1", "line_ar": "سمعت في النشرة الجوية أن درجات الحرارة سترتفع غدًا. ربما تصل إلى 30 درجة!", "line_en": "I heard on the weather forecast that temperatures are going to rise tomorrow. It might reach 30 degrees!", "line_tr": "Hava tahminlerinde yarın sıcaklıkların artacağını duydum. 30 dereceye ulaşabilirmiş!"},
+      {"character_id": "pers2", "line_ar": "حقًا؟ هذا حار جدًا بالنسبة لهذا الوقت من العام. أفضل الطقس المعتدل.", "line_en": "Really? That's quite hot for this time of year. I prefer milder weather.", "line_tr": "Gerçekten mi? Yılın bu zamanı için oldukça sıcak. Ben daha ılıman havayı tercih ederim."},
+      {"character_id": "pers1", "line_ar": "أنا مثلك. ولكن يبدو أن هناك احتمال لسقوط أمطار خفيفة في عطلة نهاية الأسبوع.", "line_en": "Me too. But it looks like there's a chance of light rain over the weekend.", "line_tr": "Ben de. Ama hafta sonu hafif yağmur ihtimali var gibi görünüyor."},
+      {"character_id": "pers2", "line_ar": "أتمنى ألا يكون المطر غزيرًا. لدي خطط للخروج. على أي حال، يجب أن أحضر مظلتي احتياطًا.", "line_en": "I hope it's not too heavy. I have plans to go out. Anyway, I should probably bring my umbrella just in case.", "line_tr": "Umarım çok şiddetli olmaz. Dışarı çıkma planlarım var. Her neyse, her ihtimale karşı şemsiyemi getirmeliyim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L06U02_P001", "ar_from_dialogue": "يا له من يوم جميل!", "en_from_dialogue": "What a beautiful day!", "tr_from_dialogue": "Ne güzel bir gün!", "focus_ar": "التعليق على جمال الطقس", "focus_en": "Commenting on beautiful weather", "focus_tr": "Güzel hava hakkında yorum yapma", "audio_ar_tts_key": "يا له من يوم جميل", "audio_en_tts_key": "What a beautiful day", "audio_tr_tts_key": "Ne güzel bir gün"},
+    {"id": "L06U02_P002", "ar_from_dialogue": "الشمس مشرقة والسماء صافية.", "en_from_dialogue": "The sun is shining and the sky is clear.", "tr_from_dialogue": "Güneş parlıyor ve gökyüzü açık.", "focus_ar": "وصف الطقس المشمس والصافي", "focus_en": "Describing sunny and clear weather", "focus_tr": "Güneşli ve açık havayı tanımlama", "audio_ar_tts_key": "الشمس مشرقة والسماء صافية", "audio_en_tts_key": "The sun is shining and the sky is clear", "audio_tr_tts_key": "Güneş parlıyor ve gökyüzü açık"},
+    {"id": "L06U02_P003", "ar_from_dialogue": "سمعت في النشرة الجوية أن...", "en_from_dialogue": "I heard on the weather forecast that...", "tr_from_dialogue": "Hava tahminlerinde ... duydum.", "focus_ar": "الإشارة إلى مصدر معلومات الطقس", "focus_en": "Referring to the source of weather information", "focus_tr": "Hava durumu bilgisinin kaynağına atıfta bulunma", "audio_ar_tts_key": "سمعت في النشرة الجوية أن", "audio_en_tts_key": "I heard on the weather forecast that", "audio_tr_tts_key": "Hava tahminlerinde duydum"},
+    {"id": "L06U02_P004", "ar_from_dialogue": "درجات الحرارة سترتفع/ستنخفض.", "en_from_dialogue": "Temperatures are going to rise/fall.", "tr_from_dialogue": "Sıcaklıklar artacak/düşecek.", "focus_ar": "وصف تغير درجات الحرارة المتوقع", "focus_en": "Describing expected temperature change", "focus_tr": "Beklenen sıcaklık değişimini tanımlama", "audio_ar_tts_key": "درجات الحرارة سترتفع", "audio_en_tts_key": "Temperatures are going to rise", "audio_tr_tts_key": "Sıcaklıklar artacak"},
+    {"id": "L06U02_P005", "ar_from_dialogue": "هذا حار/بارد جدًا بالنسبة لهذا الوقت من العام.", "en_from_dialogue": "That's quite hot/cold for this time of year.", "tr_from_dialogue": "Yılın bu zamanı için oldukça sıcak/soğuk.", "focus_ar": "التعليق على الطقس مقارنة بالموسم", "focus_en": "Commenting on weather relative to the season", "focus_tr": "Mevsime göre hava durumu hakkında yorum yapma", "audio_ar_tts_key": "هذا حار جدا بالنسبة لهذا الوقت من العام", "audio_en_tts_key": "That's quite hot for this time of year", "audio_tr_tts_key": "Yılın bu zamanı için oldukça sıcak"},
+    {"id": "L06U02_P006", "ar_from_dialogue": "أفضل الطقس المعتدل/الدافئ/البارد.", "en_from_dialogue": "I prefer milder/warmer/cooler weather.", "tr_from_dialogue": "Daha ılıman/sıcak/serin havayı tercih ederim.", "focus_ar": "التعبير عن تفضيل نوع معين من الطقس", "focus_en": "Expressing preference for a type of weather", "focus_tr": "Belirli bir hava türü için tercih ifade etme", "audio_ar_tts_key": "أفضل الطقس المعتدل", "audio_en_tts_key": "I prefer milder weather", "audio_tr_tts_key": "Daha ılıman havayı tercih ederim"},
+    {"id": "L06U02_P007", "ar_from_dialogue": "يبدو أن هناك احتمال لسقوط أمطار.", "en_from_dialogue": "It looks like there's a chance of rain.", "tr_from_dialogue": "Yağmur ihtimali var gibi görünüyor.", "focus_ar": "الإشارة إلى احتمال هطول المطر", "focus_en": "Indicating a chance of rain", "focus_tr": "Yağmur olasılığını belirtme", "audio_ar_tts_key": "يبدو أن هناك احتمال لسقوط أمطار", "audio_en_tts_key": "It looks like there's a chance of rain", "audio_tr_tts_key": "Yağmur ihtimali var gibi görünüyor"},
+    {"id": "L06U02_P008", "ar_from_dialogue": "يجب أن أحضر مظلتي احتياطًا.", "en_from_dialogue": "I should probably bring my umbrella just in case.", "tr_from_dialogue": "Her ihtimale karşı şemsiyemi getirmeliyim.", "focus_ar": "التعبير عن أخذ الاحتياطات بسبب الطقس", "focus_en": "Expressing taking precautions due to weather", "focus_tr": "Hava durumu nedeniyle önlem aldığını ifade etme", "audio_ar_tts_key": "يجب أن أحضر مظلتي احتياطا", "audio_en_tts_key": "I should probably bring my umbrella just in case", "audio_tr_tts_key": "Her ihtimale karşı şemsiyemi getirmeliyim"}
+  ]
+}

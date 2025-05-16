@@ -1,0 +1,16 @@
+{
+  "id": "U01SPS",
+  "slug": "daily-scenarios-problem-solving",
+  "folderName": "unit_01_daily_scenarios_problem_solving",
+  "title_ar": "سيناريوهات يومية: حل المشكلات والتواصل الفعال",
+  "title_en": "Daily Scenarios: Problem Solving & Effective Communication",
+  "title_tr": "Günlük Senaryolar: Problem Çözme ve Etkili İletişim",
+  "description_ar": "تعلم كيفية التعامل مع مواقف يومية متنوعة من خلال محادثات واقعية، وحل المشكلات التي قد تواجهك بفعالية باللغتين.",
+  "icon_fa_class": "fa-solid fa-comments",
+  "theme_color_class": "theme-green",
+  "lessons_count": 10, 
+  "lessonFiles": [ 
+    "lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05",
+    "lesson_06", "lesson_07", "lesson_08", "lesson_09", "lesson_10"
+  ]
+}

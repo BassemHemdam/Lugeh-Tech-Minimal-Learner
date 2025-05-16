@@ -1,0 +1,46 @@
+{
+  "id": "L07U06ACN",
+  "slug": "writing-effective-emails-formal-informal",
+  "title_ar": "كتابة البريد الإلكتروني الفعال: الرسمي وغير الرسمي",
+  "title_en": "Writing Effective Emails: Formal and Informal Communication",
+  "title_tr": "Etkili E-posta Yazma: Resmi ve Gayri Resmi İletişim",
+  "objective_ar": "فهم الفروق الأساسية في النبرة، الهيكل، واللغة المستخدمة في رسائل البريد الإلكتروني الرسمية وغير الرسمية من خلال أمثلة وسيناريوهات.",
+  "objective_en": "Understand the key differences in tone, structure, and language used in formal and informal emails through examples and scenarios.",
+  "objective_tr": "Örnekler ve senaryolar aracılığıyla resmi ve gayri resmi e-postalarda kullanılan üslup, yapı ve dildeki temel farklılıkları anlayın.",
+  "icon_fa_class": "fa-solid fa-at",
+  "scenario": {
+    "title_ar": "مقارنة بين بريد إلكتروني رسمي وآخر غير رسمي لنفس الغرض",
+    "title_en": "Comparing Formal and Informal Emails for the Same Purpose",
+    "title_tr": "Aynı Amaç İçin Resmi ve Gayri Resmi E-postaları Karşılaştırma",
+    "characters": [
+      {"id": "sender", "name_ar": "مرسل", "name_en": "Sender", "name_tr": "Gönderen"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "sender",
+        "line_ar": "الغرض: طلب معلومات إضافية عن منتج/خدمة.",
+        "line_en": "Purpose: Requesting additional information about a product/service.",
+        "line_tr": "Amaç: Bir ürün/hizmet hakkında ek bilgi talep etme."
+      },
+      {
+        "character_id": "sender",
+        "line_ar": "مثال لبريد إلكتروني رسمي:<br><strong>الموضوع:</strong> استفسار بخصوص [اسم المنتج/الخدمة]<br><br>حضرة السيد/السيدة [اسم جهة الاتصال أو 'فريق المبيعات']،<br><br>أكتب إليكم للاستفسار عن المزيد من التفاصيل حول [اسم المنتج/الخدمة] المذكور على موقعكم الإلكتروني.<br>على وجه الخصوص، أود معرفة المزيد عن [سؤال محدد 1] و [سؤال محدد 2].<br><br>سأكون ممتنًا لو تفضلتم بتزويدي بهذه المعلومات في أقرب وقت ممكن.<br><br>مع خالص التقدير،<br>[اسمك الكامل]<br>[منصبك/شركتك إن وجد]",
+        "line_en": "Formal Email Example:<br><strong>Subject:</strong> Inquiry regarding [Product/Service Name]<br><br>Dear Mr./Ms. [Contact Person or 'Sales Team'],<br><br>I am writing to inquire about further details concerning the [Product/Service Name] mentioned on your website.<br>Specifically, I would like to know more about [Specific Question 1] and [Specific Question 2].<br><br>I would be grateful if you could provide me with this information at your earliest convenience.<br><br>Sincerely,<br>[Your Full Name]<br>[Your Title/Company if applicable]",
+        "line_tr": "Resmi E-posta Örneği:<br><strong>Konu:</strong> [Ürün/Hizmet Adı] hakkında bilgi talebi<br><br>Sayın [İlgili Kişi veya 'Satış Ekibi'],<br><br>Web sitenizde belirtilen [Ürün/Hizmet Adı] hakkında daha fazla ayrıntı sormak için yazıyorum.<br>Özellikle, [Belirli Soru 1] ve [Belirli Soru 2] hakkında daha fazla bilgi edinmek istiyorum.<br><br>Bu bilgiyi en kısa sürede bana sağlayabilirseniz minnettar olurum.<br><br>Saygılarımla,<br>[Tam Adınız]<br>[Unvanınız/Şirketiniz (varsa)]"
+      },
+      {
+        "character_id": "sender",
+        "line_ar": "مثال لبريد إلكتروني غير رسمي (إلى صديق يعمل في الشركة):<br><strong>الموضوع:</strong> سؤال سريع عن [المنتج]<br><br>مرحباً [اسم الصديق]،<br><br>كيف حالك؟ آمل أن كل شيء بخير.<br>لدي سؤال سريع عن [المنتج] الذي تعملون عليه. هل يمكنك إخباري قليلاً عن [سؤال محدد 1]؟ وأيضًا، هل [سؤال محدد 2]؟<br><br>لا داعي للعجلة، فقط عندما يكون لديك وقت.<br><br>تحياتي،<br>[اسمك]",
+        "line_en": "Informal Email Example (to a friend who works at the company):<br><strong>Subject:</strong> Quick question about [Product]<br><br>Hi [Friend's Name],<br><br>How are you doing? Hope all is well.<br>I had a quick question about the [Product] you guys are working on. Could you tell me a bit about [Specific Question 1]? And also, is [Specific Question 2]?<br><br>No rush, just whenever you have a moment.<br><br>Best,<br>[Your Name]",
+        "line_tr": "Gayri Resmi E-posta Örneği (şirkette çalışan bir arkadaşa):<br><strong>Konu:</strong> [Ürün] hakkında hızlı bir soru<br><br>Merhaba [Arkadaş Adı],<br><br>Nasılsın? Umarım her şey yolundadır.<br>[Ürün] üzerinde çalıştığınız konu hakkında hızlı bir sorum vardı. Bana biraz [Belirli Soru 1]'den bahsedebilir misin? Ayrıca, [Belirli Soru 2] mi?<br><br>Acelem yok, ne zaman vaktin olursa.<br><br>Sevgiler,<br>[Adın]"
+      }
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L07U06_PA001", "ar_from_dialogue": "رسمي: حضرة السيد/السيدة... / أكتب إليكم لـ... / مع خالص التقدير.", "en_from_dialogue": "Formal: Dear Mr./Ms... / I am writing to... / Sincerely.", "tr_from_dialogue": "Resmi: Sayın ... Bey/Hanım / Size ... için yazıyorum / Saygılarımla.", "focus_ar": "عناصر البريد الإلكتروني الرسمي (تحية، غرض، خاتمة)", "focus_en": "Elements of a Formal Email (Salutation, Purpose, Closing)", "focus_tr": "Resmi E-postanın Unsurları (Hitap, Amaç, Kapanış)"},
+    {"id": "L07U06_PA002", "ar_from_dialogue": "غير رسمي: مرحباً... / كيف حالك؟ / تحياتي.", "en_from_dialogue": "Informal: Hi... / How are you doing? / Best,", "tr_from_dialogue": "Gayri Resmi: Merhaba... / Nasılsın? / Sevgiler,", "focus_ar": "عناصر البريد الإلكتروني غير الرسمي", "focus_en": "Elements of an Informal Email", "focus_tr": "Gayri Resmi E-postanın Unsurları"},
+    {"id": "L07U06_PA003", "ar_from_dialogue": "رسمي: 'I would be grateful if you could...' / 'Please be advised that...'", "en_from_dialogue": "Formal: 'I would be grateful if you could...' / 'Please be advised that...'", "tr_from_dialogue": "Resmi: '...yapabilirseniz minnettar olurum.' / 'Lütfen ...dikkate alınız.'", "focus_ar": "أمثلة على اللغة الرسمية المستخدمة في الطلبات والمعلومات", "focus_en": "Examples of formal language for requests and information", "focus_tr": "Talepler ve bilgiler için resmi dil örnekleri"},
+    {"id": "L07U06_PA004", "ar_from_dialogue": "غير رسمي: 'Could you tell me a bit about...?' / 'No rush.'", "en_from_dialogue": "Informal: 'Could you tell me a bit about...?' / 'No rush.'", "tr_from_dialogue": "Gayri Resmi: 'Bana biraz ...den bahsedebilir misin?' / 'Acelem yok.'", "focus_ar": "أمثلة على اللغة غير الرسمية الأقل تكلفًا", "focus_en": "Examples of more casual, informal language", "focus_tr": "Daha rahat, gayri resmi dil örnekleri"},
+    {"id": "L07U06_PA005", "ar_from_dialogue": "ملاحظة: الوضوح والإيجاز مهمان في كلا النوعين، ولكن الرسمية تتطلب لغة أكثر تحفظًا وتجنبًا للعامية.", "en_from_dialogue": "Note: Clarity and conciseness are important in both, but formality requires more reserved language and avoidance of slang.", "tr_from_dialogue": "Not: Her ikisinde de açıklık ve özlülük önemlidir, ancak resmiyet daha ölçülü bir dil ve argodan kaçınmayı gerektirir.", "focus_ar": "نصيحة عامة لكتابة البريد الإلكتروني", "focus_en": "General email writing tip", "focus_tr": "Genel e-posta yazma ipucu"}
+  ]
+}

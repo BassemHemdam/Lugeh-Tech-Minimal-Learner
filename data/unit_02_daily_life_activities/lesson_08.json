@@ -1,0 +1,46 @@
+{
+  "id": "L08U02DLA",
+  "slug": "at-the-doctor-pharmacy",
+  "title_ar": "في عيادة الطبيب والصيدلية: وصف الأعراض وطلب الدواء",
+  "title_en": "At the Doctor's & Pharmacy: Describing Symptoms & Asking for Medication",
+  "title_tr": "Doktor Muayenehanesinde ve Eczanede: Belirtileri Tanımlama ve İlaç İsteme",
+  "objective_ar": "تعلم العبارات اللازمة لوصف الأعراض المرضية للطبيب، فهم تشخيصه، والحصول على الأدوية من الصيدلية.",
+  "objective_en": "Learn the necessary phrases to describe symptoms to a doctor, understand their diagnosis, and obtain medication from a pharmacy.",
+  "objective_tr": "Doktora belirtileri tanımlamak, teşhislerini anlamak ve bir eczaneden ilaç almak için gerekli ifadeleri öğrenin.",
+  "icon_fa_class": "fa-solid fa-stethoscope",
+  "scenario": {
+    "title_ar": "حوار: زيارة بسبب نزلة برد",
+    "title_en": "Dialogue: Visiting for a Cold",
+    "title_tr": "Diyalog: Soğuk Algınlığı İçin Ziyaret",
+    "characters": [
+      {"id": "patient", "name_ar": "سالم", "name_en": "Salim", "name_tr": "Selim"},
+      {"id": "doctor", "name_ar": "د. هدى", "name_en": "Dr. Huda", "name_tr": "Dr. Hüda"},
+      {"id": "pharma", "name_ar": "صيدلي", "name_en": "Pharmacist", "name_tr": "Eczacı"}
+    ],
+    "dialogue_lines": [
+    
+      {"character_id": "doctor", "line_ar": "مرحباً سيد سالم، ما الذي أتى بك اليوم؟", "line_en": "Hello Mr. Salim, what brings you in today?", "line_tr": "Merhaba Selim Bey, bugün sizi buraya getiren nedir?"},
+      {"character_id": "patient", "line_ar": "مرحباً دكتورة هدى. أشعر بالإعياء منذ يومين. لدي التهاب في الحلق، سعال، وصداع خفيف.", "line_en": "Hello Dr. Huda. I've been feeling unwell for the past two days. I have a sore throat, a cough, and a slight headache.", "line_tr": "Merhaba Dr. Hüda. Son iki gündür kendimi iyi hissetmiyorum. Boğaz ağrım, öksürüğüm ve hafif bir baş ağrım var."},
+      {"character_id": "doctor", "line_ar": "(بعد الفحص) يبدو أنها نزلة برد شائعة. سأصف لك بعض الأدوية لتخفيف الأعراض.", "line_en": "(After an examination) It seems like a common cold. I'll prescribe some medication to relieve the symptoms.", "line_tr": "(Muayeneden sonra) Yaygın bir soğuk algınlığı gibi görünüyor. Belirtileri hafifletmek için size bazı ilaçlar yazacağım."},
+      {"character_id": "patient", "line_ar": "هل أحتاج لأخذ مضاد حيوي؟", "line_en": "Do I need to take any antibiotics?", "line_tr": "Antibiyotik almam gerekiyor mu?"},
+      {"character_id": "doctor", "line_ar": "لا، نزلات البرد فيروسية والمضادات الحيوية لن تساعد. ركز على الراحة وشرب السوائل الدافئة. متى بدأت تشعر بهذه الأعراض؟", "line_en": "No, colds are viral, and antibiotics won't help. Focus on rest and drinking warm fluids. When did you start feeling these symptoms?", "line_tr": "Hayır, soğuk algınlığı viraldır ve antibiyotikler yardımcı olmaz. Dinlenmeye ve sıcak sıvılar içmeye odaklanın. Bu belirtileri ne zaman hissetmeye başladınız?"},
+      {"character_id": "patient", "line_ar": "منذ صباح أمس تقريبًا.", "line_en": "Since yesterday morning, approximately.", "line_tr": "Yaklaşık dün sabahtan beri."},
+ 
+      {"character_id": "patient", "line_ar": "(للصيدلي) مساء الخير، لدي هذه الوصفة الطبية من دكتورة هدى.", "line_en": "(To Pharmacist) Good evening, I have this prescription from Dr. Huda.", "line_tr": "(Eczacıya) İyi akşamlar, Dr. Hüda'dan bu reçetem var."},
+      {"character_id": "pharma", "line_ar": "مساء النور. (يأخذ الوصفة) حسنًا، لدينا هذه الأدوية متوفرة. هذا الدواء للسعال، تأخذه ثلاث مرات يوميًا. وهذا لألم الحلق، قرص استحلاب كل 4 ساعات.", "line_en": "Good evening. (Takes prescription) Alright, we have these medications in stock. This one is for the cough, take it three times a day. And this is for the sore throat, a lozenge every 4 hours.", "line_tr": "İyi akşamlar. (Reçeteyi alır) Tamam, bu ilaçlar stoklarımızda mevcut. Bu öksürük için, günde üç kez alın. Ve bu da boğaz ağrısı için, her 4 saatte bir pastil."},
+      {"character_id": "patient", "line_ar": "هل هناك أي آثار جانبية يجب أن أكون على علم بها؟", "line_en": "Are there any side effects I should be aware of?", "line_tr": "Bilmem gereken herhangi bir yan etkisi var mı?"},
+      {"character_id": "pharma", "line_ar": "دواء السعال قد يسبب بعض النعاس، لذا يفضل عدم القيادة بعد تناوله. الباقي آمن بشكل عام.", "line_en": "The cough medicine might cause some drowsiness, so it's best not to drive after taking it. The rest are generally safe.", "line_tr": "Öksürük ilacı biraz uyuşukluğa neden olabilir, bu yüzden aldıktan sonra araba kullanmamanız en iyisidir. Diğerleri genellikle güvenlidir."},
+      {"character_id": "patient", "line_ar": "شكرًا جزيلاً على التوضيح.", "line_en": "Thank you very much for the explanation.", "line_tr": "Açıklama için çok teşekkür ederim."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L08U02_P001", "ar_from_dialogue": "أشعر بالإعياء / لدي التهاب في الحلق / سعال / صداع.", "en_from_dialogue": "I've been feeling unwell / I have a sore throat / a cough / a headache.", "tr_from_dialogue": "Kendimi iyi hissetmiyorum / Boğaz ağrım / öksürüğüm / baş ağrım var.", "focus_ar": "وصف الأعراض المرضية الشائعة", "focus_en": "Describing common illness symptoms", "focus_tr": "Yaygın hastalık belirtilerini tanımlama", "audio_ar_tts_key": "أشعر بالإعياء لدي التهاب في الحلق سعال صداع", "audio_en_tts_key": "I've been feeling unwell. I have a sore throat, a cough, and a headache.", "audio_tr_tts_key": "Kendimi iyi hissetmiyorum. Boğaz ağrım, öksürüğüm, baş ağrım var."},
+    {"id": "L08U02_P002", "ar_from_dialogue": "يبدو أنها نزلة برد شائعة.", "en_from_dialogue": "It seems like a common cold.", "tr_from_dialogue": "Yaygın bir soğuk algınlığı gibi görünüyor.", "focus_ar": "تلقي تشخيص مبدئي", "focus_en": "Receiving a preliminary diagnosis", "focus_tr": "Ön tanı alma", "audio_ar_tts_key": "يبدو أنها نزلة برد شائعة", "audio_en_tts_key": "It seems like a common cold", "audio_tr_tts_key": "Yaygın bir soğuk algınlığı gibi görünüyor"},
+    {"id": "L08U02_P003", "ar_from_dialogue": "سأصف لك بعض الأدوية لتخفيف الأعراض.", "en_from_dialogue": "I'll prescribe some medication to relieve the symptoms.", "tr_from_dialogue": "Belirtileri hafifletmek için size bazı ilaçlar yazacağım.", "focus_ar": "فهم أن الطبيب سيصف دواء", "focus_en": "Understanding the doctor will prescribe medication", "focus_tr": "Doktorun ilaç yazacağını anlama", "audio_ar_tts_key": "سأصف لك بعض الأدوية لتخفيف الأعراض", "audio_en_tts_key": "I'll prescribe some medication to relieve the symptoms", "audio_tr_tts_key": "Belirtileri hafifletmek için size bazı ilaçlar yazacağım"},
+    {"id": "L08U02_P004", "ar_from_dialogue": "هل أحتاج لأخذ مضاد حيوي؟", "en_from_dialogue": "Do I need to take any antibiotics?", "tr_from_dialogue": "Antibiyotik almam gerekiyor mu?", "focus_ar": "السؤال عن الحاجة لمضاد حيوي", "focus_en": "Asking about the need for antibiotics", "focus_tr": "Antibiyotik ihtiyacı hakkında soru sorma", "audio_ar_tts_key": "هل أحتاج لأخذ مضاد حيوي", "audio_en_tts_key": "Do I need to take any antibiotics", "audio_tr_tts_key": "Antibiyotik almam gerekiyor mu"},
+    {"id": "L08U02_P005", "ar_from_dialogue": "ركز على الراحة وشرب السوائل الدافئة.", "en_from_dialogue": "Focus on rest and drinking warm fluids.", "tr_from_dialogue": "Dinlenmeye ve sıcak sıvılar içmeye odaklanın.", "focus_ar": "تلقي نصيحة للعناية بالصحة", "focus_en": "Receiving health care advice", "focus_tr": "Sağlık bakımı tavsiyesi alma", "audio_ar_tts_key": "ركز على الراحة وشرب السوائل الدافئة", "audio_en_tts_key": "Focus on rest and drinking warm fluids", "audio_tr_tts_key": "Dinlenmeye ve sıcak sıvılar içmeye odaklanın"},
+    {"id": "L08U02_P006", "ar_from_dialogue": "لدي هذه الوصفة الطبية.", "en_from_dialogue": "I have this prescription.", "tr_from_dialogue": "Bu reçetem var.", "focus_ar": "تقديم وصفة طبية في الصيدلية", "focus_en": "Presenting a prescription at the pharmacy", "focus_tr": "Eczanede reçete sunma", "audio_ar_tts_key": "لدي هذه الوصفة الطبية", "audio_en_tts_key": "I have this prescription", "audio_tr_tts_key": "Bu reçetem var"},
+    {"id": "L08U02_P007", "ar_from_dialogue": "هذا الدواء لـ...، تأخذه ... مرات يوميًا.", "en_from_dialogue": "This one is for the..., take it... times a day.", "tr_from_dialogue": "Bu ...için, günde ... kez alın.", "focus_ar": "فهم تعليمات تناول الدواء", "focus_en": "Understanding medication instructions", "focus_tr": "İlaç talimatlarını anlama", "audio_ar_tts_key": "هذا الدواء لـ تأخذه مرات يوميا", "audio_en_tts_key": "This one is for the symptom, take it number times a day", "audio_tr_tts_key": "Bu semptom için, günde sayı kez alın"},
+    {"id": "L08U02_P008", "ar_from_dialogue": "هل هناك أي آثار جانبية يجب أن أكون على علم بها؟", "en_from_dialogue": "Are there any side effects I should be aware of?", "tr_from_dialogue": "Bilmem gereken herhangi bir yan etkisi var mı?", "focus_ar": "السؤال عن الآثار الجانبية للدواء", "focus_en": "Asking about medication side effects", "focus_tr": "İlaç yan etkileri hakkında soru sorma", "audio_ar_tts_key": "هل هناك أي آثار جانبية يجب أن أكون على علم بها", "audio_en_tts_key": "Are there any side effects I should be aware of", "audio_tr_tts_key": "Bilmem gereken herhangi bir yan etkisi var mı"}
+  ]
+}

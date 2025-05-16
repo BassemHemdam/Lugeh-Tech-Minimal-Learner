@@ -1,0 +1,46 @@
+{
+  "id": "L03U02DLA",
+  "slug": "shopping-groceries-clothes",
+  "title_ar": "التسوق: شراء البقالة والملابس والاستفسار عن الأسعار",
+  "title_en": "Shopping: Buying Groceries & Clothes, Asking for Prices",
+  "title_tr": "Alışveriş: Market ve Kıyafet Alışverişi, Fiyat Sorma",
+  "objective_ar": "تعلم كيفية التفاعل في مواقف التسوق المختلفة، السؤال عن المنتجات، الاستفسار عن الأسعار، وطلب المساعدة من البائعين.",
+  "objective_en": "Learn how to interact in various shopping situations, ask about products, inquire about prices, and request assistance from shop assistants.",
+  "objective_tr": "Çeşitli alışveriş durumlarında nasıl etkileşimde bulunacağınızı, ürünler hakkında nasıl soru soracağınızı, fiyatları nasıl sorgulayacağınızı ve satış görevlilerinden nasıl yardım isteyeceğinizi öğrenin.",
+  "icon_fa_class": "fa-solid fa-cart-shopping", 
+  "scenario": {
+    "title_ar": "حوار: يوم في السوبرماركت ومتجر الملابس",
+    "title_en": "Dialogue: A Day at the Supermarket and Clothing Store",
+    "title_tr": "Diyalog: Süpermarkette ve Giyim Mağazasında Bir Gün",
+    "characters": [
+      {"id": "shopper", "name_ar": "عمر (متسوق)", "name_en": "Omar (Shopper)", "name_tr": "Ömer (Alışveriş Yapan Kişi)"},
+      {"id": "assist1", "name_ar": "نور (موظفة سوبرماركت)", "name_en": "Nour (Supermarket Assistant)", "name_tr": "Nur (Market Çalışanı)"},
+      {"id": "assist2", "name_ar": "سامي (بائع ملابس)", "name_en": "Sami (Clothing Store Assistant)", "name_tr": "Sami (Giyim Mağazası Çalışanı)"}
+    ],
+    "dialogue_lines": [
+      
+      {"character_id": "shopper", "line_ar": "عفواً، أين يمكنني أن أجد قسم الألبان؟", "line_en": "Excuse me, where can I find the dairy section?", "line_tr": "Affedersiniz, süt ürünleri reyonunu nerede bulabilirim?"},
+      {"character_id": "assist1", "line_ar": "بالتأكيد، إنه في الممر الثالث على يسارك.", "line_en": "Certainly, it's in aisle three on your left.", "line_tr": "Elbette, solunuzdaki üçüncü koridorda."},
+      {"character_id": "shopper", "line_ar": "شكرًا. هل لديكم جبنة قليلة الدسم؟", "line_en": "Thank you. Do you have any low-fat cheese?", "line_tr": "Teşekkürler. Az yağlı peyniriniz var mı?"},
+      {"character_id": "assist1", "line_ar": "نعم، لدينا عدة أنواع. هذا النوع مشهور جدًا (تشير إلى نوع).", "line_en": "Yes, we have several types. This one is very popular (points to a type).", "line_tr": "Evet, birkaç çeşidimiz var. Bu tür çok popülerdir (bir türe işaret eder)."},
+      {"character_id": "shopper", "line_ar": "كم سعر هذا؟ لا أرى السعر عليه.", "line_en": "How much is this one? I don't see a price tag on it.", "line_tr": "Bunun fiyatı ne kadar? Üzerinde fiyat etiketi göremiyorum."},
+      {"character_id": "assist1", "line_ar": "دعني أتحقق لك. (تتحقق) إنه بـ [السعر] لـ 200 جرام.", "line_en": "Let me check for you. (Checks) It's [Price] for 200 grams.", "line_tr": "Sizin için kontrol edeyim. (Kontrol eder) 200 gramı [Fiyat] Lira."},
+      
+      {"character_id": "shopper", "line_ar": "(لموظف آخر) مرحباً، هل لديكم هذا القميص بمقاس أكبر؟", "line_en": "(To another assistant) Hi, do you have this shirt in a larger size?", "line_tr": "(Başka bir çalışana) Merhaba, bu gömleğin daha büyük bir bedeni var mı?"},
+      {"character_id": "assist2", "line_ar": "دعني أرى. ما هو المقاس الذي تبحث عنه؟", "line_en": "Let me see. What size are you looking for?", "line_tr": "Bakayım. Hangi bedeni arıyorsunuz?"},
+      {"character_id": "shopper", "line_ar": "أحتاج إلى مقاس L (كبير).", "line_en": "I need a size L (Large).", "line_tr": "L (Büyük) bedene ihtiyacım var."},
+      {"character_id": "assist2", "line_ar": "نعم، لدينا واحد متبقي في المخزن. هل تود تجربته؟ غرفة القياس هناك.", "line_en": "Yes, we have one left in stock. Would you like to try it on? The fitting room is over there.", "line_tr": "Evet, stokta bir tane kalmış. Denemek ister misiniz? Deneme kabini şurada."},
+      {"character_id": "shopper", "line_ar": "عظيم! هذا القميص يعجبني جدًا، لكن هل هناك أي خصم عليه حاليًا؟", "line_en": "Great! I really like this shirt, but is it currently on sale / discounted?", "line_tr": "Harika! Bu gömleği gerçekten beğendim, ama şu anda indirimde mi?"},
+      {"character_id": "assist2", "line_ar": "للأسف، هذا الموديل ليس ضمن التخفيضات الحالية، ولكن لدينا تشكيلة أخرى بخصومات جيدة.", "line_en": "Unfortunately, this particular model isn't part of the current sale, but we have another selection with good discounts.", "line_tr": "Maalesef, bu model mevcut indirimlere dahil değil, ancak iyi indirimleri olan başka bir seçkimiz var."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L03U02_P001", "ar_from_dialogue": "أين يمكنني أن أجد قسم...؟", "en_from_dialogue": "Where can I find the... section?", "tr_from_dialogue": "...reyonunu nerede bulabilirim?", "focus_ar": "السؤال عن موقع قسم/منتج", "focus_en": "Asking for the location of a section/product", "focus_tr": "Bir reyonun/ürünün yerini sorma", "audio_ar_tts_key": "أين يمكنني أن أجد قسم", "audio_en_tts_key": "Where can I find the section", "audio_tr_tts_key": "reyonunu nerede bulabilirim"},
+    {"id": "L03U02_P002", "ar_from_dialogue": "هل لديكم...؟ (مثلاً: جبنة قليلة الدسم)", "en_from_dialogue": "Do you have any...? (e.g., low-fat cheese)", "tr_from_dialogue": "...var mı? (örn: az yağlı peynir)", "focus_ar": "السؤال عن توفر منتج معين", "focus_en": "Asking if a specific product is available", "focus_tr": "Belirli bir ürünün mevcut olup olmadığını sorma", "audio_ar_tts_key": "هل لديكم", "audio_en_tts_key": "Do you have any", "audio_tr_tts_key": "var mı"},
+    {"id": "L03U02_P003", "ar_from_dialogue": "كم سعر هذا؟", "en_from_dialogue": "How much is this?", "tr_from_dialogue": "Bunun fiyatı ne kadar?", "focus_ar": "السؤال عن السعر", "focus_en": "Asking for the price", "focus_tr": "Fiyat sorma", "audio_ar_tts_key": "كم سعر هذا", "audio_en_tts_key": "How much is this", "audio_tr_tts_key": "Bunun fiyatı ne kadar"},
+    {"id": "L03U02_P004", "ar_from_dialogue": "هل لديكم هذا بـ [مقاس/لون] مختلف؟", "en_from_dialogue": "Do you have this in a different [size/color]?", "tr_from_dialogue": "Bunun farklı bir [bedeni/rengi] var mı?", "focus_ar": "السؤال عن خيارات أخرى لمنتج (مقاس، لون)", "focus_en": "Asking for other options of a product (size, color)", "focus_tr": "Bir ürünün diğer seçeneklerini sorma (beden, renk)", "audio_ar_tts_key": "هل لديكم هذا بمقاس مختلف", "audio_en_tts_key": "Do you have this in a different size", "audio_tr_tts_key": "Bunun farklı bir bedeni var mı"},
+    {"id": "L03U02_P005", "ar_from_dialogue": "ما هو المقاس الذي تبحث عنه؟", "en_from_dialogue": "What size are you looking for?", "tr_from_dialogue": "Hangi bedeni arıyorsunuz?", "focus_ar": "سؤال البائع عن المقاس المطلوب", "focus_en": "Sales assistant asking for the desired size", "focus_tr": "Satış görevlisinin istenen bedeni sorması", "audio_ar_tts_key": "ما هو المقاس الذي تبحث عنه", "audio_en_tts_key": "What size are you looking for", "audio_tr_tts_key": "Hangi bedeni arıyorsunuz"},
+    {"id": "L03U02_P006", "ar_from_dialogue": "هل تود تجربته؟ غرفة القياس هناك.", "en_from_dialogue": "Would you like to try it on? The fitting room is over there.", "tr_from_dialogue": "Denemek ister misiniz? Deneme kabini şurada.", "focus_ar": "عرض تجربة المنتج والإشارة لغرفة القياس", "focus_en": "Offering to try on an item and pointing to fitting room", "focus_tr": "Bir ürünü denemeyi teklif etme ve deneme kabinini gösterme", "audio_ar_tts_key": "هل تود تجربته غرفة القياس هناك", "audio_en_tts_key": "Would you like to try it on The fitting room is over there", "audio_tr_tts_key": "Denemek ister misiniz Deneme kabini şurada"},
+    {"id": "L03U02_P007", "ar_from_dialogue": "هل هناك أي خصم عليه حاليًا؟", "en_from_dialogue": "Is it currently on sale / discounted?", "tr_from_dialogue": "Şu anda indirimde mi?", "focus_ar": "السؤال عن الخصومات", "focus_en": "Asking about discounts/sales", "focus_tr": "İndirim/kampanya sorma", "audio_ar_tts_key": "هل هناك أي خصم عليه حاليا", "audio_en_tts_key": "Is it currently on sale", "audio_tr_tts_key": "Şu anda indirimde mi"}
+  ]
+}

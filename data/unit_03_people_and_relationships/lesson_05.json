@@ -1,0 +1,36 @@
+{
+  "id": "L05U03PAR",
+  "slug": "giving-receiving-compliments",
+  "title_ar": "المجاملات: فن تقديم وقبول المديح",
+  "title_en": "Compliments: The Art of Giving and Receiving Praise",
+  "title_tr": "İltifatlar: Övgü Verme ve Alma Sanatı",
+  "objective_ar": "تعلم كيفية تقديم مجاملات صادقة ومناسبة، وكيفية الرد على المجاملات برشاقة وثقة.",
+  "objective_en": "Learn how to give sincere and appropriate compliments, and how to respond to compliments gracefully and confidently.",
+  "objective_tr": "Samimi ve uygun iltifatlar vermeyi ve iltifatlara zarif ve güvenli bir şekilde nasıl yanıt verileceğini öğrenin.",
+  "icon_fa_class": "fa-solid fa-gift",
+  "scenario": {
+    "title_ar": "حوار: تبادل المجاملات في العمل",
+    "title_en": "Dialogue: Exchanging Compliments at Work",
+    "title_tr": "Diyalog: İş Yerinde İltifatlaşma",
+    "characters": [
+      {"id": "colleague1", "name_ar": "نوال", "name_en": "Nawal", "name_tr": "Neval"},
+      {"id": "colleague2", "name_ar": "بدر", "name_en": "Badr", "name_tr": "Bedir"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "colleague1", "line_ar": "بدر، عرضك التقديمي صباح اليوم كان ممتازًا حقًا! لقد أوضحت النقاط المعقدة ببراعة.", "line_en": "Badr, your presentation this morning was really excellent! You explained the complex points brilliantly.", "line_tr": "Bedir, bu sabahki sunumun gerçekten mükemmeldi! Karmaşık noktaları harika bir şekilde açıkladın."},
+      {"character_id": "colleague2", "line_ar": "شكرًا جزيلاً يا نوال، هذا لطف كبير منكِ. كنت قلقًا بعض الشيء بشأنه.", "line_en": "Thank you so much, Nawal, that's very kind of you to say. I was a bit nervous about it.", "line_tr": "Çok teşekkür ederim Neval, bunu söylemen çok nazikçe. Onun hakkında biraz endişeliydim."},
+      {"character_id": "colleague1", "line_ar": "لا داعي للقلق على الإطلاق! أعجبتني بشكل خاص الطريقة التي استخدمت بها الأمثلة المرئية.", "line_en": "No need to be nervous at all! I particularly liked the way you used visual examples.", "line_tr": "Hiç endişelenmene gerek yok! Özellikle görsel örnekleri kullanma şeklini beğendim."},
+      {"character_id": "colleague2", "line_ar": "يسعدني أن ذلك أعجبك. وبالمناسبة، قميصكِ الجديد أنيق جدًا، يناسبكِ تمامًا.", "line_en": "I'm glad you liked that. And by the way, your new shirt is very stylish, it really suits you.", "line_tr": "Beğenmene sevindim. Bu arada, yeni gömleğin çok şık, sana gerçekten yakışmış."},
+      {"character_id": "colleague1", "line_ar": "أوه، شكرًا لك! لقد اشتريته في التخفيضات الأسبوع الماضي.", "line_en": "Oh, thank you! I just bought it on sale last week.", "line_tr": "Ah, teşekkür ederim! Geçen hafta indirimden aldım."},
+      {"character_id": "colleague2", "line_ar": "اختيار موفق! دائمًا ما تكونين صاحبة ذوق رفيع في اختيار ملابسكِ.", "line_en": "Great choice! You always have such good taste in your clothes.", "line_tr": "Harika bir seçim! Kıyafetlerinde her zaman çok iyi bir zevkin var."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L05U03_P001", "ar_from_dialogue": "عرضك التقديمي كان ممتازًا حقًا!", "en_from_dialogue": "Your presentation was really excellent!", "tr_from_dialogue": "Sunumun gerçekten mükemmeldi!", "focus_ar": "تقديم مجاملة محددة عن عمل جيد", "focus_en": "Giving a specific compliment on good work", "focus_tr": "İyi bir çalışma hakkında belirli bir iltifat etme", "audio_ar_tts_key": "عرضك التقديمي كان ممتازا حقا", "audio_en_tts_key": "Your presentation was really excellent", "audio_tr_tts_key": "Sunumun gerçekten mükemmeldi"},
+    {"id": "L05U03_P002", "ar_from_dialogue": "لقد أوضحت النقاط المعقدة ببراعة.", "en_from_dialogue": "You explained the complex points brilliantly.", "tr_from_dialogue": "Karmaşık noktaları harika bir şekilde açıkladın.", "focus_ar": "الإشادة بمهارة معينة", "focus_en": "Praising a specific skill", "focus_tr": "Belirli bir beceriyi övme", "audio_ar_tts_key": "لقد أوضحت النقاط المعقدة ببراعة", "audio_en_tts_key": "You explained the complex points brilliantly", "audio_tr_tts_key": "Karmaşık noktaları harika bir şekilde açıkladın"},
+    {"id": "L05U03_P003", "ar_from_dialogue": "شكرًا جزيلاً، هذا لطف كبير منكِ.", "en_from_dialogue": "Thank you so much, that's very kind of you to say.", "tr_from_dialogue": "Çok teşekkür ederim, bunu söylemen çok nazikçe.", "focus_ar": "الرد على مجاملة بشكل مهذب", "focus_en": "Responding to a compliment politely", "focus_tr": "Bir iltifata kibarca yanıt verme", "audio_ar_tts_key": "شكرا جزيلا هذا لطف كبير منك", "audio_en_tts_key": "Thank you so much, that's very kind of you to say", "audio_tr_tts_key": "Çok teşekkür ederim, bunu söylemen çok nazikçe"},
+    {"id": "L05U03_P004", "ar_from_dialogue": "أعجبتني بشكل خاص الطريقة التي...", "en_from_dialogue": "I particularly liked the way you...", "tr_from_dialogue": "Özellikle ...şeklini beğendim.", "focus_ar": "تقديم مجاملة محددة مع تفصيل", "focus_en": "Giving a specific compliment with detail", "focus_tr": "Detaylı ve belirli bir iltifat etme", "audio_ar_tts_key": "أعجبتني بشكل خاص الطريقة التي", "audio_en_tts_key": "I particularly liked the way you", "audio_tr_tts_key": "Özellikle şeklini beğendim"},
+    {"id": "L05U03_P005", "ar_from_dialogue": "قميصكِ الجديد أنيق جدًا، يناسبكِ تمامًا.", "en_from_dialogue": "Your new shirt is very stylish, it really suits you.", "tr_from_dialogue": "Yeni gömleğin çok şık, sana gerçekten yakışmış.", "focus_ar": "تقديم مجاملة حول المظهر الشخصي", "focus_en": "Giving a compliment on personal appearance", "focus_tr": "Kişisel görünüm hakkında iltifat etme", "audio_ar_tts_key": "قميصك الجديد أنيق جدا يناسبك تماما", "audio_en_tts_key": "Your new shirt is very stylish, it really suits you", "audio_tr_tts_key": "Yeni gömleğin çok şık, sana gerçekten yakışmış"},
+    {"id": "L05U03_P006", "ar_from_dialogue": "أوه، شكرًا لك!", "en_from_dialogue": "Oh, thank you!", "tr_from_dialogue": "Ah, teşekkür ederim!", "focus_ar": "رد بسيط ومباشر على مجاملة", "focus_en": "Simple and direct response to a compliment", "focus_tr": "Bir iltifata basit ve doğrudan yanıt", "audio_ar_tts_key": "أوه شكرا لك", "audio_en_tts_key": "Oh, thank you", "audio_tr_tts_key": "Ah, teşekkür ederim"}
+  ]
+}

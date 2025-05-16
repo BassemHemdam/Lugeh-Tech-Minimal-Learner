@@ -1,0 +1,239 @@
+{
+  "id": "L01U01SPS",
+  "slug": "parking-and-access-card-issue",
+  "title_ar": "مشكلة موقف السيارات وبطاقة الدخول في العمل",
+  "title_en": "Workplace Parking & Access Card Issue",
+  "title_tr": "İşyeri Otopark ve Giriş Kartı Sorunu",
+  "objective_ar": "فهم وتحليل محادثة واقعية تتعلق بمشكلة في العمل، واستخلاص العبارات المفتاحية للتعبير عن المشكلات، طلب المعلومات، وتقديم الاعتذراضات أو الحلول.",
+  "objective_en": "Understand and analyze a realistic conversation about a workplace issue, and extract key phrases for expressing problems, requesting information, and offering objections or solutions.",
+  "objective_tr": "Bir işyeri sorunu hakkında gerçekçi bir konuşmayı anlayın ve analiz edin; sorunları ifade etme, bilgi talep etme ve itiraz veya çözüm sunma için anahtar ifadeleri çıkarın.",
+  "icon_fa_class": "fa-solid fa-car-burst",
+  "scenario": {
+    "title_ar": "حوار: مشكلة في موقف السيارات",
+    "title_en": "Dialogue: Parking Predicament",
+    "title_tr": "Diyalog: Otopark Çıkmazı",
+    "characters": [
+      {"id": "emp", "name_ar": "أحمد (موظف)", "name_en": "Ahmed (Employee)", "name_tr": "Ahmet (Çalışan)"},
+      {"id": "rec", "name_ar": "ليلى (موظفة استقبال)", "name_en": "Layla (Receptionist)", "name_tr": "Leyla (Resepsiyonist)"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "emp",
+        "line_ar": "صباح الخير ليلى، أحمد من الطابق السابع يتحدث.",
+        "line_en": "Good morning Layla, it's Ahmed from the seventh floor.",
+        "line_tr": "Günaydın Leyla, yedinci kattan Ahmet ben."
+      },
+      {
+        "character_id": "rec",
+        "line_ar": "صباح الخير أحمد، كيف يمكنني مساعدتك اليوم؟",
+        "line_en": "Good morning Ahmed, how can I help you today?",
+        "line_tr": "Günaydın Ahmet, bugün size nasıl yardımcı olabilirim?"
+      },
+      {
+        "character_id": "emp",
+        "line_ar": "لدي مشكلة صغيرة في موقف السيارات. لا أجد أي مكان متاح في المنطقة المخصصة لنا، وكل الأماكن الأخرى تبدو ممتلئة أيضًا.",
+        "line_en": "I'm having a bit of trouble with the parking. I can't find any available spots in our designated area, and everywhere else seems full too.",
+        "line_tr": "Otoparkla ilgili küçük bir sorun yaşıyorum. Bize ayrılan alanda hiç boş yer bulamıyorum ve diğer her yer de dolu görünüyor."
+      },
+      {
+        "character_id": "rec",
+        "line_ar": "أتفهم. نعم، كان هناك بعض الازدحام هذا الصباح. هل يمكنك الانتظار لبضع دقائق؟ سأرى ما إذا كان هناك أي تحديثات حول توفر الأماكن.",
+        "line_en": "I understand. Yes, it's been quite busy this morning. Can you hold for a few minutes? I'll see if there are any updates on availability.",
+        "line_tr": "Anlıyorum. Evet, bu sabah oldukça yoğundu. Birkaç dakika bekleyebilir misiniz? Müsaitlik durumuyla ilgili herhangi bir güncelleme olup olmadığına bakacağım."
+      },
+      {
+        "character_id": "emp",
+        "line_ar": "بالتأكيد، سأنتظر. بالمناسبة، زميلي الجديد، عمر، يحتاج إلى بطاقة دخول للموقف. هل يمكنه الحصول على واحدة اليوم؟",
+        "line_en": "Sure, I'll hold. By the way, my new colleague, Omar, needs an access card for the parking. Can he get one today?",
+        "line_tr": "Tabii, bekleyeceğim. Bu arada, yeni iş arkadaşım Ömer'in otopark için bir giriş kartına ihtiyacı var. Bugün bir tane alabilir mi?"
+      },
+      {
+        "character_id": "rec",
+        "line_ar": "بخصوص بطاقات الدخول، للأسف، لقد وصلنا إلى الحد الأقصى من البطاقات المخصصة لقسمكم حاليًا. قد يحتاج إلى الانتظار حتى تتوفر بطاقة.",
+        "line_en": "Regarding the access cards, unfortunately, we've reached the maximum allocation for your department at the moment. He might need to wait until one becomes available.",
+        "line_tr": "Giriş kartlarıyla ilgili olarak, maalesef departmanınız için şu anda maksimum tahsisata ulaştık. Bir tane boşalana kadar beklemesi gerekebilir."
+      },
+      {
+        "character_id": "emp",
+        "line_ar": "يا إلهي، هذه مشكلة. هو يعتمد على السيارة للوصول إلى العمل. هل هناك أي استثناءات أو قائمة انتظار يمكننا تسجيل اسمه فيها؟",
+        "line_en": "Oh dear, that's problematic. He relies on his car for commuting. Are there any exceptions or a waiting list we can put him on?",
+        "line_tr": "Eyvah, bu sorunlu bir durum. İşe gelmek için arabasına güveniyor. Herhangi bir istisna veya onu yazdırabileceğimiz bir bekleme listesi var mı?"
+      },
+      {
+        "character_id": "rec",
+        "line_ar": "سأتحقق من مدير الموارد البشرية بخصوص قائمة الانتظار. أما بالنسبة لموقفك الآن، يبدو أن مكانًا قد توفر للتو في الطابق السفلي P2. هل يمكنك التوجه إلى هناك؟",
+        "line_en": "I'll check with HR about the waiting list. As for your parking now, it seems a spot just opened up on sublevel P2. Can you head there?",
+        "line_tr": "Bekleme listesiyle ilgili İK ile görüşeceğim. Şu anki park yerinizle ilgili olarak, P2 bodrum katında bir yer yeni boşalmış görünüyor. Oraya gidebilir misiniz?"
+      },
+      {
+        "character_id": "emp",
+        "line_ar": "ممتاز! شكرًا جزيلاً لك ليلى على مساعدتك السريعة.",
+        "line_en": "Excellent! Thank you so much, Layla, for your prompt assistance.",
+        "line_tr": "Harika! Hızlı yardımınız için çok teşekkür ederim Leyla."
+      },
+      {
+        "character_id": "rec",
+        "line_ar": "على الرحب والسعة أحمد. أتمنى لك يومًا جيدًا.",
+        "line_en": "You're very welcome, Ahmed. Have a good day.",
+        "line_tr": "Rica ederim Ahmet. İyi günler dilerim."
+      }
+    ]
+  },
+  "phrases_analysis": [
+    
+    {
+      "id": "L01SPS_P001",
+      "original_dialogue_id": "emp",
+      "ar_from_dialogue": "لدي مشكلة صغيرة في موقف السيارات.",
+      "en_from_dialogue": "I'm having a bit of trouble with the parking.",
+      "tr_from_dialogue": "Otoparkla ilgili küçük bir sorun yaşıyorum.",
+      "focus_ar": "التعبير عن مشكلة",
+      "focus_en": "Expressing a problem",
+      "focus_tr": "Bir sorunu ifade etme",
+      "explanation_en": "A polite way to state you're facing an issue. 'A bit of trouble' softens it.",
+      "explanation_tr": "Bir sorunla karşılaştığınızı belirtmenin kibar bir yolu. 'Küçük bir sorun' ifadesi durumu yumuşatır.",
+      "alternatives_en": ["I have a problem with...", "There seems to be an issue with..."],
+      "alternatives_tr": ["...ile ilgili bir sorunum var.", "...ile ilgili bir sorun var gibi görünüyor."],
+      "audio_ar_tts_key": "لدي مشكلة صغيرة في موقف السيارات",
+      "audio_en_tts_key": "I'm having a bit of trouble with the parking",
+      "audio_tr_tts_key": "Otoparkla ilgili küçük bir sorun yaşıyorum"
+    },
+    {
+      "id": "L01SPS_P002",
+      "original_dialogue_id": "rec",
+      "ar_from_dialogue": "كيف يمكنني مساعدتك اليوم؟",
+      "en_from_dialogue": "How can I help you today?",
+      "tr_from_dialogue": "Bugün size nasıl yardımcı olabilirim?",
+      "focus_ar": "عرض المساعدة",
+      "focus_en": "Offering help",
+      "focus_tr": "Yardım teklif etme",
+      "explanation_en": "Standard and polite way to offer assistance, common in customer service.",
+      "explanation_tr": "Yardım teklif etmenin standart ve kibar bir yolu, müşteri hizmetlerinde yaygındır.",
+      "alternatives_en": ["What can I do for you?", "How may I assist you?"],
+      "alternatives_tr": ["Sizin için ne yapabilirim?", "Size nasıl yardımcı olabilirim?"],
+      "audio_ar_tts_key": "كيف يمكنني مساعدتك اليوم",
+      "audio_en_tts_key": "How can I help you today",
+      "audio_tr_tts_key": "Bugün size nasıl yardımcı olabilirim"
+    },
+    {
+      "id": "L01SPS_P003",
+      "original_dialogue_id": "emp",
+      "ar_from_dialogue": "لا أجد أي مكان متاح...",
+      "en_from_dialogue": "I can't find any available spots...",
+      "tr_from_dialogue": "...hiç boş yer bulamıyorum...",
+      "focus_ar": "التعبير عن عدم توفر شيء",
+      "focus_en": "Expressing unavailability",
+      "focus_tr": "Bir şeyin mevcut olmadığını ifade etme",
+      "explanation_en": "Clearly stating the problem of lack of availability.",
+      "explanation_tr": "Müsaitlik eksikliği sorununu açıkça belirtir.",
+      "audio_ar_tts_key": "لا أجد أي مكان متاح",
+      "audio_en_tts_key": "I can't find any available spots",
+      "audio_tr_tts_key": "hiç boş yer bulamıyorum"
+    },
+    {
+      "id": "L01SPS_P004",
+      "original_dialogue_id": "rec",
+      "ar_from_dialogue": "هل يمكنك الانتظار لبضع دقائق؟",
+      "en_from_dialogue": "Can you hold for a few minutes?",
+      "tr_from_dialogue": "Birkaç dakika bekleyebilir misiniz?",
+      "focus_ar": "طلب الانتظار",
+      "focus_en": "Requesting someone to wait",
+      "focus_tr": "Birinden beklemesini isteme",
+      "explanation_en": "Polite way to ask someone to wait, common on phone calls.",
+      "explanation_tr": "Birinden beklemesini istemenin kibar bir yolu, telefon görüşmelerinde yaygındır.",
+      "alternatives_en": ["Could you please hold on a moment?", "Just a moment, please."],
+      "alternatives_tr": ["Biraz bekleyebilir misiniz, lütfen?", "Bir saniye, lütfen."],
+      "audio_ar_tts_key": "هل يمكنك الانتظار لبضع دقائق",
+      "audio_en_tts_key": "Can you hold for a few minutes",
+      "audio_tr_tts_key": "Birkaç dakika bekleyebilir misiniz"
+    },
+    {
+      "id": "L01SPS_P005",
+      "original_dialogue_id": "emp",
+      "ar_from_dialogue": "بالمناسبة، زميلي الجديد... يحتاج إلى...",
+      "en_from_dialogue": "By the way, my new colleague... needs...",
+      "tr_from_dialogue": "Bu arada, yeni iş arkadaşım...'in ...ihtiyacı var.",
+      "focus_ar": "تغيير الموضوع/إضافة نقطة",
+      "focus_en": "Changing subject/Adding a point",
+      "focus_tr": "Konu değiştirme/Bir nokta ekleme",
+      "explanation_en": "'By the way' is used to introduce a new, somewhat related topic.",
+      "explanation_tr": "'Bu arada' yeni, bir şekilde ilgili bir konuyu tanıtmak için kullanılır.",
+      "audio_ar_tts_key": "بالمناسبة",
+      "audio_en_tts_key": "By the way",
+      "audio_tr_tts_key": "Bu arada"
+    },
+    {
+      "id": "L01SPS_P006",
+      "original_dialogue_id": "rec",
+      "ar_from_dialogue": "للأسف، لقد وصلنا إلى الحد الأقصى...",
+      "en_from_dialogue": "Unfortunately, we've reached the maximum allocation...",
+      "tr_from_dialogue": "Maalesef, maksimum tahsisata ulaştık...",
+      "focus_ar": "تقديم أخبار سيئة بأدب",
+      "focus_en": "Delivering bad news politely",
+      "focus_tr": "Kötü haberi kibarca verme",
+      "explanation_en": "'Unfortunately' softens the negative information.",
+      "explanation_tr": "'Maalesef' olumsuz bilgiyi yumuşatır.",
+      "audio_ar_tts_key": "للأسف",
+      "audio_en_tts_key": "Unfortunately",
+      "audio_tr_tts_key": "Maalesef"
+    },
+    {
+      "id": "L01SPS_P007",
+      "original_dialogue_id": "emp",
+      "ar_from_dialogue": "هل هناك أي استثناءات أو قائمة انتظار؟",
+      "en_from_dialogue": "Are there any exceptions or a waiting list?",
+      "tr_from_dialogue": "Herhangi bir istisna veya bir bekleme listesi var mı?",
+      "focus_ar": "السؤال عن بدائل/حلول",
+      "focus_en": "Asking for alternatives/solutions",
+      "focus_tr": "Alternatif/çözüm sorma",
+      "audio_ar_tts_key": "هل هناك أي استثناءات أو قائمة انتظار",
+      "audio_en_tts_key": "Are there any exceptions or a waiting list",
+      "audio_tr_tts_key": "Herhangi bir istisna veya bir bekleme listesi var mı"
+    },
+    {
+      "id": "L01SPS_P008",
+      "original_dialogue_id": "rec",
+      "ar_from_dialogue": "سأتحقق من... بخصوص...",
+      "en_from_dialogue": "I'll check with... about...",
+      "tr_from_dialogue": "...ile ...hakkında görüşeceğim/kontrol edeceğim.",
+      "focus_ar": "الوعد بالتحقق/المتابعة",
+      "focus_en": "Promising to check/follow up",
+      "focus_tr": "Kontrol etme/takip etme sözü verme",
+      "explanation_en": "Shows proactiveness and willingness to help further.",
+      "explanation_tr": "Proaktiflik ve daha fazla yardım etme isteği gösterir.",
+      "audio_ar_tts_key": "سأتحقق من بخصوص",
+      "audio_en_tts_key": "I'll check with about",
+      "audio_tr_tts_key": "ile hakkında görüşeceğim"
+    },
+    {
+      "id": "L01SPS_P009",
+      "original_dialogue_id": "emp",
+      "ar_from_dialogue": "شكرًا جزيلاً لك على مساعدتك السريعة.",
+      "en_from_dialogue": "Thank you so much for your prompt assistance.",
+      "tr_from_dialogue": "Hızlı yardımınız için çok teşekkür ederim.",
+      "focus_ar": "التعبير عن الشكر (بشكل محدد)",
+      "focus_en": "Expressing thanks (specifically)",
+      "focus_tr": "Teşekkür etme (özellikle)",
+      "explanation_en": "'Prompt assistance' specifically thanks them for being quick.",
+      "explanation_tr": "'Hızlı yardımınız' özellikle hızlı oldukları için teşekkür eder.",
+      "audio_ar_tts_key": "شكرا جزيلا لك على مساعدتك السريعة",
+      "audio_en_tts_key": "Thank you so much for your prompt assistance",
+      "audio_tr_tts_key": "Hızlı yardımınız için çok teşekkür ederim"
+    },
+    {
+      "id": "L01SPS_P010",
+      "original_dialogue_id": "rec",
+      "ar_from_dialogue": "على الرحب والسعة.",
+      "en_from_dialogue": "You're very welcome.",
+      "tr_from_dialogue": "Rica ederim.",
+      "focus_ar": "الرد على الشكر",
+      "focus_en": "Responding to thanks",
+      "focus_tr": "Teşekküre karşılık verme",
+      "explanation_en": "A standard and polite response to 'thank you'.",
+      "explanation_tr": "'Teşekkür ederim'e standart ve kibar bir karşılık.",
+      "audio_ar_tts_key": "على الرحب والسعة",
+      "audio_en_tts_key": "You're very welcome",
+      "audio_tr_tts_key": "Rica ederim"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "L06U05OND",
+  "slug": "comparing-contrasting-ideas",
+  "title_ar": "مقارنة وتباين الأفكار: كيف توضح التشابهات والاختلافات",
+  "title_en": "Comparing & Contrasting Ideas: Highlighting Similarities and Differences",
+  "title_tr": "Fikirleri Karşılaştırma ve Zıtlıklarını Belirtme: Benzerlikleri ve Farklılıkları Vurgulama",
+  "objective_ar": "تعلم كيفية استخدام عبارات وكلمات ربط لمقارنة الأفكار وإظهار التشابهات، أو لتباينها وإبراز الاختلافات من خلال حوار واقعي.",
+  "objective_en": "Learn how to use phrases and linking words to compare ideas and show similarities, or to contrast them and highlight differences through a realistic dialogue.",
+  "objective_tr": "Fikirleri karşılaştırmak ve benzerlikleri göstermek veya zıtlıklarını belirtmek ve farklılıkları vurgulamak için ifadeler ve bağlaçlar kullanmayı gerçekçi bir diyalog aracılığıyla öğrenin.",
+  "icon_fa_class": "fa-solid fa-scale-balanced",
+  "scenario": {
+    "title_ar": "حوار: مقارنة بين خيارين للسفر",
+    "title_en": "Dialogue: Comparing Two Travel Options",
+    "title_tr": "Diyalog: İki Seyahat Seçeneğini Karşılaştırma",
+    "characters": [
+      {"id": "personA", "name_ar": "سالم", "name_en": "Salem", "name_tr": "Selim"},
+      {"id": "personB", "name_ar": "نادية", "name_en": "Nadia", "name_tr": "Nadya"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "personA", "line_ar": "نادية، أفكر في عطلتنا القادمة. هل نذهب إلى الشاطئ أم نستكشف مدينة تاريخية؟", "line_en": "Nadia, I'm thinking about our next vacation. Should we go to the beach or explore a historical city?", "line_tr": "Nadya, bir sonraki tatilimizi düşünüyorum. Sahile mi gitsek yoksa tarihi bir şehri mi keşfetsek?"},
+      {"character_id": "personB", "line_ar": "همم، كلاهما يبدو مغريًا. الشاطئ يوفر الاسترخاء، بينما المدينة التاريخية تقدم ثقافة غنية. ما هي ميزانية كل منهما تقريبًا؟", "line_en": "Hmm, both sound tempting. The beach offers relaxation, while a historical city offers rich culture. What's the approximate budget for each?", "line_tr": "Hmm, ikisi de cazip geliyor. Sahil rahatlama sunarken, tarihi bir şehir zengin bir kültür sunuyor. Her biri için yaklaşık bütçe nedir?"},
+      {"character_id": "personA", "line_ar": "أعتقد أن رحلة الشاطئ قد تكون أقل تكلفة بشكل عام، خاصة إذا وجدنا فندقًا شاملاً. من ناحية أخرى، تذاكر الدخول للمعالم التاريخية في المدينة قد تكون مرتفعة.", "line_en": "I think a beach trip might be less expensive overall, especially if we find an all-inclusive resort. On the other hand, entrance tickets for historical sites in the city can be pricey.", "line_tr": "Sanırım bir sahil gezisi genel olarak daha az maliyetli olabilir, özellikle her şey dahil bir tatil köyü bulursak. Öte yandan, şehirdeki tarihi yerlere giriş biletleri pahalı olabilir."},
+      {"character_id": "personB", "line_ar": "هذا صحيح. ولكن، المدينة التاريخية تقدم تجربة تعليمية أكثر. بالإضافة إلى ذلك، الطقس قد يكون أكثر اعتدالًا هناك مقارنة بالشاطئ في هذا الوقت من العام.", "line_en": "That's true. However, the historical city offers a more educational experience. Also, the weather might be milder there compared to the beach at this time of year.", "line_tr": "Bu doğru. Ancak, tarihi şehir daha eğitici bir deneyim sunuyor. Ayrıca, yılın bu zamanında hava orada sahile kıyasla daha ılıman olabilir."},
+      {"character_id": "personA", "line_ar": "أتفق معك بشأن الطقس. الشاطئ جميل للاسترخاء، لكن المدينة ستكون مليئة بالأنشطة والاكتشافات. على الرغم من التكلفة المحتملة، أميل أكثر للمدينة.", "line_en": "I agree with you about the weather. The beach is great for relaxing, but the city would be full of activities and discoveries. Despite the potential cost, I'm leaning more towards the city.", "line_tr": "Hava durumu konusunda sana katılıyorum. Sahil dinlenmek için harika, ama şehir aktiviteler ve keşiflerle dolu olurdu. Olası maliyete rağmen, daha çok şehre doğru eğiliyorum."},
+      {"character_id": "personB", "line_ar": "أنا أيضًا! بينما الاسترخاء على الشاطئ جذاب، فإن فكرة استكشاف تاريخ جديد وثقافة مختلفة تبدو أكثر إثارة لي الآن.", "line_en": "Me too! While relaxing on the beach is appealing, the idea of exploring new history and culture sounds more exciting to me right now.", "line_tr": "Ben de! Sahilde dinlenmek çekici olsa da, yeni bir tarih ve farklı bir kültürü keşfetme fikri şu anda bana daha heyecan verici geliyor."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L06U05_PA001", "ar_from_dialogue": "كلاهما يبدو مغريًا.", "en_from_dialogue": "Both sound tempting.", "tr_from_dialogue": "İkisi de cazip geliyor.", "focus_ar": "إيجاد نقطة تشابه أولية", "focus_en": "Finding an initial similarity", "focus_tr": "İlk bir benzerlik bulma"},
+    {"id": "L06U05_PA002", "ar_from_dialogue": "الشاطئ يوفر...، بينما المدينة التاريخية تقدم...", "en_from_dialogue": "The beach offers..., while a historical city offers...", "tr_from_dialogue": "Sahil ...sunarken, tarihi bir şehir ...sunuyor.", "focus_ar": "استخدام 'بينما' لإظهار التباين", "focus_en": "Using 'while' to show contrast", "focus_tr": "Zıtlığı göstermek için 'iken' kullanma"},
+    {"id": "L06U05_PA003", "ar_from_dialogue": "من ناحية أخرى، ...", "en_from_dialogue": "On the other hand, ...", "tr_from_dialogue": "Öte yandan, ...", "focus_ar": "تقديم وجهة نظر مقابلة/جانب آخر", "focus_en": "Introducing an opposing viewpoint/another aspect", "focus_tr": "Karşıt bir görüş/başka bir yön sunma"},
+    {"id": "L06U05_PA004", "ar_from_dialogue": "مقارنة بـ...", "en_from_dialogue": "Compared to...", "tr_from_dialogue": "...ile karşılaştırıldığında / ...'e kıyasla", "focus_ar": "إجراء مقارنة مباشرة", "focus_en": "Making a direct comparison", "focus_tr": "Doğrudan bir karşılaştırma yapma"},
+    {"id": "L06U05_PA005", "ar_from_dialogue": "على الرغم من...، أميل أكثر لـ...", "en_from_dialogue": "Despite..., I'm leaning more towards...", "tr_from_dialogue": "...'e rağmen, daha çok ...'e doğru eğiliyorum.", "focus_ar": "التعبير عن التفضيل مع الاعتراف بعيب", "focus_en": "Expressing preference while acknowledging a downside", "focus_tr": "Bir olumsuzluğu kabul ederken tercihi ifade etme"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "L09U02DLA",
+  "slug": "numbers-time-dates",
+  "title_ar": "الأرقام، الوقت، والتواريخ: أساسيات التعامل مع الأبعاد الزمنية والكمية",
+  "title_en": "Numbers, Time & Dates: Essentials for Handling Temporal and Quantitative Dimensions",
+  "title_tr": "Sayılar, Zaman ve Tarihler: Zamansal ve Nicel Boyutlarla Başa Çıkmanın Temelleri",
+  "objective_ar": "تعلم كيفية قول وفهم الأرقام، الوقت (الساعة)، وأيام الأسبوع، والشهور، والتواريخ بشكل صحيح لاستخدامها في المحادثات اليومية.",
+  "objective_en": "Learn how to say and understand numbers, time (clock), days of the week, months, and dates correctly for use in daily conversations.",
+  "objective_tr": "Günlük konuşmalarda kullanmak üzere sayıları, saati, haftanın günlerini, ayları ve tarihleri doğru bir şekilde söylemeyi ve anlamayı öğrenin.",
+  "icon_fa_class": "fa-solid fa-calendar-days",
+  "scenario": {
+    "title_ar": "حوار: تنسيق لقاء وفهم التواريخ",
+    "title_en": "Dialogue: Coordinating a Meeting and Understanding Dates",
+    "title_tr": "Diyalog: Bir Toplantıyı Koordine Etme ve Tarihleri Anlama",
+    "characters": [
+      {"id": "col1", "name_ar": "علي", "name_en": "Ali", "name_tr": "Ali"},
+      {"id": "col2", "name_ar": "مها", "name_en": "Maha", "name_tr": "Maha"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "col1", "line_ar": "مها، هل يمكننا الاجتماع لمناقشة المشروع الجديد الأسبوع القادم؟", "line_en": "Maha, can we meet to discuss the new project next week?", "line_tr": "Maha, gelecek hafta yeni projeyi görüşmek için buluşabilir miyiz?"},
+      {"character_id": "col2", "line_ar": "بالتأكيد علي. أي يوم يناسبك؟ أنا متاحة يومي الثلاثاء والخميس.", "line_en": "Sure Ali. Which day works for you? I'm available on Tuesday and Thursday.", "line_tr": "Elbette Ali. Hangi gün sana uyar? Salı ve Perşembe günleri müsaitim."},
+      {"character_id": "col1", "line_ar": "الثلاثاء يبدو جيدًا. ماذا عن الساعة العاشرة والنصف صباحًا؟", "line_en": "Tuesday sounds good. How about 10:30 AM?", "line_tr": "Salı iyi görünüyor. Saat sabah on buçuğa ne dersin?"},
+      {"character_id": "col2", "line_ar": "ممتاز. إذًا، الثلاثاء، دعنا نقول الخامس من يونيو، الساعة العاشرة وثلاثين دقيقة. صحيح؟", "line_en": "Perfect. So, Tuesday, let's say June 5th, at ten thirty AM. Correct?", "line_tr": "Harika. Yani Salı, diyelim ki 5 Haziran, saat on otuz. Doğru mu?"},
+      {"character_id": "col1", "line_ar": "نعم، هذا صحيح. سأرسل لك دعوة تقويم.", "line_en": "Yes, that's correct. I'll send you a calendar invite.", "line_tr": "Evet, bu doğru. Sana bir takvim daveti göndereceğim."},
+      {"character_id": "col2", "line_ar": "عظيم. بالمناسبة، متى آخر موعد لتقديم مقترحات الميزانية؟ أعتقد أنه في الخامس عشر.", "line_en": "Great. By the way, when is the deadline for the budget proposals? I think it's on the 15th.", "line_tr": "Harika. Bu arada, bütçe teklifleri için son tarih ne zaman? Sanırım ayın 15'i."},
+      {"character_id": "col1", "line_ar": "دعني أتحقق. (ينظر في التقويم) نعم، الموعد النهائي هو الجمعة، الخامس عشر من هذا الشهر، قبل الساعة الخامسة مساءً.", "line_en": "Let me check. (Looks at calendar) Yes, the deadline is Friday, the fifteenth of this month, before 5 PM.", "line_tr": "Kontrol edeyim. (Takvime bakar) Evet, son tarih bu ayın on beşi Cuma, akşam 5'ten önce."},
+      {"character_id": "col2", "line_ar": "شكرًا على التذكير! لدي ثلاثة مقترحات لأعمل عليها.", "line_en": "Thanks for the reminder! I have three proposals to work on.", "line_tr": "Hatırlattığın için teşekkürler! Üzerinde çalışmam gereken üç teklifim var."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L09U02_P001", "ar_from_dialogue": "الثلاثاء / الخميس / الجمعة", "en_from_dialogue": "Tuesday / Thursday / Friday", "tr_from_dialogue": "Salı / Perşembe / Cuma", "focus_ar": "ذكر أيام الأسبوع", "focus_en": "Mentioning days of the week", "focus_tr": "Haftanın günlerini belirtme", "audio_ar_tts_key": "الثلاثاء الخميس الجمعة", "audio_en_tts_key": "Tuesday. Thursday. Friday.", "audio_tr_tts_key": "Salı. Perşembe. Cuma."},
+    {"id": "L09U02_P002", "ar_from_dialogue": "الساعة العاشرة والنصف صباحًا / الساعة الثانية بعد الظهر / الساعة الخامسة مساءً", "en_from_dialogue": "10:30 AM / 2 PM / 5 PM", "tr_from_dialogue": "Saat on buçuk / Saat iki / Akşam beş", "focus_ar": "قول الوقت (الساعة)", "focus_en": "Telling time (o'clock)", "focus_tr": "Saati söyleme", "audio_ar_tts_key": "الساعة العاشرة والنصف صباحا. الساعة الثانية بعد الظهر. الساعة الخامسة مساء", "audio_en_tts_key": "Ten thirty A M. Two P M. Five P M.", "audio_tr_tts_key": "Saat on buçuk. Saat iki. Akşam beş."},
+    {"id": "L09U02_P003", "ar_from_dialogue": "الخامس من يونيو / الخامس عشر من هذا الشهر", "en_from_dialogue": "June 5th / The fifteenth of this month", "tr_from_dialogue": "5 Haziran / Bu ayın on beşi", "focus_ar": "ذكر التواريخ (اليوم والشهر)", "focus_en": "Stating dates (day and month)", "focus_tr": "Tarihleri belirtme (gün ve ay)", "audio_ar_tts_key": "الخامس من يونيو. الخامس عشر من هذا الشهر", "audio_en_tts_key": "June fifth. The fifteenth of this month.", "audio_tr_tts_key": "Beş Haziran. Bu ayın on beşi."},
+    {"id": "L09U02_P004", "ar_from_dialogue": "أي يوم يناسبك؟ / ماذا عن...؟", "en_from_dialogue": "Which day works for you? / How about...?", "tr_from_dialogue": "Hangi gün sana uyar? / ...ne dersin?", "focus_ar": "السؤال عن واقتراح مواعيد", "focus_en": "Asking about and proposing dates/times", "focus_tr": "Tarih/saat sorma ve önerme", "audio_ar_tts_key": "أي يوم يناسبك ماذا عن", "audio_en_tts_key": "Which day works for you How about", "audio_tr_tts_key": "Hangi gün sana uyar ne dersin"},
+    {"id": "L09U02_P005", "ar_from_dialogue": "لدي ثلاثة مقترحات.", "en_from_dialogue": "I have three proposals.", "tr_from_dialogue": "Üç teklifim var.", "focus_ar": "ذكر الأرقام (الكميات)", "focus_en": "Mentioning numbers (quantities)", "focus_tr": "Sayıları belirtme (miktarlar)", "audio_ar_tts_key": "لدي ثلاثة مقترحات", "audio_en_tts_key": "I have three proposals", "audio_tr_tts_key": "Üç teklifim var"}
+  ]
+}

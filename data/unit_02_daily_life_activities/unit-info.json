@@ -1,0 +1,26 @@
+{
+  "id": "U02DLA",
+  "slug": "daily-life-activities",
+  "folderName": "unit_02_daily_life_activities",
+  "title_ar": "الحياة اليومية والأنشطة",
+  "title_en": "Daily Life and Activities",
+  "title_tr": "Günlük Yaşam ve Aktiviteler",
+  "description_ar": "تعلّم كيفية التحدث عن روتينك اليومي، أنشطة وقت الفراغ، الطعام، التسوق، والمزيد من المواقف الحياتية باللغتين.",
+  "description_en": "Learn how to talk about your daily routine, leisure activities, food, shopping, and more everyday life situations in both languages.",
+  "description_tr": "Günlük rutininiz, boş zaman aktiviteleriniz, yemek, alışveriş ve daha birçok günlük yaşam durumu hakkında her iki dilde de nasıl konuşacağınızı öğrenin.",
+  "icon_fa_class": "fa-solid fa-person-running",
+  "theme_color_class": "theme-sky-accent",
+  "lessons_count": 10,
+  "lessonFiles": [
+    "lesson_01",  
+    "lesson_02",  
+    "lesson_03",
+    "lesson_04",
+    "lesson_05",
+    "lesson_06",
+    "lesson_07",  
+    "lesson_08",
+    "lesson_09",
+    "lesson_10"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "L03U06ACN",
+  "slug": "turkish-idioms-in-daily-chat",
+  "title_ar": "التعابير التركية اليومية: سحر اللغة في محادثة عادية",
+  "title_en": "Everyday Turkish Idioms: The Charm of Language in Casual Chat",
+  "title_tr": "Günlük Türkçe Deyimler: Sıradan Bir Sohbette Dilin Büyüsü",
+  "objective_ar": "فهم واستيعاب مجموعة من التعابير الاصطلاحية والأمثال التركية الشائعة من خلال حوار طبيعي، مع إدراك مقابلاتها أو شروحها باللغة الإنجليزية والعربية.",
+  "objective_en": "Understand and internalize a set of common Turkish idiomatic expressions and proverbs through a natural dialogue, recognizing their equivalents or explanations in English and Arabic.",
+  "objective_tr": "Doğal bir diyalog aracılığıyla yaygın Türkçe deyimsel ifadeleri ve atasözlerini anlayın ve içselleştirin, İngilizce ve Arapça'daki karşılıklarını veya açıklamalarını fark edin.",
+  "icon_fa_class": "fa-solid fa-feather-pointed",
+  "scenario": {
+    "title_ar": "حوار: التخطيط لمفاجأة لصديق مشترك",
+    "title_en": "Dialogue: Planning a Surprise for a Mutual Friend",
+    "title_tr": "Diyalog: Ortak Bir Arkadaş İçin Sürpriz Planlama",
+    "characters": [
+      {"id": "ayse", "name_ar": "عائشة", "name_en": "Aisha", "name_tr": "Ayşe"},
+      {"id": "omer", "name_ar": "عمر", "name_en": "Omar", "name_tr": "Ömer"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "ayse", "line_ar": "عمر، كيف حالك؟ تبدو مشغولاً جداً هذه الأيام.", "line_en": "Omar, how are you? You seem very busy these days.", "line_tr": "Ömer, nasılsın? Bu aralar çok meşgul görünüyorsun."},
+      {"character_id": "omer", "line_ar": "أهلاً عائشة. نعم، لدي الكثير من المهام، أشعر كأن \"قدميّ دخلتا في حذاء واحد\"!", "line_en": "Hi Aisha. Yes, I have a lot of tasks, I feel like \"my two feet have entered one shoe\"!", "line_tr": "Merhaba Ayşe. Evet, çok işim var, sanki \"iki ayağım bir pabuca girdi\"!"},
+      {"character_id": "ayse", "line_ar": "أتفهمك تمامًا. ولكن، هل يمكنك تخصيص بعض الوقت نهاية هذا الأسبوع؟ نريد أن ننظم حفلة عيد ميلاد مفاجئة لـ [اسم صديق]. يجب أن تكون \"مثالية تمامًا\"!", "line_en": "I totally get you. But, can you make some time this weekend? We want to organize a surprise birthday party for [Friend's Name]. It has to be \"perfectly complete\"!", "line_tr": "Seni tamamen anlıyorum. Ama bu hafta sonu biraz zaman ayırabilir misin? [Arkadaş Adı] için sürpriz bir doğum günü partisi düzenlemek istiyoruz. \"Dört dörtlük\" olmalı!"},
+      {"character_id": "omer", "line_ar": "يا لها من فكرة رائعة! بالتأكيد سأكون هناك. الشيء الأهم هو ألا \"نفسد الأمر\" بكشف المفاجأة.", "line_en": "What a great idea! Of course, I'll be there. The most important thing is that we don't \"spoil the beans\" by revealing the surprise.", "line_tr": "Ne harika bir fikir! Elbette orada olacağım. En önemlisi sürprizi açığa vurarak \"çam devirmemek\"."},
+      {"character_id": "ayse", "line_ar": "بالضبط! سأدعو سارة أيضاً، هي دائماً \"تطير من الفرح\" عندما تسمع عن الحفلات.", "line_en": "Exactly! I'll invite Sarah too, she always \"is over the moon\" when she hears about parties.", "line_tr": "Kesinlikle! Sara'yı da davet edeceğim, partilerden haberi olunca hep \"havalara uçar\"."},
+      {"character_id": "omer", "line_ar": "ممتاز. بالنسبة للهدية، هل لديك أي أفكار؟ لا أريد أن \"أرتكب خطأ فادحًا\" باختيار شيء لا يعجبه.", "line_en": "Excellent. For the gift, do you have any ideas? I don't want to \"put my foot in it\" by choosing something he won't like.", "line_tr": "Harika. Hediye için herhangi bir fikrin var mı? Beğenmeyeceği bir şey seçerek \"baltayı taşa vurmak\" istemem."},
+      {"character_id": "ayse", "line_ar": "لدي بضعة أفكار، سنناقشها لاحقاً. \"قطرة بقطرة تصبح بحيرة\"، يمكننا جمع مساهمات بسيطة لهدية قيمة.", "line_en": "I have a few ideas, we'll discuss them later. \"Drop by drop, a lake becomes,\" we can collect small contributions for a valuable gift.", "line_tr": "Birkaç fikrim var, onları sonra tartışırız. \"Damlaya damlaya göl olur\", değerli bir hediye için küçük katkılar toplayabiliriz."}
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L03U06_PA001",
+      "ar_from_dialogue": "أشعر كأن \"قدميّ دخلتا في حذاء واحد\"!",
+      "en_from_dialogue": "I feel like \"my two feet have entered one shoe\"!",
+      "tr_from_dialogue": "Sanki \"iki ayağım bir pabuca girdi\"!",
+      "focus_ar": "التعابير التركية: İki ayağı bir pabuca girmek",
+      "focus_en": "Turkish Idiom: İki ayağı bir pabuca girmek",
+      "focus_tr": "Türkçe Deyim: İki ayağı bir pabuca girmek",
+      "explanation_tr": "Anlamı: Çok telaşlanmak, acele etmek, sıkışık bir durumda olmak.",
+      "explanation_en": "Meaning: To be in a great hurry, to be rushed off one's feet.",
+      "explanation_ar": "المعنى: أن تكون في عجلة كبيرة من أمرك، مستعجل جدًا.",
+      "audio_ar_tts_key": "إيكي أياغم بير بابوجا جيردي", "audio_en_tts_key": "iki ayagim bir pabuca girdi", "audio_tr_tts_key": "iki ayağım bir pabuca girdi"
+    },
+    {
+      "id": "L03U06_PA002",
+      "ar_from_dialogue": "يجب أن تكون \"مثالية تمامًا\"!",
+      "en_from_dialogue": "It has to be \"perfectly complete\"!",
+      "tr_from_dialogue": "\"Dört dörtlük\" olmalı!",
+      "focus_ar": "التعابير التركية: Dört dörtlük",
+      "focus_en": "Turkish Idiom: Dört dörtlük",
+      "focus_tr": "Türkçe Deyim: Dört dörtlük",
+      "explanation_tr": "Anlamı: Mükemmel, kusursuz, tam anlamıyla eksiksiz.",
+      "explanation_en": "Meaning: Perfect, flawless, thoroughly complete (like 4/4 time in music).",
+      "explanation_ar": "المعنى: مثالي، لا تشوبه شائبة، كامل تمامًا (مثل الإيقاع الرباعي في الموسيقى).",
+      "audio_ar_tts_key": "دورت دورتلوك", "audio_en_tts_key": "dört dörtlük", "audio_tr_tts_key": "dört dörtlük"
+    },
+    {
+      "id": "L03U06_PA003",
+      "ar_from_dialogue": "ألا \"نفسد الأمر\" بكشف المفاجأة.",
+      "en_from_dialogue": "We don't \"spoil the beans\" by revealing the surprise.",
+      "tr_from_dialogue": "Sürprizi açığa vurarak \"çam devirmemek\".",
+      "focus_ar": "التعابير التركية: Çam devirmek",
+      "focus_en": "Turkish Idiom: Çam devirmek",
+      "focus_tr": "Türkçe Deyim: Çam devirmek",
+      "explanation_tr": "Anlamı: Uygunsuz, kırıcı bir söz söylemek veya bir davranışta bulunarak ortalığı karıştırmak, gaf yapmak.",
+      "explanation_en": "Meaning: To make a gaffe, to say or do something tactless that spoils a situation.",
+      "explanation_ar": "المعنى: ارتكاب حماقة، قول أو فعل شيء غير لائق يفسد الموقف.",
+      "audio_ar_tts_key": "تشام ديفيرميك", "audio_en_tts_key": "çam devirmek", "audio_tr_tts_key": "çam devirmek"
+    },
+    {
+      "id": "L03U06_PA004",
+      "ar_from_dialogue": "هي دائماً \"تطير من الفرح\"...",
+      "en_from_dialogue": "She always \"is over the moon\"...",
+      "tr_from_dialogue": "O hep \"havalara uçar\"...",
+      "focus_ar": "التعابير التركية: Havalara uçmak",
+      "focus_en": "Turkish Idiom: Havalara uçmak",
+      "focus_tr": "Türkçe Deyim: Havalara uçmak",
+      "explanation_tr": "Anlamı: Çok sevinmek, büyük bir coşku yaşamak.",
+      "explanation_en": "Meaning: To be extremely happy or excited, to be on cloud nine.",
+      "explanation_ar": "المعنى: أن تكون سعيدًا جدًا أو متحمسًا للغاية.",
+      "audio_ar_tts_key": "هافالارا أوتشماك", "audio_en_tts_key": "havalara uçmak", "audio_tr_tts_key": "havalara uçar"
+    },
+    {
+      "id": "L03U06_PA005",
+      "ar_from_dialogue": "لا أريد أن \"أرتكب خطأ فادحًا\"...",
+      "en_from_dialogue": "I don't want to \"put my foot in it\"...",
+      "tr_from_dialogue": "\"...baltayı taşa vurmak\" istemem.",
+      "focus_ar": "التعابير التركية: Baltayı taşa vurmak",
+      "focus_en": "Turkish Idiom: Baltayı taşa vurmak",
+      "focus_tr": "Türkçe Deyim: Baltayı taşa vurmak",
+      "explanation_tr": "Anlamı: Farkında olmadan birini incitecek, gücendirecek bir söz söylemek veya davranışta bulunmak; büyük bir pot kırmak.",
+      "explanation_en": "Meaning: To make a blunder, often by saying something inappropriate or by making a bad decision that has negative consequences.",
+      "explanation_ar": "المعنى: ارتكاب خطأ كبير، غالبًا بقول شيء غير مناسب أو اتخاذ قرار سيء له عواقب سلبية.",
+      "audio_ar_tts_key": "بالتايي تاشا فورماك", "audio_en_tts_key": "baltayı taşa vurmak", "audio_tr_tts_key": "baltayı taşa vurmak"
+    },
+    {
+      "id": "L03U06_PA006",
+      "ar_from_dialogue": "\"قطرة بقطرة تصبح بحيرة\"",
+      "en_from_dialogue": "\"Drop by drop, a lake becomes\"",
+      "tr_from_dialogue": "\"Damlaya damlaya göl olur\"",
+      "focus_ar": "الأمثال التركية (Atasözü): Damlaya damlaya göl olur",
+      "focus_en": "Turkish Proverb: Damlaya damlaya göl olur",
+      "focus_tr": "Türk Atasözü: Damlaya damlaya göl olur",
+      "explanation_tr": "Anlamı: Küçük birikimler zamanla büyür ve önemli hale gelir.",
+      "explanation_en": "Meaning: Small savings or efforts accumulate over time to become significant.",
+      "explanation_ar": "المعنى: المدخرات أو الجهود الصغيرة تتراكم بمرور الوقت لتصبح شيئًا كبيرًا ومهمًا.",
+      "audio_ar_tts_key": "داملايا داملايا غول أولور", "audio_en_tts_key": "Damlaya damlaya göl olur", "audio_tr_tts_key": "Damlaya damlaya göl olur"
+    }
+  ]
+}

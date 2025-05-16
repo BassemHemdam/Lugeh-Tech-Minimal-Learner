@@ -1,0 +1,35 @@
+{
+  "id": "L02U03PAR",
+  "slug": "family-members-relationships",
+  "title_ar": "أفراد العائلة والعلاقات الأسرية",
+  "title_en": "Family Members and Family Relationships",
+  "title_tr": "Aile Bireyleri ve Aile İlişkileri",
+  "objective_ar": "تعلم أسماء أفراد العائلة الأساسيين وكيفية التحدث عن العلاقات داخل الأسرة.",
+  "objective_en": "Learn the names of basic family members and how to talk about relationships within the family.",
+  "objective_tr": "Temel aile bireylerinin adlarını ve aile içindeki ilişkiler hakkında nasıl konuşulacağını öğrenin.",
+  "icon_fa_class": "fa-solid fa-house-chimney-user",
+  "scenario": {
+    "title_ar": "حوار: التحدث عن العائلة",
+    "title_en": "Dialogue: Talking About Family",
+    "title_tr": "Diyalog: Aile Hakkında Konuşma",
+    "characters": [
+      {"id": "personX", "name_ar": "سارة", "name_en": "Sarah", "name_tr": "Sara"},
+      {"id": "personY", "name_ar": "يوسف", "name_en": "Yusuf", "name_tr": "Yusuf"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "personX", "line_ar": "يوسف، هل لديك إخوة أو أخوات؟", "line_en": "Yusuf, do you have any brothers or sisters?", "line_tr": "Yusuf, hiç erkek veya kız kardeşin var mı?"},
+      {"character_id": "personY", "line_ar": "نعم، لدي أخ أكبر وأخت أصغر مني. ماذا عنكِ؟", "line_en": "Yes, I have an older brother and a younger sister. What about you?", "line_tr": "Evet, bir ağabeyim ve bir de küçük kız kardeşim var. Ya sen?"},
+      {"character_id": "personX", "line_ar": "أنا وحيدة، ليس لدي إخوة. هل تعيش مع والديك؟", "line_en": "I'm an only child. Do you live with your parents?", "line_tr": "Ben tek çocuğum. Ailenle mi yaşıyorsun?"},
+      {"character_id": "personY", "line_ar": "نعم، ما زلت أعيش معهم. والداي متقاعدان الآن. هل ترى أجدادك كثيرًا؟", "line_en": "Yes, I still live with them. My parents are retired now. Do you see your grandparents often?", "line_tr": "Evet, hala onlarla yaşıyorum. Annem babam şimdi emekli. Büyükannen ve büyükbabanı sık sık görüyor musun?"},
+      {"character_id": "personX", "line_ar": "جدي وجدتي من طرف أمي يعيشان في مدينة أخرى، لذا أراهم في العطلات. جدي من طرف أبي متوفى، للأسف.", "line_en": "My maternal grandparents live in another city, so I see them on holidays. My paternal grandfather passed away, unfortunately.", "line_tr": "Anneannem ve dedem başka bir şehirde yaşıyor, bu yüzden onları tatillerde görüyorum. Baba tarafımdan dedem maalesef vefat etti."},
+      {"character_id": "personY", "line_ar": "أنا آسف لسماع ذلك. لدي العديد من أبناء وبنات العم، وعادة ما نجتمع في المناسبات العائلية الكبيرة.", "line_en": "I'm sorry to hear that. I have many cousins, and we usually get together for big family occasions.", "line_tr": "Bunu duyduğuma üzüldüm. Birçok kuzenim var ve genellikle büyük aile toplantılarında bir araya geliriz."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L02U03_P001", "ar_from_dialogue": "هل لديك إخوة أو أخوات؟", "en_from_dialogue": "Do you have any brothers or sisters? (siblings)", "tr_from_dialogue": "Hiç erkek veya kız kardeşin var mı? (kardeşlerin)", "focus_ar": "السؤال عن الإخوة", "focus_en": "Asking about siblings", "focus_tr": "Kardeşleri sorma", "audio_ar_tts_key": "هل لديك إخوة أو أخوات", "audio_en_tts_key": "Do you have any brothers or sisters", "audio_tr_tts_key": "Hiç erkek veya kız kardeşin var mı"},
+    {"id": "L02U03_P002", "ar_from_dialogue": "لدي أخ أكبر / أخت أصغر.", "en_from_dialogue": "I have an older brother / a younger sister.", "tr_from_dialogue": "Bir ağabeyim / küçük bir kız kardeşim var.", "focus_ar": "التحدث عن ترتيب الإخوة", "focus_en": "Talking about sibling order", "focus_tr": "Kardeş sırasından bahsetme", "audio_ar_tts_key": "لدي أخ أكبر أخت أصغر", "audio_en_tts_key": "I have an older brother and a younger sister", "audio_tr_tts_key": "Bir ağabeyim ve küçük bir kız kardeşim var"},
+    {"id": "L02U03_P003", "ar_from_dialogue": "أنا وحيد/ة.", "en_from_dialogue": "I'm an only child.", "tr_from_dialogue": "Ben tek çocuğum.", "focus_ar": "قول أنك الابن الوحيد", "focus_en": "Stating you are an only child", "focus_tr": "Tek çocuk olduğunu belirtme", "audio_ar_tts_key": "أنا وحيدة", "audio_en_tts_key": "I'm an only child", "audio_tr_tts_key": "Ben tek çocuğum"},
+    {"id": "L02U03_P004", "ar_from_dialogue": "والداي / جدي / جدتي / أبناء العم", "en_from_dialogue": "My parents / grandfather / grandmother / cousins", "tr_from_dialogue": "Ebeveynlerim / Dedem / Anneannem-Babaannem / Kuzenlerim", "focus_ar": "تسمية أفراد العائلة", "focus_en": "Naming family members", "focus_tr": "Aile bireylerini adlandırma", "audio_ar_tts_key": "والداي جدي جدتي أبناء العم", "audio_en_tts_key": "My parents, grandfather, grandmother, cousins", "audio_tr_tts_key": "Ebeveynlerim, Dedem, Anneannem, Kuzenlerim"},
+    {"id": "L02U03_P005", "ar_from_dialogue": "نجتمع في المناسبات العائلية.", "en_from_dialogue": "We get together for family occasions.", "tr_from_dialogue": "Aile toplantılarında bir araya geliriz.", "focus_ar": "وصف التجمعات العائلية", "focus_en": "Describing family gatherings", "focus_tr": "Aile toplantılarını tanımlama", "audio_ar_tts_key": "نجتمع في المناسبات العائلية", "audio_en_tts_key": "We get together for family occasions", "audio_tr_tts_key": "Aile toplantılarında bir araya geliriz"}
+  ]
+}

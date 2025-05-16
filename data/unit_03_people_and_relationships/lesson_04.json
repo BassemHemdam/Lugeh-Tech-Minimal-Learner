@@ -1,0 +1,22 @@
+{
+  "id": "L04U03PAR",
+  "slug": "expressing-likes-and-dislikes",
+  "title_ar": "التعبير عن الإعجاب وعدم الإعجاب: كيف تقول ما تحب وما لا تحب",
+  "title_en": "Expressing Likes and Dislikes: Saying What You Love and Hate (or just don't prefer!)",
+  "title_tr": "Beğenileri ve Beğenmediklerini İfade Etme: Sevdiğiniz ve Sevmediğiniz Şeyleri Söyleme",
+  "objective_ar": "تعلم مجموعة متنوعة من العبارات للتعبير عن درجات مختلفة من الإعجاب أو عدم الإعجاب بالأشياء، الأنشطة، أو الأفكار.",
+  "objective_en": "Learn a variety of phrases to express different degrees of liking or disliking things, activities, or ideas.",
+  "objective_tr": "Bir şeyleri, aktiviteleri veya fikirleri beğenmenin veya beğenmemenin farklı derecelerini ifade etmek için çeşitli ifadeler öğrenin.",
+  "icon_fa_class": "fa-solid fa-heart-circle-check",
+  "scenario": null,
+  "phrases": [
+    {"id": "L04U03_P001", "category_ar": "أحب/أعشق (إعجاب قوي)", "en": "I love... / I adore...", "tr": "...çok seviyorum. / ...bayılıyorum.", "ar": "أنا أحب... / أنا أعشق...", "audio_en_tts_key": "I love. I adore.", "audio_tr_tts_key": "çok seviyorum. bayılıyorum."},
+    {"id": "L04U03_P002", "category_ar": "أحب/أستمتع بـ (إعجاب عام)", "en": "I like... / I enjoy...", "tr": "...beğeniyorum / ...hoşlanıyorum / ...keyif alıyorum.", "ar": "أنا أحب... / أنا أستمتع بـ...", "audio_en_tts_key": "I like. I enjoy.", "audio_tr_tts_key": "beğeniyorum. hoşlanıyorum. keyif alıyorum."},
+    {"id": "L04U03_P003", "category_ar": "مغرم بـ/متحمس لـ", "en": "I'm fond of... / I'm keen on... / I'm passionate about...", "tr": "...düşkünüm. / ...meraklısıyım. / ...tutkunuyum.", "ar": "أنا مغرم بـ... / أنا متحمس لـ... / أنا شغوف بـ...", "audio_en_tts_key": "I'm fond of. I'm keen on. I'm passionate about.", "audio_tr_tts_key": "düşkünüm. meraklısıyım. tutkunuyum."},
+    {"id": "L04U03_P004", "category_ar": "لا بأس به / مقبول", "en": "It's okay. / It's alright. / I don't mind...", "tr": "Fena değil. / İyi sayılır. / ...benim için fark etmez.", "ar": "إنه لا بأس به. / مقبول. / لا أمانع...", "audio_en_tts_key": "It's okay. It's alright. I don't mind.", "audio_tr_tts_key": "Fena değil. İyi sayılır. benim için fark etmez."},
+    {"id": "L04U03_P005", "category_ar": "لا أحب (عدم إعجاب خفيف)", "en": "I don't like... (much). / I'm not a big fan of...", "tr": "...pek sevmem. / ...büyük bir hayranı değilim.", "ar": "أنا لا أحب... (كثيرًا). / لست من كبار المعجبين بـ...", "audio_en_tts_key": "I don't like much. I'm not a big fan of.", "audio_tr_tts_key": "pek sevmem. büyük bir hayranı değilim."},
+    {"id": "L04U03_P006", "category_ar": "لا أطيق / أكره (عدم إعجاب قوي)", "en": "I can't stand... / I hate... / I detest...", "tr": "...tahammül edemem. / ...nefret ederim. / ...hiç sevmem.", "ar": "لا أستطيع تحمل... / أنا أكره... / أمقت...", "audio_en_tts_key": "I can't stand. I hate. I detest.", "audio_tr_tts_key": "tahammül edemem. nefret ederim. hiç sevmem."},
+    {"id": "L04U03_P007", "category_ar": "السؤال عن الإعجاب", "en": "Do you like...? / What do you think of...?", "tr": "...sever misin? / ...hakkında ne düşünüyorsun?", "ar": "هل تحب...؟ / ما رأيك في...؟", "audio_en_tts_key": "Do you like? What do you think of?", "audio_tr_tts_key": "sever misin? hakkında ne düşünüyorsun?"},
+    {"id": "L04U03_P008", "category_ar": "تفضيل شيء على آخر", "en": "I prefer A to B. / I'd rather (do) A than (do) B.", "tr": "A'yı B'ye tercih ederim. / B yapmaktansa A yapmayı tercih ederim.", "ar": "أنا أفضل (أ) على (ب). / أفضل أن أفعل (أ) بدلاً من (ب).", "audio_en_tts_key": "I prefer A to B. I'd rather do A than do B.", "audio_tr_tts_key": "A yı B ye tercih ederim. B yapmaktansa A yapmayı tercih ederim."}
+  ]
+}

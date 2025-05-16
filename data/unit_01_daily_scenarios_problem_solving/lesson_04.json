@@ -1,0 +1,198 @@
+{
+  "id": "L04U01SPS",
+  "slug": "complaining-about-faulty-product",
+  "title_ar": "تقديم شكوى: التعامل مع المنتجات المعيبة والخدمات السيئة",
+  "title_en": "Making a Complaint: Dealing with Faulty Products & Poor Service",
+  "title_tr": "Şikayette Bulunma: Kusurlu Ürünler ve Kötü Hizmetle Başa Çıkma",
+  "objective_ar": "اكتساب الثقة والعبارات المناسبة لتقديم شكوى بشكل فعال حول منتج معيب أو خدمة غير مرضية، وطلب التعويض أو الحل المناسب.",
+  "objective_en": "Gain the confidence and appropriate phrases to effectively make a complaint about a faulty product or unsatisfactory service, and request appropriate compensation or resolution.",
+  "objective_tr": "Kusurlu bir ürün veya tatmin edici olmayan bir hizmet hakkında etkili bir şekilde şikayette bulunmak ve uygun tazminat veya çözüm talep etmek için güven ve uygun ifadeler kazanın.",
+  "icon_fa_class": "fa-solid fa-face-angry",
+  "scenario": {
+    "title_ar": "حوار: مشكلة مع محمصة خبز جديدة",
+    "title_en": "Dialogue: Trouble with a New Toaster",
+    "title_tr": "Diyalog: Yeni Tost Makinesiyle İlgili Sorun",
+    "characters": [
+      {"id": "cust", "name_ar": "علي (عميل)", "name_en": "Ali (Customer)", "name_tr": "Ali (Müşteri)"},
+      {"id": "csr", "name_ar": "سميرة (خدمة العملاء)", "name_en": "Samira (Customer Service Rep)", "name_tr": "Semra (Müşteri Hizmetleri Temsilcisi)"}
+    ],
+    "dialogue_lines": [
+      {
+        "character_id": "cust",
+        "line_ar": "مرحباً، أتصل بخصوص محمصة الخبز التي اشتريتها من متجركم الأسبوع الماضي. رقم الطلب هو [رقم الطلب].",
+        "line_en": "Hello, I'm calling about the toaster I purchased from your store last week. The order number is [Order Number].",
+        "line_tr": "Merhaba, geçen hafta mağazanızdan satın aldığım tost makinesi hakkında arıyorum. Sipariş numarası [Sipariş Numarası]."
+      },
+      {
+        "character_id": "csr",
+        "line_ar": "مرحباً سيدي. شكرًا على اتصالك. هل يمكنك تزويدي باسمك الكامل لو سمحت؟ وكيف يمكنني مساعدتك بخصوص المحمصة؟",
+        "line_en": "Hello sir. Thank you for calling. Could you please provide me with your full name? And how can I help you with the toaster?",
+        "line_tr": "Merhaba efendim. Aradığınız için teşekkürler. Tam adınızı alabilir miyim lütfen? Ve tost makinesiyle ilgili size nasıl yardımcı olabilirim?"
+      },
+      {
+        "character_id": "cust",
+        "line_ar": "اسمي علي حسن. المشكلة هي أن المحمصة لا تعمل بشكل صحيح. إنها تحرق الخبز من جانب واحد ولا تحمصه من الجانب الآخر على الإطلاق.",
+        "line_en": "My name is Ali Hassan. The problem is that the toaster isn't working correctly. It burns the toast on one side and doesn't toast the other side at all.",
+        "line_tr": "Adım Ali Hasan. Sorun şu ki, tost makinesi düzgün çalışmıyor. Ekmeği bir taraftan yakıyor ve diğer tarafını hiç kızartmıyor."
+      },
+      {
+        "character_id": "csr",
+        "line_ar": "أنا آسفة جدًا لسماع ذلك، سيد حسن. هذا بالتأكيد ليس المستوى الذي نتوقعه من منتجاتنا. هل حاولت تعديل إعدادات التحميص؟",
+        "line_en": "I'm very sorry to hear that, Mr. Hassan. That's certainly not the standard we expect from our products. Have you tried adjusting the toasting settings?",
+        "line_tr": "Bunu duyduğuma çok üzüldüm, Bay Hasan. Bu kesinlikle ürünlerimizden beklediğimiz standart değil. Kızartma ayarlarını değiştirmeyi denediniz mi?"
+      },
+      {
+        "character_id": "cust",
+        "line_ar": "نعم، جربت جميع الإعدادات المختلفة، وحتى أقل إعداد لا يزال يحرق الخبز بشكل غير متساوٍ. أعتقد أن المنتج معيب.",
+        "line_en": "Yes, I've tried all the different settings, and even the lowest setting still toasts unevenly and burns it. I believe the product is faulty.",
+        "line_tr": "Evet, tüm farklı ayarları denedim ve en düşük ayar bile ekmeği hala düzensiz bir şekilde yakıyor. Ürünün hatalı olduğuna inanıyorum."
+      },
+      {
+        "character_id": "csr",
+        "line_ar": "أتفهم إحباطك. لدينا سياسة إرجاع أو استبدال لمدة 30 يومًا للمنتجات المعيبة. هل تفضل استرداد أموالك أم استبدال المحمصة بأخرى جديدة؟",
+        "line_en": "I understand your frustration. We have a 30-day return or exchange policy for faulty products. Would you prefer a refund or to exchange the toaster for a new one?",
+        "line_tr": "Hayal kırıklığınızı anlıyorum. Hatalı ürünler için 30 günlük iade veya değişim politikamız var. Para iadesi mi yoksa tost makinesini yenisiyle değiştirmeyi mi tercih edersiniz?"
+      },
+      {
+        "character_id": "cust",
+        "line_ar": "أعتقد أنني أفضل استبدالها، على أمل أن تكون الوحدة الجديدة تعمل بشكل جيد. كيف يمكنني القيام بذلك؟",
+        "line_en": "I think I'd prefer an exchange, hoping a new unit will workFine. How do I go about doing that?",
+        "line_tr": "Sanırım değiştirmeyi tercih ederim, umarım yeni bir ünite düzgün çalışır. Bunu nasıl yapabilirim?"
+      },
+      {
+        "character_id": "csr",
+        "line_ar": "بالتأكيد. يمكنني ترتيب إرسال محمصة جديدة إليك مع ملصق إرجاع مدفوع مسبقًا للوحدة المعيبة. هل عنوان الشحن لديك لا يزال كما هو في الطلب الأصلي؟",
+        "line_en": "Certainly. I can arrange for a new toaster to be sent to you with a prepaid return label for the faulty unit. Is your shipping address still the same as on the original order?",
+        "line_tr": "Elbette. Hatalı ünite için ön ödemeli bir iade etiketiyle size yeni bir tost makinesi gönderilmesini ayarlayabilirim. Kargo adresiniz hala orijinal sipariştekiyle aynı mı?"
+      },
+      {
+        "character_id": "cust",
+        "line_ar": "نعم، هو نفسه. كم من الوقت سيستغرق وصول الجديدة عادةً؟",
+        "line_en": "Yes, it's the same. How long will the new one typically take to arrive?",
+        "line_tr": "Evet, aynı. Yenisinin gelmesi genellikle ne kadar sürer?"
+      },
+      {
+        "character_id": "csr",
+        "line_ar": "يجب أن تستلمها في غضون 3-5 أيام عمل. سأرسل لك رقم تتبع عبر البريد الإلكتروني بمجرد شحنها. هل هناك أي شيء آخر يمكنني مساعدتك به؟",
+        "line_en": "You should receive it within 3-5 business days. I'll email you a tracking number once it ships. Is there anything else I can assist you with?",
+        "line_tr": "3-5 iş günü içinde teslim almalısınız. Kargoya verildiğinde size e-posta ile bir takip numarası göndereceğim. Size yardımcı olabileceğim başka bir şey var mı?"
+      },
+      {
+        "character_id": "cust",
+        "line_ar": "لا، هذا كل شيء. أشكرك على تعاملك مع هذه المشكلة بسرعة.",
+        "line_en": "No, that's everything. Thank you for handling this so promptly.",
+        "line_tr": "Hayır, hepsi bu kadar. Bu sorunu bu kadar hızlı çözdüğünüz için teşekkür ederim."
+      }
+    ]
+  },
+  "phrases_analysis": [
+    {
+      "id": "L04SPS_P001",
+      "ar_from_dialogue": "أتصل بخصوص... التي اشتريتها... الأسبوع الماضي.",
+      "en_from_dialogue": "I'm calling about the... I purchased... last week.",
+      "tr_from_dialogue": "...hakkında arıyorum... geçen hafta satın aldığım...",
+      "focus_ar": "بدء مكالمة شكوى وتحديد المنتج",
+      "focus_en": "Starting a complaint call & identifying product",
+      "focus_tr": "Bir şikayet çağrısı başlatma ve ürünü tanımlama",
+      "explanation_en": "Clearly states the purpose of the call and identifies the item in question.",
+      "explanation_tr": "Çağrının amacını açıkça belirtir ve söz konusu ürünü tanımlar.",
+      "audio_ar_tts_key": "أتصل بخصوص التي اشتريتها الأسبوع الماضي",
+      "audio_en_tts_key": "I'm calling about the item I purchased last week",
+      "audio_tr_tts_key": "geçen hafta satın aldığım ürün hakkında arıyorum"
+    },
+    {
+      "id": "L04SPS_P002",
+      "ar_from_dialogue": "المشكلة هي أن... لا يعمل بشكل صحيح.",
+      "en_from_dialogue": "The problem is that the... isn't working correctly.",
+      "tr_from_dialogue": "Sorun şu ki, ...düzgün çalışmıyor.",
+      "focus_ar": "وصف المشكلة الأساسية",
+      "focus_en": "Describing the main problem",
+      "focus_tr": "Ana sorunu tanımlama",
+      "explanation_en": "Direct way to state the issue. 'Isn't working properly' is also common.",
+      "explanation_tr": "Sorunu belirtmenin doğrudan bir yolu. 'Düzgün çalışmıyor' da yaygındır.",
+      "alternatives_en": ["It's faulty.", "There's something wrong with..."],
+      "alternatives_tr": ["Bu hatalı.", "...ile ilgili bir sorun var."],
+      "audio_ar_tts_key": "المشكلة هي أن المنتج لا يعمل بشكل صحيح",
+      "audio_en_tts_key": "The problem is that the product isn't working correctly",
+      "audio_tr_tts_key": "Sorun şu ki, ürün düzgün çalışmıyor"
+    },
+    {
+      "id": "L04SPS_P003",
+      "ar_from_dialogue": "إنها تحرق الخبز من جانب واحد ولا تحمصه من الجانب الآخر.",
+      "en_from_dialogue": "It burns the toast on one side and doesn't toast the other side at all.",
+      "tr_from_dialogue": "Ekmeği bir taraftan yakıyor ve diğer tarafını hiç kızartmıyor.",
+      "focus_ar": "تقديم تفاصيل محددة للمشكلة",
+      "focus_en": "Providing specific details of the problem",
+      "focus_tr": "Sorunun belirli ayrıntılarını sağlama",
+      "explanation_en": "Specific examples help customer service understand the fault.",
+      "explanation_tr": "Belirli örnekler, müşteri hizmetlerinin hatayı anlamasına yardımcı olur.",
+      "audio_ar_tts_key": "إنها تحرق الخبز من جانب واحد ولا تحمصه من الجانب الآخر",
+      "audio_en_tts_key": "It burns the toast on one side and doesn't toast the other side at all",
+      "audio_tr_tts_key": "Ekmeği bir taraftan yakıyor ve diğer tarafını hiç kızartmıyor"
+    },
+    {
+      "id": "L04SPS_P004",
+      "ar_from_dialogue": "أنا آسفة جدًا لسماع ذلك. هذا بالتأكيد ليس المستوى الذي نتوقعه.",
+      "en_from_dialogue": "I'm very sorry to hear that. That's certainly not the standard we expect.",
+      "tr_from_dialogue": "Bunu duyduğuma çok üzüldüm. Bu kesinlikle beklediğimiz standart değil.",
+      "focus_ar": "الاعتذار والتعاطف من خدمة العملاء",
+      "focus_en": "Apology and empathy from customer service",
+      "focus_tr": "Müşteri hizmetlerinden özür ve empati",
+      "explanation_en": "Standard customer service response to a complaint.",
+      "explanation_tr": "Bir şikayete standart müşteri hizmetleri yanıtı.",
+      "audio_ar_tts_key": "أنا آسفة جدا لسماع ذلك. هذا بالتأكيد ليس المستوى الذي نتوقعه",
+      "audio_en_tts_key": "I'm very sorry to hear that. That's certainly not the standard we expect",
+      "audio_tr_tts_key": "Bunu duyduğuma çok üzüldüm. Bu kesinlikle beklediğimiz standart değil"
+    },
+    {
+      "id": "L04SPS_P005",
+      "ar_from_dialogue": "أعتقد أن المنتج معيب.",
+      "en_from_dialogue": "I believe the product is faulty.",
+      "tr_from_dialogue": "Ürünün hatalı olduğuna inanıyorum.",
+      "focus_ar": "التأكيد على أن المنتج معيب",
+      "focus_en": "Stating belief that product is faulty",
+      "focus_tr": "Ürünün hatalı olduğuna dair inancı belirtme",
+      "explanation_en": "Clear statement of assessment after troubleshooting.",
+      "explanation_tr": "Sorun giderme sonrası değerlendirmenin net ifadesi.",
+      "audio_ar_tts_key": "أعتقد أن المنتج معيب",
+      "audio_en_tts_key": "I believe the product is faulty",
+      "audio_tr_tts_key": "Ürünün hatalı olduğuna inanıyorum"
+    },
+    {
+      "id": "L04SPS_P006",
+      "ar_from_dialogue": "هل تفضل استرداد أموالك أم استبدال المنتج؟",
+      "en_from_dialogue": "Would you prefer a refund or to exchange the product?",
+      "tr_from_dialogue": "Para iadesi mi yoksa ürünü değiştirmeyi mi tercih edersiniz?",
+      "focus_ar": "عرض خيارات للحل (استرداد/استبدال)",
+      "focus_en": "Offering resolution options (refund/exchange)",
+      "focus_tr": "Çözüm seçenekleri sunma (iade/değişim)",
+      "audio_ar_tts_key": "هل تفضل استرداد أموالك أم استبدال المنتج",
+      "audio_en_tts_key": "Would you prefer a refund or to exchange the product",
+      "audio_tr_tts_key": "Para iadesi mi yoksa ürünü değiştirmeyi mi tercih edersiniz"
+    },
+    {
+      "id": "L04SPS_P007",
+      "ar_from_dialogue": "أعتقد أنني أفضل استبدالها.",
+      "en_from_dialogue": "I think I'd prefer an exchange.",
+      "tr_from_dialogue": "Sanırım değiştirmeyi tercih ederim.",
+      "focus_ar": "التعبير عن التفضيل للحل",
+      "focus_en": "Expressing preference for a solution",
+      "focus_tr": "Bir çözüm için tercih belirtme",
+      "audio_ar_tts_key": "أعتقد أنني أفضل استبدالها",
+      "audio_en_tts_key": "I think I'd prefer an exchange",
+      "audio_tr_tts_key": "Sanırım değiştirmeyi tercih ederim"
+    },
+    {
+      "id": "L04SPS_P008",
+      "ar_from_dialogue": "كم من الوقت سيستغرق وصول الجديدة عادةً؟",
+      "en_from_dialogue": "How long will the new one typically take to arrive?",
+      "tr_from_dialogue": "Yenisinin gelmesi genellikle ne kadar sürer?",
+      "focus_ar": "الاستفسار عن الجدول الزمني للحل",
+      "focus_en": "Inquiring about the timeline for resolution",
+      "focus_tr": "Çözüm için zaman çizelgesi hakkında soru sorma",
+      "audio_ar_tts_key": "كم من الوقت سيستغرق وصول الجديدة عادة",
+      "audio_en_tts_key": "How long will the new one typically take to arrive",
+      "audio_tr_tts_key": "Yenisinin gelmesi genellikle ne kadar sürer"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "L01U04NAE",
+  "slug": "at-the-airport-check-in-security-boarding",
+  "title_ar": "في المطار: تسجيل الوصول، الأمن، والصعود إلى الطائرة",
+  "title_en": "At the Airport: Check-in, Security, and Boarding",
+  "title_tr": "Havaalanında: Check-in, Güvenlik ve Uçağa Biniş",
+  "objective_ar": "إتقان العبارات الأساسية للتعامل مع إجراءات المطار المختلفة بثقة ويسر.",
+  "objective_en": "Master essential phrases for confidently and smoothly handling various airport procedures.",
+  "objective_tr": "Çeşitli havaalanı prosedürlerini güvenle ve sorunsuz bir şekilde yönetmek için temel ifadelerde ustalaşın.",
+  "icon_fa_class": "fa-solid fa-plane-departure",
+  "scenario": {
+    "title_ar": "حوار: رحلة دولية",
+    "title_en": "Dialogue: International Flight",
+    "title_tr": "Diyalog: Uluslararası Uçuş",
+    "characters": [
+      {"id": "trav", "name_ar": "مسافر", "name_en": "Traveler", "name_tr": "Yolcu"},
+      {"id": "agent", "name_ar": "موظف الطيران", "name_en": "Airline Agent", "name_tr": "Havayolu Görevlisi"},
+      {"id": "sec", "name_ar": "موظف الأمن", "name_en": "Security Officer", "name_tr": "Güvenlik Görevlisi"}
+    ],
+    "dialogue_lines": [
+      {"character_id": "trav", "line_ar": "(عند مكتب تسجيل الوصول) مرحباً، أود تسجيل الدخول لرحلة [رقم الرحلة] إلى [اسم المدينة].", "line_en": "(At check-in counter) Hello, I'd like to check in for flight [Flight Number] to [City Name].", "line_tr": "(Check-in kontuarında) Merhaba, [Uçuş Numarası] numaralı [Şehir Adı] uçuşu için check-in yapmak istiyorum."},
+      {"character_id": "agent", "line_ar": "صباح الخير. هل يمكنني رؤية جواز سفرك وتذكرة الطيران من فضلك؟", "line_en": "Good morning. May I see your passport and ticket, please?", "line_tr": "Günaydın. Pasaportunuzu ve biletinizi görebilir miyim, lütfen?"},
+      {"character_id": "trav", "line_ar": "بالتأكيد، تفضل. هل لدي أي حقائب لأشحنها؟ لدي هذه الحقيبة الكبيرة فقط.", "line_en": "Certainly, here you go. Do I have any bags to check in? I only have this large suitcase.", "line_tr": "Elbette, buyurun. Check-in yapılacak çantanız var mı? Sadece bu büyük valizim var."},
+      {"character_id": "agent", "line_ar": "نعم، يمكنك شحنها. ضعها على الميزان من فضلك. هل تفضل مقعدًا بجانب النافذة أم الممر؟", "line_en": "Yes, you can check that in. Please place it on the scale. Would you prefer a window or an aisle seat?", "line_tr": "Evet, onu check-in yapabilirsiniz. Lütfen tartıya koyun. Pencere kenarı mı koridor tarafı mı tercih edersiniz?"},
+      {"character_id": "trav", "line_ar": "بجانب النافذة، إذا أمكن. هذه بطاقة صعودك إلى الطائرة. بوابتك هي [رقم البوابة] والصعود يبدأ الساعة [الوقت].", "line_en": "Window seat, if possible. Here is your boarding pass. Your gate is [Gate Number] and boarding begins at [Time].", "line_tr": "Mümkünse pencere kenarı. İşte biniş kartınız. Kapınız [Kapı Numarası] ve biniş [Saat]'te başlıyor."},
+      {"character_id": "sec", "line_ar": "(عند نقطة التفتيش الأمني) مساء الخير، يرجى وضع جميع الأجهزة الإلكترونية والسوائل في السلة.", "line_en": "(At security checkpoint) Good evening, please place all electronic devices and liquids in the tray.", "line_tr": "(Güvenlik kontrol noktasında) İyi akşamlar, lütfen tüm elektronik cihazları ve sıvıları tepsiye koyun."},
+      {"character_id": "trav", "line_ar": "هل يجب أن أخلع حذائي وحزامي أيضًا؟", "line_en": "Do I need to take off my shoes and belt as well?", "line_tr": "Ayakkabılarımı ve kemerimi de çıkarmam gerekiyor mu?"},
+      {"character_id": "sec", "line_ar": "نعم، من فضلك. ومر من خلال جهاز الكشف.", "line_en": "Yes, please. And walk through the scanner.", "line_tr": "Evet, lütfen. Ve tarayıcıdan geçin."}
+    ]
+  },
+  "phrases_analysis": [
+    {"id": "L01U04_P001", "ar_from_dialogue": "أود تسجيل الدخول لرحلة... إلى...", "en_from_dialogue": "I'd like to check in for flight... to...", "tr_from_dialogue": "...numaralı ...uçuşu için check-in yapmak istiyorum.", "focus_ar": "طلب تسجيل الدخول لرحلة", "focus_en": "Requesting to check in for a flight", "focus_tr": "Bir uçuş için check-in talep etme"},
+    {"id": "L01U04_P002", "ar_from_dialogue": "هل يمكنني رؤية جواز سفرك وتذكرة الطيران؟", "en_from_dialogue": "May I see your passport and ticket?", "tr_from_dialogue": "Pasaportunuzu ve biletinizi görebilir miyim?", "focus_ar": "طلب وثائق السفر", "focus_en": "Requesting travel documents", "focus_tr": "Seyahat belgelerini talep etme"},
+    {"id": "L01U04_P003", "ar_from_dialogue": "هل لدي أي حقائب لأشحنها؟", "en_from_dialogue": "Do I have any bags to check in?", "tr_from_dialogue": "Check-in yapılacak çantam var mı?", "focus_ar": "السؤال عن شحن الحقائب", "focus_en": "Asking about checking in luggage", "focus_tr": "Bagaj check-in hakkında soru sorma"},
+    {"id": "L01U04_P004", "ar_from_dialogue": "هل تفضل مقعدًا بجانب النافذة أم الممر؟", "en_from_dialogue": "Would you prefer a window or an aisle seat?", "tr_from_dialogue": "Pencere kenarı mı koridor tarafı mı tercih edersiniz?", "focus_ar": "السؤال عن تفضيل المقعد", "focus_en": "Asking about seat preference", "focus_tr": "Koltuk tercihi sorma"},
+    {"id": "L01U04_P005", "ar_from_dialogue": "بوابتك هي... والصعود يبدأ الساعة...", "en_from_dialogue": "Your gate is... and boarding begins at...", "tr_from_dialogue": "Kapınız ... ve biniş ...'te başlıyor.", "focus_ar": "معلومات بوابة الصعود ووقت الصعود", "focus_en": "Gate and boarding time information", "focus_tr": "Kapı ve biniş saati bilgisi"},
+    {"id": "L01U04_P006", "ar_from_dialogue": "يرجى وضع جميع الأجهزة الإلكترونية والسوائل في السلة.", "en_from_dialogue": "Please place all electronic devices and liquids in the tray.", "tr_from_dialogue": "Lütfen tüm elektronik cihazları ve sıvıları tepsiye koyun.", "focus_ar": "تعليمات نقطة التفتيش الأمني", "focus_en": "Security checkpoint instructions", "focus_tr": "Güvenlik kontrol noktası talimatları"},
+    {"id": "L01U04_P007", "ar_from_dialogue": "هل يجب أن أخلع حذائي وحزامي أيضًا؟", "en_from_dialogue": "Do I need to take off my shoes and belt as well?", "tr_from_dialogue": "Ayakkabılarımı ve kemerimi de çıkarmam gerekiyor mu?", "focus_ar": "الاستفسار عن إجراءات أمنية إضافية", "focus_en": "Inquiring about additional security procedures", "focus_tr": "Ek güvenlik prosedürleri hakkında soru sorma"}
+  ]
+}
